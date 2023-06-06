@@ -1,0 +1,38 @@
+footer {
+  height: 45vh;
+  background-color: #212529;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+img {
+  margin-top: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+}
+
+svg {
+  cursor: pointer;
+
+  margin: 2em;
+  color: white;
+}
+svg:hover {
+  color: #a4a4a4;
+}
+hr {
+  margin-top: 1.6em;
+  color: white;
+}
+p {
+  font-size: 15px;
+  margin-top: 1.6em;
+  color: white;
+}
+span {
+  font-weight: bold;
+}
