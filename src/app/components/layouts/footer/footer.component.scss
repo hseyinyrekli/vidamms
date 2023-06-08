@@ -1,5 +1,5 @@
 footer {
-  height: 45vh;
+  height: 100%;
   background-color: #212529;
   text-align: center;
   bottom: 0;
@@ -7,7 +7,7 @@ footer {
   right: 0;
 }
 img {
-  margin-top: 2em;
+  margin-top: 1.2em;
 }
 
 a {
@@ -18,19 +18,19 @@ a {
 svg {
   cursor: pointer;
 
-  margin: 2em;
+  margin: 1.5em;
   color: white;
 }
 svg:hover {
   color: #a4a4a4;
 }
 hr {
-  margin-top: 1.6em;
+  margin-top: 1.5em;
   color: white;
 }
 p {
-  font-size: 15px;
-  margin-top: 1.6em;
+  font-size: 12px;
+  margin-top: 2.2em;
   color: white;
 }
 span {

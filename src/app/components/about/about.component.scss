@@ -1,0 +1,46 @@
+#about-bg {
+  margin: auto;
+  font-size: 1.1em;
+  padding: 4em;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#004fbc, white);
+}
+
+span {
+  font-weight: bold;
+  color: #004fbc;
+}
+p {
+  color: white;
+}
+h1 {
+  color: #212529;
+  font-weight: bold;
+}
+
+#grown {
+  h1 {
+    color: #212529;
+    font-weight: bold;
+    margin-bottom: 1em;
+    z-index: 1;
+  }
+  span {
+    color: black;
+  }
+  margin: auto;
+  p {
+    padding: 1em;
+    background: linear-gradient(#5294f1, #004fbc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+  }
+}
+
+#midphoto {
+  height: 100px;
+
+  opacity: 0.3;
+}

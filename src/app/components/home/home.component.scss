@@ -3,7 +3,7 @@
 }
 
 .video-container {
-  height: 50vh;
+  height: 100%;
   position: relative;
   overflow: hidden;
   @media (min-width: 600px) {
@@ -54,12 +54,13 @@ video {
   z-index: 10;
 }
 .part-2 {
-  height: 25vh;
-  img {
-    width: 85%;
-  }
-  margin-top: 8em;
+  background-color: #f3f3f3;
+  height: 100%;
+  padding: 4em;
   text-align: center;
+  h2 {
+    font-weight: bold;
+  }
 }
 
 .content {
@@ -108,8 +109,7 @@ video {
   text-align: center;
   width: 100%;
   margin-top: 12em;
-  height: 100vh;
-  background-color: #004fbe;
+  background: linear-gradient(#1a49b0, #2c375c);
 }
 .macbook {
   img {
@@ -154,5 +154,63 @@ video {
     border-radius: 3%;
     color: white;
     background: linear-gradient(#1a49b0, #2c375c);
+  }
+}
+
+.slider {
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+.slide-track {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+.slide-track:hover {
+  animation-play-state: paused;
+}
+.slide {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+label {
+  color: #2442ac;
+  margin-left: 0.5em;
+  font-size: 12px;
+}
+#form {
+  margin: auto;
+}
+
+#submitButton {
+  height: 3em;
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+#formDiv {
+  img {
+    @media (max-width: 980px) {
+      margin-top: 8em;
+    }
   }
 }

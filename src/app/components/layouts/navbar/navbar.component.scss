@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #004fbe !important;
+  background-color: #004fbc !important;
+  opacity: 200;
 }
 svg {
   cursor: pointer;
@@ -9,13 +10,18 @@ svg {
 .nav-link {
   color: white;
 }
-.menuList {
-  margin-right: 3em;
-}
+
 button {
   border: none;
 }
 
+ul li {
+  padding: 0.4em;
+  margin-right: 1em;
+}
 ul li :hover {
-  text-shadow: 0.8px 0.8px;
+  color: black;
+
+  border-radius: 10%;
+  background-color: white;
 }
