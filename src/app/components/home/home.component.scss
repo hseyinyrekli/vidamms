@@ -28,13 +28,12 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 .firstH1 {
   color: rgb(228, 224, 224);
   font-weight: 900;
   font-size: 5vw;
-  @media (max-width: 400px) {
+  @media (max-width: 980px) {
     font-size: 22px;
   }
   @media (min-width: 980px) {
@@ -51,7 +50,6 @@ video {
   flex-direction: column;
   height: 100%;
   position: relative;
-  z-index: 10;
 }
 .part-2 {
   background-color: #f3f3f3;
