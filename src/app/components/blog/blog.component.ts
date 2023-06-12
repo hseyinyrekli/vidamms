@@ -9,6 +9,9 @@ import { Router } from "@angular/router";
 })
 export class BlogComponent implements OnInit {
   blogs!: any;
+  baseBlogs!: any;
+  isActive: boolean = true;
+  activeMenu!: any;
 
   constructor(private router: Router, private http: HttpClient) {}
 
@@ -17,12 +20,20 @@ export class BlogComponent implements OnInit {
   }
 
   getBlogs() {
+    this.activeMenu = "all";
     this.http.get<any>("assets/json/blogs.json").subscribe((data) => {
       this.blogs = data;
+      this.baseBlogs = data;
     });
   }
 
   goToDetailPage(name: any) {
     this.router.navigate(["blog/" + name]);
+  }
+
+  changeForSubtitle(name: any) {
+    console.log(name, "name");
+    this.activeMenu = name;
+    this.blogs = this.baseBlogs.filter((x: any) => x.subTitle == name);
   }
 }

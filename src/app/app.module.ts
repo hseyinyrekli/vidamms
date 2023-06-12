@@ -13,7 +13,9 @@ import { NavbarComponent } from "./components/layouts/navbar/navbar.component";
 import { FooterComponent } from "./components/layouts/footer/footer.component";
 import { RouterModule } from "@angular/router";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { FaqComponent } from './components/faq/faq.component';
+import { FaqComponent } from "./components/faq/faq.component";
+import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -26,9 +28,11 @@ import { FaqComponent } from './components/faq/faq.component';
     NavbarComponent,
     FooterComponent,
     FaqComponent,
+    BlogDetailComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,

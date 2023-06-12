@@ -1,0 +1,67 @@
+#card {
+  height: 100%;
+  transition: 0.3s;
+}
+#categories .card {
+  cursor: pointer;
+}
+.card {
+  svg {
+    color: #004fbc;
+  }
+  height: 100%;
+  box-shadow: 2px 2px rgb(232, 232, 232);
+}
+
+#card:hover {
+  background: linear-gradient(#004fbc, white);
+}
+.button {
+  margin-bottom: 0;
+  border: 0;
+
+  border-radius: 4%;
+  color: white;
+  background: linear-gradient(#004fbc, #306ec5);
+}
+.button:hover {
+  background: linear-gradient(#004fbc, #212529);
+}
+span {
+  font-weight: bold;
+  background: linear-gradient(#004fbc, #306ec5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#time {
+  p {
+    font-size: 14px;
+  }
+}
+svg {
+  justify-content: center;
+}
+
+#categories .card:hover {
+  svg {
+    color: white;
+  }
+  color: white;
+  background: linear-gradient(#1a49b0, #2c375c);
+}
+
+img {
+  cursor: pointer;
+}
+
+.random {
+  background-color: red;
+}
+
+.active {
+  color: white;
+  background: linear-gradient(#1a49b0, #2c375c);
+  svg {
+    color: white;
+  }
+}
