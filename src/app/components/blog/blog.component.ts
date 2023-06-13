@@ -32,7 +32,6 @@ export class BlogComponent implements OnInit {
   }
 
   changeForSubtitle(name: any) {
-    console.log(name, "name");
     this.activeMenu = name;
     this.blogs = this.baseBlogs.filter((x: any) => x.subTitle == name);
   }
