@@ -77,7 +77,87 @@
     "title": "Altyapı Bakım Nedir ? Neden Önemlidir ? ",
     "slug": "altyapi-bakimi-nedir-neden-önemlidir",
     "description": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otob...",
-    "descriptions": []
+    "descriptions": [
+      {
+        "text": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otobanlardan havalimanlarına, petrol ve doğalgaz hatlarından üretim tesislerine, depolardan santrallere, hastanelerden okullara, telekomünikasyona ve hatta cezaevlerine birçok yatırım altyapı kavramı içerisinde değerlendirilmektedir. Her yıl dünyada yüzlerce milyar dolarlık altyapı yatırımı bazen kamu bazen özel sektör, bazense her ikisinin ortaklığında hayata geçirilmektedir. Buna karşın başta gelişmekte olan ülkeler olmak üzere dünyanın birçok yerinde altyapı yatırımlarına olan ihtiyaç hala devasa boyutlardadır. Dünya Ekonomik Forumu verilerine göre, mevcut yatırım temposuyla dünya 2040 yılına kadar 15 trilyon dolarlık bir altyapı açığına sahip olacaktır. Diğer yandan; altyapılarını başarıyla inşa eden ya da yenileyen ülkeler ticaret ağlarına hızla entegre olmakta, daha dinamik bir ekonomi ve toplumsal refah ile hızla kalkınmaktadır. Altyapı yatırımlarının arka planında büyük bir sermaye, planlama yeteneği, teknolojik birikim ve işgücünün seferber edilmesi bulunmaktadır. Bu yönüyle her bir altyapı yatırımı oldukça değerli olup, ömürlerinin olabildiğince uzun kılınmasının yolu  etkin “altyapı bakımından” geçmektedir."
+      },
+      {
+        "text": "Kamu altyapısı ve Özel altyapı nedir?",
+        "class": "h3"
+      },
+      {
+        "text": "Geleneksel olarak altyapı yatırımlarının hükümetlerin yani kamunun sorumluluğunda olduğuna inanılmaktadır. Gerçekten de şehirleşmeyle birlikte kamu yönetimleri; ulaşım, enerji, sanitasyon, telekomünikasyon, eğitim, sağlık, spor gibi alanlarda birçok altyapı yatırımını hayata geçirmiştir. Kamu altyapısının finansmanında halktan toplanan vergiler aktiftir. Hizmet yine halka dönecektir. Bu nedenle vergilerin mümkün olan en iyi yatırımda değerlendirilmesi gerekmektedir. Özel sektör ise kâr maksimizasyonu için üretim tesisleri, depolar, perakende ve ofis alanları gibi alanlarda yatırımları üstlenmiştir. Son yıllarda kamu-özel işbirliği (KÖİ) ile altyapı yatırımlarında kamunun garanti mekanizmaları ile özel sektörün dinamizminin birleştirildiği bir model kurgulanmış ve sağlıktan ulaşıma, yenilenebilir enerjiden telekomünikasyona birçok alandaki altyapı yatırımları karşılanmaya başlanmıştır."
+      },
+      {
+        "text": "Altyapı bakımına neden ihtiyaç duyulur?",
+        "class": "h3"
+      },
+      {
+        "text": "Toplumsal kalkınma açısından “sürdürülebilirlik” hiç olmadığı kadar önemlidir. Bu amaç ise altyapıların kesintisiz hizmet vermesini gerekli kılmaktadır. Hangi amaca dönük olursa olsun ve hangi taraflarca yapılırsa yapılsın düzenli bakımı yapılan altyapıların ömrü uzayacak, daha etkin kullanılacak ve çok sayıda insanın hayatına dokunacaktır."
+      },
+      {
+        "text": "Altyapıların bakımı için kolaylaştırıcı çözüm: Bakım yönetim yazılımı (CMMS)",
+        "class": "h3"
+      },
+      {
+        "text": "Altyapılar teknolojik açıdan karmaşıklaştıkça, bakımları zorlaşmakta ve elbette riskler artmaktadır. Dinamik, gerçek zamanlı ve veriye dayalı bakım ise bu riskleri azaltacak ve altyapı bakımını kolaylaştıracaktır. Modern bakım yönetimi yazılımı (CMMS) bu amacın hayata geçirilmesinde güncel araçların içerisinde en etkinidir."
+      },
+      {
+        "text": "CMMS ile yeni bir altyapı bakımı yaklaşımını benimseyin.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Verileri merkezi olarak kontrol edin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": " Dijitalleşen altyapı tesislerinde verileri manuel olarak izlemeye ve yönetmeye çalışmak artık bir hayaldir. Bilgisayar ortamında tutulan basit elektronik tablolar ise bu karmaşık tesisler için fazla basit kalmakta ve veri kaybı risklerini beraberinde getirmektedir. Yetkin bir CMMS yazılımı; tüm kaynakları veri tabanında kayıt altına alacak, verileri entegre edecek ve merkezileşmiş verilerden hareketle bakım ekibini doğru hedefe kanalize edecektir.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Planlı ve pro-aktif bir bakım paradigmasına geçin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Günümüzde bakım maliyetlerini düşürmenin en etkin yolu, riskler henüz hayata geçmeden onları tespit etmek ve çok daha maliyetli olmadan önlemektir. Yetkin bir CMMS, planlı ve pro-aktif bir bakım programı oluşturulmasını sağlayacak ve bakım ekibini doğrudan hedefe yöneltecektir. Program şu bilgileri içerebilecektir:",
+        "style": "display:inline"
+      },
+      {
+        "text": "Tüm bakım direktifleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Özelleştirmeye açık check-list’ler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İlgili tüm araç ve malzemeler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Olası güvenlik riskleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Dijital şema, işletme ve bakım rehberleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İnteraktif tesis haritaları ve kat planları",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "7/24 mobil uygulamaya erişin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Yetkin bir CMMS’nin sağladığı barkod taraması ile mobil uygulamaya her an erişim imkanı, sorunlu alana giden bakım ekibinin merkezle iletişimini kesmemesi ve mesafeden kaynaklı maliyetler oluşmaması için kritik bir araçtır. Ekip, mobil uygulama sayesinde sisteme doğrudan veri ve görüntü yükleyebilecek, sorunun merkez tarafından görsel kanıtlarla incelenmesini sağlayabilecektir.",
+        "style": "display:inline"
+      }
+    ]
   },
   {
     "id": "3",

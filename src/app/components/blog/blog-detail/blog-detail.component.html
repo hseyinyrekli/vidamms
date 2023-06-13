@@ -9,7 +9,11 @@
     </div>
 
     <div class="col-12 py-5">
-      <p class="{{ data.class }}" *ngFor="let data of blog?.descriptions">
+      <p
+        class="{{ data.class }}"
+        style="{{ data.style }}"
+        *ngFor="let data of blog?.descriptions"
+      >
         {{ data?.text }}
       </p>
     </div>
