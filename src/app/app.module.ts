@@ -16,6 +16,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { FaqComponent } from "./components/faq/faq.component";
 import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
 import { HttpClientModule } from "@angular/common/http";
+import { ReferenceComponent } from './components/reference/reference.component';
+import { CostComponent } from './components/cost/cost.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { HttpClientModule } from "@angular/common/http";
     FooterComponent,
     FaqComponent,
     BlogDetailComponent,
+    ReferenceComponent,
+    CostComponent,
   ],
   imports: [
     BrowserModule,

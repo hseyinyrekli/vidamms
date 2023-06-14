@@ -7,7 +7,7 @@
 }
 
 .slider {
-  height: 250px;
+  height: 100%;
   margin: auto;
   position: relative;
   width: 100%;
@@ -36,14 +36,13 @@
 }
 .slide {
   cursor: pointer;
-  height: 200px;
-  width: 250px;
-  display: flex;
-  align-items: center;
+  height: 400px;
+  width: 400px;
+
   padding: 15px;
 }
 .slide:hover {
-  width: 270px;
+  width: 420px;
 }
 h1 {
   background: linear-gradient(#09318e, white);

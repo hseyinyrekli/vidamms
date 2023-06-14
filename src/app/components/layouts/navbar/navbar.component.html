@@ -37,19 +37,67 @@
     >
       <ul id="list" class="navbar-nav mb-2">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/">Anasayfa</a>
+          <a
+            class="nav-link"
+            routerLink="/"
+            (click)="changeActive('home')"
+            [ngClass]="activeMenu == 'home' ? 'active' : ''"
+            >Anasayfa</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="about">Hakkımızda</a>
+          <a
+            class="nav-link"
+            routerLink="about"
+            (click)="changeActive('about')"
+            [ngClass]="activeMenu == 'about' ? 'active' : ''"
+            >Hakkımızda</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="contact">İletişim</a>
+          <a
+            class="nav-link"
+            routerLink="reference"
+            (click)="changeActive('reference')"
+            [ngClass]="activeMenu == 'reference' ? 'active' : ''"
+            >Referanslar</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="blog">Blog</a>
+          <a
+            class="nav-link"
+            routerLink="cost"
+            (click)="changeActive('cost')"
+            [ngClass]="activeMenu == 'cost' ? 'active' : ''"
+            >Maliyet Hesaplama</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="faq">FAQ</a>
+          <a
+            class="nav-link"
+            routerLink="contact"
+            (click)="changeActive('contact')"
+            [ngClass]="activeMenu == 'contact' ? 'active' : ''"
+            >İletişim</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="blog"
+            (click)="changeActive('blog')"
+            [ngClass]="activeMenu == 'blog' ? 'active' : ''"
+            >Blog</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="faq"
+            (click)="changeActive('faq')"
+            [ngClass]="activeMenu == 'faq' ? 'active' : ''"
+            >FAQ</a
+          >
         </li>
       </ul>
       <div class="trans" style="margin-bottom: 0.8em; margin-right: 1em">

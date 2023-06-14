@@ -7,6 +7,8 @@ import { BlogComponent } from "./components/blog/blog.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { FaqComponent } from "./components/faq/faq.component";
 import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
+import { CostComponent } from "./components/cost/cost.component";
+import { ReferenceComponent } from "./components/reference/reference.component";
 
 const routes: Routes = [
   {
@@ -40,6 +42,14 @@ const routes: Routes = [
       {
         path: "faq",
         component: FaqComponent,
+      },
+      {
+        path: "cost",
+        component: CostComponent,
+      },
+      {
+        path: "reference",
+        component: ReferenceComponent,
       },
     ],
   },

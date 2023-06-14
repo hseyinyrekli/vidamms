@@ -7,15 +7,7 @@ span {
 #form {
   margin-top: 1em;
 }
-#contactForm {
-  margin: auto;
-  @media (max-width: 980px) {
-    width: 90%;
-  }
-}
-.col {
-  margin: 13em;
-}
+
 .contact {
   margin: auto;
   @media (max-width: 980px) {
@@ -28,13 +20,8 @@ span {
     margin-top: 6em;
   }
 }
-#map {
-  @media (max-width: 980px) {
-    margin-left: 6em;
-  }
-}
+
 #contactForm {
-  width: 100%;
   padding: 3em;
   background-color: #f3f3f3;
 }

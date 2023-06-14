@@ -63,24 +63,7 @@ h1 {
     transform: rotate(360deg);
   }
 }
-.middle {
-  padding: 1em;
-  h1 {
-    background: linear-gradient(#1a44a8, white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  background-color: #f3f3f3;
-  img {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    position: sticky;
-    top: 30%;
-  }
-}
-#text2 {
-  padding: 3em;
-}
+
 #grown {
   padding: 1em;
   h1 {

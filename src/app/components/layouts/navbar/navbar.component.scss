@@ -18,11 +18,14 @@ button {
 
 ul li {
   padding: 0.4em;
-  margin-right: 1em;
-}
-ul li :hover {
-  color: black;
-
   border-radius: 10%;
-  background-color: white;
+  margin-right: 0.4em;
+}
+ul li:hover {
+  font-weight: bolder;
+}
+
+.active {
+  color: white !important;
+  font-weight: bolder;
 }
