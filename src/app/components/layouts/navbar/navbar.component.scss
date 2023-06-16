@@ -2,7 +2,7 @@
   position: sticky;
   z-index: 999;
   top: 0;
-  background-color: #004fbc !important;
+  background: linear-gradient(#212529, #0551bc) !important;
 }
 svg {
   cursor: pointer;
@@ -28,4 +28,12 @@ ul li:hover {
 .active {
   color: white !important;
   font-weight: bolder;
+}
+#sub img {
+  width: 15% !important;
+}
+@media (max-width: 980px) {
+  #sub img {
+    width: 30% !important;
+  }
 }

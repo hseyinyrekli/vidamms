@@ -1,4 +1,4 @@
-#about-bg {
+#aboutTop {
   margin: auto;
   font-size: 1.1em;
   padding: 4em;
@@ -12,63 +12,12 @@ span {
   font-weight: bold;
   color: #212529;
 }
-h1 {
+h2 {
+  padding: 1em;
   color: #212529;
   font-weight: bold;
 }
 
-//ANIMASYON
-
-#box {
-  margin: auto;
-  width: 150px;
-  height: 150px;
-  border: 10px solid #212529;
-  border-radius: 50%;
-  border-top: 10px solid #1a44a8;
-  @media (max-width: 980px) {
-    margin: auto;
-    margin-top: 4em;
-  }
-  animation: circleAnimation 1000ms infinite linear;
-}
-@keyframes circleAnimation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-#box2 {
-  margin: auto;
-  width: 150px;
-  height: 150px;
-  border: 10px solid #212529;
-  border-radius: 50%;
-  border-top: 10px solid #1a44a8;
-  @media (max-width: 980px) {
-    margin: auto;
-    margin-top: 3em;
-    margin-bottom: 4em;
-  }
-  animation: circleAnimation 1000ms infinite linear;
-}
-@keyframes circleAnimation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-#grown {
-  padding: 1em;
-  h1 {
-    color: #212529;
-    font-weight: bold;
-    margin-bottom: 1em;
-  }
+#aboutBot {
+  padding: 4em;
 }

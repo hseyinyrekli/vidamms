@@ -1,56 +1,83 @@
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
-.video-container {
-  height: 100%;
+.home {
+  height: 100vh;
   position: relative;
-  overflow: hidden;
-  @media (min-width: 600px) {
-    height: 100vh;
-  }
 }
-
 video {
-  object-fit: cover;
   position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+.home-content {
+  position: relative;
+  padding-top: 150px;
+  color: #fff;
+  width: 50%;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 3em;
+  margin-left: 1em;
 }
 
-.video-container:after {
-  content: "";
+.home p {
+  font-size: 1em;
+  margin-top: 15px;
+
+  margin-left: 3.3em;
+}
+
+.home-content button {
   display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  font-size: clamp(14px, 1.5vw, 18px);
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin-top: 1.7em;
+  margin-left: 23%;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.firstH1 {
-  color: rgb(228, 224, 224);
-  font-weight: 900;
-  font-size: 5vw;
-  @media (max-width: 980px) {
-    font-size: 22px;
+.home-content button:hover {
+  background-color: #3c6bad;
+}
+@media (max-width: 980px) {
+  h1 {
+    font-size: 2em;
+    padding: 0.5em;
   }
-  @media (min-width: 980px) {
-    font-size: 50px;
+  .home p {
+    font-size: 0.9em;
+    margin-left: 2.2em;
+    padding: 1em;
+  }
+  .home-content button {
+    margin-left: 3em;
   }
 }
-.describe {
-  text-align: center;
-  color: rgb(198, 190, 190);
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .home-content button {
+    padding: 0.5em;
+    margin-left: 4em;
+    width: 50%;
+  }
 }
+
 .part-2 {
   background-color: #f3f3f3;
   height: 100%;
@@ -61,10 +88,6 @@ video {
   }
 }
 
-.content {
-  width: 50%;
-  float: left;
-}
 #vidaCard {
   clear: both;
   height: 50vh;
@@ -74,7 +97,7 @@ video {
 #vidaCard p {
   font-size: 18px;
   @media (max-width: 980px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 #vidaCard:hover {
@@ -88,19 +111,21 @@ video {
   img {
     width: 30%;
     margin-top: 1em;
-    margin-right: 2em;
+    margin: auto;
+    @media (max-width: 980px) {
+      margin-left: 0;
+    }
   }
   text-align: center;
 }
-
+@media (max-width: 980px) {
+  #phones {
+    margin-top: 5em;
+  }
+}
 #title {
   font-weight: bold;
   padding: 1em;
-}
-#phones {
-  display: inline-block;
-  margin-top: 4em;
-  width: 40%;
 }
 
 .part-4 {
@@ -111,37 +136,40 @@ video {
 }
 .macbook {
   img {
-    width: 70%;
+    width: 65%;
     margin-top: 7em;
+    margin-left: 3em;
   }
 }
 
 .text {
-  margin: auto;
-  margin-top: 1em;
-  width: 70%;
   color: white;
-  padding: 2em;
+  padding-bottom: 3em;
   p {
     color: rgb(228, 224, 224);
   }
 }
 
 #part-5 {
+  border: 0px;
   width: 80%;
   height: 100%;
-
-  img {
-    background-color: #e3e3e3;
-    padding: 1em;
-    border-radius: 50%;
-  }
-  h2 {
-    margin: 1em;
-  }
   text-align: center;
   margin: auto;
+
+  img {
+    border-radius: 50%;
+
+    margin: auto;
+    width: 30%;
+  }
+  h3 {
+    padding-top: 2em;
+    margin: auto;
+  }
+
   #card {
+    height: 100%;
     padding: 1.3em;
     transition: 0.3s;
   }
@@ -195,23 +223,24 @@ label {
   margin-left: 0.5em;
   font-size: 12px;
 }
-#form {
-  margin: auto;
-}
 
 #submitButton {
   height: 3em;
   margin-top: 1.5em;
   width: 100%;
 }
+#botPhoto img {
+  width: 80%;
+  margin-top: 3.5em;
+  margin-left: 9em;
+}
 
-#formDiv {
-  img {
-    @media (max-width: 980px) {
-      margin-top: 8em;
-    }
+@media (max-width: 980px) {
+  #botPhoto img {
+    margin-left: 2.5em;
   }
 }
+
 .middle {
   span {
     font-weight: bolder;
@@ -220,20 +249,18 @@ label {
   p {
     color: black;
   }
-  padding: 1em;
+  padding: 2.3em;
   h1 {
-    background: linear-gradient(#1a44a8, white);
+    margin: auto;
+    background: linear-gradient(#1a44a8, #212529);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  background-color: #f3f3f3;
+
   img {
     margin-top: 2em;
     margin-bottom: 2em;
     position: sticky;
     top: 30%;
   }
-}
-#text2 {
-  padding: 3em;
 }
