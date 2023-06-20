@@ -1,6 +1,3 @@
-#icon {
-  padding: 3em;
-}
 h3 {
   font-weight: bold;
   color: white;
@@ -10,12 +7,18 @@ h2 {
 }
 #searchSide {
   margin: auto;
-  background: linear-gradient(#004fbc, white);
+  height: 50vh;
+
+  background-image: url("../../../assets/uploads/backgd.png");
+}
+
+a {
+  cursor: pointer;
 }
 
 .search {
-  width: 100%;
-
+  width: 50%;
+  margin-bottom: 4em;
   height: 50px;
   background-color: #fff;
   padding: 10px;

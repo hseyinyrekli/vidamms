@@ -1,0 +1,83 @@
+* {
+  text-decoration: none;
+}
+span {
+  font-weight: bold;
+}
+#form {
+  margin-top: 1em;
+}
+h2 {
+  font-weight: b;
+}
+
+.contact {
+  padding: 4em;
+  margin: auto;
+
+  @media (max-width: 980px) {
+    width: 80%;
+  }
+}
+#icon {
+  margin: auto;
+  @media (max-width: 980px) {
+    margin-top: 6em;
+  }
+}
+
+#contactForm {
+  padding: 4em;
+}
+#middle {
+  h3 {
+    font-weight: bold;
+    color: #212529;
+  }
+  padding: 7em;
+}
+.card {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 0;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: 0.3s;
+}
+.card:hover {
+  background-color: white;
+}
+
+svg {
+  margin-left: 1em;
+  margin-right: 2em !important;
+  margin-top: 1.2em;
+  color: #0551bc;
+}
+#image img {
+  width: 150%;
+  margin-left: 1em;
+  margin-top: 5em;
+}
+@media (max-width: 980px) {
+  #image img {
+    margin-top: 1em;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.active {
+  background-color: white;
+}
+
+.laptop {
+  margin: auto;
+  padding: 1.5em;
+  width: 55%;
+}
+
+.footer-text {
+  background-color: #f9f9f9;
+  padding: 6em;
+}

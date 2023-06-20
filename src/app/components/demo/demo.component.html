@@ -1,0 +1,275 @@
+<div style="padding-right: 0.8em">
+  <div class="row" style="background-color: #f9f9f9; padding: 4em">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      id="contactForm"
+      class="col-12 col-md-12 col-lg-6"
+    >
+      <div class="col-12">
+        <div>
+          <h2 class="card-title text-center py-4">DEMO TALEBİ OLUŞTURUN</h2>
+          <hr />
+          <p>
+            Vida Bakım Yönetimi Uygulaması ile makine parkurunuzu kesintisiz
+            çalışır hale getirin.
+          </p>
+          <hr />
+        </div>
+        <form id="form">
+          <div class="row">
+            <div class="col-6 col-md-6 col-lg-6">
+              <label class="form-label">İsim</label>
+              <div class="form-outline" style="width: 100%">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-6">
+              <label class="form-label">Soy İsim</label>
+              <div class="form-outline" style="width: 100%">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-12">
+              <label class="form-label">E-Posta</label>
+              <div class="form-outline" style="width: 100%">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+              <label class="form-label">Telefon</label>
+              <div class="form-outline" style="width: 100%">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+              <label class="form-label">Firma</label>
+              <div class="form-outline" style="width: 100%">
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12">
+              <select
+                class="form-select mt-4"
+                aria-label="Default select example"
+              >
+                <option selected>Firma Sektör Alanı</option>
+                <option value="1">BT Hizmetleri ve BT Danışmanlığı</option>
+                <option value="2">Teknoloji, Bilgi ve İnternet</option>
+                <option value="3">Kamu Hizmetleri</option>
+                <option value="4">Motorlu Taşıt İmalatı</option>
+
+                <option value="5">Beyaz Eşya ve Elektronik Eşya İmalatı</option>
+
+                <option value="6">
+                  Ulaşım, Lojistik, Tedarik Zinciri ve Depolama
+                </option>
+
+                <option value="7">Kimyasal Üretim</option>
+
+                <option value="8">Tüketici Hizmetleri</option>
+
+                <option value="9">Hastaneler ve Sağlık Hizmetleri</option>
+                <option value="10">Diğer</option>
+              </select>
+            </div>
+            <div class="form-outline mt-4 mb-2" style="width: 50%">
+              <button type="button" class="btn btn-primary">
+                DEMO TALEBİ GÖNDER
+              </button>
+            </div>
+          </div>
+          <div>
+            Bu forma kaydolarak kişisel bilgilerinin Vida Bakım Yönetimi
+            Uygulaması
+            <a routerLink="/policy">Gizlilik Politikası</a> hükümleri uyarınca
+            yönetilmesini kabul etmiş olursunuz.
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="contact col-12 col-md-12 col-lg-6 mb-5">
+      <iframe
+        style="margin-top: 3em"
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/755dN3AKQSQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</div>
+<div id="middle" class="text-center">
+  <h3 class="text-muted">VİDA MMS</h3>
+  <hr />
+  <p class="text-muted">
+    VİDA, Bakım Yönetimi Uygulamasıdır. Endüstriyel işletme yönetimine yardımcı
+    olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve fabrika
+    yönetimine ilişkin kayıtları tutmanızı sağlar. Böylece makine ve
+    ekipmanlarınızı zaman/maliyet konusunda daha uzun ömürlü kullanabilirsiniz.
+    Webden, tabletten ve mobilden uygulamaya kolayca erişebilirsiniz.
+  </p>
+</div>
+<div style="background-color: #f9f9f9; margin: auto">
+  <div class="row" style="width: 70%; margin: auto">
+    <div class="col-lg-6 col-md-12 col-12" style="padding: 3em">
+      <div class="text-center">
+        <h2>Her Vida Kontrol Altında</h2>
+        <p>
+          Vida Bakım Yönetimi Uygulaması ile makine parkurunuzdaki her vidayı
+          kontrol altın alın.
+        </p>
+      </div>
+      <div
+        class="card col-12"
+        (click)="changeActive('demo1')"
+        [ngClass]="activeCategories == 'demo1' ? 'active' : ''"
+      >
+        <div class="row">
+          <div class="col-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              fill="currentColor"
+              class="bi bi-clock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+              />
+            </svg>
+          </div>
+
+          <div class="col-9">
+            <h4>Gerçek Zamanlı</h4>
+            <p>
+              Vida'daki her eylem, gerçek zamanlı olarak uygulama üzerinden
+              görülebilir.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-12"
+        (click)="changeActive('demo2')"
+        [ngClass]="activeCategories == 'demo2' ? 'active' : ''"
+      >
+        <div class="row">
+          <div class="icon col-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              fill="currentColor"
+              class="bi bi-map"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"
+              />
+            </svg>
+          </div>
+          <div class="col-9">
+            <h4>Dilediğiniz Yerde</h4>
+            <p>
+              Vida Uygulaması'na web üzerinden, tablet ve mobil cihazlardan
+              ulaşabilirsiniz.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-12"
+        (click)="changeActive('demo3')"
+        [ngClass]="activeCategories == 'demo3' ? 'active' : ''"
+      >
+        <div class="row">
+          <div class="icon col-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="70"
+              height="70"
+              fill="currentColor"
+              class="bi bi-universal-access"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 9.97c-.064-.252-.422-.252-.486 0l-1.156 5.624a.535.535 0 0 1-1.053-.174L6 9V5.5Z"
+              />
+            </svg>
+          </div>
+          <div class="col-9">
+            <h4>Akıllı Yönetim</h4>
+            <p>
+              Vida ile maliyet, envanter, enerji tüketimini ve üretimini de
+              yönetmiş olursunuz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      id="image"
+      class="col-lg-6 col-md-12 col-12"
+    >
+      <img
+        *ngIf="activeCategories == 'demo1'"
+        class="demo1"
+        src="../../../assets/uploads/demo3.png"
+        alt=""
+      />
+      <img
+        *ngIf="activeCategories == 'demo2'"
+        class="demo2"
+        src="../../../assets/uploads/demo1.png"
+        alt=""
+      />
+      <img
+        *ngIf="activeCategories == 'demo3'"
+        class="demo3"
+        src="../../../assets/uploads/demo2.png"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <div data-aos="zoom-in" data-aos-duration="1000">
+    <img
+      style="width: 60%"
+      src="../../../assets/uploads/demolaptop.png"
+      alt=""
+    />
+  </div>
+  <div class="laptop">
+    <h3 class="text-muted">
+      VİDA MMS İle bakımları önceden planlayabilir ve kesintisiz iş akışı
+      sağlayabilirsiniz.
+    </h3>
+    <hr />
+
+    <p class="text-muted">
+      Böylece ani gelişen olağandışı arızaların da önüne geçmiş olursunuz.
+    </p>
+  </div>
+</div>
+<div class="footer-text text-center">
+  <h4>
+    Şirketinize nasıl yardımcı olabileceğimiz hakkında sorularınız mı var?
+  </h4>
+  <h4 class="text-muted">
+    Bize bir e-posta gönderin, kısa süre içinde sizinle iletişime geçeceğiz.
+  </h4>
+</div>

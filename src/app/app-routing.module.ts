@@ -9,6 +9,9 @@ import { FaqComponent } from "./components/faq/faq.component";
 import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
 import { CostComponent } from "./components/cost/cost.component";
 import { ReferenceComponent } from "./components/reference/reference.component";
+import { DemoComponent } from "./components/demo/demo.component";
+import { PolicyComponent } from "./components/policy/policy.component";
+import { PrivacyComponent } from "./components/privacy/privacy.component";
 
 const routes: Routes = [
   {
@@ -40,7 +43,7 @@ const routes: Routes = [
         component: ContactComponent,
       },
       {
-        path: "faq",
+        path: "support",
         component: FaqComponent,
       },
       {
@@ -50,6 +53,18 @@ const routes: Routes = [
       {
         path: "reference",
         component: ReferenceComponent,
+      },
+      {
+        path: "demo",
+        component: DemoComponent,
+      },
+      {
+        path: "policy",
+        component: PolicyComponent,
+      },
+      {
+        path: "privacy",
+        component: PrivacyComponent,
       },
     ],
   },

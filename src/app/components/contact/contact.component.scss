@@ -9,7 +9,9 @@ span {
 }
 
 .contact {
+  padding: 4em;
   margin: auto;
+
   @media (max-width: 980px) {
     width: 80%;
   }
@@ -22,6 +24,6 @@ span {
 }
 
 #contactForm {
-  padding: 3em;
+  padding: 4em;
   background-color: #f3f3f3;
 }

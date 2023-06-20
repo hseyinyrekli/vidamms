@@ -1,11 +1,16 @@
 <div id="searchSide" class="row justify-content-center">
   <div class="col-md-9">
-    <div class="mt-3">
+    <div style="margin-top: 10%">
       <h3 class="mb-4 text-center">SIKÇA SORULAN SORULAR</h3>
       <div class="d-flex justify-content-center px-5">
         <div class="search">
-          <input type="text" class="search-input" placeholder="Search..." />
-          <a href="#" class="search-icon">
+          <input
+            type="text"
+            [(ngModel)]="search"
+            class="search-input"
+            placeholder="Search..."
+          />
+          <a (click)="getFaqs()" class="search-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -21,498 +26,40 @@
           </a>
         </div>
       </div>
-      <div class="row mt-4 g-1 px-4 mb-5">
-        <div class="col-4 col-md-4 col-lg-4">
-          <div class="card-inner p-3 d-flex flex-column align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              fill="currentColor"
-              class="bi bi-window"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"
-              />
-              <path
-                d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"
-              />
-            </svg>
-            <div class="text-center mg-text">
-              <span class="mg-text">Uygulama</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-4 col-md-4 col-lg-4">
-          <div class="card-inner p-3 d-flex flex-column align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              fill="currentColor"
-              class="bi bi-question-octagon"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"
-              />
-              <path
-                d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
-              />
-            </svg>
-            <div class="text-center mg-text">
-              <span class="mg-text">FAQ'S</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 col-md-4 col-lg-4">
-          <div class="card-inner p-3 d-flex flex-column align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              fill="currentColor"
-              class="bi bi-laptop"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"
-              />
-            </svg>
-            <div class="text-center mg-text">
-              <span class="mg-text">Ürün</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container mt-5 mb-5">
   <div class="row">
-    <div id="icon" class="col-12 col-md-12 col-lg-12">
+    <div
+      id="icon"
+      class="col-12 col-md-12 col-lg-12"
+      *ngFor="let data of faqs | faqs : search"
+    >
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+          <h2 class="accordion-header" id="{{ data.textId }}">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
+              attr.data-bs-target="{{ data.textTarget }}"
               aria-expanded="false"
-              aria-controls="collapseOne"
+              attr.aria-controls="{{ data.textOtherId }}"
             >
-              Uygulamayı nasıl indirebilirim ?
+              {{ data.button }}
             </button>
           </h2>
           <div
-            id="collapseOne"
+            id="{{ data.textOtherId }}"
             class="accordion-collapse collapse"
-            aria-labelledby="headingOne"
+            attr.aria-labelledby="{{ data.textId }}"
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
               <p>
-                Tanımlanan lisans koduyla birlikte uygulamayı Google Play ya da
-                Apple Store üzerinden indirerek kullanabilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Nasıl arıza oluşturabilirim ?
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Arıza Ekle / Barkod Okut butonundan yeni bir arıza
-                ekleyebilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              Oluşturulmuş arızalara nasıl müdahale edebilirim ?
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Yetki bazlı olarak Arıza Detayları’nda sağ alt köşede bulunan
-                butonundan arızalara müdahalede bulunabilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFour"
-              aria-expanded="false"
-              aria-controls="collapseFour"
-            >
-              Sarf malzemeleri nasıl ekleyebilirim ?
-            </button>
-          </h2>
-          <div
-            id="collapseFour"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Arıza Detayları’nda Sarf Malzemeler sekmesine girerek + butonu
-                ile sarf malzeme ekleyebilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFive"
-              aria-expanded="false"
-              aria-controls="collapsefive"
-            >
-              Nasıl periyodik bakım oluşturabilirim ?
-            </button>
-          </h2>
-          <div
-            id="collapseFive"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Web tarafından size tanımlanan yetki ile “Bakım Periyotları
-                modülünden periyodik bakım oluşturabilirsiniz.Oluşturduğunuz
-                periyodik bakımları mobil uygulama ile takip edebilir ve
-                müdahalede bulunabilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSix">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseSix"
-              aria-expanded="false"
-              aria-controls="collapseSix"
-            >
-              Periyoduk bakımları nasıl takip edebilirim ?
-            </button>
-          </h2>
-          <div
-            id="collapseSix"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingSix"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Periyodik bakım modülündeki “Takvim” özelliği ile
-                günlük,haftalık,aylık ve yıllık olarak periyodik bakımları takip
-                edebilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseSeven"
-              aria-expanded="false"
-              aria-controls="collapseSeven"
-            >
-              Periyodik bakımlarda ihtiyaç listesi neyi ifade ediyor ?
-            </button>
-          </h2>
-          <div
-            id="collapseSeven"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingSeven"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Belirlemiş olduğunuz periyodik bakım periyodu ve makinaya göre o
-                bakım esnasında harcayabileceğiniz malzeme gruplarını gösteren
-                listedir.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseEight"
-              aria-expanded="false"
-              aria-controls="collapseEight"
-            >
-              Kestirimci bakım ne demektir ?
-            </button>
-          </h2>
-          <div
-            id="collapseEight"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingEight"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Kestirimci bakım,malzemelerin veya hareketli sistemlerin
-                fiziksel özellikleri ile işlevlerinin gerektirdiği durumlara
-                göre, belirli ölçme ve değerlendirme tekniklerine göre yapılan,
-                arıza oluşumunu engelleyen öngörmeli bir bakım uygulamasıdır.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingNine">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseNine"
-              aria-expanded="false"
-              aria-controls="collapseNine"
-            >
-              Kestirimci bakımda frekans aralığı neyi ifade eder ?
-            </button>
-          </h2>
-          <div
-            id="collapseNine"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingNine"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Frekans aralığı, ölçümlenen işlem kalemleri için kritiklik
-                seviyelerinin belirlenmesi adına kullanılır. Frekans aralığı
-                içerisinde kalan değerler normal, frekans aralığının dışında
-                kalan değerler kritik kabul edilir.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTen">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTen"
-              aria-expanded="false"
-              aria-controls="collapseTen"
-            >
-              Ömürlü parçalarda süre nasıl hesaplanır ?
-            </button>
-          </h2>
-          <div
-            id="collapseTen"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTen"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Saat bazlı parçalarda süre otomatik olarak hesaplanır. Diğer
-                birim bazlı parçalarda entegrasyon sağlanarak otomatik olarak
-                süre hesaplaması yapılabilir.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEleven">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseEleven"
-              aria-expanded="false"
-              aria-controls="collapseEleven"
-            >
-              Makine bilgileri nasıl görüntülenir ?
-            </button>
-          </h2>
-          <div
-            id="collapseEleven"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingEleven"
-            data-bs-parent="#accordionEleven"
-          >
-            <div class="accordion-body">
-              <p>
-                Makinalar modülünde makinalarla ilgili detayları
-                görüntüleyebilir, ömürlü parça, arıza ve periyodik bakımlar gibi
-                detaylara ulaşabilirsiniz.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwelve">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwelve"
-              aria-expanded="false"
-              aria-controls="collapseTwelve"
-            >
-              MTTR ne anlama gelmektedir ?
-            </button>
-          </h2>
-          <div
-            id="collapseTwelve"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTwelve"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                MTTR; Arızalar arası bakımın ortalama süresidir. Diğer bir
-                deyimle bir iş merkezinin plansız olarak durduğu andan tekrar
-                çalışır duruma gelişinin ortalama değeridir.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThirteen">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThirteen"
-              aria-expanded="false"
-              aria-controls="collapseThirteen"
-            >
-              MTBF ne anlama gelmektedir ?
-            </button>
-          </h2>
-          <div
-            id="collapseThirteen"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingThirteen"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                MTBF; Bir iş merkezinin iki arıza duruşu arasındaki ortalama
-                süresidir. MTBF değerinin zaman içinde artıyor olması
-                sürprizlerin azaldığını, giderek daha az arızanın olduğu ve
-                problemsiz çalışma dilimlerinin giderek uzadığı anlamına
-                gelmektedir.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFourteen">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFourteen"
-              aria-expanded="false"
-              aria-controls="collapseNine"
-            >
-              Ömürlü parça nedir ?
-            </button>
-          </h2>
-          <div
-            id="collapseFourteen"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFourteen"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                Makinenin düzenli çalışması için gerekli olan ve ölçülebilen bir
-                yaşam döngüsüne sahip olan parçalara ömürlü parçalar denir.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headinFifteen">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFifteen"
-              aria-expanded="false"
-              aria-controls="collapseFifteen"
-            >
-              Sayaç modülü ne işe yarar ?
-            </button>
-          </h2>
-          <div
-            id="collapseFifteen"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFifteen"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <p>
-                İşletmedeki elektrik, su, doğalgaz vs. gibi panolardaki
-                değerlerin kayıt altına alınarak enerji tüketimini takip
-                etmenizi sağlar.
+                {{ data.text }}
               </p>
             </div>
           </div>

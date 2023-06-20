@@ -39,8 +39,8 @@
           <a
             class="nav-link"
             routerLink="/"
-            (click)="changeActive('home')"
-            [ngClass]="activeMenu == 'home' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >Anasayfa</a
           >
         </li>
@@ -48,8 +48,8 @@
           <a
             class="nav-link"
             routerLink="about"
-            (click)="changeActive('about')"
-            [ngClass]="activeMenu == 'about' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >Hakkımızda</a
           >
         </li>
@@ -57,8 +57,8 @@
           <a
             class="nav-link"
             routerLink="reference"
-            (click)="changeActive('reference')"
-            [ngClass]="activeMenu == 'reference' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >Referanslar</a
           >
         </li>
@@ -66,8 +66,8 @@
           <a
             class="nav-link"
             routerLink="cost"
-            (click)="changeActive('cost')"
-            [ngClass]="activeMenu == 'cost' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >Maliyet Hesaplama</a
           >
         </li>
@@ -75,8 +75,8 @@
           <a
             class="nav-link"
             routerLink="contact"
-            (click)="changeActive('contact')"
-            [ngClass]="activeMenu == 'contact' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >İletişim</a
           >
         </li>
@@ -84,18 +84,18 @@
           <a
             class="nav-link"
             routerLink="blog"
-            (click)="changeActive('blog')"
-            [ngClass]="activeMenu == 'blog' ? 'active' : ''"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
             >Blog</a
           >
         </li>
         <li class="nav-item">
           <a
             class="nav-link"
-            routerLink="faq"
-            (click)="changeActive('faq')"
-            [ngClass]="activeMenu == 'faq' ? 'active' : ''"
-            >FAQ</a
+            routerLink="support"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Destek</a
           >
         </li>
       </ul>

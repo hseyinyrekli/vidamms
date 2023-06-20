@@ -18,7 +18,7 @@ a {
 svg {
   cursor: pointer;
 
-  margin: 1.5em;
+  margin: 1.2em;
   color: white;
 }
 svg:hover {
@@ -35,4 +35,11 @@ p {
 }
 span {
   font-weight: bold;
+}
+.botTitle {
+  padding: 1em;
+}
+.horizontal {
+  margin: auto;
+  width: 20%;
 }

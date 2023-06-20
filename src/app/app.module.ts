@@ -16,8 +16,12 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { FaqComponent } from "./components/faq/faq.component";
 import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
 import { HttpClientModule } from "@angular/common/http";
-import { ReferenceComponent } from './components/reference/reference.component';
-import { CostComponent } from './components/cost/cost.component';
+import { ReferenceComponent } from "./components/reference/reference.component";
+import { CostComponent } from "./components/cost/cost.component";
+import { FaqsPipe } from './components/faq/faqs.pipe';
+import { DemoComponent } from './components/demo/demo.component';
+import { PolicyComponent } from './components/policy/policy.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +37,10 @@ import { CostComponent } from './components/cost/cost.component';
     BlogDetailComponent,
     ReferenceComponent,
     CostComponent,
+    FaqsPipe,
+    DemoComponent,
+    PolicyComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,

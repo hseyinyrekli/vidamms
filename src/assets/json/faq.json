@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "textId": "headingOne",
+    "textTarget": "#collapseOne",
+    "textOtherId": "collapseOne",
+    "button": "Uygulamayı nasıl indirebilirim ?",
+    "text": "Tanımlanan lisans koduyla birlikte uygulamayı Google Play ya da Apple Store üzerinden indirerek kullanabilirsiniz."
+  },
+  {
+    "id": 2,
+    "textId": "headingTwo",
+    "textTarget": "#collapseTwo",
+    "textOtherId": "collapseTwo",
+    "button": "Nasıl arıza oluşturabilirim ?",
+    "text": "Arıza Ekle / Barkod Okut butonundan yeni bir arıza ekleyebilirsiniz."
+  },
+  {
+    "id": 3,
+    "textId": "headingThree",
+    "textTarget": "#collapseThree",
+    "textOtherId": "collapseThree",
+    "button": "Oluşturulmuş arızalara nasıl müdahele edebilirim ?",
+    "text": "Yetki bazlı olarak Arıza Detayları’nda sağ alt köşede bulunan   butonundan arızalara müdahalede bulunabilirsiniz."
+  },
+  {
+    "id": 4,
+    "textId": "headingFour",
+    "textTarget": "#collapseFour",
+    "textOtherId": "collapseFour",
+    "button": "Sarf malzemeleri nasıl ekleyebilirim ?",
+    "text": "Arıza Detayları’nda Sarf Malzemeler sekmesine girerek + butonu ile sarf malzeme ekleyebilirsiniz."
+  },
+  {
+    "id": 5,
+    "textId": "headingFive",
+    "textTarget": "#collapseFive",
+    "textOtherId": "collapseFive",
+    "button": "Nasıl periyodik bakım oluşturabilirim ?",
+    "text": "Web tarafından size tanımlanan yetki ile “Bakım Periyotları modülünden periyodik bakım oluşturabilirsiniz.Oluşturduğunuz periyodik bakımları mobil uygulama ile takip edebilir ve müdahalede bulunabilirsiniz."
+  },
+  {
+    "id": 6,
+    "textId": "headingSix",
+    "textTarget": "#collapseSix",
+    "textOtherId": "collapseSix",
+    "button": "Periyodik Bakımları nasıl takip edebilirim ?",
+    "text": "Periyodik bakım modülündeki “Takvim” özelliği ile günlük,haftalık,aylık ve yıllık olarak periyodik bakımları takip edebilirsiniz."
+  },
+  {
+    "id": 7,
+    "textId": "headingSeven",
+    "textTarget": "#collapseSeven",
+    "textOtherId": "collapseSeven",
+    "button": "Periyodik Bakımlarda ihtiyaç listesi neyi ifade ediyor ?",
+    "text": "Belirlemiş olduğunuz periyodik bakım periyodu ve makinaya göre o bakım esnasında harcayabileceğiniz malzeme gruplarını gösteren listedir."
+  },
+  {
+    "id": 8,
+    "textId": "headingEight",
+    "textTarget": "#collapseEight",
+    "textOtherId": "collapseEight",
+    "button": "Kestirimci Bakım ne demektir ?",
+    "text": "Kestirimci bakım,malzemelerin veya hareketli sistemlerin fiziksel özellikleri ile işlevlerinin gerektirdiği durumlara göre, belirli ölçme ve değerlendirme tekniklerine göre yapılan, arıza oluşumunu engelleyen öngörmeli bir bakım uygulamasıdır."
+  },
+  {
+    "id": 9,
+
+    "textId": "headingNine",
+    "textTarget": "#collapseNine",
+    "textOtherId": "collapseNine",
+    "button": "Kestirimci bakımda frekans aralığı neyi ifade eder ?",
+    "text": "Frekans aralığı, ölçümlenen işlem kalemleri için kritiklik seviyelerinin belirlenmesi adına kullanılır. Frekans aralığı içerisinde kalan değerler normal, frekans aralığının dışında kalan değerler kritik kabul edilir."
+  },
+  {
+    "id": 10,
+    "textId": "headingTen",
+    "textTarget": "#collapseTen",
+    "textOtherId": "collapseTen",
+    "button": "Ömürlü Parça nedir ?",
+    "text": "Makinenin düzenli çalışması için gerekli olan ve ölçülebilen bir yaşam döngüsüne sahip olan parçalara ömürlü parçalar denir."
+  },
+  {
+    "id": 11,
+    "textId": "headingEleven",
+    "textTarget": "#collapseEleven",
+    "textOtherId": "collapseEleven",
+    "button": "Ömürlü parçalarda süre nasıl hesaplanır ?",
+    "text": "Saat bazlı parçalarda süre otomatik olarak hesaplanır. Diğer birim bazlı parçalarda entegrasyon sağlanarak otomatik olarak süre hesaplaması yapılabilir."
+  },
+  {
+    "id": 12,
+    "textId": "headingTwelve",
+    "textTarget": "#collapseTwelve",
+    "textOtherId": "collapseTwelve",
+    "button": "Sayaç modülü ne işe yarar ?",
+    "text": "İşletmedeki elektrik, su, doğalgaz vs. gibi panolardaki değerlerin kayıt altına alınarak enerji tüketimini takip etmenizi sağlar."
+  },
+  {
+    "id": 13,
+    "textId": "headingThirteen",
+    "textTarget": "#collapseThirteen",
+    "textOtherId": "collapseThirteen",
+    "button": "Makine bilgileri nasıl görüntülenir ?",
+    "text": "Makinalar modülünde makinalarla ilgili detayları görüntüleyebilir, ömürlü parça, arıza ve periyodik bakımlar gibi detaylara ulaşabilirsiniz."
+  },
+  {
+    "id": 14,
+    "textId": "headingFourteen",
+    "textTarget": "#collapseFourteen",
+    "textOtherId": "collapseFourteen",
+    "button": "MTTR ne anlama gelmektedir ?",
+    "text": "MTTR; Arızalar arası bakımın ortalama süresidir. Diğer bir deyimle bir iş merkezinin plansız olarak durduğu andan tekrar çalışır duruma gelişinin ortalama değeridir."
+  },
+  {
+    "id": 15,
+    "textId": "headingFifteen",
+    "textTarget": "#collapseFifteen",
+    "textOtherId": "collapseFifteen",
+    "button": "MTBF ne anlama gelmektedir ?",
+    "text": "MTBF; Bir iş merkezinin iki arıza duruşu arasındaki ortalama süresidir. MTBF değerinin zaman içinde artıyor olması sürprizlerin azaldığını, giderek daha az arızanın olduğu ve problemsiz çalışma dilimlerinin giderek uzadığı anlamına gelmektedir."
+  }
+]
