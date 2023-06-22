@@ -1,0 +1,1069 @@
+[
+  {
+    "id": "1",
+    "date": "05 EYL",
+    "baseImage": "assets/uploads/blogPhotos/CMMS.png",
+    "subTitle": "MAINTENANCE MANAGEMENT APP",
+    "title": "CMMS NEDİR ?",
+    "slug": "cmms-nedir",
+    "description": "Değeri milyonlarla ifade edilen, hayata geçmesi uzun yıllar alan, arka planında yüzlerce insanın emeği olan altyapı tesislerinin veriml...",
+    "descriptions": [
+      {
+        "text": "Değeri milyonlarla ifade edilen, hayata geçmesi uzun yıllar alan, arka planında yüzlerce insanın emeği olan altyapı tesislerinin verimli kullanımında ve ömrünün optimize edilmesinde kritik rol oynayan sistemlerin başında bilgisayarlı bakım yönetimi sistemi gelmektedir. CMMS Nedir? sorusuna cevap vermek gerekirse bilgisayar destekli bakım yönetim sistemleri anlamına da gelen CMMS (Computerized maintenance management system)sistemi imalattan enerjiye, lojistikten inşaata farklı sektörlerde hizmet veren bir tesisin kontrol ve bakımında en kapsayıcı çözümleri sunan yazılımdır. Geçmişi 1960’lı yıllara kadar giden, günümüzde ise bulut tabanlı ve mobil olarak kullanılan CMMS’nin temel işlevleri; altyapı tesislerinde bakım bilgilerini merkezileştirmek, süreçleri kolaylaştırmak ve verimliliği artırmak olarak sıralanmaktadır."
+      },
+      {
+        "text": "CMMS Nasıl Çalışır ?",
+        "class": "h3"
+      },
+      {
+        "text": "CMMS aslen bir veri tabanına dayanmakta olup, bir tesis içerisinde yer alan fiziki ve beşeri tüm kaynaklar hakkında bilgileri bu veri tabanına kaydeder. Bu sayede makinelerden araçlara, malzemelerden çalışanlara kadar tüm kaynakları belirli görevler çerçevesinde organize eder ve süreçler arasında tam koordinasyon sağlar."
+      },
+      {
+        "text": "CMMS Kullanımı hangi avantajları sağlar ?",
+        "class": "h3"
+      },
+      {
+        "text": "Tesislerde CMMS’nin etkin kullanımının sağladığı avantajları şöyle sıralayabiliriz:"
+      },
+      {
+        "text": "Verimliliği arttırır ve ömrü uzatır.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Veri paylaşımı yaklaşımıyla tesisin her noktasında ve operasyonun her aşamasındaki faaliyetleri birbirleriyle uyumlu hale getirerek aynı iş hedefleri doğrultusunda birleştirir. Kusur ve arızaları etkin şekilde raporlar ve düzeltilmesine imkan tanır. Cmms, kaynakların daha etkin kullanımını sağlar. İster makine, ekipman, araç gibi fiziksel isterse çalışanlar gibi beşeri olsun tüm kaynakların verimli kullanımında etkin rol oynar. Böylece ekipmanların sertifikasyonları ya da çalışanların vardiyaları tek bir panodan organize edilebilir."
+      },
+      {
+        "text": "Varlıklar kayıt altına alınır.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Fiziksel varlıkların üretici, model, seri numarası vb. özelliklerinden tesis içerisindeki yerlerine, performansları ve kapalı kalma sürelerinden bakım kılavuzlarından garantilerine, nesnelerin interneti (IoT) uygulamalarına entegrasyonlarına kadar geniş bir yelpazede tüm yeteneklerini kayıt altına alır. Oluşturulan bakımlar sürekli olarak standardize edilir. Veri tabanına bilgiler; sensörlerden, kullanım istatistiklerinden ve bakım ekiplerini ilgilendiren diğer verilerden gelir. Bu sayede CMMS, yapay zekayı kullanarak MRO envanterini otomatize eder. Bakım ve onlarım işleminde (MRO) kullanılan malzemelerin envanterinin oluşturulması, konumlandırılması ve geri çağrılması süreçlerini otomatikleştirir."
+      },
+      {
+        "text": "İş akışlarını görünür kılarak, emirlerin etkin yönetimini sağlar.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Panoların ve raporların aktive edilmesiyle, bakım ekiplerinin varlıklara kolay erişimine yardımcı olur. Bununla birlikte; tesisin her noktasındaki çalışan faaliyetlerinin değerlendirilmesine, iş emirlerinin otomatikleştirilmesine, planlanmış ve gerçekleşen maliyetlerin kayıtlarının tutulmasına ve iş emirlerinin tamamlanma oranlarının iyileştirilmesine katkıda bulunur.  Ayrıca daha sağlıklı, güvenli ve çevreci tesisler yaratır. Küresel ve ulusal otoritelerin beklentileri, regülasyonlar ve müşteri talepleri doğrultusunda hem çalışan hem de çevre güvenliğini tehlikeye atacak arıza ve riskler için erken uyarı sistemi kurar, varlıkların bakımının düzenli gerçekleştirilmesini sağlar, tüm gerçekleşmiş sorunları raporlar ve düzeltilmesine imkan tanır."
+      },
+      {
+        "text": "İşgücünü mobilize eder.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "CMMS sadece tesisin içindeki değil, dışındaki çalışanların da ortak hedeflere entegre edilmesine ve imkan tanıyacak avantajlar sunar ve onları destekler."
+      },
+      {
+        "text": " CMMS = uzun çalışma süresi = kârlılık",
+        "class": "fw-bolder font-italic"
+      },
+      {
+        "text": "Tesislerde bakım yöneticileri ve departmanlarının varlık nedeni, büyük ve pahalı bir yatırımın karşılığı olan araç ve ekipmanların arızalanmadan en uzun süre devrede kalmalarını sağlamaktır. Bir diğer deyişle, arızalanmadan en uzun süre çalışan varlıklar, en değerli, kârlı ve tasarruf dostu varlıklardır. Güvenilir ve uzun çalışma süreleri ise sırtını güvenilir varlıklara dayayan işletmelerin yüzünü rahatlıkla müşterilerinin taleplerine dönebileceği bir zemin yaratmaktadır."
+      },
+      {
+        "text": "CMMS seçerken nelere dikkat edilmelidir ?",
+        "class": "h3"
+      },
+      {
+        "text": "Bir CMMS yazılımı seçerken, işlev ve teknoloji kadar “desteğe erişim” de önemlidir. Hizmet sağlayıcıların CMMS dağıtımının öncesi, sırası ve sonrasını kapsayacak şekilde eğitim ve destek hizmeti sağlaması gerekmektedir. Bir diğer önemli faktör ise seçilen CMMS’nin tesisteki mevcut sistemlere entegrasyonudur. Geçmişteki verileri içerebilen CMMS’nin etkinliği artacaktır.  Son olarak CMMS’den hizmet olarak (SaaS) mı yoksa şirket içi mi (On-Prem) faydalanacağı bir diğer önemli konudur. Bu yazılımı hizmet olarak edinmek, hızlı deneme ve dağıtımın yanı sıra özelliklerinin veri kalitesi ve işlevsellik bozulmaksızın kolayca yükseltilebileceği anlamına gelecektir. Şirket bünyesine katmak ise veri bozulması yaşamadan optimizasyon için BT ve bilgi güvenliği uzmanlarının işbirliğini zorunlu kılacaktır."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "date": "02 EYL",
+    "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.png",
+    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
+    "title": "Altyapı Bakım Nedir ? Neden Önemlidir ? ",
+    "slug": "altyapi-bakimi-nedir-neden-önemlidir",
+    "description": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otob...",
+    "descriptions": [
+      {
+        "text": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otobanlardan havalimanlarına, petrol ve doğalgaz hatlarından üretim tesislerine, depolardan santrallere, hastanelerden okullara, telekomünikasyona ve hatta cezaevlerine birçok yatırım altyapı kavramı içerisinde değerlendirilmektedir. Her yıl dünyada yüzlerce milyar dolarlık altyapı yatırımı bazen kamu bazen özel sektör, bazense her ikisinin ortaklığında hayata geçirilmektedir. Buna karşın başta gelişmekte olan ülkeler olmak üzere dünyanın birçok yerinde altyapı yatırımlarına olan ihtiyaç hala devasa boyutlardadır. Dünya Ekonomik Forumu verilerine göre, mevcut yatırım temposuyla dünya 2040 yılına kadar 15 trilyon dolarlık bir altyapı açığına sahip olacaktır. Diğer yandan; altyapılarını başarıyla inşa eden ya da yenileyen ülkeler ticaret ağlarına hızla entegre olmakta, daha dinamik bir ekonomi ve toplumsal refah ile hızla kalkınmaktadır. Altyapı yatırımlarının arka planında büyük bir sermaye, planlama yeteneği, teknolojik birikim ve işgücünün seferber edilmesi bulunmaktadır. Bu yönüyle her bir altyapı yatırımı oldukça değerli olup, ömürlerinin olabildiğince uzun kılınmasının yolu  etkin “altyapı bakımından” geçmektedir."
+      },
+      {
+        "text": "Kamu altyapısı ve Özel altyapı nedir?",
+        "class": "h3"
+      },
+      {
+        "text": "Geleneksel olarak altyapı yatırımlarının hükümetlerin yani kamunun sorumluluğunda olduğuna inanılmaktadır. Gerçekten de şehirleşmeyle birlikte kamu yönetimleri; ulaşım, enerji, sanitasyon, telekomünikasyon, eğitim, sağlık, spor gibi alanlarda birçok altyapı yatırımını hayata geçirmiştir. Kamu altyapısının finansmanında halktan toplanan vergiler aktiftir. Hizmet yine halka dönecektir. Bu nedenle vergilerin mümkün olan en iyi yatırımda değerlendirilmesi gerekmektedir. Özel sektör ise kâr maksimizasyonu için üretim tesisleri, depolar, perakende ve ofis alanları gibi alanlarda yatırımları üstlenmiştir. Son yıllarda kamu-özel işbirliği (KÖİ) ile altyapı yatırımlarında kamunun garanti mekanizmaları ile özel sektörün dinamizminin birleştirildiği bir model kurgulanmış ve sağlıktan ulaşıma, yenilenebilir enerjiden telekomünikasyona birçok alandaki altyapı yatırımları karşılanmaya başlanmıştır."
+      },
+      {
+        "text": "Altyapı bakımına neden ihtiyaç duyulur?",
+        "class": "h3"
+      },
+      {
+        "text": "Toplumsal kalkınma açısından “sürdürülebilirlik” hiç olmadığı kadar önemlidir. Bu amaç ise altyapıların kesintisiz hizmet vermesini gerekli kılmaktadır. Hangi amaca dönük olursa olsun ve hangi taraflarca yapılırsa yapılsın düzenli bakımı yapılan altyapıların ömrü uzayacak, daha etkin kullanılacak ve çok sayıda insanın hayatına dokunacaktır."
+      },
+      {
+        "text": "Altyapıların bakımı için kolaylaştırıcı çözüm: Bakım yönetim yazılımı (CMMS)",
+        "class": "h3"
+      },
+      {
+        "text": "Altyapılar teknolojik açıdan karmaşıklaştıkça, bakımları zorlaşmakta ve elbette riskler artmaktadır. Dinamik, gerçek zamanlı ve veriye dayalı bakım ise bu riskleri azaltacak ve altyapı bakımını kolaylaştıracaktır. Modern bakım yönetimi yazılımı (CMMS) bu amacın hayata geçirilmesinde güncel araçların içerisinde en etkinidir."
+      },
+      {
+        "text": "CMMS ile yeni bir altyapı bakımı yaklaşımını benimseyin.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Verileri merkezi olarak kontrol edin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": " Dijitalleşen altyapı tesislerinde verileri manuel olarak izlemeye ve yönetmeye çalışmak artık bir hayaldir. Bilgisayar ortamında tutulan basit elektronik tablolar ise bu karmaşık tesisler için fazla basit kalmakta ve veri kaybı risklerini beraberinde getirmektedir. Yetkin bir CMMS yazılımı; tüm kaynakları veri tabanında kayıt altına alacak, verileri entegre edecek ve merkezileşmiş verilerden hareketle bakım ekibini doğru hedefe kanalize edecektir.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Planlı ve pro-aktif bir bakım paradigmasına geçin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Günümüzde bakım maliyetlerini düşürmenin en etkin yolu, riskler henüz hayata geçmeden onları tespit etmek ve çok daha maliyetli olmadan önlemektir. Yetkin bir CMMS, planlı ve pro-aktif bir bakım programı oluşturulmasını sağlayacak ve bakım ekibini doğrudan hedefe yöneltecektir. Program şu bilgileri içerebilecektir:",
+        "style": "display:inline"
+      },
+      {
+        "text": "Tüm bakım direktifleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Özelleştirmeye açık check-list’ler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İlgili tüm araç ve malzemeler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Olası güvenlik riskleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Dijital şema, işletme ve bakım rehberleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İnteraktif tesis haritaları ve kat planları",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "7/24 mobil uygulamaya erişin.",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Yetkin bir CMMS’nin sağladığı barkod taraması ile mobil uygulamaya her an erişim imkanı, sorunlu alana giden bakım ekibinin merkezle iletişimini kesmemesi ve mesafeden kaynaklı maliyetler oluşmaması için kritik bir araçtır. Ekip, mobil uygulama sayesinde sisteme doğrudan veri ve görüntü yükleyebilecek, sorunun merkez tarafından görsel kanıtlarla incelenmesini sağlayabilecektir.",
+        "style": "display:inline"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "date": "29 AĞU",
+    "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.png",
+    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
+    "title": "Durum Bazlı Bakım (CBM) Nedir ?",
+    "slug": "durum-bazli-bakim-nedir",
+    "description": "Bir altyapıda olası arızaların önüne geçmek için kullanılan geleneksel önleyici bakım stratejileri çoğunlukla gereksiz varlık bakımları...",
+    "descriptions": [
+      {
+        "text": "Bir altyapıda olası arızaların önüne geçmek için kullanılan geleneksel önleyici bakım stratejileri çoğunlukla gereksiz varlık bakımlarına neden olmakta, bu da öngörülemez ekipman arızalarını tetiklediği gibi maliyetleri de yükseltmektedir. Durum bazlı bakım (CBM) iki temel amaca sahiptir;"
+      },
+      {
+        "text": "Ekipmanın çıkarması olası arızanın tespiti",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Bu arızanın büyümesi ve sistemin tümden aksamasını engellemek için müdahale",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Durum bazlı bakım",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "sayesinde, altyapı açısından kritik sistemlerin performansı gerçek zamanlı olarak izlenebilmekte ve hareketli bileşenlerde oluşabilecek aşınma ve arızalar tespit edilebilmektedir. CBM sayesinde varlıkların bakımı çok daha etkin şekilde planlanabilir. Burada kritik unsur, “varlığım hangi arızaları çıkarma ihtimaline sahip?” sorusudur. Durum bazlı bakım çoğunlukla kestirimci ya da öngörüye bakımla (PdM) karıştırılmaktadır. Aslında PdM, CBM’nin yükseltilmiş bir sürümü gibidir. Sensörlerden gelen verileri tahmine dayalı analiz ve algoritmaları kullanarak izler.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Durum Bazlı Bakım Nasıl Çalışır?",
+        "class": "h3"
+      },
+      {
+        "text": "Altyapıda CBM uygulamaları için tüm varlıkların izlenebilmesini sağlayacak sensör ve ekipmanlara ihtiyaç vardır. Sensörler sayesinde varlıkların sağlıkları hakkında gerçek zamanlı bilgilere ulaşmak mümkün olacaktır. Bu aynı zamanda bir varlığa ne zaman bakım hizmeti verilmesi gerektiği konusunda da daha güçlü ve veriye dayalı bilgilere ulaşılmasını sağlayacaktır. Örneğin; işleyiş açısından kritik bir kompresör, fan, HVAC sistemi vb. üzerine bir titreşim sensörü yerleştirmiş olalım. Aşırı sıcak, soğuk, hızlı, yavaş gibi durumlara ilişkin titreşimler arttıkça bakım ekibine bilgi ulaşır ve müdahale için gerekli durum “oluşmuş” olur."
+      },
+      {
+        "text": "Durum Bazlı Bakımın Avantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Durum bazlı bakımın avantajları şöyle sıralanmaktadır;"
+      },
+      {
+        "text": "Verimliliği artırır ve kullanım ömrünü uzatır.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Plansız aksamaları minimize eder.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Gereksiz bakımları azaltır.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Gereksiz yedek ve stok parça maliyetlerine son verir.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Uzaktan izlemeye imkan tanır.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Durum Bazlı Bakımın Dezavantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Peki bu bakım stratejisinin dezavantajları nedir? Dilerseniz, onu da gözden geçirelim."
+      },
+      {
+        "text": "Uygulamanın etkinliği için ekiplere eğitim verilmesi gereklidir.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Sensör altyapısı gerektirir.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İlk yatırım maliyeti doğurur.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Uzaktan izlemeye imkan tanır.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Birden fazla kaynaktan veri erişimi olduğu için entegrasyon sorunları yaşanabilir.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Durum Bazlı Bakım Stratejisinin Adımları",
+        "class": "h3"
+      },
+      {
+        "text": "Bir altyapıda etkin durum bazlı bakım stratejisinin hayata geçirilmesi için çeşitli aşamalar söz konusudur. Bunlara birlikte göz atalım.."
+      },
+      {
+        "text": "Kritik Varlıklara Odaklanın",
+        "style": "fw-bolder"
+      },
+      {
+        "text": "Arıza çıkartması en olası varlıklara odaklanılmalıdır. Sensör sistemlerine yönelik ilk yatırım maliyeti de düşünüldüğünde, operasyonların aksamasının en yüksek maliyetlere neden olacağı doğru varlıklar seçilmelidir."
+      },
+      {
+        "text": "Doğru Teknolojiyi Tercih Edin",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Varlıkların sağlıklarına doğru izleyebilmek için en ufak titreşimin dahi göz ardı edilmemesi gerekir. Bu nedenle ilk sensör yatırımında doğru teknoloji tercih edilmelidir."
+      },
+      {
+        "text": "Verinin Gücünden Faydalanın",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Sensörlerden gelen titreşimlerin her biri, doğru bir bakım stratejisi kurgulamak için verilere dönüşür. Bu veriler hem gerçek zamanlı izlemeye imkan tanır hem de gelecekte doğabilecek sorunlar hakkında güçlü öngörüler oluşturulabilmesini sağlar."
+      },
+      {
+        "text": "Dijital Bir Çözüme Başvurun",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Sensörlerden gelen tüm verilerin tek bir platformda toplanması ve olası entegrasyon sorunlarının önüne geçilmesi için dijital bir çözüme başvurulmalıdır. Yetkin bir CMMS uygulaması, altyapısı için en uygun stratejinin durum bazlı bakım olduğunu düşünen karar vericiler için de oldukça önemli bir yardımcıdır. CMMS sayesinde bu veriler, anlamlı raporlar ve gösterge tablolarına dönüştürülebilecektir."
+      },
+      {
+        "text": "Temel Performans Göstergelerini Devreye Alın",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Temel performans göstergeleri yani KPI’lar bir operasyonun başarısı için kritik faktörleri değerlendirmeye yarayan metriklerdir. Durum bazlı bakım stratejisinde KPI’lar kritik öneme sahiptir.  Bakım uzmanlarının gereken KPI’ları oluşturmasında CMMS yazılımı çok önemli bir yardımcıdır. KPI’lar doğrultusunda verileri karşılaştırmak ve takip etmek; operasyonların iş hedeflerinin neresinde olduğunu belirlemeye de anahtar niteliğinde katkı sunacaktır."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "date": "22 AĞU",
+    "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.png",
+    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
+    "title": "Periyodik Bakım Nedir ?",
+    "slug": "periyodik-bakim-nedir",
+    "description": "Altyapıların en çok başını ağrıtan konuların başında varlıklardaki beklenmedik arızalar gelmektedir. Belirli bir garanti ve sigorta kap..",
+    "descriptions": [
+      {
+        "text": "Altyapıların en çok başını ağrıtan konuların başında varlıklardaki beklenmedik arızalar gelmektedir. Belirli bir garanti ve sigorta kapsamında olsalar bile, ekipman arızaları onarım maliyetlerini aşan “paha biçilemez” kayıplar doğurur. Tesisin bir bölümünün ya da tamamının devre dışı kalması, temrinlerin yetişmemesi ve elbette daha kötü bir senaryo olarak müşteri ve pazar kayıpları bu sonuçlardan bazılarıdır.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Periyodik bakım",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "bir altyapı tesisinde bir arıza yaşanmadan önce, belirli aralıklarla varlıkların bakımının gerçekleştirilmesine dayanan bir bakım stratejisidir. Bu yönüyle periyodik bakımlar; yangın, gaz sızıntısı, su baskını gibi olaylara yönelik geliştirilen acil bakımları ajandadan kaldırmaya yönelik bir önlemdir.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Periyodik bakım türleri",
+        "class": "h3"
+      },
+      {
+        "text": "Periyodik bakım türleri, üç başlık altında ele alınmaktadır. Her bir şirket, birbirine benzemeyen ihtiyaçları doğrultusunda kendisi için en uygun yöntemi seçebilir."
+      },
+      {
+        "text": "Takvim odaklı bakım: ",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": " Yaygın olarak kullanılan periyodik bakım türü olup; çeyrek, ay, yıl gibi periyodlarda devreye sokulur.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Kullanım odaklı bakım: ",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Varlıkların belirli bir çalışma sınırı (saat, mesafe, çevrim vb.) olduğundan hareketle geliştirilmiş bakım türüdür.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Tahmin odakklı bakım: ",
+        "style": "display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Arızaların ortaya çıktığı ortalama süre (MTBF) başta olmak üzere geçmiş verilerden hareketle arızaları öngören periyodik bakım türüdür.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Periyodik bakım örnekleri",
+        "class": "h3"
+      },
+      {
+        "text": "Her sektör ve tesis için değişmekle birlikte, bazı periyodik bakım örnekleri birçok altyapı için aynıdır. Filtrelerin, yağlayıcıların, kayışların değişimi ve ısıtma-soğutma sistemlerinin temizlenmesi ilk akla gelen örneklerdir."
+      },
+      {
+        "text": "Periyodik bakımın avantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Altyapı tesislerinde periyodik bakım birçok avantaj sunar. Bunlara kısaca göz atalım:"
+      },
+      {
+        "text": "İş göremezlik süresini azaltır",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Varlıkların devre dışı kalma ve iş göremezlik süresini %70’e varan oranlarda azaltarak, varlıkların dinamik kalmasını sağlar, üretkenliği artırır."
+      },
+      {
+        "text": "Genel maliyetleri düşürür",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Makine, araç ve sistemlerde olası ve maliyetleri çok yıkıcı olabilecek bir “büyük arıza” yaşanmadan, veriye dayalı ve önleyici dokunuşlarla maliyetleri düşürür. Maliyetleri düşürdüğü ikinci boyut ise bakım ekiplerinin doğru yönlendirilmesinden kaynaklı avantajlardır."
+      },
+      {
+        "text": "Kullanım ömrünü uzatır",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Özelde periyodik bakımı yapılan varlıkların, genelde ise altyapının kontrol altında bulundurulması ve gerçek-zamanlı müdahalelerle geliştirilmesi bütün sistemin kullanım ömrünü uzatacaktır. Bu da, ister kamu ister özel olsun nihai faydalanıcılar açısından pozitif sonuçlar doğuracaktır."
+      },
+      {
+        "text": "Bakım ekiplerini olumsuz senaryolara hazırlar",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Her şeye rağmen, altyapılarda “acil durumlar” gelişebilir. Ancak periyodik bakım konusunda deneyimli ekipler, artık sorunu en kısa sürede gidermek için doğru bilgilere ve deneyime sahiptir."
+      },
+      {
+        "text": "Periyodik bakımın dezavantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Periyodik bakımın kullanımı sınırlı ve “hedef odaklı” olmalıdır. Şayet böyle yaklaşılmazsa;"
+      },
+      {
+        "text": "Beklenmedik arızalar ortaya çıkabilir.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Periyodik bakımı araçsallaştırmak, varlıkların bozulma riskini artırarak daha fazla bakım yapmaya neden olabilir."
+      },
+      {
+        "text": "Kaynakların boşa harcanmasına neden olur.",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Sıklıkla tekrarlanan bakımlar, başta bakım ekipleri olmak üzere enerji, zaman ve mali kaynakların boşa harcanmasına neden olur. Periyodik bakımların bir CMMS yazılımı ile yönetilmesi tüm bu dezavantajları ortadan kaldıracaktır."
+      },
+      {
+        "text": "Periyodik bakımda CMMS kullanımı",
+        "class": "h3"
+      },
+      {
+        "text": "Periyodik bakımın altyapı tesislerinde, yetkin bir CMMS uygulaması ile hayata geçirilen periyodik bakım stratejileri şu evrelerden oluşur:"
+      },
+      {
+        "text": "Periyodik bakım için emir seti organize edilir yetkin bir CMMS uygulaması ile desteklenmesi birçok avantaj sunar",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İş belirli bir takvim hedef alınarak sisteme girilir ve öncelik kazandırılır",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Bakım ekibi, sistem üzerinden “görevine dair” bildirim alır ve yerine getirir",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "İş emri yerine getirilir, raporlanır ve veri tabanına kaydedilir",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Tamamlanan her görev analiz edilir ve sistem optimizasyonunda kullanılır",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Maliyet dostu çözüm: CMMS",
+        "class": "h3"
+      },
+      {
+        "text": "Periyodik bakım için CMMS yazılımından faydalanmak şirketler için maliyet açısından ürkütücü olsa da, aslında bu gerçeği yansıtan bir argüman değildir. CMMS, doğru izleme ve kontrol iş verenin yanı sıra, erken uyarı sistemi olarak da kısa sürede yüksek yatırım getirisini garanti altına alır. Bir diğer deyişle, yatırımınız hızla size geri döner. Kısacası altyapınızı ayakta tutan varlıklarınızdan herhangi birinin ya da birden fazlasının birkaç saatliğine bile olsa durması planlarınızın aksaması anlamına gelecektir. Bu şirketler açısından alınması oldukça güç olup, yetkin bir CMMS yazılımı ile bu riskler minimize edilebilecektir. Bu yazımızda Periyodik Bakım Nedir? sorusuna cevap verdik. Daha farklı yazıları incelemek için blog sayfamızı ziyaret edin."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "date": "18 AĞU",
+    "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.png",
+    "subTitle": "BLOG",
+    "title": "Üretimde IoT ve Yeni Trendler",
+    "slug": "üretimde-yeni-trendler",
+    "description": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bi...",
+    "descriptions": [
+      {
+        "text": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bir tesis içerisinde tüm varlıkların sensörler ve internet bağlantısı aracılığıyla birbiriyle bağlanması olup, “akıllı ve konuşan üretim tesisleri” paradigmasına geçişin anahtarıdır. Küresel imalat sanayinde 200 milyar dolar civarında olan IoT uygulamaları pazarının 2030 yılına gelindiğinde 1.5 trilyon dolara yükselmesi öngörülüyor. Bu, birçok sektörle karşılaştırıldığında devasa bir büyümeye işaret ediyor. Üstelik bu dönüşüm sadece imalat sanayiyle sınırlı kalmarak, bütünsel bir verimlilik stratejisini hayata geçiren çarpan etkisiyle küresel ekonomiye katma değer olarak dönecek gibi gözüküyor."
+      },
+      {
+        "text": "Üretimde Iot’nin Sağladığı Avantajlar",
+        "class": "h3"
+      },
+      {
+        "text": "Üretimde IoT kullanımının sağladığı birçok avantaj söz konusu. Kısaca sıralamak gerekirse;"
+      },
+      {
+        "text": "İyileştirilmiş ve güvenlikli tesisler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Etkin kalite kontrol mekanizmaları ile güvenilir ürünler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Üretim akışını anlık izleme",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Enerji tasarrufu ve azalan atıklar",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Akıllı paketleme",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Etkin tedarik zinciri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Pazarın taleplerine esnek cevaplar",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Verimlilik ve düşen maliyetler",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Yeni müşteri segmentleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Envanter yönetimi",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Dijital ikizler oluşturma yeteneği",
+
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Etkin altyapı bakımı",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "IoT’nin sahip olduğu potansiyeli kavrayan ve verinin gücünden faydalanan üreticiler sadece üretimlerini daha verimli ve maliyet dostu haline getirmekle kalmamakta; dikey iş modelleri ve yeni gelir akışlarına da ulaşabilmekte. Tesislerin artık distribütörler ya da bayilere teslimle biten iş modelleri yerine son kullanıcı ile ömür boyu ilişki kurmasına yönelik stratejiler için IoT gerçek bir dosttur."
+      },
+      {
+        "text": "Üretimde IoT Trendleri Nelerdir?",
+        "class": "h3"
+      },
+      {
+        "text": "Peki üretimde IoT süreçlerini şekillendiren trendler neler olacak?"
+      },
+      {
+        "text": "5G Teknolojisi",
+        "class": "h3"
+      },
+      {
+        "text": "Teknolojik devrimin en çok konuşulan başlıklarından birini 5G teknolojisi oluşturuyor. 2025 yılına kadar yapılacak operatör yatırımlarının yüzde 85’inin 5G yatırımı olması öngörülürken, 2035 yılına kadar bu teknolojinin 3,8 trilyon dolar katma değer üreteceği tahmin ediliyor. 5G sayesinde sağlanacak veri dinamizminin ve esnekliğinin üretim tesislerine yansıması, varlıklar arası veri geçişinin çok daha hızlı ve güvenli hale gelmesi bekleniyor."
+      },
+
+      {
+        "text": "Uzaktan İzleme",
+        "class": "h3"
+      },
+      {
+        "text": "Pandeminin dünyaya kazandırdığı esnekliklerin başında, üretimin uzaktan da olsa sürdürülebilmesi geliyor. Tesislere istenilen zamanda ve şekilde bağlanabilmek büyük önem arz ediyor. Bakım ekiplerinin sensörler aracılığıyla arızaları uzaktan kestirebilmesi ve müdahale için çok daha az zaman ve enerji harcaması, üretim sahasındaki maliyetlerin etkin yönetimi anlamına geliyor."
+      },
+      {
+        "text": "Kestirimci Bakım",
+        "class": "h3"
+      },
+      {
+        "text": "Üreticiler, büyük bir rekabetle karşı karşıyadır. Teslim süreleri bu rekabette önemli bir başlığa dönmüş olup, makine hatlarındaki plansız duruşlar rekabetçiliği zayıflatan bir unsur haline geliyor. IoT esaslı kestirimci yani tahmine dayalı bakım stratejileri bu sorunların çözümünde kritik öneme sahiptir. Süreç şöyle işlemekte; bağlı varlıklardan gelen veriler, yapay zeka tabanlı bir yazılıma aktarılıyor. Bu sayede varlık ağında oluşabilecek herhangi bir arıza, henüz ortaya çıkmadan veri-temelli olarak tahmin edilebiliyor. Bu da verimliliğin yükselmesi, maliyetlerin ise düşmesi anlamına geliyor. Araştırmalara göre kestirimci bakım ile dünya çapındaki üretim tesislerinde elde edilebilecek tasarruf 250-700 milyar dolara ulaşma potansiyeline sahiptir. Firmalar son yıllarda kestirimci bakım stratejisinin sağladığı faydalarla ilgili önemli bir farkındalık düzeyine ulaşmış durumdadır. Nitekim, Precedence Research analizine göre küresel endüstriyel Iot pazarında kestirimci bakım segmentinin toplam cironun yüzde 27’sini oluşturması, bunu kanıtlar niteliktedir."
+      },
+      {
+        "text": "Kestirimci Bakımda yapay zeka kullanımı",
+        "class": "h3"
+      },
+      {
+        "text": "Kestirimci bakım yaklaşımının bu başarısının arkasında kuşkusu yapay zekadan yararlanması geliyor. Makine öğrenmesi ile veriler çok daha etkin ve hassas şekilde analiz edilebildiği gibi, üreticiler birçok fırsata ulaşma imkanı elde ediyor. Özetle; verimlilik ve rekabetçiliğe ulaşmak isteyen üreticilerin gelecekte, tesislerinde Iot esaslı kestirimci bakım uygulamalarına daha fazla yer vereceği açıktır."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "date": "15 HAZ",
+    "baseImage": "assets/uploads/blogPhotos/Toplam-Verimli-Bakim-1917x2048.webp",
+    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
+    "title": "Toplam Verimli Bakım",
+    "slug": "toplam-verimli-bakim",
+    "description": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklen...",
+    "descriptions": [
+      {
+        "text": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklentisi sürekli artmakta olduğundan bu durum işletmelerin üretim sistemlerinin giderek karmaşık ve komplike bir hal almasını sağlamaktadır. Üretim sistemlerinin giderek karmaşıklaşması, belirli bir verimlilik standardının korunmasını zorlaştırmakta ve üretim süreçlerinde hatalara sebebiyet vermektedir."
+      },
+      {
+        "text": "Bir üretim hattında, planlanan üretimin yapılması beklenirken ortaya arıza gibi çeşitli sorunlar çıkabilmekte ve bu sorunlar yarattıkları kesintiler ile üretim planlarını altüst edebilmektedir. Bu durum bir işletme için kabus niteliği taşır ve de bu yüzden, işletmelerdeki bakım faaliyetleri kritik öneme sahiptir. Bakım faaliyetlerinin belirli amaçlara yönelik olarak bilinçli ve planlı bir şekilde yürütülmesi ve yönetilmesi gerekmektedir. Bakım, işletmedeki ekipman ve sistemlerin fonksiyonlarını en yüksek performansta sürdürmeleri için gerçekleştirilen faaliyetler bütünüdür. İşletmelerin ana sorumluluklarını yerine getirebilmeleri için ekipman ve sistemlerinin sürekliliğini kılmaları, seri üretimlerini aksatmamaları ve ürün kalitesini yüksek tutmaları gerekmektedir. İşletme sistemlerinin sürekliliğini sağlamak için arıza oluşmadan önce önlem almak ve arıza oluşum sıklığını azaltma arayışları bakım konusunda yeni yaklaşımlar getirmiş ve Toplam Verimli Bakım (TVB) kavramı ortaya çıkmıştır."
+      },
+      {
+        "text": "Toplam verimli bakım içerisinde ekipman takibi, arıza takibi, parça ömrü ve yedek parça analizleri ile sistemlerin arıza noktalarını önceden tespit ederek, bakım planlarına uygun olarak gerekli işlemlerin belirlenerek uygulanması yer almaktadır. Amaç bakım faaliyetlerine ağırlık vererek oluşabilecek arızaların önüne geçmek ve arıza sebepli iş akışlarının durmalarını minimize etmektir."
+      },
+      {
+        "text": "Toplam Verimli Bakım, makine ve ekipmanlardaki arızaların sorun yaratacak hale gelmeden önce, tespiti, analiz ve düzeltilmesi amacıyla seçilen parametreleri, ölçülmesi ve önceden belirlenen sınır değerlerle grafik trendler kullanarak mukayese edilmesidir. Kullanılan yaklaşım, makine ve ekipmanları güncel ve geçmişteki durumlarının izlenmesiyle gelecekteki durumlarının kestirilmesidir."
+      },
+      {
+        "text": "Yapılan araştırmalar TVB uygulayan şirket seviyesinde ortalama bakım giderlerinin %50’lere varan oranlarda azaltılabileceğini göstermektedir."
+      },
+      {
+        "text": "Şu bir gerçektir ki, bugünün rekabet koşulları eskiye nazaran çok değişmiştir. İşletmelerin karlılıklarını koruyabilmesi hatta arttırabilmesi, çok iyi bir stratejik planlama ve iş süreçleri analizini beraberinde getirmektedir. İşte bu koşullar altında, üretimi ve hizmeti aksatmadan bakım maliyetlerini düşürmek bir işletme için kaçırılmayacak bir fırsattır. Toplam Verimli Bakımı önemli yapan esas husus da budur."
+      },
+      {
+        "text": "Toplam Verimli Bakımın Özellikleri",
+        "class": "h3"
+      },
+      {
+        "text": "TVB’nin sekiz sütunu çoğunlukla ekipman güvenilirliğini artırmak için tedbirli ve önleyici tekniklere odaklanır.",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Otonom bakım",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Kayıpların nedenlerini belirlemeye yardımcı olmak için tüm duyularını kullanan operatörler.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Odaklanmış İyileştirme:",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Fabrikadaki kayıpları ortadan kaldırmak için problem çözmeye bilimsel yaklaşım. ",
+        "style": "display:inline"
+      },
+      {
+        "text": "Planlı Bakım:",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": " Eğitimli mekanik ve mühendisler tarafından gerçekleştirilen profesyonel bakım faaliyetleri.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Kalite Yönetimi",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Kusurları belirlemek ve nedenlerini ortadan kaldırmak için bilimsel ve istatistiksel yaklaşım.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Erken Ekipman Yönetimi:",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Kayıpları ortadan kaldıran ve hatasız üretimi verimli hale getirmeyi kolaylaştıran ekipman ve tasarım konseptlerinin bilimsel tanıtımı.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Eğitim ve Öğretim",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Tüm çalışanların ve yönetimin bilgilerinin sürekli iyileştirilmesine destek",
+        "style": "display:inline"
+      },
+      {
+        "text": "İdari Ofis TVB: ",
+        "style": "font-style:italic; display:inline",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Üretim planlaması, malzeme yönetimi ve bilgi akışı dahil olmak üzere bir üretim tesisinin tüm destek yönlerini iyileştirmek için TVB araçlarını kullanmanın yanı sıra bireylerin moralini yükseltmek ve hak eden çalışanlara morallerini yükselttikleri için ödüller vermek.",
+        "style": "display:inline"
+      },
+      {
+        "text": "Güvenli Çevre Koşulları",
+        "class": "h3"
+      },
+      {
+        "text": "VİDA Bakım Yönetim Uygulaması, bu 8 unsuru doğrudan ve dolaylı yollarla destekleyerek işletme verimliliğinin artmasına yardımcı olur."
+      },
+      {
+        "text": "Oluşturulan arıza iş emirleri ile operatörlerin kendi alanları içerisinde sorumluluk almalarına ve dikkatli davranmalarına olanak sağlar."
+      },
+      {
+        "text": "Oluşan arızalar için dijital arşiv kaydı ve veri analizi sağlayarak tedbir alınmasını sağlar. Böylece geçmişteki problemlerin gelecekte yaşanmasını engeller."
+      },
+
+      {
+        "text": "Bakım ekibinin aylık, yıllık ve özel periyotlarla planlı bakımları çok kısa bir zaman içerisinde tanımlamasına yardımcı olur. Bu sayede ekip uzun süre masa başında geçirilen saatleri işletmenin kontrolü ve tertibi için harcayabilir."
+      },
+      {
+        "text": "Planlı bakımlar ve anlık arıza bildirimi ile üretimdeki duruşların ve verim kaybının önüne geçerek daha kaliteli üretim yapılmasına destek sağlar."
+      },
+      {
+        "text": "İşletme içindeki personelde bakım bilinci oluşturarak, süreçlerin iyileştirilmesine yardımcı olur."
+      },
+      {
+        "text": "Siz de Vida Bakım Yönetimi Uygulaması ile bakım süreçlerinizi optimize ederek hem üretim hem de işletme içi verimliliğinizi arttırarak ve gelişen iş süreçlerine ayak uydurarak rakiplerinizin önüne geçebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "date": "11 HAZ",
+    "baseImage": "assets/uploads/blogPhotos/Hata-Turleri-Ve-Etkileri-Analizi-4-1917x2048.webp",
+    "subTitle": "ARIZA YÖNETİMİ",
+    "title": "Hata Türleri ve Etkileri Analizi",
+    "slug": "hata-türleri-ve-etkileri-analizi",
+    "description": "Bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prose...",
+    "descriptions": [
+      {
+        "text": "Hata türleri ve etkileri analizi; bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prosedürüdür. Başarılı bir hata türü analizi işi, benzer ürünlerin veya proseslerin geçmiş deneyimlerine dayanarak hata türlerinin tanımlanmasına yardımcı olur. Bu hataların sistemden minimum kaynak kullanımı ve çabayla atılmasını sağlar ve bununla beraber geliştirme zamanını ve maliyetini düşürür. Genellikle üretim sektöründe ürünlerin çeşitli aşamalarında kullanılmakla beraber hizmet sektöründe de kullanım alanı artmıştır."
+      },
+      {
+        "text": "FMEA’nin temel fikri hatayı sonradan bulmak ve düzeltmek (hata yönetimi) yerine hataları erkenden tanıyarak tedbirli bir şekilde önlemek ve tasarım aşamasından itibaren hataların olası nedenlerinin değerlendirilmesidir. Böylece aksi halde üretim aşamasında çıkan kontrol ve hata maliyetlerden ve hatta müşteri maliyetlerinden (müşteri) kaçınılabilir ve toplam maliyetleri azaltılabilir. Sistematik bir yaklaşımla ve bu yaklaşımdan gelen bilgilerle ayrıca tasarım hatalarının yeni ürün ve süreçlerde tekrarlanması önlenir."
+      },
+      {
+        "text": "Bir sürecin, üretime hazır hale gelmesinin ardından veya üretime geçmiş bir proseste, önemli olan sürecin veya ürünün güvenilirliğini sağlamaktır. Güvenilirlik ürünlerin veya proseslerin önemli bir özelliğidir. Aynı zamanda müşteri tatminini sağlamakta etkisi çok fazla olan bir faktördür. Müşteriler kullandıkları ürünün hizmet süresinin uzun ve aynı zamanda sorunsuz bir proses olmasını istemektedirler. Bu nedenle ürünün veya sürecin güvenilirliğini sağlamak için atılacak adım; ortaya çıkabilecek olan hataların türlerini ve bunların ürün ya da sürece etkilerini belirleyebilecek bir risk analizinin yapılması ve kurulacak veya kurulmuş olan bir sürecin güvenilirliğinin kontrol altına alınmasıdır."
+      },
+      {
+        "text": "VİDA Bakım Yönetimi Uygulaması, arıza iş emirleri ile birlikte oluşan her bir arızanın arıza türü, arıza süresi ve işlem süresini detaylı bir şekilde kayıt altına alarak, arızalar içerisinde bir veri madeni oluşturur. Dinamik dashboardlar sayesinde hangi makinenin hangi sıklıkta ve hangi tür arızadan dolayı sorun çıkardığını göstererek olası arızalar için bir öngörü sağlar."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "date": "06 HAZ",
+    "baseImage": "assets/uploads/blogPhotos/Guvenirlik-Merkezli-Bakim-Yaklasimi-1917x2048.webp",
+    "subTitle": "BLOG",
+    "title": "Güvenilirlik Merkezli Bakım Yaklaşımı",
+    "slug": "güvenilirlik-merkezli-bakim-yaklasimi",
+    "description": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli...",
+    "descriptions": [
+      {
+        "text": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli Bakım” (RCM: Reliability Centered Maintenance) stratejisinin temelleri atılmıştır. Başlangıçta salt havacılık endüstrisinde kullanılan RCM, zamanla güvenliğin ön planda olduğu nükleer santraller, petrokimya tesisleri, boru hatları gibi endüstriyel alanlarda da kullanılmaya başlanmıştır. Günümüzde RCM’nin kullanım alanı hızla genişlemektedir. RCM, makina durumuna bağlı bakım (Kestirimci Bakım), çalışma zamanına bağlı periyodik bakım ve arıza sonrasında uygulanan bakım stratejilerinin en uygun birleşimini araştırır ve uygular."
+      },
+      {
+        "text": "RCM’nin tanımını, bakım kavramı tanımıyla birlikte ele almak gerekir. Bakım, fiziksel varlıkların yapmaları gereken işleri sürdürmeyi sağlamak ve güvence altına almak üzere yapılan çalışmalar bütünüdür. Bu tanım doğrultusunda RCM, herhangi bir fiziksel varlığın kendi çalışma sistemi içerisinde bakım gereksinimlerinin belirlenmesini sağlayan süreçtir. RCM, ekipmanın işlevselliği, arıza modları ve etkileri analizi ve arıza sonuçlarının değerlendirilmesi ile gerekli bakım işlemlerinin ve bu işlemlerin yapılması gereken zaman aralıklarının belirlendiği yöntem bilimdir."
+      },
+      {
+        "text": "Özellikle son on yılda Güvenilirlik Merkezli Bakım hakkında yapılan çalışma sayısının artmış olduğu görülmektedir. İmalat sektörü başta olmak üzere, farklı alanlarda da değişik ölçekte uygulamaları olan RCM anlayışı ile işletme içerisinde ekipman yaşam döngüsünü arttırmak mümkündür. VİDA Bakım Yönetimi Uygulaması da RCM yöntemi ışığında “Kestirimci Bakım” ve “Periyodik Bakım” modları ile makine ve ekipman bakımlarını takip ederek işletmelere hizmet sağlamaktadır."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "date": "22 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Teknolojinin-Bakim-Yonetime-Etkisi-1-959x1024.webp",
+    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
+    "title": "Teknolojinin Bakım Yönetim Etkisi",
+    "slug": "teknolojinin-bakim-yönetim-etkisi",
+    "description": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılma...",
+    "descriptions": [
+      {
+        "text": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılması gerekir. Firmanın diğer ihtiyaçları ve işleri ile uğraşırken bu bakım ve takibe vakit bulunmaması olası bir durumdur. Planlı bakım, geçmişe dönük yapılan bakım süreçlerinin takibinin yapılması konusunda size yardımcı olur. Böylelikle makinelerin her bakıma ihtiyaç duyduğu anda önceki geçtiği bakımın zaman kontrolünü yapabilir, gelecek tarihte bu bakımın hangi aralığa denk geldiğini öğrenebilirsiniz. Pozitif bakım, makinelerde oluşacak olası arızaların yaratacağı riskleri de minimum düzeye indirmenizi sağlar. Günümüzde teknoloji kullanımının olmadığı alana rastlamak oldukça düşük bir ihtimaldir. Teknoloji, insan gücü ile bir araya geldiğinde ulaşılmak istenen pek çok sonuca hızlı bir şekilde erişmenize yardımcı olur. Bakım yönetimi yazılımı, firma içerisinde yer alan bir ya da birden fazla makinenizin bakım takvimini oluşturarak bu takibi sizin için otomatik olarak hazırlar. Bu yazılım sayesinde makine bakımı takibi için ayıracağınız vakitten tasarruf edebilirsiniz"
+      },
+      {
+        "text": "Bakım Yönetimi İle Zamandan Tasarruf ",
+        "class": "h3"
+      },
+      {
+        "text": "Üretim yapan firmalar içerisinde yer alan makineler düzenli aralıklarda parça değişimi, temel ya da lokal bakıma ihtiyaç duyar. Büyük oranda iş gücünü makinelerin üstlendiği firmalar için kurtarıcı görevi üstlenen bakım otomasyonu, makinelerin yanı sıra çalışanlara da birçok avantaj sunar. Otomatik bakım takvimi oluşturan yazılımlar sayesinde makinelerinizin bakım takibini yapmak üzere fazladan elemana ihtiyaç duymaksızın iş gücünden tasarruf sağlayabilirsiniz. Ayrıca zaman ve maliyetten kazanç da elde edebilirsiniz. Maliyetten kazanç elde etmenizin ana nedeni, düzenli olarak bakımı yapılan makinelerde arıza riskinin oldukça düşük bir orana indirgenmesidir. Beklenmeyen arızalar, makineler tarafından yapılan üretimin gerçekleştirilmemesine sebep olur. Üretim gerçekleşmediği takdirde firmanız kısa bir vadede de olsa büyük oranlarda tahribatlar ile karşı karşıya gelebilir. Tamir süreci, firmanızın üretim ve uygulama prosedüründe zaman kaybetmenize de yol açabilir. Teknolojiyi verimli ve doğru bir şekilde kullanan her firmanın sürekliliğe ulaşan bir başarı bir sürece imza atması oldukça yüksek bir ihtimaldir. Üretim, lojistik ve iletişim alanında doğru teknolojilere yer verdiğiniz takdirde zaman ve bütçe gibi birçok açıdan tasarruf edebilirsiniz. "
+      },
+      {
+        "text": "Anlık Müdahale, Pratik Arıza Tespiti",
+        "class": "h3"
+      },
+      {
+        "text": "Üretim ve ürün işleme konusunda günün büyük bir zaman diliminde performans gösteren makinelerde bireysel anlık takip yapma zaman ve iş gücü açısından firma bünyesindeki kişileri zarara uğratabilir. Mobil takip, Android ya da IOS işletim sistemini destekleyen akıllı telefon, tablet ya da bilgisayarlar üzerinde firmanız bünyesindeki tüm makinelerin işleyiş ve bakım takibini yapmanıza yardımcı olur. Makineler için düzenli bir bakım takvimi oluşturarak üretimin durması ya da üretim aksamasına karşı önleminizi alabilirsiniz. Makinelerin yanı sıra makine parkurları da üretim ve tedarik zincirinde önemli bir rol üstlenir. Makine parkuru takibi, firma bünyesinde yer alan makine parkurlarının rota, işleyiş ve daha birçok süreçte takibini sürekli olarak izlemenize yardımcı olur. Böylelikle firma içerisinde lojistik alanında da pratik bir kullanım elde edebilir, iş gücünden büyük oranda tasarruf sağlayabilirsiniz. Siz de Vida ile üretim ve lojistik sürecine katkıda bulunacak birçok fonksiyonel yazılıma firmanızda yer verebilirsiniz. Alanında profesyonel ekipler tarafından gerçekleştirilen onarım uygulaması ile makinelerinizi her an güvence altına alabilirsiniz. Olası makine arızalarında anlık müdahale özelliği ile pratik bir şekilde arızalara giderebilir, makinelerin üstlendiği üretim prosedürünü her açıdan detaylı bir şekilde anlık olarak takip edebilirsiniz. "
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "date": "21 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Planli-Bakimlarda-Uretim-Verimi-Arttirma-1917x2048.webp",
+    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
+    "title": "Planlı Bakımlarla Üretimde Verimi Arttırmak",
+    "slug": "planli-bakimlarla-üretimde-verimi-arttirmak",
+    "description": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaş...",
+    "descriptions": [
+      {
+        "text": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaştıran ölçümler ürün kalitesini yükseltirken üç önemli sonuç almanızı sağlar. Bunlardan birincisi verimli üretim sistemlerinin kaynak kullanımını azaltmasıdır. Bu sayede az kaynakla aynı sayıda mal üretir. İkinci olarak verimliliğin artması daha yüksek finansal marj elde etmek anlamına gelir. Üçüncü ve son sonuç ise ürün ve hizmetlerin müşterilere düzenli teslim edilmesine olanak tanır. Üretim verimliliğini artırmak amacıyla bakım yönetim sistemleri kullanılabilir. Çünkü ekipmanların bakımı verimlilik için şarttır. Makine ve cihazlar düzenli olarak kontrol edilirse üretimi kesintiye uğratabilecek büyük arızalar önlenir. Periyodik bakım sürecini sizin için düzenleyen bakım yönetim yazılımları, ekipmanların bakım için planlı şekilde durdurulmasını ve olabilecek en kısa sürede tekrar çalışmasını sağlar. Bakım etkili olursa memnuniyet sağlanır, çünkü üretim daha kaliteli olur. Aynı zamanda makinelerin kullanım ömrü uzar ve yeni ekipman alma ihtiyacı doğmaz. Doğal olarak tasarruf edilmiş olur. Bunları gerçekleştirebilmek için periyodik bakımlar aksatılmadan vaktinde yapılmalıdır. "
+      },
+      {
+        "text": "Sürekli Üretim İçin Periyodik Bakım",
+        "class": "h3"
+      },
+      {
+        "text": "Bazı makine ve cihazların çalışma esnasında da bakımı yapılabilir. Bunu dikkate alarak ekipmanları durdurmadan bakımlara devam edilebilir. Bu sayede üretkenlikten ödün vermeden bakımlara devam edilebilir ve ekipmanlardan daha çok verim alınabilir. Verimi artırmak birçok işletme sahibi için oldukça önemlidir. Çünkü verimin artması ile uzun vadede daha yüksek kar elde edersiniz. Bunların yanı sıra çoğu endüstride bakım maliyetleri toplam maliyetin %10’u ila 25’i kadardır. Performansı riske atmadan üretim devamlılığı sağlamak için bakımların zamanında yapılması gerekir. Uzun süreler boyunca hiçbir bakım yapılmadan çalışmaya devam eden makine ve cihazlar bir yerden sonra eski performansını gösteremez. Üretilen ürünler aynı kalitede olmayabilir ve dolayısıyla her açıdan zarar edilebilir. Fire ve hurda oranlarının azaltılması da planlı bakımlarla mümkündür. Her zaman aynı kalitede ürünler elde etmek için ekipmanların bakımı periyodik olarak yapılmalı, sorunlar büyümeden çözülmelidir. Fabrikanızda kullandığınız ekipmanların bakımını zahmetsizce kontrol edebileceğiniz ya da ayarlayabileceğiniz bakım yönetim yazılımları sizin yerinize işlerinizi halleder. Üretimin beklenmedik anda durmasını engelleyen bakımlar ile siz de rahatça çalışmaya devam edebilirsiniz. Vida uygulaması aracılığıyla aktif olarak çalışan ekipmanların bakımlarını takip edebilir, makinelerin yıpranan parçalarının takibini ya da değişim sürelerini inceleyebilirsiniz. Bu sayede doğru zamanda bakım parça değişimi gibi tamiratlarla üretimin aksamasını ve zaman kaybını engelleyerek verimi artırabilirsiniz."
+      },
+      {
+        "text": "Periyodik Bakımın Üretim Açısından Önemi",
+        "class": "h3"
+      },
+      {
+        "text": "Makinelerin ve cihazların bakımı genellikle masraf ya da üretimi aksatan gereksiz bir durum gibi düşünülür. Ancak tam tersine planlı şekilde yapılan bakımlar fabrika verimliliğini artırır ve olası tehlikeleri önler. Bakımlar için mutlaka gereken zaman ayrılmalıdır. Hemen çözülecek bir sorunu ertelediğinizde her geçen gün bu sorun büyür. Daha fazla arıza riskiyle karşı karşıya kalmamak için periyodik bakımlar aksatılmamalıdır. Ekipmanlar hiç bakıma girmeden sürekli çalıştığında bir süre sonra önceki performanslarını göremezsiniz. Üretim yavaşlar, parçalarda sorun ya da arıza çıkabilir, bunların sonucunda bakım masrafından yüklü bir masrafla karşı karşıya kalabilirsiniz. Bakım maliyetlerini düşürmek planlı bakım ile mümkündür. Bakımı bir maliyetten ziyade işin devamlılığını sağlayan bir araç olarak görmelisiniz. Bu sayede daha çok kar elde edebilirsiniz. Ekipmanlarınız için en uygun bakım takvimlerini Vida ile düzenleyebilir, işletme verimliliğini artırabilirsiniz. Periyodik bakım takvimlerinizi kolaylıkla oluşturabilir ve Vida üzerinden takip edebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "date": "21 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Periyodik-Bakimlarin-Onemi-1917x2048.webp",
+    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
+    "title": "Bakım Takip Programı: Periyodik Bakımların Önemi Nedir ?",
+    "slug": "bakim-takip-programi",
+    "description": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğrataca...",
+    "descriptions": [
+      {
+        "text": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğratacağını düşünür. Oysaki düzenli bakımı yapılmayan makinelerinin donanımlarının gözle görülmeyen hasarlar oluşmaya başlamış olabilir. Her ne kadar makineler düzenli olarak üretimi sürdürmeye devam etseler de, makine içerisindeki ekipman ömrünün dolması uzun vadede üretime olumsuz bir yönde etki eder. Ekipman ömrü, üretimin belirli aşamalarında elde ettiğiniz ürünlerde defo görmenize sebep olabilir. Bu durum, üretim kaybına ve hammadde tedariğinde zarara uğramanıza yol açar. Hatta bu parçaların değişim ihtiyacı duyulmasına rağmen makine içerisinde yer alması, makinenin diğer donanımlarına hasar vermesine de sebep olabilir. Fabrika bakımı, büyük miktarda üretim gerçekleştirilen bir alan olan fabrikaların mutlaka üzerinde durması gereken bir konudur. Bakım takip programı, makinenin her bir ekipmanını kapsayabileceği gibi, yalnızca belirli parçaların kontrolünü yapma işlemi ile de gerçekleştirilebilir."
+      },
+      {
+        "text": "Bakım Takip Programı ile Doğru Planlama Yapın",
+        "class": "h3"
+      },
+      {
+        "text": "Her firmanın oluşturacağı bakım takip programı, üretim işleyişine, ekipmanlara ve makine türlerine uygun olarak birbirlerinden farklı kriterler içerebilir. Planlı bakımların yanı sıra plansız bakımların da düzenli olarak bakım takvimine işaretlenmesi mühim bir konudur. Bakımlar planlı ya da plansız bir şekilde gerçekleştirilebilir. Elektrik enerjisi kesilmesi gibi dış etkenlerden kaynaklı durumlarda plansız bakım süreçleri ortaya çıkar. Plansız bakımlar, bakım takibinde takvimde yer alan bir sonraki bakımın gerektirdiği işlemlerin süreçlerini farklı yönde ilerletebilir Düzenli makine bakımı, beraberinde kalite ve verim artışını getirir. Firma bünyesinde yer alan makinelerin kendilerine özel donanımlarını, ekipmanlarını ve belirli bir ömre sahip olan parçalarını belirleyerek bu makinelerin her biri için bir bakım takvimi oluşturabilirsiniz. İş gücü, zaman ve maddi konularda tasarruf sağlayan periyodik bakım programı, pratik bir denetim süreci elde etmenize de yardımcı olur. İlgili tarihte yapılmayan periyodik makine ve ekipman bakımında tüm takvimi yeniden gözden geçirmeniz hatta tekrardan yeni bir düzenleme yapmanız gerekebilir. Böyle durumlarda uygulama ötelemeleri ve tarih ayarlamalarını otomatik olarak gerçekleştirdiğinden sizin uğraşmanıza gerek kalmaz ve vaktinizi daha değerli işlerinize ayırabilirsiniz."
+      },
+
+      {
+        "text": "Planlı Bakım Programının Avantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Periyodik bakım, üretimde durağanlık yaşamamak ve diğer birçok risk ile karşılaşmamak adına mutlaka her makineniz için yaptırmanız gereken bir uygulamadır. Firmayı maddi ve manevi açıdan zarara uğratabilecek risklerden kaçınmak için uygulayabileceğiniz en etkili yöntemlerden biri periyodik makine ya da ekipman bakımıdır. Arıza önleme, yalnızca düzenli makine bakımı ile gerçekleştirebileceğiniz bir durumdur. Düzenli bakım ile dış etkenler haricinde üretimin tüm süreçlerinde veriminizi artırabilir, zamandan tasarruf edebilirsiniz. Planlı makine bakımı, makinelerinin arızalanması sonucunda oluşabilecek birçok riskin büyük oranda azalması konusunda firmanıza ve firma bünyesinde bulunan kişilere birçok avantaj sunar."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "date": "21 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Makine-Ideal-Bakim-Periyotlari-1917x2048.webp",
+    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
+    "title": "Makinelerinizin İdeal Bakım Periyotları Ne Olmalıdır ?",
+    "slug": "makinelerinizin-ideal-bakim-periyotlari-ne-olmalidir",
+    "description": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmas...",
+    "descriptions": [
+      {
+        "text": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmasıdır. Bu yapılan bakımların başarılı olabilmesi ve sistemin doğru şekilde çalışabilmesi için bazı noktalara dikkat edilmelidir. Öncelikle gerekli bakımın yapılabilmesi için her işletme kendi ekipman ve diğer şartlarına uygun bir planlama yapmalıdır. Bakım esnasında kullanılacak malzemeler mutlaka işletmede hazır olmalıdır. Bakım yönetim yazılımları işletmenizdeki ekipmanların bakımı için göz önünde bulundurulması gereken her detayı sizin için takip eder. İdeal bakım takvimi ve bakım için gerekli tüm planlamalar bu sistemlerle kolayca incelenebilir. Makine ve cihazların faaliyetlerine arızasız şekilde devam edebilmeleri için bakım planlaması yaparken her bir ekipman için ideal bakım periyotları belirlenmelidir. Bu sayede ekipmanlara gereken bakımlar vaktinde yapılacağı için beklenmedik arızalarla zaman kaybı yaşanmaz. Ek olarak ekipmanlardan alabilecek en yüksek verim alınarak ürün kaybının da önüne geçilmiş olunur. Verimi artıran ve maliyetleri azaltan makine ve cihaz bakımları atlanmadan zamanında yapılmalıdır."
+      },
+      {
+        "text": "İdeal Bakım Yönetimi Nasıl Olmalı?",
+        "class": "h3"
+      },
+      {
+        "text": "Makinalar belirli periyotlarla kontrol edilmeli ve periyodik bakımlar aksatılmamalı",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Kritik parçalar ve aksamlar kontrol edilmeli, gerekli durumlarda orijinal yedekleri ile değiştirilmeli",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Makine parkuru ve çalışma alanlarının temizliğine önem verilmeli",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Oluşan arızalara anında müdahale edilmeli",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Bakım personelinin teknik ve mesleki alanlarda yeterli tecrübeye sahip olması",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Vida Bakım Yönetimi uygulaması ile tüm bunları tek bir uygulama ile takip edebilirsiniz. Vida, ekipmanların ihtiyaç duyduğu zamanlara göre ilerleyen süreçler için bakım planlaması yapar. Geçmiş bakımların kayıtlı olması sebebiyle makine ve cihazlara gereken ideal bakım periyotları belirlenmiş olur. Böylelikle arızalar büyümeden durdurularak enerji kaybının da önüne geçilir."
+      },
+      {
+        "text": "İdeal Bakım Periyotları Belirlemenin Avantajları",
+        "class": "h3"
+      },
+      {
+        "text": "Plansız risklerin önüne geçmek mümkün olmasa da olası sorunların önüne geçebilmek için mutlaka yedek planınız olmalıdır. Fabrikanızda sürekli olarak çalışan makine ve cihazlar için ideal bakım periyotları belirlemek oluşma ihtimali olan arızaların önüne geçerek üretim devamlılığına olanak tanır. Üretimin aksamadan ve sorunsuz olarak devam etmesi de verimliliği sağlar. Bunların yanı sıra planlı yapılan bakımlar arızaları engellediğinden dolayı yalnızca bakım maliyetleri düşmekle kalmaz aynı zamanda personel maliyeti de düşer. Çünkü planlı bakımlar bakım onarım için daha az personel gerektirir, dolayısıyla maliyetler de azalmış olur. Zamanında yaptırdığınız tüm bakımlar uzun vadede size tasarruf ettirir. Vida uygulaması ile siz de planlı ve plansız bakımları takip edebilir, fabrikanızdaki tüm ekipmanlar için ideal bakım periyotları oluşturabilirsiniz. Makine ve cihazların durumunu, arıza ve bakım bilgilerini kolayca kaydedebilir, gelecek bakımların planlamasını yapabilirsiniz. Yapılan işlemler doğrultusunda dinamik raporlamalar elde ederek hem web hem mobil uygulamada bunları anlık olarak görüntüleyebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "date": "21 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetim-Yazilimi-1917x2048.webp",
+    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
+    "title": "Bakım Yönetim Yazılımı Nedir ?",
+    "slug": "bakim-yönetim-yazilimi-nedir",
+    "description": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabil...",
+    "descriptions": [
+      {
+        "text": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabilir ve bu da zarara yol açabilir. Bakım yönetim yazılımının ilk amacı giderlerin kontrol altına alınarak oluşabilecek masrafların önlenmesidir. Bu yazılım firmanızda devamlı olarak çalışan makinelerin bakımını, yıpranan parçaların değişimini zamanında yapmanız için makinelerinizi takip eder. Bakım ekibi takibiile arızalar daha hızlı takip edilir ve müdahale süresi ve üretim maliyetleri azalırken ürün kalitesi artar. Fabrikanın ve ekipmanların ömrü uzar, üretim sekteye uğramaz. Bunların yanı sıra yazılım envanter, sayaç, zimmet ve diğer fabrika kayıtlarınızı da tutar. Başka bir deyişle bu yazılımlar fabrikanız ile ilgili tüm detayları sizin yerinize inceleyerek sizin için işlerinizi kolaylaştırır. Mobil bakım yönetim sistemi ile bütün bakım, ekipman ve diğer kayıtlarınızı görüntüleyebilir, ileriye dönük planlanmış bakımları inceleyebilir, arıza durumlarında iş emirleri oluşturarak atama yapabilirsiniz. Fabrikalarda daha iyi organizasyonu hedefleyen bu sistem, üretimde sürekliliği sağlayarak verimliliği de artırır. "
+      },
+      {
+        "text": "Bakım Yönetim Yazılımları Neden Gereklidir?",
+        "class": "h4"
+      },
+      {
+        "text": "Endüstriyel açıdan maliyeti oldukça yüksek olan fabrikalar, kurulum, üretim ve hizmet aşamalarında pek çok gider gerektirir. Fabrikalarda üretim için kullanılan makineler ve cihazların bakımları zamanında yapılmazsa arızalanabilir ve bunun sonucunda daha fazla gidere neden olabilir. Doğru zamanda yapılan bakım ve parça değişimi aynı zamanda üretimin aksamasının da önüne geçer. Bu sayede zaman kaybı engellenir ve verim artmış olur. Maintenance management software, fabrikalar için oldukça fonksiyonel bir yazılımdır. Oluşan arızalar MMS aracılığıyla kolaylıkla kaydedilir. Ek olarak onarım esnasında yapılan işlemleri ve kullanım süresince yapılan tüm bakımları da yine bu sistem kaydeder. Bu kayıtlar kurumsal varlık yönetimi açısından da önemli kayıtlardır. Arıza ve bakım takip yazılımı kayıtları sayesinde cihazların ve makinelerin faal olarak kaç yıl kullanılabildiğini, bakım ve onarımların gerekli olabileceği zamanlarını size gösterir. Bunların sonucunda da makinelerin kalan ömrü hesaplanabilir. Üretim devamlılığı fabrikalarda mühimdir ve üretimde kullanılan bir makine arıza verirse üretimde aksaklık yaşanır. Bu aksaklık işletmeyi zarara sokabileceği için işletmelerde bakım ve onarım yönetimi dikkatli şekilde yapılmalıdır. "
+      },
+      {
+        "text": "Bakım Yönetim Yazılımının Sağladığı Avantajlar Nelerdir?",
+        "class": "h4"
+      },
+      {
+        "text": "Kullandığınız makinelerin bütün bakımlarını vaktinde yapmanızı, gerekliyse makine değişikliğine gitmenizi ve dolayısıyla üretiminin devamlılığını sağlar. Koruyucu ya da periyodik bakım olarak bilinen bu sistem ile ek olarak önceki bakım tarihlerine göre ilerleyen zamanlarda yapılması gereken bakım tarihleri de belirlenebilir ve böylece zamandan tasarruf edilir. Bakıma girmesi gereken cihazlar, yedek parça ihtiyaçları gibi konularda erken tespit yaparak sizi ekstra masraflardan korur. Diğer bir bakım sistemi ise kestirimci bakım yönetimidir. Bu yönetim sistemi periyodik bakım olmaksızın yalnızca makinelerin performanslarını gözden geçirerek arızalı makinelerdeki sorunların erken tespiti ve onarımı için yapılır. Olası arızaları, bakım zamanlarını ve kısa sürede bakım yapılmasını sağlayan bu modül, bakım için gerekli olabilecek aletler, yedek parçalar ve iş gücünü de tespit ederek makineleri ve cihazları kullanıma hazır hale getirir. Periyodik ve kestirimci bakım modülü yalnızca zamandan değil ekonomik açıdan da tasarrufu sağlar. Sistem üretimde kullanılan tüm ekipmanların uzun ömürlü olmasına katkı sağlar. Bakım ve yedek parça stok masraflarında tasarruf fırsatı, arıza sayısı ve arıza müdahalesi süresinde azalma, geçmiş ve gelecek bakımlar hakkında anında detaylı bilgi alabilme imkanı gibi birçok avantaja sahip bu sistem ile siz de fabrikanızın daha kolay işlemesine yardımcı olabilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "date": "21 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Kestirici-Bakim-1917x2048.webp",
+    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
+    "title": "Kestirimci Bakım Nedir ?",
+    "slug": "kestirimci-bakim-nedir",
+    "description": "Makinelerde beklenmedik arızalanmalar görülmesi, kısa vadede de olsa üretimin durmasına ve ideal işleyişi belirli bir süre boyunca kaybetmenize sebep olur. Makinelerin eski performansları...",
+    "descriptions": [
+      {
+        "text": "Makinelerde beklenmedik arızalanmalar görülmesi, kısa vadede de olsa üretimin durmasına ve ideal işleyişi belirli bir süre boyunca kaybetmenize sebep olur. Makinelerin eski performanslarına döndürülebilmeleri adına bir süre tamir görmeleri gerekebilir. Bu tamir süreci, üretim ve lojistik sürecinde zaman kaybetmenize de yol açar. Geleneksel bireysel makine takipleri işgücü ve zaman konusunda çalışanlara büyük bir sorumluluk yükler."
+      },
+      {
+        "text": "Kestirimci bakım sayesinde gün içerisinde işletmeyi kontrol ederken makinalarınızın çalışma durumunu da kontrol edebilirsiniz. Belirlediğiniz makine kontrol kalemlerini kalibrasyon cihazları ile ölçerek uygulamaya kaydedebilirsiniz. Bu ölçüm değerlerinin kritiklik seviyesini görüntüleyebilir, frekans değerlerini görüntüleyebilirsiniz. Geçmiş kayıtlarınızı görüntüleyerek makinanızın durumu hakkında bilgi edinebilirsiniz. Böylelikle oluşabilecek arızaları önceden tahmin ederek önlem alabilirsiniz."
+      },
+      {
+        "text": "Bakım Stratejilerinin Önemli Yardımcısı Kestirimci Bakım",
+        "class": "h4"
+      },
+      {
+        "text": "Kestirimci, bir diğer adı ile önleyici bakım, olası arızaların oluşma riskini azaltarak makine içerisinde yer alan donanımların maksimum oranda performans göstermesine yardımcı olur."
+      },
+      {
+        "text": "Olası hasarları önceden belirli veriler yoluyla tespit ederek operasyonel maliyetin azalması konusunda firmaya bütçe ve zaman konusunda avantajlar sunar."
+      },
+      {
+        "text": "Kestirimci bakımla korozyon, yağ seviyesi, basınç, sıcaklık, titreşim ve gürültü gibi farklı parametreleri ölçebilirsiniz."
+      },
+      {
+        "text": "Kestirimci Bakım Teknikleri Nelerdir ?",
+        "class": "h4"
+      },
+      {
+        "text": "Kestirimci bakım teknolojisi, Endüstri 4.0 bir diğer bilinen adı ile 4. Endüstri Devrimi ile birlikte ortaya çıkmıştır. Makine içerisinde yer alan donanım ve ekipmanlardan veri toplamak kadar, bu verileri analiz etmek de oldukça mühim bir konudur."
+      },
+      {
+        "text": "Siz de Vida uygulaması içerisinde yer alan önleyici bakım yazılımı ile makinelerinizin çalışma performanslarını her daim en üst düzeyde tutabilir, üretim prosedürlerini kusursuz bir şekilde gerçekleştirebilirsiniz."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "date": "20 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Ariza-Yonetimi.webp",
+    "subTitle": "ARIZA YÖNETİMİ",
+    "title": "Arıza Üretim Üzerinde Nasıl Riskler Oluşturur ?",
+    "slug": "ariza-üretim-üzerinde-nasil-riskler-oluşturur",
+    "description": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydan...",
+    "descriptions": [
+      {
+        "text": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydana gelebilir. Oluşacak arızanın büyüklüğü ve makine üzerindeki etkisi bilinemeyeceğinden hem üretim üzerinde hem de iş güvenliği açısından tehlike oluşturabilir. Oluşabilecek her arızanın maliyet, üretim ve iş güvenliği konularında işletmeyi etkilemesi olasıdır."
+      },
+      {
+        "text": "Temel Arıza Nedenleri",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Aşınan veya kırılan parçalar",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Hatalı ve kusurlu üretim prosesleri",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Operatörün teknik bilgi ve yetkinlik bakımından yetersiz olması",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Küçük arıza ve duruşların önemsenmemesi",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Makinaların periyodik bakımlarının zamanında yapılmayarak ihmal edilmesi",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Makinaların limitlerinin üzerinde uzun süre çalıştırılması",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Ucuza mal edilen kalitesiz yedek parçaların kullanılması",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Kirli ve düzensiz çalışma ortamı",
+        "style": "font-style:italic"
+      },
+      {
+        "text": "Riski Minimuma İndirmek İçin Düzenli Bakım",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Birçok kişi, makine bakımının gereksiz ya da zaman kaybı olduğunu ve hali hazırda çalışıyor iken makinelerin bakıma ihtiyaç duymadıklarını düşünebilir. Olası makine arızalarında üretimin tamamen durma olasılığı oldukça yüksektir. Özellikle insan gücü bulunmayan ve üretimin yalnızca makineler üzerinden gerçekleştirildiği firmalarda bu makinelerin bakımına karşı hassas bir yaklaşımda bulunulmalıdır. Makine arızası görüldüğü takdirde iş yükünden enerji kaybına birçok durum karşılaşabileceğiniz riskler içerisinde yer alır. Makinelerin arıza sebebiyle durması üretimden enerji tüketimine kadar birçok konuda yüksek maliyetlere sebep olabilir.  Bu nedenden dolayı işletmedeki makinaların bakımlarının düzenli olarak gerçekleştirerek enerji ve maliyet kayıplarının önüne geçerek daha yüksek kalitede ürünler elde edebilirsiniz."
+      },
+      {
+        "text": "Olası Arızalara Karşı Önleminizi Şimdiden Alın",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Firmalar içerisinde üretime yönelik düzenli çalışan makinelerde olası bir arıza durumu zaman, enerji ve maliyet kaybına sebep olur. Tasarruf etmek amacıyla makinelerinizin düzenli olarak bakımı yaptırmanız işletmenizin üretiminde sürekliliğini sağlaması adına da büyük bir önem arz eder. Vida Bakım Yönetimi uygulaması ile oluşan arızaları saniyeler içerisinde iş emri oluşturarak ilgili birimlere bildirebilirsiniz. Arıza müdahaleleri esnasında kullanılan sarf malzemeleri kaydedebilir, hareket detayından yapılan işlemleri takip edilebilirsiniz. Vida kolay ara yüz tasarımı sayesinde kullanıcı dostu bir uygulamadır. Mavi ve beyaz yaka tüm personellerin rahat şekilde kullanılması maksadıyla tasarlanmıştır."
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "date": "20 ARA",
+    "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetimi-959x1024.webp",
+    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
+    "title": "Vida Bakım Yönetim Uygulaması ile Maliyetleri Nasıl Düşürürsünüz?",
+    "slug": "vida-bakim-yönetim-uygulamasi-ile-maliyetleri-nasıl-düşürürsüzünüz",
+    "description": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir.Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman...",
+    "descriptions": [
+      {
+        "text": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir. Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman kaybı yaşanmadan müdahale edildiği bir sistem sayesinde bakım planlarının oluşturulması ve takip edilmesi şüphesiz çok kolay olacaktır."
+      },
+      {
+        "text": "Vida Bakım Yönetim Uygulaması sayesinde:",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Arızalara anlık müdahale ederek makine duruş süresini azaltır ve üretim kayıplarının önüne geçersiniz."
+      },
+      {
+        "text": "Takvim özelliği sayesinde periyodik bakımları takip ederek zamanında gerçekleştirebilir ve böylece olası arıza risklerini ortadan kaldırırsınız."
+      },
+      {
+        "text": "Düzenli bakım takibi ile gereksiz malzeme sarfı ve arıza müdahaleleri esnasında harcadığınız teknik servis ve işçilik maliyetlerini en aza indirgemiş olursunuz."
+      },
+      {
+        "text": "Kestirimci bakım sayesinde gün içerisinde makinalarınızı kontrol ederek önlem alabilirsiniz."
+      },
+      {
+        "text": "Sayaçlar ile enerji akışını kontrol ederek fazla tüketimlerin önüne geçebilirsiniz."
+      },
+      {
+        "text": "Bakım Yönetim Yazılımlarının Faydaları",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Ekipman yönetimi konusunda size pek çok avantaj sağlayan bu yazılımlar sayesinde birden fazla tesisi zahmetsizce yönetebilirsiniz."
+      },
+      {
+        "text": "Takvim özelliği sayesinde periyodik bakımlarınızı belirlediğiniz periyoda göre görüntüleyebilirsiniz. Hafta sonu çalışması ve bakım planlarının değişmesi durumunda tarih ötelemeleri otomatik olarak uygulama üzerinden yapılabilmektedir."
+      },
+      {
+        "text": "Bakım programlarınızı anlık olarak izlemenizi sağlar."
+      },
+      {
+        "text": "Bakım işlem süreleri ve arıza sürelerini kayıt altına alarak MTBF ve MTTR gibi raporları anlık ve makine bazl görüntülemenizi sağlar. Bunun yanı sıra en çok görülen arıza türü ve en sık arızalanan makine sayısı gibi dinamik raporlamaları da anlık olarak takip edebilirsiniz."
+      },
+      {
+        "text": "İşletme bazlı makinalarınızı ve çalışma durumlarını, arıza sayılarını ve periyodik bakımlarını takip edebilirsiniz."
+      },
+      {
+        "text": "Zimmetlenen malzemeyi ve personel bilgisini takip edebilirsiniz."
+      },
+      {
+        "text": "Malzeme takibini gerçekleştirebilirsiniz."
+      },
+      {
+        "text": "Ömürlü parçalarınızı takip ederek tedarik süreçlerini yönetebilirsiniz."
+      },
+      {
+        "text": "Bakım Yönetim Yazılımı ile Maliyeti Düşürmek",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Genellikle birçok kişi “Bozuk olmayan bir cihaz neden onarılsın?” diye düşünür. Ancak cihazlar bozulmadan da gerekli bakımlar yapılmalıdır. Çünkü bu sayede gelişebilecek hasarlar önceden tespit edilerek önüne geçilir. Aksi takdirde ortaya çıkabilecek sorunlar sizin için daha yüklü masraflara dönüşebilir. Yazılım minimum maliyetle yüksek verim almanızı hedefler. Ekipmanların arızalanarak durması beklenmedik ve yüksek harcamalar yapmanıza sebep olabilir. Önleyici bakımlar arızaların önlenmesi, duruş maliyetlerinin azaltılması gibi konularda size yardımcı olur. Böylelikle olası bir arızada bile mümkün olan en kısa sürede ekipmanların çalışmaya devam etmesi sağlanır, bakım maliyeti düşer. Zamandan ve paradan tasarruf etmenize imkan veren yazılımlar ile uygun değer düzeyde çalışma elde edilir. Bakım yönetim yazılımları yalnızca bakımlarınızı planlamakla kalmaz aynı zamanda satın almada, bakımda ve onarımda ortaya çıkan maliyetleri de sizin için raporlar."
+      },
+      {
+        "text": "Bakım Yönetimin Sağladığı Avantajlar",
+        "class": "fw-bolder"
+      },
+      {
+        "text": "Bakım yönetim sisteminin size tek getirisi bakım maliyeti düşürmek değildir. Yaptığı takipler ve kontroller aracılığıyla pek çok konuda daha hızlı ilerlemenizi sağlar. Çalışan performansını düzenli olarak ölçmek zordur. Kayıtlar ve performans takibi zaman zaman doğru şekilde izlenemeyebilir, bu sebeple eğer performansı ya da verimliliği düşüren bir durum varsa doğru zamanda teşhis edilemeyebilir. Bunun sonucunda uzun vadede istenmeyen sonuçlar yaşanır. Personelinizi yakından takip etmenize de olanak tanıyan sistem, performans ölçümleri ile sorunları büyümeden çözmenizi sağlar. İsterseniz ölçümler ile iyi çalışan personelleri görerek onları ödüllendirebilir ve motivasyonlarını artırabilirsiniz."
+      }
+    ]
+  }
+]

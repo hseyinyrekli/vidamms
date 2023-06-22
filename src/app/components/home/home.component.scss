@@ -18,26 +18,28 @@ video {
   height: 100%;
   object-fit: cover;
 }
+
 .home-content {
   position: relative;
   padding-top: 150px;
   color: #fff;
   width: 50%;
 }
-h1 {
+.home-content h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 3.5em;
-  font-weight: 600;
+  font-size: 3em;
+  font-weight: 500;
   line-height: 1.1;
   margin-top: 3em;
   margin-left: 1em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: transparent;
 }
 
-.home p {
-  font-size: 1em;
-  margin-top: 15px;
+.home-content p {
+  font-size: 0.8em;
 
-  margin-left: 3.3em;
+  margin-left: 4em !important;
 }
 
 .home-content button {
@@ -48,7 +50,7 @@ h1 {
   background: transparent;
   color: #fff;
   margin-top: 1.7em;
-  margin-left: 23%;
+  margin-left: 23% !important;
   padding: 12px 20px;
   cursor: pointer;
   transition: 0.5s;
@@ -56,38 +58,64 @@ h1 {
 .home-content button:hover {
   background-color: #3c6bad;
 }
-@media (max-width: 980px) {
+@media (min-width: 600px) {
   h1 {
-    font-size: 2em;
+    font-size: 2.3em !important;
     padding: 0.5em;
   }
   .home p {
-    font-size: 0.9em;
-    margin-left: 2.2em;
+    font-size: 0.8em;
+    margin-left: 3.3em !important;
     padding: 1em;
   }
   .home-content button {
-    margin-left: 3em;
+    margin-left: 3em !important;
   }
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.5em;
+    width: 100%;
+    font-size: 1.5em !important;
     padding: 1em;
+  }
+  .home p {
+    margin-left: 2.8em !important;
   }
   .home-content button {
     padding: 0.5em;
-    margin-left: 4em;
+    margin-left: 4.1em !important;
     width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 1.7em !important;
+    padding: 0.5em;
+  }
+  .home p {
+    font-size: 0.6em;
+    margin-left: 3em !important;
+    padding: 1em;
+  }
+  .home-content button {
+    margin-left: 5em !important;
   }
 }
 
 .part-2 {
-  height: 100%;
-  padding: 4em;
+  padding-top: 5em;
+  width: 100%;
   text-align: center;
   h2 {
     font-weight: bold;
+  }
+}
+@media (max-width: 980px) {
+  .part-2 .slider {
+    height: 70%;
+  }
+  .part-2 h2 {
+    font-size: 20px;
   }
 }
 
@@ -95,6 +123,9 @@ h1 {
   clear: both;
   height: 50vh;
   transition: 0.3s;
+  #title {
+    padding: 1em;
+  }
 }
 
 #vidaCard p {
@@ -115,23 +146,36 @@ h1 {
     width: 30%;
     margin-top: 1em;
     margin: auto;
-    @media (max-width: 980px) {
+    @media (min-width: 600px) {
       margin-left: 0;
     }
   }
   text-align: center;
 }
-@media (max-width: 980px) {
-  #phones {
-    margin-top: 5em;
-  }
-}
-#title {
-  font-weight: bold;
-  padding: 1em;
+#phones img {
+  margin-left: 6em;
+  width: 70%;
 }
 
-.part-4 {
+@media (min-width: 600px) {
+  #phones img {
+    margin-top: 2em;
+    margin-left: 4.4em !important;
+  }
+}
+@media (max-width: 600px) {
+  #phones img {
+    margin-top: 2em;
+    margin-left: 3.7em !important;
+  }
+}
+@media (max-width: 1200px) {
+  #phones img {
+    margin-left: 6em;
+  }
+}
+
+.part-3 {
   text-align: center;
   width: 100%;
   margin-top: 12em;
@@ -139,13 +183,22 @@ h1 {
 }
 .macbook {
   img {
-    width: 65%;
-    margin-top: 7em;
-    margin-left: 3em;
+    padding-top: 6em;
+    padding-bottom: 2em;
+    width: 70%;
+  }
+}
+@media (max-width: 980px) {
+  .macbook img {
+    width: 100%;
   }
 }
 
-.text {
+#text {
+  h1 {
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: transparent;
+  }
   color: white;
   padding-bottom: 3em;
   p {
@@ -153,7 +206,7 @@ h1 {
   }
 }
 
-#part-5 {
+#part-4 {
   border: 0px;
   width: 80%;
   height: 100%;
@@ -241,29 +294,5 @@ label {
 @media (max-width: 980px) {
   #botPhoto img {
     margin-left: 2.5em;
-  }
-}
-
-.middle {
-  span {
-    font-weight: bolder;
-    color: #212529;
-  }
-  p {
-    color: black;
-  }
-  padding: 2.3em;
-  h1 {
-    margin: auto;
-    background: linear-gradient(#1a44a8, #212529);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  img {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    position: sticky;
-    top: 30%;
   }
 }

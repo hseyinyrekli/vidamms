@@ -1,0 +1,9 @@
+{
+  "MENU": {
+    "HOMEPAGE": "Home Page",
+    "ABOUTUS": "About"
+  },
+  "ABOUTUS": {
+    "TEXT1": "Text1"
+  }
+}

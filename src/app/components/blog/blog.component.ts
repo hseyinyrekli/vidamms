@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
+import { LangChangeEvent, TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "app-blog",
@@ -13,15 +14,30 @@ export class BlogComponent implements OnInit {
   isActive: boolean = true;
   activeMenu!: any;
 
-  constructor(private router: Router, private http: HttpClient) {}
+  constructor(
+    private router: Router,
+    private http: HttpClient,
+    public translate: TranslateService
+  ) {}
 
   ngOnInit(): void {
-    this.getBlogs();
+    this.getBlogs(this.translate.currentLang);
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.getBlogs(event.lang);
+    });
   }
 
-  getBlogs() {
+  getBlogs(lang: any) {
     this.activeMenu = "all";
-    this.http.get<any>("assets/json/blogs.json").subscribe((data) => {
+    let url = "";
+    if (lang == "tr") {
+      url = "assets/json/blogs.json";
+    } else {
+      url = "assets/json/blogs-en.json";
+    }
+    this.http.get<any>(url).subscribe((data) => {
+      console.log(data);
+
       this.blogs = data;
       this.baseBlogs = data;
     });

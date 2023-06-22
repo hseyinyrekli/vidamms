@@ -1,15 +1,39 @@
 .navbar {
-  position: sticky;
+  width: 100%;
+  position: fixed;
   z-index: 999;
   top: 0;
-  background: linear-gradient(#212529, #0551bc) !important;
+  // background-color: #212529 !important;
+  background: transparent !important;
+  transition: 0.3s;
 }
+
+.bg-dark-blue {
+  background-color: #1a49b3 !important;
+}
+
+.isScrolled {
+  background-color: white !important;
+  opacity: 1;
+  border-bottom: 2px solid #e3e3e380 !important;
+}
+
+.isScrolled-nav-item {
+  a {
+    color: #212529 !important;
+  }
+  .active {
+    color: #1a49b3 !important;
+  }
+}
+
 svg {
   cursor: pointer;
   color: white;
 }
 .nav-link {
   color: white;
+  // text-shadow: 1px 1px #212529;
 }
 
 button {

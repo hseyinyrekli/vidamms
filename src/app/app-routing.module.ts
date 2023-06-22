@@ -12,6 +12,7 @@ import { ReferenceComponent } from "./components/reference/reference.component";
 import { DemoComponent } from "./components/demo/demo.component";
 import { PolicyComponent } from "./components/policy/policy.component";
 import { PrivacyComponent } from "./components/privacy/privacy.component";
+import { FeaturesComponent } from "./components/features/features.component";
 
 const routes: Routes = [
   {
@@ -65,6 +66,10 @@ const routes: Routes = [
       {
         path: "privacy",
         component: PrivacyComponent,
+      },
+      {
+        path: "features",
+        component: FeaturesComponent,
       },
     ],
   },

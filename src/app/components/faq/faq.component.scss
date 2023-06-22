@@ -1,14 +1,15 @@
 h3 {
   font-weight: bold;
   color: white;
+  text-shadow: 2px 2px grey;
 }
 h2 {
   font-weight: bold;
 }
 #searchSide {
+  margin-top: 4.7em !important;
   margin: auto;
-  height: 50vh;
-
+  height: 40vh;
   background-image: url("../../../assets/uploads/backgd.png");
 }
 
@@ -17,7 +18,7 @@ a {
 }
 
 .search {
-  width: 50%;
+  width: 100%;
   margin-bottom: 4em;
   height: 50px;
   background-color: #fff;

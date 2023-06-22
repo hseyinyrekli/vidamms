@@ -18,11 +18,17 @@ import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.c
 import { HttpClientModule } from "@angular/common/http";
 import { ReferenceComponent } from "./components/reference/reference.component";
 import { CostComponent } from "./components/cost/cost.component";
-import { FaqsPipe } from './components/faq/faqs.pipe';
-import { DemoComponent } from './components/demo/demo.component';
-import { PolicyComponent } from './components/policy/policy.component';
-import { PrivacyComponent } from './components/privacy/privacy.component';
-
+import { FaqsPipe } from "./components/faq/faqs.pipe";
+import { DemoComponent } from "./components/demo/demo.component";
+import { PolicyComponent } from "./components/policy/policy.component";
+import { PrivacyComponent } from "./components/privacy/privacy.component";
+import { FeaturesComponent } from "./components/features/features.component";
+import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
+import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import { HttpClient } from "@angular/common/http";
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,6 +47,7 @@ import { PrivacyComponent } from './components/privacy/privacy.component';
     DemoComponent,
     PolicyComponent,
     PrivacyComponent,
+    FeaturesComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,6 +56,13 @@ import { PrivacyComponent } from './components/privacy/privacy.component';
     RouterModule,
     ReactiveFormsModule,
     FormsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

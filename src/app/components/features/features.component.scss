@@ -1,0 +1,45 @@
+.middle {
+  margin-top: 4em !important;
+  span {
+    font-weight: bolder;
+    color: #212529;
+  }
+  p {
+    color: black;
+  }
+
+  h1 {
+    margin: auto;
+    background: linear-gradient(#1a44a8, #212529);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: sticky;
+    top: 30%;
+  }
+}
+@media (max-width: 980px) {
+  .middle .text p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .middleImage {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .allPage {
+    padding-right: 5em;
+  }
+}
+@media (max-width: 600px) {
+  .allPage {
+    padding-right: 5em;
+  }
+}
