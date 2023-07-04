@@ -1,8 +1,10 @@
 <div id="sub" style="background-color: #1a49b3" class="row text-center">
-  <div style="font-size: 2em" class="fw-bolder">MALİYET HESAPLAMA</div>
+  <div style="font-size: 2em" class="fw-bolder">
+    {{ "COST.TITLE" | translate }}
+  </div>
   <span>
-    <a routerLink="/">Anasayfa</a>
-    / Maliyet Hesaplama
+    <a routerLink="/">{{ "COST.BOTTITLE" | translate }}</a>
+    {{ "COST.BOTTITLE2" | translate }}
   </span>
 </div>
 
@@ -14,96 +16,182 @@
           class="card-title text-center py-4 fw-bolder"
           style="font-size: 1.6em"
         >
-          MALİYET HESAPLAMA ROBOTU
+          {{ "COST.HEADER" | translate }}
         </p>
       </div>
-      <form id="form">
-        <div class="row mb-4">
+      <form id="form" [formGroup]="calcForm">
+        <div [ngClass]="isShow ? 'd-none' : ''" class="row mb-4">
           <div class="col-6 col-md-6 col-lg-6" style="margin: auto">
-            <label class="form-label" for="typeNumber"
-              >İşletmedeki Makina Sayısı (Adet)</label
-            >
+            <label class="form-label" for="typeNumber">{{
+              "COST.FORM1" | translate
+            }}</label>
             <div class="form-outline" style="width: 100%">
               <input
                 placeholder="5"
                 type="number"
                 id="typeNumber"
                 class="form-control"
+                formControlName="machineNumber"
+                [ngClass]="{
+                  'is-invalid error': submitted && f['machineNumber'].errors
+                }"
               />
             </div>
           </div>
 
           <div class="col-6 col-md-6 col-lg-6">
-            <label class="form-label" for="typeNumber"
-              >Günlük Çalışma Süresi(Saat)</label
-            >
+            <label class="form-label" for="typeNumber">{{
+              "COST.FORM2" | translate
+            }}</label>
             <div class="form-outline" style="width: 100%">
               <input
                 placeholder="12"
                 type="number"
                 id="typeNumber"
                 class="form-control"
+                formControlName="dailyHour"
+                [ngClass]="{
+                  'is-invalid error': submitted && f['dailyHour'].errors
+                }"
               />
             </div>
           </div>
           <div class="col-12 col-md-12 col-lg-12">
-            <label class="form-label" for="typeNumber"
-              >1 Makinenin Haftada Çalıştığı Gün Sayısı</label
-            >
+            <label class="form-label" for="typeNumber">{{
+              "COST.FORM3" | translate
+            }}</label>
             <div class="form-outline" style="width: 100%">
               <input
                 placeholder="5"
                 type="number"
                 id="typeNumber"
                 class="form-control"
+                formControlName="workingDayNumber"
+                [ngClass]="{
+                  'is-invalid error': submitted && f.workingDayNumber.errors
+                }"
               />
             </div>
           </div>
           <div class="form-outline" style="width: 50%">
-            <label class="form-label"
-              >1 Makine 1 Saatlik Üretilen Ürünün Ticari Değeri (TL)</label
-            >
-            <input placeholder="₺" type="text" class="form-control" />
-          </div>
-          <div class="form-outline" style="width: 50%">
-            <label class="form-label"
-              >1 Makine Parkurunun Toplam Cirosu (TL)</label
-            >
-            <input placeholder="₺" type="text" class="form-control" />
-          </div>
-          <div class="form-outline" style="width: 50%">
-            <label class="form-label">Operatör Maaş Maliyeti(TL)</label>
-            <input placeholder="₺" type="text" class="form-control" />
-          </div>
-          <div class="form-outline" style="width: 50%">
-            <label class="form-label">Makine Başına Operatör Adedi</label>
+            <label class="form-label">{{ "COST.FORM4" | translate }}</label>
             <input
-              placeholder="4"
-              type="text"
-              class="form-control text-muted"
+              placeholder="₺"
+              type="number"
+              class="form-control"
+              formControlName="hourlyCost"
+              [ngClass]="{
+                'is-invalid error': submitted && f.hourlyCost.errors
+              }"
             />
           </div>
           <div class="form-outline" style="width: 50%">
-            <label class="form-label">İşletmedeki Mola Süresi(Aylık)</label>
-            <input placeholder="72" type="text" class="form-control" />
+            <label class="form-label">{{ "COST.FORM5" | translate }}</label>
+            <input
+              type="number"
+              placeholder="₺"
+              class="form-control"
+              formControlName="totalMoney"
+              [ngClass]="{
+                'is-invalid error': submitted && f.totalMoney.errors
+              }"
+            />
           </div>
           <div class="form-outline" style="width: 50%">
-            <label class="form-label">İşletmedeki Arıza Süresi(Saat)</label>
-            <input placeholder="24" type="text" class="form-control" />
+            <label class="form-label">{{ "COST.FORM6" | translate }}</label>
+            <input
+              placeholder="₺"
+              type="number"
+              class="form-control"
+              formControlName="employeeCost"
+              [ngClass]="{
+                'is-invalid error': submitted && f.employeeCost.errors
+              }"
+            />
           </div>
           <div class="form-outline" style="width: 50%">
-            <label class="form-label"
-              >1 Makine Aylık Elektirik Gideri(TL)</label
-            >
-            <input placeholder="₺" type="text" class="form-control" />
+            <label class="form-label">{{ "COST.FORM7" | translate }}</label>
+            <input
+              placeholder="4"
+              type="number"
+              class="form-control text-muted"
+              formControlName="employeePiece"
+              [ngClass]="{
+                'is-invalid error': submitted && f.employeePiece.errors
+              }"
+            />
+          </div>
+          <div class="form-outline" style="width: 50%">
+            <label class="form-label">{{ "COST.FORM8" | translate }}</label>
+            <input
+              placeholder="72"
+              type="number"
+              class="form-control"
+              formControlName="breakTime"
+              [ngClass]="{
+                'is-invalid error': submitted && f.breakTime.errors
+              }"
+            />
+          </div>
+          <div class="form-outline" style="width: 50%">
+            <label class="form-label">{{ "COST.FORM9" | translate }}</label>
+            <input
+              placeholder="24"
+              type="number"
+              class="form-control"
+              formControlName="downTime"
+              [ngClass]="{
+                'is-invalid error': submitted && f.downTime.errors
+              }"
+            />
+          </div>
+          <div class="form-outline" style="width: 50%">
+            <label class="form-label">{{ "COST.FORM10" | translate }}</label>
+            <input
+              placeholder="₺"
+              type="number"
+              class="form-control"
+              formControlName="electricCost"
+              [ngClass]="{
+                'is-invalid error': submitted && f.electricCost.errors
+              }"
+            />
           </div>
           <div class="form-outline" style="width: 50%">
             <button
               id="submitButton"
               type="button"
               class="btn btn-outline-primary"
+              (click)="calculate()"
             >
-              Hesapla
+              {{ "COST.CALC" | translate }}
+            </button>
+          </div>
+        </div>
+        <div
+          [ngClass]="isShow ? 'show' : 'd-none'"
+          class="row col-12 mb-4 text-center"
+          style="margin: auto"
+        >
+          <div class="col-6 fw-bolder">{{ "COST.FORM11" | translate }}</div>
+          <div class="col-6 fw-bolder">{{ "COST.FORM12" | translate }}</div>
+          <hr />
+          <div class="col-6 p-2">{{ "COST.FORM13" | translate }}</div>
+          <div class="col-6 p-2">{{ mounthlyCost | number }} TL</div>
+          <div class="col-6 p-2">{{ "COST.FORM14" | translate }}</div>
+          <div class="col-6 p-2">{{ mounthlyCostMoney | number }} TL</div>
+          <div class="col-6 p-2">{{ "COST.FORM15" | translate }}</div>
+          <div class="col-6 p-2">{{ mounthlyLabor | number }} TL</div>
+          <div class="col-6 p-2">{{ "COST.FORM16" | translate }}</div>
+          <div class="col-6 p-2">{{ electrictCostMoney | number }} TL</div>
+          <div class="col-6 p-2">{{ "COST.FORM17" | translate }}</div>
+          <div class="col-6 p-2">{{ total | number }} TL</div>
+          <div class="col-6">
+            <button
+              class="btn btn-outline-primary text-end"
+              (click)="backCalc()"
+            >
+              {{ "COST.BACKCALC" | translate }}
             </button>
           </div>
         </div>

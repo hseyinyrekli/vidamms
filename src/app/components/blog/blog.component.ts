@@ -13,7 +13,7 @@ export class BlogComponent implements OnInit {
   baseBlogs!: any;
   isActive: boolean = true;
   activeMenu!: any;
-
+  lang!: any;
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -21,16 +21,18 @@ export class BlogComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.getBlogs(this.translate.currentLang);
+    this.lang = this.translate.currentLang;
+    this.getBlogs();
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.getBlogs(event.lang);
+      this.lang = event.lang;
+      this.getBlogs();
     });
   }
 
-  getBlogs(lang: any) {
+  getBlogs() {
     this.activeMenu = "all";
     let url = "";
-    if (lang == "tr") {
+    if (this.lang == "tr") {
       url = "assets/json/blogs.json";
     } else {
       url = "assets/json/blogs-en.json";
@@ -45,8 +47,8 @@ export class BlogComponent implements OnInit {
     this.router.navigate(["blog/" + name]);
   }
 
-  changeForSubtitle(name: any) {
+  changeForFilter(name: any) {
     this.activeMenu = name;
-    this.blogs = this.baseBlogs.filter((x: any) => x.subTitle == name);
+    this.blogs = this.baseBlogs.filter((x: any) => x.filter == name);
   }
 }

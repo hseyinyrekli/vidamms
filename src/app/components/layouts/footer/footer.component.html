@@ -8,7 +8,7 @@
       />
     </div>
     <div id="sub" class="col-lg-3 col-md-12 col-12">
-      <p>Biz Kimiz ?</p>
+      <p>{{ "FOOTER.HEADER1" | translate }}</p>
       <div class="row">
         <div>
           <a routerLink="about">
@@ -27,7 +27,7 @@
                 d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
               />
             </svg>
-            <span>Hakkımızda</span>
+            <span>{{ "FOOTER.TITLE1" | translate }}</span>
           </a>
         </div>
 
@@ -48,7 +48,7 @@
                 d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
               />
             </svg>
-            <span>Kişisel Veri Politikamız</span>
+            <span>{{ "FOOTER.TITLE2" | translate }}</span>
           </a>
         </div>
         <div>
@@ -68,13 +68,13 @@
                 d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z"
               />
             </svg>
-            <span>Bilgi Güvenliği Politikamız</span>
+            <span>{{ "FOOTER.TITLE3" | translate }}</span>
           </a>
         </div>
       </div>
     </div>
     <div id="middle" class="col-lg-3 col-md-12 col-12">
-      <p>Blogs</p>
+      <p>{{ "FOOTER.HEADER2" | translate }}</p>
       <div
         *ngFor="let data of blogs"
         [routerLink]="'/blog/' + data.slug"
@@ -98,7 +98,7 @@
       </div>
     </div>
     <div id="contact" class="col-lg-3 col-md-12 col-12">
-      <p>İletişim</p>
+      <p>{{ "FOOTER.HEADER3" | translate }}</p>
       <div class="row">
         <div>
           <a href="mailto:info@vidamms.com">

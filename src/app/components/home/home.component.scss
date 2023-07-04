@@ -175,6 +175,10 @@ video {
   width: 100%;
   margin-top: 12em;
   background: linear-gradient(#1a49b0, #2c375c);
+  p {
+    margin: auto;
+    width: 70%;
+  }
 }
 .macbook {
   img {
@@ -298,4 +302,9 @@ label {
 #subTitle p {
   font-weight: bold;
   background: linear-gradient(#004fbc, #306ec5);
+}
+
+.show {
+  display: flex;
+  transition: 0.9s;
 }

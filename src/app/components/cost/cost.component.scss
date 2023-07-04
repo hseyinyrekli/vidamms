@@ -3,9 +3,6 @@ label {
   margin-left: 0.5em;
   font-size: 12px;
 }
-#form {
-  margin: auto;
-}
 
 #submitButton {
   height: 3em;
@@ -35,4 +32,8 @@ label {
     font-weight: lighter;
     color: white;
   }
+}
+.show {
+  display: flex;
+  transition: 0.9s;
 }

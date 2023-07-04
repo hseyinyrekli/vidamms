@@ -1,5 +1,5 @@
 <div style="padding-right: 0.8em">
-  <div class="row" style="background-color: #f9f9f9; padding: 4em">
+  <div class="row" style="background-color: #f9f9f9">
     <div
       data-aos="zoom-in"
       data-aos-duration="1000"
@@ -8,44 +8,49 @@
     >
       <div class="col-12">
         <div>
-          <p class="card-title text-center py-4 fs-3">DEMO TALEBİ OLUŞTURUN</p>
+          <p class="card-title text-center py-4 fs-3">
+            {{ "DEMO.HEADER" | translate }}
+          </p>
           <hr />
           <p>
-            Vida Bakım Yönetimi Uygulaması ile makine parkurunuzu kesintisiz
-            çalışır hale getirin.
+            {{ "DEMO.DESCRIBE" | translate }}
           </p>
           <hr />
         </div>
         <form id="form">
           <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">İsim</label>
+              <label class="form-label"> {{ "DEMO.NAME" | translate }}</label>
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
 
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">Soy İsim</label>
+              <label class="form-label">
+                {{ "DEMO.SURNAME" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
 
             <div class="col-12 col-md-12 col-lg-12">
-              <label class="form-label">E-Posta</label>
+              <label class="form-label"> {{ "DEMO.EMAIL" | translate }}</label>
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">Telefon</label>
+              <label class="form-label"> {{ "DEMO.PHONE" | translate }}</label>
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">Firma</label>
+              <label class="form-label">
+                {{ "DEMO.COMPANY" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
@@ -55,37 +60,36 @@
                 class="form-select mt-4"
                 aria-label="Default select example"
               >
-                <option selected>Firma Sektör Alanı</option>
-                <option value="1">BT Hizmetleri ve BT Danışmanlığı</option>
-                <option value="2">Teknoloji, Bilgi ve İnternet</option>
-                <option value="3">Kamu Hizmetleri</option>
-                <option value="4">Motorlu Taşıt İmalatı</option>
+                <option selected>{{ "DEMO.COMPANYAREA" | translate }}</option>
+                <option value="1">{{ "DEMO.DEP1" | translate }}</option>
+                <option value="2">{{ "DEMO.DEP2" | translate }}</option>
+                <option value="3">{{ "DEMO.DEP3" | translate }}</option>
+                <option value="4">{{ "DEMO.DEP4" | translate }}</option>
 
-                <option value="5">Beyaz Eşya ve Elektronik Eşya İmalatı</option>
+                <option value="5">{{ "DEMO.DEP5" | translate }}</option>
 
                 <option value="6">
-                  Ulaşım, Lojistik, Tedarik Zinciri ve Depolama
+                  {{ "DEMO.DEP6" | translate }}
                 </option>
 
-                <option value="7">Kimyasal Üretim</option>
+                <option value="7">{{ "DEMO.DEP7" | translate }}</option>
 
-                <option value="8">Tüketici Hizmetleri</option>
+                <option value="8">{{ "DEMO.DEP8" | translate }}</option>
 
-                <option value="9">Hastaneler ve Sağlık Hizmetleri</option>
-                <option value="10">Diğer</option>
+                <option value="9">{{ "DEMO.DEP9" | translate }}</option>
+                <option value="10">{{ "DEMO.DEP10" | translate }}</option>
               </select>
             </div>
             <div class="form-outline mt-4 mb-2" style="width: 50%">
               <button type="button" class="btn btn-primary">
-                DEMO TALEBİ GÖNDER
+                {{ "DEMO.SEND" | translate }}
               </button>
             </div>
           </div>
           <div>
-            Bu forma kaydolarak kişisel bilgilerinin Vida Bakım Yönetimi
-            Uygulaması
-            <a routerLink="/policy">Gizlilik Politikası</a> hükümleri uyarınca
-            yönetilmesini kabul etmiş olursunuz.
+            {{ "DEMO.DESCRIBE2" | translate }}
+            <a routerLink="/policy"> {{ "DEMO.LINK" | translate }}</a>
+            {{ "DEMO.DESCRIBE3" | translate }}
           </div>
         </form>
       </div>
@@ -108,25 +112,20 @@
   <p class="text-muted fs-3">VİDA MMS</p>
   <hr />
   <p class="text-muted">
-    VİDA, Bakım Yönetimi Uygulamasıdır. Endüstriyel işletme yönetimine yardımcı
-    olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve fabrika
-    yönetimine ilişkin kayıtları tutmanızı sağlar. Böylece makine ve
-    ekipmanlarınızı zaman/maliyet konusunda daha uzun ömürlü kullanabilirsiniz.
-    Webden, tabletten ve mobilden uygulamaya kolayca erişebilirsiniz.
+    {{ "DEMO.DESCRIBE4" | translate }}
   </p>
 </div>
 <div style="background-color: #f9f9f9; margin: auto; padding: 3em">
-  <div class="row" style="width: 70%; margin: auto">
-    <div class="col-lg-6 col-md-12 col-12" style="padding: 3em">
+  <div class="row" style="margin: auto">
+    <div class="col-lg-6 col-md-12 col-12">
       <div class="text-center">
-        <p class="fs-2 fw-normal">Her Vida Kontrol Altında</p>
+        <p class="fs-2 fw-normal">{{ "DEMO.TITLE" | translate }}</p>
         <p>
-          Vida Bakım Yönetimi Uygulaması ile makine parkurunuzdaki her vidayı
-          kontrol altın alın.
+          {{ "DEMO.DESCRIBE5" | translate }}
         </p>
       </div>
       <div
-        class="card col-12"
+        class="card col-lg-12 col-md-12 col-12"
         (click)="changeActive('demo1')"
         [ngClass]="activeCategories == 'demo1' ? 'active' : ''"
       >
@@ -134,8 +133,8 @@
           <div class="col-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+              width="60"
+              height="60"
               fill="currentColor"
               class="bi bi-clock"
               viewBox="0 0 16 16"
@@ -150,10 +149,9 @@
           </div>
 
           <div class="col-9">
-            <p class="fs-4">Gerçek Zamanlı</p>
+            <p class="fs-4">{{ "DEMO.TITLE2" | translate }}</p>
             <p>
-              Vida'daki her eylem, gerçek zamanlı olarak uygulama üzerinden
-              görülebilir.
+              {{ "DEMO.DESCRIBE6" | translate }}
             </p>
           </div>
         </div>
@@ -167,8 +165,8 @@
           <div class="icon col-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+              width="60"
+              height="60"
               fill="currentColor"
               class="bi bi-map"
               viewBox="0 0 16 16"
@@ -180,10 +178,9 @@
             </svg>
           </div>
           <div class="col-9">
-            <p class="fs-4">Dilediğiniz Yerde</p>
+            <p class="fs-4">{{ "DEMO.TITLE3" | translate }}</p>
             <p>
-              Vida Uygulaması'na web üzerinden, tablet ve mobil cihazlardan
-              ulaşabilirsiniz.
+              {{ "DEMO.DESCRIBE7" | translate }}
             </p>
           </div>
         </div>
@@ -197,8 +194,8 @@
           <div class="icon col-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="70"
-              height="70"
+              width="60"
+              height="60"
               fill="currentColor"
               class="bi bi-universal-access"
               viewBox="0 0 16 16"
@@ -209,21 +206,15 @@
             </svg>
           </div>
           <div class="col-9">
-            <p class="fs-4">Akıllı Yönetim</p>
+            <p class="fs-4">{{ "DEMO.TITLE4" | translate }}</p>
             <p>
-              Vida ile maliyet, envanter, enerji tüketimini ve üretimini de
-              yönetmiş olursunuz.
+              {{ "DEMO.DESCRIBE8" | translate }}
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      id="image"
-      class="col-lg-6 col-md-12 col-12"
-    >
+    <div id="image" class="col-lg-6 col-md-12 col-12">
       <img
         *ngIf="activeCategories == 'demo1'"
         class="demo1"
@@ -246,7 +237,7 @@
   </div>
 </div>
 <div class="text-center" style="padding: 4em">
-  <div data-aos="zoom-in" data-aos-duration="1000">
+  <div>
     <img
       style="width: 60%"
       src="../../../assets/uploads/demolaptop.png"
@@ -255,21 +246,20 @@
   </div>
   <div class="laptop">
     <p class="text-muted fs-2">
-      VİDA MMS İle bakımları önceden planlayabilir ve kesintisiz iş akışı
-      sağlayabilirsiniz.
+      {{ "DEMO.SUBTITLE" | translate }}
     </p>
     <hr />
 
     <p class="text-muted">
-      Böylece ani gelişen olağandışı arızaların da önüne geçmiş olursunuz.
+      {{ "DEMO.BOTTITLE" | translate }}
     </p>
   </div>
 </div>
 <div class="footer-text text-center">
   <p class="fs-4">
-    Şirketinize nasıl yardımcı olabileceğimiz hakkında sorularınız mı var?
+    {{ "DEMO.SUBTITLE2" | translate }}
   </p>
   <p class="text-muted fs-4">
-    Bize bir e-posta gönderin, kısa süre içinde sizinle iletişime geçeceğiz.
+    {{ "DEMO.BOTTITLE2" | translate }}
   </p>
 </div>

@@ -19,7 +19,13 @@ export class BlogDetailComponent implements OnInit {
   }
 
   getBlogBySlug(slug: any) {
-    this.http.get<any>("assets/json/blogs.json").subscribe((data) => {
+    let url = "";
+    if (slug == "tr") {
+      url = "assets/json/blogs.json";
+    } else {
+      url = "assets/json/blogs-en.json";
+    }
+    this.http.get<any>(url).subscribe((data) => {
       this.blog = data.filter((x: any) => x.slug == slug)[0];
     });
   }

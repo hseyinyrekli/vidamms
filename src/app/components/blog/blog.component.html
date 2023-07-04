@@ -1,18 +1,20 @@
 <div id="sub" style="background-color: #1a49b3" class="row text-center">
-  <div style="font-size: 2em" class="fw-bolder">BLOG</div>
+  <div style="font-size: 2em" class="fw-bolder">
+    {{ "BLOG.TITLE" | translate }}
+  </div>
   <span>
-    <a routerLink="/">Anasayfa</a>
-    / Blog
+    <a routerLink="/">{{ "BLOG.BOTTITLE" | translate }}</a>
+    {{ "BLOG.BOTTITLE2" | translate }}
   </span>
 </div>
 
-<div class="container pt-5">
-  <div id="categories" class="row text-center m-5 py-5">
+<div class="container">
+  <div id="categories" class="row text-center p-4">
     <div class="col-lg-2 col-md-4 mb-3 col-6 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'all' ? 'active' : ''"
-        (click)="getBlogs('tr')"
+        (click)="getBlogs()"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -27,14 +29,14 @@
           />
         </svg>
         <hr />
-        <p>Hepsi</p>
+        <p>{{ "BLOG.CAT1" | translate }}</p>
       </div>
     </div>
     <div class="col-lg-2 col-md-4 col-6 mb-3 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'BAKIM YÖNETİM UYGULAMASI' ? 'active' : ''"
-        (click)="changeForSubtitle('BAKIM YÖNETİM UYGULAMASI')"
+        (click)="changeForFilter('name1')"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,14 +54,14 @@
           />
         </svg>
         <hr />
-        <p>Bakım Yönetim Uygulaması</p>
+        <p>{{ "BLOG.CAT2" | translate }}</p>
       </div>
     </div>
     <div class="col-lg-2 col-md-4 col-6 mb-3 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'KESTİRİMCİ BAKIM YÖNETİMİ' ? 'active' : ''"
-        (click)="changeForSubtitle('KESTİRİMCİ BAKIM YÖNETİMİ')"
+        (click)="changeForFilter('name5')"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -77,14 +79,14 @@
           />
         </svg>
         <hr />
-        <p>Kestirimci Bakım Yönetimi</p>
+        <p>{{ "BLOG.CAT3" | translate }}</p>
       </div>
     </div>
     <div class="col-lg-2 col-md-4 col-6 mb-3 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'ARIZA YÖNETİMİ' ? 'active' : ''"
-        (click)="changeForSubtitle('ARIZA YÖNETİMİ')"
+        (click)="changeForFilter('name4')"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -99,14 +101,14 @@
           />
         </svg>
         <hr />
-        <p>Arıza Yönetimi</p>
+        <p>{{ "BLOG.CAT4" | translate }}</p>
       </div>
     </div>
     <div class="col-lg-2 col-md-4 col-6 mb-3 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'PERİYODİK BAKIM YÖNETİMİ' ? 'active' : ''"
-        (click)="changeForSubtitle('PERİYODİK BAKIM YÖNETİMİ')"
+        (click)="changeForFilter('name2')"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -124,14 +126,14 @@
           />
         </svg>
         <hr />
-        <p>Periyodik Bakım Yönetimi</p>
+        <p>{{ "BLOG.CAT5" | translate }}</p>
       </div>
     </div>
     <div class="col-lg-2 col-md-4 col-6 mb-3 mx-auto">
       <div
         class="card p-4"
         [ngClass]="activeMenu == 'BLOG' ? 'active' : ''"
-        (click)="changeForSubtitle('BLOG')"
+        (click)="changeForFilter('name3')"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +148,7 @@
           />
         </svg>
         <hr />
-        <p>Blog</p>
+        <p>{{ "BLOG.CAT6" | translate }}</p>
       </div>
     </div>
   </div>
@@ -159,13 +161,20 @@
             <div [routerLink]="'/blog/' + data.slug" class="col-12">
               <img [src]="data.baseImage" class="w-100" />
             </div>
-            <div id="subTitle" class="col-12 text-center mt-3">
+            <div
+              id="subTitle"
+              class="col-12 text-center mt-3"
+              style="height: 5vh"
+            >
               <p class="fw-normal" style="color: #fff">
                 {{ data.subTitle }}
               </p>
             </div>
 
-            <div class="col-12 text-center mt-3" style="height: 14vh">
+            <div
+              class="col-12 text-center mt-3"
+              style="height: 14vh; overflow: hidden"
+            >
               <p class="fw-normal" style="font-size: 1.3em">
                 {{ data.title }}
               </p>
@@ -179,7 +188,7 @@
             </div>
             <div class="col-12 text-center mb-3">
               <button class="button" [routerLink]="'/blog/' + data.slug">
-                DEVAMINI OKU
+                {{ "BLOG.MORE" | translate }}
               </button>
             </div>
             <hr />

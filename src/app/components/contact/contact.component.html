@@ -1,21 +1,25 @@
 <div id="sub" style="background-color: #1a49b3" class="row text-center">
-  <div style="font-size: 2em" class="fw-bolder">İLETİŞİM</div>
+  <div style="font-size: 2em" class="fw-bolder">
+    {{ "CONTACT.TITLE" | translate }}
+  </div>
   <span>
-    <a routerLink="/">Anasayfa</a>
-    / İletişim
+    <a routerLink="/">{{ "CONTACT.BOTTITLE" | translate }}</a>
+    {{ "CONTACT.BOTTITLE2" | translate }}
   </span>
 </div>
 
 <div style="margin-top: 5em" class="container">
-  <div class="row py-5">
+  <div class="row p-2">
     <div class="contact col-12 col-md-12 col-lg-6 mb-5">
       <p class="col-12 fw-bolder" style="font-size: 30px">
-        BİZİMLE İLETİŞİME GEÇİN
+        {{ "CONTACT.HEADER" | translate }}
       </p>
       <hr />
       <div class="row">
         <div class="col-6">
-          <p class="col-12 fw-bolder" style="font-size: 20px">Merkez Ofis</p>
+          <p class="col-12 fw-bolder" style="font-size: 20px">
+            {{ "CONTACT.ADDRESS1" | translate }}
+          </p>
           <a
             href="https://www.google.com/maps/dir/41.1546425,29.0069525/Veko+Giz+Plaza+Ayaza%C4%9Fa+Maslak+Meydan+Sk.+No:3+34396+%C5%9Ei%C5%9Fli%2F%C4%B0stanbul/@41.0495105,27.3719799,8.33z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cab5c1bba54fb1:0x93af3c222629fa40!2m2!1d29.0216702!2d41.1097262"
             >Veko Giz Plaza. No:20/45
@@ -25,33 +29,35 @@
         </div>
 
         <div class="col-6">
-          <p class="col-12 fw-bolder" style="font-size: 20px">Ar-Ge Ofis</p>
+          <p class="col-12 fw-bolder" style="font-size: 20px">
+            {{ "CONTACT.ADDRESS2" | translate }}
+          </p>
           <p>
             KSÜ Avşar Kampüsü Teknokent Binası 48-49 Onikişubat / Kahramanmaraş
           </p>
         </div>
         <div class="col-12">
           <p>
-            <span>E-Posta : </span>
+            <span> {{ "CONTACT.EMAIL" | translate }} : </span>
             <a href="mailto:info@vidamms.com">info@vidamms.com</a>
           </p>
           <p></p>
-          <span>Telefon : </span>
+          <span> {{ "CONTACT.PHONE" | translate }} : </span>
           <a href="tel:08503052181">(+90) 850 305 21 81</a>
         </div>
         <div class="col-12 mt-4">
-          <p class="col-12 fw-bolder" style="font-size: 20px">İLETİŞİM</p>
+          <p class="col-12 fw-bolder" style="font-size: 20px">
+            {{ "CONTACT.CONT" | translate }}
+          </p>
           <hr />
           <p>
-            Şirketinize nasıl yardımcı olabileceğimiz hakkında sorularınız mı
-            var? Bize bir e-posta gönderin, kısa süre içinde sizinle iletişime
-            geçeceğiz.
+            {{ "CONTACT.DESCRIBE" | translate }}
           </p>
         </div>
         <div class="col-12">
           <div id="contact" class="row">
             <p class="col-12 fw-bolder" style="font-size: 20px">
-              BİZİ TAKİP EDİN
+              {{ "CONTACT.FOLLOW" | translate }}
             </p>
             <hr />
 
@@ -141,39 +147,49 @@
       <div class="col-12">
         <div>
           <p class="card-title text-center fw-bolder" style="font-size: 30px">
-            İLETİŞİM FORMU
+            {{ "CONTACT.FORMHEADER" | translate }}
           </p>
           <hr />
         </div>
         <form id="form">
           <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">İsim</label>
+              <label class="form-label">
+                {{ "CONTACT.FORM1" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
 
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">Soyad</label>
+              <label class="form-label">
+                {{ "CONTACT.FORM2" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">Telefon</label>
+              <label class="form-label">
+                {{ "CONTACT.FORM3" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">E-Posta</label>
+              <label class="form-label">
+                {{ "CONTACT.FORM4" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <input type="text" class="form-control" />
               </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12">
-              <label class="form-label">Mesaj</label>
+              <label class="form-label">
+                {{ "CONTACT.FORM5" | translate }}</label
+              >
               <div class="form-outline" style="width: 100%">
                 <textarea
                   class="form-control"
@@ -184,7 +200,7 @@
             </div>
             <div class="form-outline mt-4 mb-2" style="width: 50%">
               <button type="button" class="btn btn-outline-primary">
-                BİLGİLERİ GÖNDER
+                {{ "CONTACT.FORM6" | translate }}
               </button>
             </div>
           </div>

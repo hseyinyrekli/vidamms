@@ -1,172 +1,178 @@
 [
   {
     "id": "1",
-    "date": "05 EYL",
+    "date": "05 SPT",
     "baseImage": "assets/uploads/blogPhotos/CMMS.png",
     "subTitle": "MAINTENANCE MANAGEMENT APP",
-    "title": "CMMS NEDİR ?",
-    "slug": "cmms-nedir",
-    "description": "Değeri milyonlarla ifade edilen, hayata geçmesi uzun yıllar alan, arka planında yüzlerce insanın emeği olan altyapı tesislerinin veriml...",
+    "filter": "name1",
+
+    "title": "WHAT IS CMMS?",
+    "slug": "what-is-cmms",
+    "description": "The efficiency of infrastructure facilities, whose value is expressed in millions, which takes many years to realize, and which has hundreds of people in the background...",
     "descriptions": [
       {
-        "text": "Değeri milyonlarla ifade edilen, hayata geçmesi uzun yıllar alan, arka planında yüzlerce insanın emeği olan altyapı tesislerinin verimli kullanımında ve ömrünün optimize edilmesinde kritik rol oynayan sistemlerin başında bilgisayarlı bakım yönetimi sistemi gelmektedir. CMMS Nedir? sorusuna cevap vermek gerekirse bilgisayar destekli bakım yönetim sistemleri anlamına da gelen CMMS (Computerized maintenance management system)sistemi imalattan enerjiye, lojistikten inşaata farklı sektörlerde hizmet veren bir tesisin kontrol ve bakımında en kapsayıcı çözümleri sunan yazılımdır. Geçmişi 1960’lı yıllara kadar giden, günümüzde ise bulut tabanlı ve mobil olarak kullanılan CMMS’nin temel işlevleri; altyapı tesislerinde bakım bilgilerini merkezileştirmek, süreçleri kolaylaştırmak ve verimliliği artırmak olarak sıralanmaktadır."
+        "text": "The computerized maintenance management system is one of the systems that play a critical role in the efficient use and optimization of the life of infrastructure facilities, the value of which is expressed in millions, the implementation of which takes many years, and the labor of hundreds of people in the background. What is CMMS? To answer the question, CMMS (Computerized maintenance management system), which also means computer-aided maintenance management systems, is the software that offers the most comprehensive solutions in the control and maintenance of a facility serving in different sectors from manufacturing to energy, from logistics to construction. The basic functions of CMMS, which dates back to the 1960s and is currently used as cloud-based and mobile; centralizing maintenance information in infrastructure facilities, facilitating processes and increasing efficiency."
       },
       {
-        "text": "CMMS Nasıl Çalışır ?",
+        "text": "How CMMS Works ?",
         "class": "h3"
       },
       {
-        "text": "CMMS aslen bir veri tabanına dayanmakta olup, bir tesis içerisinde yer alan fiziki ve beşeri tüm kaynaklar hakkında bilgileri bu veri tabanına kaydeder. Bu sayede makinelerden araçlara, malzemelerden çalışanlara kadar tüm kaynakları belirli görevler çerçevesinde organize eder ve süreçler arasında tam koordinasyon sağlar."
+        "text": "CMMS is originally based on a database and records information about all physical and human resources within a facility in this database. In this way, it organizes all resources, from machines to tools, from materials to employees, within the framework of certain tasks and provides full coordination between processes."
       },
       {
-        "text": "CMMS Kullanımı hangi avantajları sağlar ?",
+        "text": "What advantages does using CMMS provide ?",
         "class": "h3"
       },
       {
-        "text": "Tesislerde CMMS’nin etkin kullanımının sağladığı avantajları şöyle sıralayabiliriz:"
+        "text": "We can list the advantages of the effective use of CMMS in facilities as follows:"
       },
       {
-        "text": "Verimliliği arttırır ve ömrü uzatır.",
+        "text": "Increases efficiency and extends life.",
         "class": "fw-bolder"
       },
       {
-        "text": "Veri paylaşımı yaklaşımıyla tesisin her noktasında ve operasyonun her aşamasındaki faaliyetleri birbirleriyle uyumlu hale getirerek aynı iş hedefleri doğrultusunda birleştirir. Kusur ve arızaları etkin şekilde raporlar ve düzeltilmesine imkan tanır. Cmms, kaynakların daha etkin kullanımını sağlar. İster makine, ekipman, araç gibi fiziksel isterse çalışanlar gibi beşeri olsun tüm kaynakların verimli kullanımında etkin rol oynar. Böylece ekipmanların sertifikasyonları ya da çalışanların vardiyaları tek bir panodan organize edilebilir."
+        "text": "With its data sharing approach, it harmonizes the activities at every point of the facility and at every stage of the operation and combines them in line with the same business objectives. It effectively reports the defects and malfunctions and allows them to be corrected. Cmms provides more efficient use of resources. It plays an active role in the efficient use of all resources, whether physical, such as machinery, equipment, vehicles, or human, such as employees. Thus, certifications of equipment or shifts of employees can be organized from a single dashboard."
       },
       {
-        "text": "Varlıklar kayıt altına alınır.",
+        "text": "Assets are registered.",
         "class": "fw-bolder"
       },
       {
-        "text": "Fiziksel varlıkların üretici, model, seri numarası vb. özelliklerinden tesis içerisindeki yerlerine, performansları ve kapalı kalma sürelerinden bakım kılavuzlarından garantilerine, nesnelerin interneti (IoT) uygulamalarına entegrasyonlarına kadar geniş bir yelpazede tüm yeteneklerini kayıt altına alır. Oluşturulan bakımlar sürekli olarak standardize edilir. Veri tabanına bilgiler; sensörlerden, kullanım istatistiklerinden ve bakım ekiplerini ilgilendiren diğer verilerden gelir. Bu sayede CMMS, yapay zekayı kullanarak MRO envanterini otomatize eder. Bakım ve onlarım işleminde (MRO) kullanılan malzemelerin envanterinin oluşturulması, konumlandırılması ve geri çağrılması süreçlerini otomatikleştirir."
+        "text": "Manufacturer, model, serial number, etc. of physical assets. It records all its capabilities in a wide range from features to their location in the facility, their performance and downtime, from maintenance manuals to warranties, and their integration into internet of things (IoT) applications. Established treatments are constantly standardized. information to the database; comes from sensors, usage statistics and other data of interest to maintenance teams. In this way, CMMS automates MRO inventory using artificial intelligence. It automates the processes of creating, locating and recalling inventory of materials used in maintenance and repair (MRO)."
       },
       {
-        "text": "İş akışlarını görünür kılarak, emirlerin etkin yönetimini sağlar.",
+        "text": "It provides effective management of orders by making workflows visible.",
         "class": "fw-bolder"
       },
       {
-        "text": "Panoların ve raporların aktive edilmesiyle, bakım ekiplerinin varlıklara kolay erişimine yardımcı olur. Bununla birlikte; tesisin her noktasındaki çalışan faaliyetlerinin değerlendirilmesine, iş emirlerinin otomatikleştirilmesine, planlanmış ve gerçekleşen maliyetlerin kayıtlarının tutulmasına ve iş emirlerinin tamamlanma oranlarının iyileştirilmesine katkıda bulunur.  Ayrıca daha sağlıklı, güvenli ve çevreci tesisler yaratır. Küresel ve ulusal otoritelerin beklentileri, regülasyonlar ve müşteri talepleri doğrultusunda hem çalışan hem de çevre güvenliğini tehlikeye atacak arıza ve riskler için erken uyarı sistemi kurar, varlıkların bakımının düzenli gerçekleştirilmesini sağlar, tüm gerçekleşmiş sorunları raporlar ve düzeltilmesine imkan tanır."
+        "text": "Helps maintenance teams easy access to assets by activating dashboards and reports. With this; It contributes to evaluating employee activities at every point of the facility, automating work orders, keeping records of planned and actual costs, and improving work order completion rates. It also creates healthier, safer and more environmentally friendly facilities. In line with the expectations of global and national authorities, regulations and customer demands, it establishes an early warning system for malfunctions and risks that will endanger both employee and environmental safety, ensures regular maintenance of assets, reports all realized problems and allows them to be corrected."
       },
       {
-        "text": "İşgücünü mobilize eder.",
+        "text": "It mobilizes the workforce.",
         "class": "fw-bolder"
       },
       {
-        "text": "CMMS sadece tesisin içindeki değil, dışındaki çalışanların da ortak hedeflere entegre edilmesine ve imkan tanıyacak avantajlar sunar ve onları destekler."
+        "text": "CMMS offers advantages and supports the integration of employees not only inside the facility but also outside the facility to common goals."
       },
       {
-        "text": " CMMS = uzun çalışma süresi = kârlılık",
+        "text": "CMMS = long uptime = profitability",
         "class": "fw-bolder font-italic"
       },
       {
-        "text": "Tesislerde bakım yöneticileri ve departmanlarının varlık nedeni, büyük ve pahalı bir yatırımın karşılığı olan araç ve ekipmanların arızalanmadan en uzun süre devrede kalmalarını sağlamaktır. Bir diğer deyişle, arızalanmadan en uzun süre çalışan varlıklar, en değerli, kârlı ve tasarruf dostu varlıklardır. Güvenilir ve uzun çalışma süreleri ise sırtını güvenilir varlıklara dayayan işletmelerin yüzünü rahatlıkla müşterilerinin taleplerine dönebileceği bir zemin yaratmaktadır."
+        "text": "The reason for the existence of the maintenance managers and departments in the facilities is to ensure that the vehicles and equipment, which is the equivalent of a large and expensive investment, remain in operation for the longest time without failure. In other words, the assets that work the longest without fail are the most valuable, profitable and savings-friendly assets. Reliable and long working hours, on the other hand, create a ground where businesses that rely on reliable assets can easily turn to the demands of their customers."
       },
       {
-        "text": "CMMS seçerken nelere dikkat edilmelidir ?",
+        "text": "What should be considered when choosing a CMMS?",
         "class": "h3"
       },
       {
-        "text": "Bir CMMS yazılımı seçerken, işlev ve teknoloji kadar “desteğe erişim” de önemlidir. Hizmet sağlayıcıların CMMS dağıtımının öncesi, sırası ve sonrasını kapsayacak şekilde eğitim ve destek hizmeti sağlaması gerekmektedir. Bir diğer önemli faktör ise seçilen CMMS’nin tesisteki mevcut sistemlere entegrasyonudur. Geçmişteki verileri içerebilen CMMS’nin etkinliği artacaktır.  Son olarak CMMS’den hizmet olarak (SaaS) mı yoksa şirket içi mi (On-Prem) faydalanacağı bir diğer önemli konudur. Bu yazılımı hizmet olarak edinmek, hızlı deneme ve dağıtımın yanı sıra özelliklerinin veri kalitesi ve işlevsellik bozulmaksızın kolayca yükseltilebileceği anlamına gelecektir. Şirket bünyesine katmak ise veri bozulması yaşamadan optimizasyon için BT ve bilgi güvenliği uzmanlarının işbirliğini zorunlu kılacaktır."
+        "text": "When choosing a CMMS software, “access to support” is as important as functionality and technology. Service providers are required to provide training and support services before, during and after CMMS deployment. Another important factor is the integration of the selected CMMS into the existing systems in the facility. The effectiveness of CMMS, which can contain historical data, will increase. Finally, another important issue is whether to use CMMS as a service (SaaS) or on-prem (On-Prem). Obtaining this software as a service will mean that its features can be easily upgraded without compromising data quality and functionality, as well as quick trial and deployment. Incorporation will require the cooperation of IT and information security experts for optimization without data corruption."
       }
     ]
   },
   {
     "id": "2",
-    "date": "02 EYL",
+    "date": "02 SPT",
     "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.png",
-    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
-    "title": "Altyapı Bakım Nedir ? Neden Önemlidir ? ",
-    "slug": "altyapi-bakimi-nedir-neden-önemlidir",
-    "description": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otob...",
+    "subTitle": "MAINTENANCE MANAGEMENT APP",
+    "filter": "name1",
+
+    "title": "What is Infrastructure Maintenance? Why is it important?",
+    "slug": "what-is-ınfrastructure-maintenance-why-is-it-important",
+    "description": "Infrastructure with the broadest definition; are facilities and systems developed to increase social welfare, quality of life and trade. bus...",
     "descriptions": [
       {
-        "text": "En geniş tanımla altyapı; toplumsal refahı, yaşam kalitesini ve ticareti artırmaya yönelik geliştirilen  tesisler ve sistemlerdir. Otobanlardan havalimanlarına, petrol ve doğalgaz hatlarından üretim tesislerine, depolardan santrallere, hastanelerden okullara, telekomünikasyona ve hatta cezaevlerine birçok yatırım altyapı kavramı içerisinde değerlendirilmektedir. Her yıl dünyada yüzlerce milyar dolarlık altyapı yatırımı bazen kamu bazen özel sektör, bazense her ikisinin ortaklığında hayata geçirilmektedir. Buna karşın başta gelişmekte olan ülkeler olmak üzere dünyanın birçok yerinde altyapı yatırımlarına olan ihtiyaç hala devasa boyutlardadır. Dünya Ekonomik Forumu verilerine göre, mevcut yatırım temposuyla dünya 2040 yılına kadar 15 trilyon dolarlık bir altyapı açığına sahip olacaktır. Diğer yandan; altyapılarını başarıyla inşa eden ya da yenileyen ülkeler ticaret ağlarına hızla entegre olmakta, daha dinamik bir ekonomi ve toplumsal refah ile hızla kalkınmaktadır. Altyapı yatırımlarının arka planında büyük bir sermaye, planlama yeteneği, teknolojik birikim ve işgücünün seferber edilmesi bulunmaktadır. Bu yönüyle her bir altyapı yatırımı oldukça değerli olup, ömürlerinin olabildiğince uzun kılınmasının yolu  etkin “altyapı bakımından” geçmektedir."
+        "text": "Infrastructure with the broadest definition; are facilities and systems developed to increase social welfare, quality of life and trade. Many investments from highways to airports, from oil and natural gas lines to production facilities, from warehouses to power plants, from hospitals to schools, telecommunications and even prisons are considered within the concept of infrastructure. Every year, hundreds of billions of dollars of infrastructure investments are made in the world, sometimes in partnership with the public, sometimes the private sector, and sometimes both. However, the need for infrastructure investments in many parts of the world, especially in developing countries, is still huge. According to the World Economic Forum data, with the current investment pace, the world will have an infrastructure deficit of 15 trillion dollars by 2040. On the other hand; Countries that successfully build or renew their infrastructures are rapidly integrating into their trade networks and developing rapidly with a more dynamic economy and social welfare. In the background of infrastructure investments, there is a large amount of capital, planning ability, technological know-how and the mobilization of the workforce. In this respect, each infrastructure investment is very valuable, and the way to make their lifespan as long as possible is in terms of effective 'infrastructure'."
       },
       {
-        "text": "Kamu altyapısı ve Özel altyapı nedir?",
+        "text": "What is Public infrastructure and Private infrastructure?",
         "class": "h3"
       },
       {
-        "text": "Geleneksel olarak altyapı yatırımlarının hükümetlerin yani kamunun sorumluluğunda olduğuna inanılmaktadır. Gerçekten de şehirleşmeyle birlikte kamu yönetimleri; ulaşım, enerji, sanitasyon, telekomünikasyon, eğitim, sağlık, spor gibi alanlarda birçok altyapı yatırımını hayata geçirmiştir. Kamu altyapısının finansmanında halktan toplanan vergiler aktiftir. Hizmet yine halka dönecektir. Bu nedenle vergilerin mümkün olan en iyi yatırımda değerlendirilmesi gerekmektedir. Özel sektör ise kâr maksimizasyonu için üretim tesisleri, depolar, perakende ve ofis alanları gibi alanlarda yatırımları üstlenmiştir. Son yıllarda kamu-özel işbirliği (KÖİ) ile altyapı yatırımlarında kamunun garanti mekanizmaları ile özel sektörün dinamizminin birleştirildiği bir model kurgulanmış ve sağlıktan ulaşıma, yenilenebilir enerjiden telekomünikasyona birçok alandaki altyapı yatırımları karşılanmaya başlanmıştır."
+        "text": "It is traditionally believed that infrastructure investments are the responsibility of governments. Indeed, with urbanization, public administrations; It has implemented many infrastructure investments in areas such as transportation, energy, sanitation, telecommunication, education, health and sports. Taxes collected from the public are active in the financing of public infrastructure. The service will return to the public again. Therefore, taxes should be evaluated in the best possible investment. The private sector has undertaken investments in areas such as production facilities, warehouses, retail and office areas for profit maximization. In recent years, a model combining the public-private partnership (PPP) and infrastructure investments with the dynamism of the private sector has been designed, and infrastructure investments in many areas from health to transportation, from renewable energy to telecommunication have begun to be met."
       },
       {
-        "text": "Altyapı bakımına neden ihtiyaç duyulur?",
+        "text": "Why is infrastructure maintenance needed?",
         "class": "h3"
       },
       {
-        "text": "Toplumsal kalkınma açısından “sürdürülebilirlik” hiç olmadığı kadar önemlidir. Bu amaç ise altyapıların kesintisiz hizmet vermesini gerekli kılmaktadır. Hangi amaca dönük olursa olsun ve hangi taraflarca yapılırsa yapılsın düzenli bakımı yapılan altyapıların ömrü uzayacak, daha etkin kullanılacak ve çok sayıda insanın hayatına dokunacaktır."
+        "text": "“Sustainability” is more important than ever in terms of social development. This purpose necessitates the uninterrupted service of infrastructures. Regardless of its purpose and by whichever parties, infrastructures that are regularly maintained will have a longer life, be used more effectively and touch the lives of many people."
       },
       {
-        "text": "Altyapıların bakımı için kolaylaştırıcı çözüm: Bakım yönetim yazılımı (CMMS)",
+        "text": "Facilitating solution for the maintenance of infrastructures: Maintenance management software (CMMS)",
         "class": "h3"
       },
       {
-        "text": "Altyapılar teknolojik açıdan karmaşıklaştıkça, bakımları zorlaşmakta ve elbette riskler artmaktadır. Dinamik, gerçek zamanlı ve veriye dayalı bakım ise bu riskleri azaltacak ve altyapı bakımını kolaylaştıracaktır. Modern bakım yönetimi yazılımı (CMMS) bu amacın hayata geçirilmesinde güncel araçların içerisinde en etkinidir."
+        "text": "As infrastructures become more technologically complex, their maintenance becomes more difficult and, of course, the risks increase. Dynamic, real-time and data-driven maintenance will reduce these risks and facilitate infrastructure maintenance. Modern maintenance management software (CMMS) is the most effective of the current tools in realizing this purpose."
       },
       {
-        "text": "CMMS ile yeni bir altyapı bakımı yaklaşımını benimseyin.",
+        "text": "Take a new approach to infrastructure maintenance with CMMS.",
         "class": "fw-bolder"
       },
       {
-        "text": "Verileri merkezi olarak kontrol edin.",
+        "text": "Control data centrally.",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": " Dijitalleşen altyapı tesislerinde verileri manuel olarak izlemeye ve yönetmeye çalışmak artık bir hayaldir. Bilgisayar ortamında tutulan basit elektronik tablolar ise bu karmaşık tesisler için fazla basit kalmakta ve veri kaybı risklerini beraberinde getirmektedir. Yetkin bir CMMS yazılımı; tüm kaynakları veri tabanında kayıt altına alacak, verileri entegre edecek ve merkezileşmiş verilerden hareketle bakım ekibini doğru hedefe kanalize edecektir.",
+        "text": "Trying to manually monitor and manage data in digitizing infrastructure facilities is now a dream. Simple spreadsheets kept in a computer environment are too simple for these complex facilities and bring data loss risks. A competent CMMS software; will record all resources in the database, integrate the data and channel the maintenance team to the right target based on centralized data.",
         "style": "display:inline"
       },
       {
-        "text": "Planlı ve pro-aktif bir bakım paradigmasına geçin.",
+        "text": "Shift to a planned and pro-active care paradigm.",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Günümüzde bakım maliyetlerini düşürmenin en etkin yolu, riskler henüz hayata geçmeden onları tespit etmek ve çok daha maliyetli olmadan önlemektir. Yetkin bir CMMS, planlı ve pro-aktif bir bakım programı oluşturulmasını sağlayacak ve bakım ekibini doğrudan hedefe yöneltecektir. Program şu bilgileri içerebilecektir:",
+        "text": "The most effective way to reduce maintenance costs today is to detect risks before they materialize and to prevent them before they become much more costly. A competent CMMS will ensure that a planned and pro-active maintenance program is established and will lead the maintenance team directly to the target. The program may contain the following information:",
         "style": "display:inline"
       },
       {
-        "text": "Tüm bakım direktifleri",
+        "text": "All maintenance directives",
         "style": "font-style:italic"
       },
       {
-        "text": "Özelleştirmeye açık check-list’ler",
+        "text": "Customizable checklists",
         "style": "font-style:italic"
       },
       {
-        "text": "İlgili tüm araç ve malzemeler",
+        "text": "All relevant tools and materials",
         "style": "font-style:italic"
       },
       {
-        "text": "Olası güvenlik riskleri",
+        "text": "Possible security risks",
         "style": "font-style:italic"
       },
       {
-        "text": "Dijital şema, işletme ve bakım rehberleri",
+        "text": "Digital diagram, operation and maintenance guides",
         "style": "font-style:italic"
       },
       {
-        "text": "İnteraktif tesis haritaları ve kat planları",
+        "text": "Interactive facility maps and floor plans",
         "style": "font-style:italic"
       },
       {
-        "text": "7/24 mobil uygulamaya erişin.",
+        "text": "Access to the mobile application 24/7.",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Yetkin bir CMMS’nin sağladığı barkod taraması ile mobil uygulamaya her an erişim imkanı, sorunlu alana giden bakım ekibinin merkezle iletişimini kesmemesi ve mesafeden kaynaklı maliyetler oluşmaması için kritik bir araçtır. Ekip, mobil uygulama sayesinde sisteme doğrudan veri ve görüntü yükleyebilecek, sorunun merkez tarafından görsel kanıtlarla incelenmesini sağlayabilecektir.",
+        "text": "The ability to access the mobile application at any time with barcode scanning provided by a competent CMMS is a critical tool to ensure that the maintenance team who goes to the problem area does not interrupt their communication with the center and does not cause distance-related costs. Thanks to the mobile application, the team will be able to upload data and images directly to the system and enable the center to examine the problem with visual evidence.",
         "style": "display:inline"
       }
     ]
   },
   {
     "id": "3",
-    "date": "29 AĞU",
+    "date": "29 AUG",
     "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.png",
-    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
-    "title": "Durum Bazlı Bakım (CBM) Nedir ?",
-    "slug": "durum-bazli-bakim-nedir",
-    "description": "Bir altyapıda olası arızaların önüne geçmek için kullanılan geleneksel önleyici bakım stratejileri çoğunlukla gereksiz varlık bakımları...",
+    "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
+    "filter": "name2",
+
+    "title": "What is Condition Based Maintenance (CBM)?",
+    "slug": "what-is-condition-based-maintenance",
+    "description": "Traditional preventive maintenance strategies used to prevent potential failures in an infrastructure often involve unnecessary asset maintenance.",
     "descriptions": [
       {
         "text": "Bir altyapıda olası arızaların önüne geçmek için kullanılan geleneksel önleyici bakım stratejileri çoğunlukla gereksiz varlık bakımlarına neden olmakta, bu da öngörülemez ekipman arızalarını tetiklediği gibi maliyetleri de yükseltmektedir. Durum bazlı bakım (CBM) iki temel amaca sahiptir;"
@@ -295,12 +301,14 @@
   },
   {
     "id": "4",
-    "date": "22 AĞU",
+    "date": "22 AUG",
     "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.png",
-    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
-    "title": "Periyodik Bakım Nedir ?",
-    "slug": "periyodik-bakim-nedir",
-    "description": "Altyapıların en çok başını ağrıtan konuların başında varlıklardaki beklenmedik arızalar gelmektedir. Belirli bir garanti ve sigorta kap..",
+    "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
+    "filter": "name2",
+
+    "title": "What is Periodic Maintenance?",
+    "slug": "what-is-periodic-maintenance",
+    "description": "Unexpected failures in assets are one of the most troublesome issues for infrastructures. A certain warranty and insurance cover..",
     "descriptions": [
       {
         "text": "Altyapıların en çok başını ağrıtan konuların başında varlıklardaki beklenmedik arızalar gelmektedir. Belirli bir garanti ve sigorta kapsamında olsalar bile, ekipman arızaları onarım maliyetlerini aşan “paha biçilemez” kayıplar doğurur. Tesisin bir bölümünün ya da tamamının devre dışı kalması, temrinlerin yetişmemesi ve elbette daha kötü bir senaryo olarak müşteri ve pazar kayıpları bu sonuçlardan bazılarıdır.",
@@ -450,12 +458,14 @@
   },
   {
     "id": "5",
-    "date": "18 AĞU",
+    "date": "18 AUG",
     "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.png",
     "subTitle": "BLOG",
-    "title": "Üretimde IoT ve Yeni Trendler",
-    "slug": "üretimde-yeni-trendler",
-    "description": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bi...",
+    "filter": "name3",
+
+    "title": "IoT and New Trends in Manufacturing",
+    "slug": "new-trends-in-production",
+    "description": "All over the world, production processes are going through a rapid transformation. IoT is one of the main tools of this transformation. IoT in manufacturing, a...",
     "descriptions": [
       {
         "text": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bir tesis içerisinde tüm varlıkların sensörler ve internet bağlantısı aracılığıyla birbiriyle bağlanması olup, “akıllı ve konuşan üretim tesisleri” paradigmasına geçişin anahtarıdır. Küresel imalat sanayinde 200 milyar dolar civarında olan IoT uygulamaları pazarının 2030 yılına gelindiğinde 1.5 trilyon dolara yükselmesi öngörülüyor. Bu, birçok sektörle karşılaştırıldığında devasa bir büyümeye işaret ediyor. Üstelik bu dönüşüm sadece imalat sanayiyle sınırlı kalmarak, bütünsel bir verimlilik stratejisini hayata geçiren çarpan etkisiyle küresel ekonomiye katma değer olarak dönecek gibi gözüküyor."
@@ -559,12 +569,14 @@
   },
   {
     "id": "6",
-    "date": "15 HAZ",
+    "date": "15 JUN",
     "baseImage": "assets/uploads/blogPhotos/Toplam-Verimli-Bakim-1917x2048.webp",
-    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
-    "title": "Toplam Verimli Bakım",
-    "slug": "toplam-verimli-bakim",
-    "description": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklen...",
+    "subTitle": "MAINTENANCE MANAGEMENT APP",
+    "filter": "name1",
+
+    "title": "Total Efficient Maintenance",
+    "slug": "total-efficient-maintenance",
+    "description": "Today, modern production and management techniques applied in businesses are based on customer demands. Expectations of customers on products and services...",
     "descriptions": [
       {
         "text": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklentisi sürekli artmakta olduğundan bu durum işletmelerin üretim sistemlerinin giderek karmaşık ve komplike bir hal almasını sağlamaktadır. Üretim sistemlerinin giderek karmaşıklaşması, belirli bir verimlilik standardının korunmasını zorlaştırmakta ve üretim süreçlerinde hatalara sebebiyet vermektedir."
@@ -685,12 +697,14 @@
   },
   {
     "id": "7",
-    "date": "11 HAZ",
+    "date": "11 JUN",
     "baseImage": "assets/uploads/blogPhotos/Hata-Turleri-Ve-Etkileri-Analizi-4-1917x2048.webp",
-    "subTitle": "ARIZA YÖNETİMİ",
-    "title": "Hata Türleri ve Etkileri Analizi",
-    "slug": "hata-türleri-ve-etkileri-analizi",
-    "description": "Bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prose...",
+    "subTitle": "FAULT MANAGEMENT",
+    "filter": "name4",
+
+    "title": "Failure Modes and Effects Analysis",
+    "slug": "failure-modes-and-effects-analysis",
+    "description": "A product development and operations management process that classifies faults by probability and similarity to analyze potential failure modes of a system.",
     "descriptions": [
       {
         "text": "Hata türleri ve etkileri analizi; bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prosedürüdür. Başarılı bir hata türü analizi işi, benzer ürünlerin veya proseslerin geçmiş deneyimlerine dayanarak hata türlerinin tanımlanmasına yardımcı olur. Bu hataların sistemden minimum kaynak kullanımı ve çabayla atılmasını sağlar ve bununla beraber geliştirme zamanını ve maliyetini düşürür. Genellikle üretim sektöründe ürünlerin çeşitli aşamalarında kullanılmakla beraber hizmet sektöründe de kullanım alanı artmıştır."
@@ -708,12 +722,14 @@
   },
   {
     "id": "8",
-    "date": "06 HAZ",
+    "date": "06 JUN",
     "baseImage": "assets/uploads/blogPhotos/Guvenirlik-Merkezli-Bakim-Yaklasimi-1917x2048.webp",
     "subTitle": "BLOG",
-    "title": "Güvenilirlik Merkezli Bakım Yaklaşımı",
-    "slug": "güvenilirlik-merkezli-bakim-yaklasimi",
-    "description": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli...",
+    "filter": "name3",
+
+    "title": "Reliability-Centered Maintenance Approach",
+    "slug": "reliability-centered-maintenance-approach",
+    "description": "As a result of the studies on the reliability of complex machines and devices in the USA in the 1960s, the 'Reliability Centered...",
     "descriptions": [
       {
         "text": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli Bakım” (RCM: Reliability Centered Maintenance) stratejisinin temelleri atılmıştır. Başlangıçta salt havacılık endüstrisinde kullanılan RCM, zamanla güvenliğin ön planda olduğu nükleer santraller, petrokimya tesisleri, boru hatları gibi endüstriyel alanlarda da kullanılmaya başlanmıştır. Günümüzde RCM’nin kullanım alanı hızla genişlemektedir. RCM, makina durumuna bağlı bakım (Kestirimci Bakım), çalışma zamanına bağlı periyodik bakım ve arıza sonrasında uygulanan bakım stratejilerinin en uygun birleşimini araştırır ve uygular."
@@ -728,12 +744,14 @@
   },
   {
     "id": "9",
-    "date": "22 ARA",
+    "date": "22 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Teknolojinin-Bakim-Yonetime-Etkisi-1-959x1024.webp",
-    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
-    "title": "Teknolojinin Bakım Yönetim Etkisi",
-    "slug": "teknolojinin-bakim-yönetim-etkisi",
-    "description": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılma...",
+    "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
+    "filter": "name5",
+
+    "title": "Maintenance Management Impact of Technology",
+    "slug": "technology-maintenance-management-effect",
+    "description": "Periodic maintenance of the machine is very important in terms of keeping the performance of the machines stable. In addition to maintenance, it is also possible to follow up on issues such as part tracking and replacement...",
     "descriptions": [
       {
         "text": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılması gerekir. Firmanın diğer ihtiyaçları ve işleri ile uğraşırken bu bakım ve takibe vakit bulunmaması olası bir durumdur. Planlı bakım, geçmişe dönük yapılan bakım süreçlerinin takibinin yapılması konusunda size yardımcı olur. Böylelikle makinelerin her bakıma ihtiyaç duyduğu anda önceki geçtiği bakımın zaman kontrolünü yapabilir, gelecek tarihte bu bakımın hangi aralığa denk geldiğini öğrenebilirsiniz. Pozitif bakım, makinelerde oluşacak olası arızaların yaratacağı riskleri de minimum düzeye indirmenizi sağlar. Günümüzde teknoloji kullanımının olmadığı alana rastlamak oldukça düşük bir ihtimaldir. Teknoloji, insan gücü ile bir araya geldiğinde ulaşılmak istenen pek çok sonuca hızlı bir şekilde erişmenize yardımcı olur. Bakım yönetimi yazılımı, firma içerisinde yer alan bir ya da birden fazla makinenizin bakım takvimini oluşturarak bu takibi sizin için otomatik olarak hazırlar. Bu yazılım sayesinde makine bakımı takibi için ayıracağınız vakitten tasarruf edebilirsiniz"
@@ -756,12 +774,14 @@
   },
   {
     "id": "10",
-    "date": "21 ARA",
+    "date": "21 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Planli-Bakimlarda-Uretim-Verimi-Arttirma-1917x2048.webp",
-    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
-    "title": "Planlı Bakımlarla Üretimde Verimi Arttırmak",
-    "slug": "planli-bakimlarla-üretimde-verimi-arttirmak",
-    "description": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaş...",
+    "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
+    "filter": "name5",
+
+    "title": "Increasing Efficiency in Production with Planned Maintenance",
+    "slug": "to-increase-efficiency-in-production-with-planned-maintenances",
+    "description": "Production process efficiency shows how well and in how long a business will achieve its goals. Compare current production rates with expected production rates.",
     "descriptions": [
       {
         "text": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaştıran ölçümler ürün kalitesini yükseltirken üç önemli sonuç almanızı sağlar. Bunlardan birincisi verimli üretim sistemlerinin kaynak kullanımını azaltmasıdır. Bu sayede az kaynakla aynı sayıda mal üretir. İkinci olarak verimliliğin artması daha yüksek finansal marj elde etmek anlamına gelir. Üçüncü ve son sonuç ise ürün ve hizmetlerin müşterilere düzenli teslim edilmesine olanak tanır. Üretim verimliliğini artırmak amacıyla bakım yönetim sistemleri kullanılabilir. Çünkü ekipmanların bakımı verimlilik için şarttır. Makine ve cihazlar düzenli olarak kontrol edilirse üretimi kesintiye uğratabilecek büyük arızalar önlenir. Periyodik bakım sürecini sizin için düzenleyen bakım yönetim yazılımları, ekipmanların bakım için planlı şekilde durdurulmasını ve olabilecek en kısa sürede tekrar çalışmasını sağlar. Bakım etkili olursa memnuniyet sağlanır, çünkü üretim daha kaliteli olur. Aynı zamanda makinelerin kullanım ömrü uzar ve yeni ekipman alma ihtiyacı doğmaz. Doğal olarak tasarruf edilmiş olur. Bunları gerçekleştirebilmek için periyodik bakımlar aksatılmadan vaktinde yapılmalıdır. "
@@ -784,12 +804,14 @@
   },
   {
     "id": "11",
-    "date": "21 ARA",
+    "date": "21 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Periyodik-Bakimlarin-Onemi-1917x2048.webp",
-    "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
-    "title": "Bakım Takip Programı: Periyodik Bakımların Önemi Nedir ?",
-    "slug": "bakim-takip-programi",
-    "description": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğrataca...",
+    "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
+    "filter": "name2",
+
+    "title": "Maintenance Follow-up Program: What is the Importance of Periodic Maintenance?",
+    "slug": "maintenance-follow-up-program",
+    "description": "Some company managers say that the maintenance or renewal of the machines that are currently in production will damage the company in terms of time and money.",
     "descriptions": [
       {
         "text": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğratacağını düşünür. Oysaki düzenli bakımı yapılmayan makinelerinin donanımlarının gözle görülmeyen hasarlar oluşmaya başlamış olabilir. Her ne kadar makineler düzenli olarak üretimi sürdürmeye devam etseler de, makine içerisindeki ekipman ömrünün dolması uzun vadede üretime olumsuz bir yönde etki eder. Ekipman ömrü, üretimin belirli aşamalarında elde ettiğiniz ürünlerde defo görmenize sebep olabilir. Bu durum, üretim kaybına ve hammadde tedariğinde zarara uğramanıza yol açar. Hatta bu parçaların değişim ihtiyacı duyulmasına rağmen makine içerisinde yer alması, makinenin diğer donanımlarına hasar vermesine de sebep olabilir. Fabrika bakımı, büyük miktarda üretim gerçekleştirilen bir alan olan fabrikaların mutlaka üzerinde durması gereken bir konudur. Bakım takip programı, makinenin her bir ekipmanını kapsayabileceği gibi, yalnızca belirli parçaların kontrolünü yapma işlemi ile de gerçekleştirilebilir."
@@ -813,12 +835,14 @@
   },
   {
     "id": "12",
-    "date": "21 ARA",
+    "date": "21 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Makine-Ideal-Bakim-Periyotlari-1917x2048.webp",
-    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
-    "title": "Makinelerinizin İdeal Bakım Periyotları Ne Olmalıdır ?",
-    "slug": "makinelerinizin-ideal-bakim-periyotlari-ne-olmalidir",
-    "description": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmas...",
+    "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
+    "filter": "name5",
+
+    "title": "What should be the ideal maintenance periods of your machines?",
+    "slug": "what-the-ideal-maintenance-periods-should-be-your-machines",
+    "description": "Maintenance planning is the planning of the processes that need to be done in order for the machines and devices in an industry to continue production.",
     "descriptions": [
       {
         "text": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmasıdır. Bu yapılan bakımların başarılı olabilmesi ve sistemin doğru şekilde çalışabilmesi için bazı noktalara dikkat edilmelidir. Öncelikle gerekli bakımın yapılabilmesi için her işletme kendi ekipman ve diğer şartlarına uygun bir planlama yapmalıdır. Bakım esnasında kullanılacak malzemeler mutlaka işletmede hazır olmalıdır. Bakım yönetim yazılımları işletmenizdeki ekipmanların bakımı için göz önünde bulundurulması gereken her detayı sizin için takip eder. İdeal bakım takvimi ve bakım için gerekli tüm planlamalar bu sistemlerle kolayca incelenebilir. Makine ve cihazların faaliyetlerine arızasız şekilde devam edebilmeleri için bakım planlaması yaparken her bir ekipman için ideal bakım periyotları belirlenmelidir. Bu sayede ekipmanlara gereken bakımlar vaktinde yapılacağı için beklenmedik arızalarla zaman kaybı yaşanmaz. Ek olarak ekipmanlardan alabilecek en yüksek verim alınarak ürün kaybının da önüne geçilmiş olunur. Verimi artıran ve maliyetleri azaltan makine ve cihaz bakımları atlanmadan zamanında yapılmalıdır."
@@ -861,12 +885,14 @@
   },
   {
     "id": "13",
-    "date": "21 ARA",
+    "date": "21 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetim-Yazilimi-1917x2048.webp",
-    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
-    "title": "Bakım Yönetim Yazılımı Nedir ?",
-    "slug": "bakim-yönetim-yazilimi-nedir",
-    "description": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabil...",
+    "subTitle": "MAINTENANCE MANAGEMENT APP",
+    "filter": "name1",
+
+    "title": "What is Maintenance Management Software?",
+    "slug": "what-is-maintenance-management-software",
+    "description": "Every workplace is established by allocating large budgets, and certain expenses are made in the production and service stages. All these expenses must be kept under control. Otherwise, you can spend too much...",
     "descriptions": [
       {
         "text": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabilir ve bu da zarara yol açabilir. Bakım yönetim yazılımının ilk amacı giderlerin kontrol altına alınarak oluşabilecek masrafların önlenmesidir. Bu yazılım firmanızda devamlı olarak çalışan makinelerin bakımını, yıpranan parçaların değişimini zamanında yapmanız için makinelerinizi takip eder. Bakım ekibi takibiile arızalar daha hızlı takip edilir ve müdahale süresi ve üretim maliyetleri azalırken ürün kalitesi artar. Fabrikanın ve ekipmanların ömrü uzar, üretim sekteye uğramaz. Bunların yanı sıra yazılım envanter, sayaç, zimmet ve diğer fabrika kayıtlarınızı da tutar. Başka bir deyişle bu yazılımlar fabrikanız ile ilgili tüm detayları sizin yerinize inceleyerek sizin için işlerinizi kolaylaştırır. Mobil bakım yönetim sistemi ile bütün bakım, ekipman ve diğer kayıtlarınızı görüntüleyebilir, ileriye dönük planlanmış bakımları inceleyebilir, arıza durumlarında iş emirleri oluşturarak atama yapabilirsiniz. Fabrikalarda daha iyi organizasyonu hedefleyen bu sistem, üretimde sürekliliği sağlayarak verimliliği de artırır. "
@@ -889,12 +915,14 @@
   },
   {
     "id": "14",
-    "date": "21 ARA",
+    "date": "21 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Kestirici-Bakim-1917x2048.webp",
-    "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
-    "title": "Kestirimci Bakım Nedir ?",
-    "slug": "kestirimci-bakim-nedir",
-    "description": "Makinelerde beklenmedik arızalanmalar görülmesi, kısa vadede de olsa üretimin durmasına ve ideal işleyişi belirli bir süre boyunca kaybetmenize sebep olur. Makinelerin eski performansları...",
+    "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
+    "filter": "name5",
+
+    "title": "What is Predictive Maintenance?",
+    "slug": "what-is-predictive-maintenance",
+    "description": "Unexpected malfunctions in the machines cause the production to stop, even in the short term, and cause you to lose the ideal operation for a certain period of time. The old performances of the machines...",
     "descriptions": [
       {
         "text": "Makinelerde beklenmedik arızalanmalar görülmesi, kısa vadede de olsa üretimin durmasına ve ideal işleyişi belirli bir süre boyunca kaybetmenize sebep olur. Makinelerin eski performanslarına döndürülebilmeleri adına bir süre tamir görmeleri gerekebilir. Bu tamir süreci, üretim ve lojistik sürecinde zaman kaybetmenize de yol açar. Geleneksel bireysel makine takipleri işgücü ve zaman konusunda çalışanlara büyük bir sorumluluk yükler."
@@ -929,12 +957,14 @@
   },
   {
     "id": "15",
-    "date": "20 ARA",
+    "date": "20 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Ariza-Yonetimi.webp",
-    "subTitle": "ARIZA YÖNETİMİ",
-    "title": "Arıza Üretim Üzerinde Nasıl Riskler Oluşturur ?",
-    "slug": "ariza-üretim-üzerinde-nasil-riskler-oluşturur",
-    "description": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydan...",
+    "subTitle": "FAULT MANAGEMENT",
+    "filter": "name4",
+
+    "title": "How Does Failure Create Risks on Production?",
+    "slug": "how-risks-creates-on-defect-production",
+    "description": "Machines in all small and large-scale enterprises need periodic maintenance to be applied at certain intervals. If these periodic maintenances are not performed on time, failure risk factors may occur on the machines...",
     "descriptions": [
       {
         "text": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydana gelebilir. Oluşacak arızanın büyüklüğü ve makine üzerindeki etkisi bilinemeyeceğinden hem üretim üzerinde hem de iş güvenliği açısından tehlike oluşturabilir. Oluşabilecek her arızanın maliyet, üretim ve iş güvenliği konularında işletmeyi etkilemesi olasıdır."
@@ -993,12 +1023,13 @@
   },
   {
     "id": "16",
-    "date": "20 ARA",
+    "date": "20 DEC",
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetimi-959x1024.webp",
-    "subTitle": "BAKIM YÖNETİM UYGULAMASI",
-    "title": "Vida Bakım Yönetim Uygulaması ile Maliyetleri Nasıl Düşürürsünüz?",
-    "slug": "vida-bakim-yönetim-uygulamasi-ile-maliyetleri-nasıl-düşürürsüzünüz",
-    "description": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir.Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman...",
+    "filter": "name1",
+    "subTitle": "MAINTENANCE MANAGEMENT APP",
+    "title": "How Can You Reduce Costs with Screw Maintenance Management Application?",
+    "slug": "screw-maintenance-management-application-how-to-lower-costs",
+    "description": "Maintenance management software is an auxiliary system for maintenance monitoring for every small or large-scale factory. Maintenance plans can be easily controlled, failures can be...",
     "descriptions": [
       {
         "text": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir. Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman kaybı yaşanmadan müdahale edildiği bir sistem sayesinde bakım planlarının oluşturulması ve takip edilmesi şüphesiz çok kolay olacaktır."

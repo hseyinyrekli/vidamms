@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "textId": "headingOne",
+    "textTarget": "#collapseOne",
+    "textOtherId": "collapseOne",
+    "button": "How can I download the application?",
+    "text": "You can use the application with the defined license code by downloading it from Google Play or Apple Store."
+  },
+  {
+    "id": 2,
+    "textId": "headingTwo",
+    "textTarget": "#collapseTwo",
+    "textOtherId": "collapseTwo",
+    "button": "How can I create a malfunction?",
+    "text": "You can add a new fault from the Add Fault / Barcode Scan button."
+  },
+  {
+    "id": 3,
+    "textId": "headingThree",
+    "textTarget": "#collapseThree",
+    "textOtherId": "collapseThree",
+    "button": "How can I intervene in the created faults?",
+    "text": "You can intervene in malfunctions from the button in the lower right corner of the Fault Details on an authorization basis."
+  },
+  {
+    "id": 4,
+    "textId": "headingFour",
+    "textTarget": "#collapseFour",
+    "textOtherId": "collapseFour",
+    "button": "How can I add consumables?",
+    "text": "You can add consumables with the + button by entering the Consumables tab in the Failure Details."
+  },
+  {
+    "id": 5,
+    "textId": "headingFive",
+    "textTarget": "#collapseFive",
+    "textOtherId": "collapseFive",
+    "button": "How can I create periodic maintenance?",
+    "text": "You can create periodic maintenance from the 'Maintenance Periods module' with the authorization defined to you by the web."
+  },
+  {
+    "id": 6,
+    "textId": "headingSix",
+    "textTarget": "#collapseSix",
+    "textOtherId": "collapseSix",
+    "button": "How can I follow the Periodic Maintenance?",
+    "text": "With the 'Calendar' feature in the periodic maintenance module, you can follow the periodic maintenance on a daily, weekly, monthly and yearly basis."
+  },
+  {
+    "id": 7,
+    "textId": "headingSeven",
+    "textTarget": "#collapseSeven",
+    "textOtherId": "collapseSeven",
+    "button": "What does the need list mean in Periodic Maintenance?",
+    "text": "It is a list showing the material groups that you can spend during that maintenance according to the periodical maintenance period you have determined and the machine."
+  },
+  {
+    "id": 8,
+    "textId": "headingEight",
+    "textTarget": "#collapseEight",
+    "textOtherId": "collapseEight",
+    "button": "What does Predictive Maintenance mean?",
+    "text": "Predictive maintenance is a predictive maintenance application that prevents the occurrence of malfunctions, performed according to certain measurement and evaluation techniques, according to the physical properties and functions of materials or moving systems."
+  },
+  {
+    "id": 9,
+
+    "textId": "headingNine",
+    "textTarget": "#collapseNine",
+    "textOtherId": "collapseNine",
+    "button": "What does the frequency range mean in predictive maintenance?",
+    "text": "The frequency range is used to determine the criticality levels for the measured transaction items. Values within the frequency range are considered normal, and values outside the frequency range are considered critical."
+  },
+  {
+    "id": 10,
+    "textId": "headingTen",
+    "textTarget": "#collapseTen",
+    "textOtherId": "collapseTen",
+    "button": "What is a Lifetime Part?",
+    "text": "The parts that are necessary for the regular operation of the machine and that have a measurable life cycle are called life parts."
+  },
+  {
+    "id": 11,
+    "textId": "headingEleven",
+    "textTarget": "#collapseEleven",
+    "textOtherId": "collapseEleven",
+    "button": "How is the life time calculated in parts?",
+    "text": "In hour-based parts, the time is calculated automatically. Time calculation can be made automatically by providing integration in other unit-based parts."
+  },
+  {
+    "id": 12,
+    "textId": "headingTwelve",
+    "textTarget": "#collapseTwelve",
+    "textOtherId": "collapseTwelve",
+    "button": "What does the counter module do?",
+    "text": "Electricity, water, natural gas etc. It allows you to monitor the energy consumption by recording the values on the panels such as"
+  },
+  {
+    "id": 13,
+    "textId": "headingThirteen",
+    "textTarget": "#collapseThirteen",
+    "textOtherId": "collapseThirteen",
+    "button": "How to view machine information?",
+    "text": "You can view the details about the machines in the Machines module, and access details such as life-long parts, malfunctions and periodic maintenance."
+  },
+  {
+    "id": 14,
+    "textId": "headingFourteen",
+    "textTarget": "#collapseFourteen",
+    "textOtherId": "collapseFourteen",
+    "button": "What does MTTR mean?",
+    "text": "MTTR; It is the average time of maintenance between failures. In other words, it is the average value of a business center coming into operation again from the moment it stops unplanned."
+  },
+  {
+    "id": 15,
+    "textId": "headingFifteen",
+    "textTarget": "#collapseFifteen",
+    "textOtherId": "collapseFifteen",
+    "button": "What does MTBF mean?",
+    "text": "MTBF; It is the average time of a work center between two downtimes. The fact that the MTBF value increases over time means less surprises, fewer and fewer failures, and longer periods of trouble-free operation."
+  }
+]
