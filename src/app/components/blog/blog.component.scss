@@ -27,17 +27,11 @@
 .button:hover {
   background: linear-gradient(#004fbc, #212529);
 }
-span {
+#subTitle p {
   font-weight: bold;
   background: linear-gradient(#004fbc, #306ec5);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
-#time {
-  p {
-    font-size: 14px;
-  }
-}
+
 svg {
   justify-content: center;
 }
@@ -53,7 +47,14 @@ svg {
 img {
   cursor: pointer;
 }
-
+#time {
+  height: 10px;
+}
+#time {
+  p {
+    font-size: 14px;
+  }
+}
 .random {
   background-color: red;
 }
@@ -65,6 +66,18 @@ img {
     color: white;
   }
 }
-#time {
-  height: 10px;
+
+#sub {
+  margin: auto;
+  padding: 2em;
+  color: white;
+  margin-top: 5.5em;
+  a {
+    color: white !important;
+    text-decoration: none;
+  }
+  span {
+    font-weight: lighter;
+    color: white !important;
+  }
 }

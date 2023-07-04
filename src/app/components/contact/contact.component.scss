@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  list-style-type: none;
 }
 span {
   font-weight: bold;
@@ -27,4 +28,26 @@ span {
 #contactForm {
   padding: 4em;
   background-color: #f3f3f3;
+}
+#sub {
+  margin: auto;
+  padding: 2em;
+  color: white;
+  margin-top: 5.5em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  span {
+    font-weight: lighter;
+    color: white;
+  }
+}
+li a {
+  cursor: pointer;
+  margin-right: 2em;
+  color: #212529;
+  &:hover {
+    color: rgb(69, 68, 68);
+  }
 }

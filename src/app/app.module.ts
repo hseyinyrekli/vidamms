@@ -26,6 +26,7 @@ import { FeaturesComponent } from "./components/features/features.component";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { HttpClient } from "@angular/common/http";
+import { ServiceComponent } from './components/service/service.component';
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
 }
@@ -48,6 +49,7 @@ export function createTranslateLoader(http: HttpClient) {
     PolicyComponent,
     PrivacyComponent,
     FeaturesComponent,
+    ServiceComponent,
   ],
   imports: [
     BrowserModule,

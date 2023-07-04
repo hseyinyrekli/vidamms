@@ -26,7 +26,9 @@
 
 <div class="part-2">
   <div class="title">
-    <h2 data-aos="fade-in" data-aos-duration="500">REFERANSLARIMIZ</h2>
+    <p class="fw-bolder fs-2" data-aos="fade-in" data-aos-duration="500">
+      REFERANSLARIMIZ
+    </p>
   </div>
   <div class="slider">
     <div class="slide-track">
@@ -110,7 +112,7 @@
   <div class="row" style="margin-top: 2em">
     <div class="col-12 col-md-23 col-lg-6">
       <div id="vidaCard">
-        <h2 class="card-title" id="title">VİDA</h2>
+        <p class="card-title fs-2 fw-bolder" id="title">VİDA</p>
         <p class="card-text m-4">
           Vida, Bakım Yönetimi uygulamasıdır. Endüstriyel işletme yönetimine
           yardımcı olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve
@@ -139,7 +141,7 @@
     />
   </div>
   <div id="text">
-    <h1>NEDEN VİDA'YI SEÇMELİYİZ ?</h1>
+    <p class="fs-1 fw-bolder">NEDEN VİDA'YI SEÇMELİYİZ ?</p>
     <p>
       Vida’daki her eylem, gerçek zamanlı olarak uygulama üzerinden görülebilir.
     </p>
@@ -151,7 +153,7 @@
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
         <img src="../../../assets/uploads/gercekzamanli-1.webp" alt="" />
-        <h3>Gerçek Zamanlı</h3>
+        <p class="fw-bold mt-3" style="font-size: 1.3em">Gerçek Zamanlı</p>
         <div class="card-body">
           <p>
             Vida’daki her eylem, gerçek zamanlı olarak uygulama üzerinden
@@ -163,7 +165,7 @@
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
         <img src="../../../assets/uploads/heryerden-yonetim-1.webp" alt="" />
-        <h3>Dilediğiniz Yerde</h3>
+        <p class="fw-bold mt-3" style="font-size: 1.3em">Dilediğiniz Yerde</p>
         <div class="card-body">
           <p>
             Vida Uygulaması’na web üzerinden, tablet ve mobil cihazlardan
@@ -175,7 +177,7 @@
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
         <img src="../../../assets/uploads/akilli-yonetim-2.webp" alt="" />
-        <h3>Akıllı Yönetim</h3>
+        <p class="fw-bold mt-3" style="font-size: 1.3em">Akıllı Yönetim</p>
         <div class="card-body">
           <p>
             Vida ile maliyet, envanter, enerji tüketimini ve üretimi de yönetmiş
@@ -187,7 +189,7 @@
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
         <img src="../../../assets/uploads/aylikode-1.webp" alt="" />
-        <h3>Aylık Ödeme</h3>
+        <p class="fw-bold mt-3" style="font-size: 1.3em">Aylık Ödeme</p>
         <div class="card-body">
           <p>
             Vida Uygulaması’na bir anda büyük yatırımlar yerine aylık ödemeler
@@ -203,7 +205,9 @@
   <div class="row">
     <div class="shadow-lg rounded card col-12 col-md-12 col-lg-6">
       <div>
-        <h3 class="card-title text-center py-4">MALİYET HESAPLAMA ROBOTU</h3>
+        <p class="card-title text-center py-4 fs-3 fw-bolder">
+          MALİYET HESAPLAMA ROBOTU
+        </p>
       </div>
       <form id="form">
         <div class="row mb-4">
@@ -305,6 +309,48 @@
       class="col-12 col-md-12 col-lg-6"
     >
       <img src="../../../assets/uploads/Adsız tasarım (3).png" alt="phone" />
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-3 col-md-6 col-12 mb-5" *ngFor="let data of blogs">
+      <div id="card" class="card" style="height: 100%">
+        <div class="card-body">
+          <div class="row">
+            <div [routerLink]="'/blog/' + data.slug" class="col-12">
+              <img [src]="data.baseImage" class="w-100" />
+            </div>
+            <div id="subTitle" class="col-12 text-center mt-3">
+              <p class="fw-normal" style="color: #fff">
+                {{ data.subTitle }}
+              </p>
+            </div>
+
+            <div class="col-12 text-center mt-3" style="height: 14vh">
+              <p class="fw-normal" style="font-size: 1.3em">
+                {{ data.title }}
+              </p>
+            </div>
+            <hr />
+            <div class="col-12 p-2" style="margin: auto; height: 20vh">
+              <p>{{ data.description }}</p>
+            </div>
+            <div class="col-12 text-center mb-3">
+              <button class="button" [routerLink]="'/blog/' + data.slug">
+                DEVAMINI OKU
+              </button>
+            </div>
+            <hr />
+            <div class="col-12 text-end" id="time">
+              <p class="card-text">
+                <small class="text-muted">{{ data.date }} </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

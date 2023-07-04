@@ -16,6 +16,7 @@ import { TranslateService } from "@ngx-translate/core";
 export class NavbarComponent implements OnInit {
   activeMenu = "home";
   currentPage!: string;
+  isActive: boolean = false;
   isScrolled: boolean = false;
 
   constructor(
@@ -45,6 +46,7 @@ export class NavbarComponent implements OnInit {
   }
 
   changeLanguage(lang: any) {
+    this.isActive = !this.isActive;
     this.translate.use(lang);
   }
 
@@ -58,7 +60,7 @@ export class NavbarComponent implements OnInit {
       if (this.isScrolled) {
         return "isScrolled";
       }
-      return "bg-dark-blue";
+      return "bg-color";
     }
   }
 }

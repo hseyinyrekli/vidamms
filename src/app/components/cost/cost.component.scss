@@ -21,3 +21,18 @@ label {
     }
   }
 }
+
+#sub {
+  margin: auto;
+  padding: 2em;
+  color: white;
+  margin-top: 5.5em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  span {
+    font-weight: lighter;
+    color: white;
+  }
+}

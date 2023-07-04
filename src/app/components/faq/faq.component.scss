@@ -1,16 +1,10 @@
-h3 {
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px grey;
-}
 h2 {
   font-weight: bold;
 }
 #searchSide {
   margin-top: 4.7em !important;
   margin: auto;
-  height: 40vh;
-  background-image: url("../../../assets/uploads/backgd.png");
+  height: 20vh;
 }
 
 a {
@@ -18,12 +12,18 @@ a {
 }
 
 .search {
-  width: 100%;
-  margin-bottom: 4em;
+  width: 60%;
+
   height: 50px;
-  background-color: #fff;
+  background-color: #ffff;
   padding: 10px;
+  border: 1px solid grey;
   border-radius: 5px;
+}
+@media (max-width: 980px) {
+  .search {
+    width: 100%;
+  }
 }
 
 .search-input {
@@ -103,6 +103,18 @@ a:link {
 .card-inner svg {
   color: #004fbc;
 }
-h2 {
-  font-weight: bold;
+
+#sub {
+  margin: auto;
+  padding: 2em;
+  color: white;
+  margin-top: 5.5em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  span {
+    font-weight: lighter;
+    color: white;
+  }
 }

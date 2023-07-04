@@ -36,8 +36,6 @@ export class BlogComponent implements OnInit {
       url = "assets/json/blogs-en.json";
     }
     this.http.get<any>(url).subscribe((data) => {
-      console.log(data);
-
       this.blogs = data;
       this.baseBlogs = data;
     });

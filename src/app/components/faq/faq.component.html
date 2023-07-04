@@ -1,36 +1,39 @@
+<div id="sub" style="background-color: #1a49b3" class="row text-center">
+  <div style="font-size: 2em" class="fw-bolder">DESTEK</div>
+  <span>
+    <a routerLink="/">Anasayfa</a>
+    / Destek
+  </span>
+</div>
+
 <div id="searchSide" class="row justify-content-center">
-  <div class="col-md-9">
-    <div style="margin-top: 10%">
-      <h3 class="mb-4 text-center">SIKÇA SORULAN SORULAR</h3>
-      <div class="d-flex justify-content-center px-5">
-        <div class="search">
-          <input
-            type="text"
-            [(ngModel)]="search"
-            class="search-input"
-            placeholder="Search..."
+  <div class="d-flex justify-content-center px-5">
+    <div class="search">
+      <input
+        type="text"
+        [(ngModel)]="search"
+        class="search-input"
+        placeholder="Search..."
+      />
+      <a (click)="getFaqs()" class="search-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-search"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
           />
-          <a (click)="getFaqs()" class="search-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-search"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-              />
-            </svg>
-          </a>
-        </div>
-      </div>
+        </svg>
+      </a>
     </div>
   </div>
 </div>
 
-<div class="container mt-5 mb-5">
+<div class="container mb-5">
   <div class="row">
     <div
       id="icon"

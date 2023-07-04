@@ -16,8 +16,9 @@
 .box:hover {
   border-color: #004fbc;
 }
-.header h1 {
+.header p {
   margin-top: 2em;
+  font-size: 2em;
   font-weight: bolder;
 }
 img {
@@ -35,18 +36,34 @@ img {
 svg {
   color: white;
 }
-span {
-  color: white;
-  width: 100%;
-  font-weight: bold;
-  padding: 1em;
+#references {
+  span {
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    padding: 1em;
+  }
 }
-
 @media (max-width: 980px) {
   #references span {
     font-size: 12px;
   }
   #references svg {
     height: 50px;
+  }
+}
+
+#sub {
+  margin: auto;
+  padding: 2em;
+  color: white;
+  margin-top: 5.5em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  span {
+    font-weight: lighter;
+    color: white;
   }
 }
