@@ -2,7 +2,7 @@
   {
     "id": "1",
     "date": "05 SPT",
-    "baseImage": "assets/uploads/blogPhotos/CMMS.png",
+    "baseImage": "assets/uploads/blogPhotos/CMMS.webp",
     "subTitle": "MAINTENANCE MANAGEMENT APP",
     "filter": "name1",
 
@@ -74,7 +74,7 @@
   {
     "id": "2",
     "date": "02 SPT",
-    "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.png",
+    "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.webp",
     "subTitle": "MAINTENANCE MANAGEMENT APP",
     "filter": "name1",
 
@@ -166,10 +166,9 @@
   {
     "id": "3",
     "date": "29 AUG",
-    "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.png",
+    "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.webp",
     "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
     "filter": "name2",
-
     "title": "What is Condition Based Maintenance (CBM)?",
     "slug": "what-is-condition-based-maintenance",
     "description": "Traditional preventive maintenance strategies used to prevent potential failures in an infrastructure often involve unnecessary asset maintenance.",
@@ -302,10 +301,9 @@
   {
     "id": "4",
     "date": "22 AUG",
-    "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.png",
+    "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.webp",
     "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
     "filter": "name2",
-
     "title": "What is Periodic Maintenance?",
     "slug": "what-is-periodic-maintenance",
     "description": "Unexpected failures in assets are one of the most troublesome issues for infrastructures. A certain warranty and insurance cover..",
@@ -459,10 +457,9 @@
   {
     "id": "5",
     "date": "18 AUG",
-    "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.png",
+    "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.webp",
     "subTitle": "BLOG",
     "filter": "name3",
-
     "title": "IoT and New Trends in Manufacturing",
     "slug": "new-trends-in-production",
     "description": "All over the world, production processes are going through a rapid transformation. IoT is one of the main tools of this transformation. IoT in manufacturing, a...",
@@ -573,7 +570,6 @@
     "baseImage": "assets/uploads/blogPhotos/Toplam-Verimli-Bakim-1917x2048.webp",
     "subTitle": "MAINTENANCE MANAGEMENT APP",
     "filter": "name1",
-
     "title": "Total Efficient Maintenance",
     "slug": "total-efficient-maintenance",
     "description": "Today, modern production and management techniques applied in businesses are based on customer demands. Expectations of customers on products and services...",
@@ -701,7 +697,6 @@
     "baseImage": "assets/uploads/blogPhotos/Hata-Turleri-Ve-Etkileri-Analizi-4-1917x2048.webp",
     "subTitle": "FAULT MANAGEMENT",
     "filter": "name4",
-
     "title": "Failure Modes and Effects Analysis",
     "slug": "failure-modes-and-effects-analysis",
     "description": "A product development and operations management process that classifies faults by probability and similarity to analyze potential failure modes of a system.",
@@ -726,7 +721,6 @@
     "baseImage": "assets/uploads/blogPhotos/Guvenirlik-Merkezli-Bakim-Yaklasimi-1917x2048.webp",
     "subTitle": "BLOG",
     "filter": "name3",
-
     "title": "Reliability-Centered Maintenance Approach",
     "slug": "reliability-centered-maintenance-approach",
     "description": "As a result of the studies on the reliability of complex machines and devices in the USA in the 1960s, the 'Reliability Centered...",
@@ -748,7 +742,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Teknolojinin-Bakim-Yonetime-Etkisi-1-959x1024.webp",
     "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
     "filter": "name5",
-
     "title": "Maintenance Management Impact of Technology",
     "slug": "technology-maintenance-management-effect",
     "description": "Periodic maintenance of the machine is very important in terms of keeping the performance of the machines stable. In addition to maintenance, it is also possible to follow up on issues such as part tracking and replacement...",
@@ -778,7 +771,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Planli-Bakimlarda-Uretim-Verimi-Arttirma-1917x2048.webp",
     "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
     "filter": "name5",
-
     "title": "Increasing Efficiency in Production with Planned Maintenance",
     "slug": "to-increase-efficiency-in-production-with-planned-maintenances",
     "description": "Production process efficiency shows how well and in how long a business will achieve its goals. Compare current production rates with expected production rates.",
@@ -808,7 +800,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Periyodik-Bakimlarin-Onemi-1917x2048.webp",
     "subTitle": "PERIODIC MAINTENANCE MANAGEMENT",
     "filter": "name2",
-
     "title": "Maintenance Follow-up Program: What is the Importance of Periodic Maintenance?",
     "slug": "maintenance-follow-up-program",
     "description": "Some company managers say that the maintenance or renewal of the machines that are currently in production will damage the company in terms of time and money.",
@@ -839,7 +830,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Makine-Ideal-Bakim-Periyotlari-1917x2048.webp",
     "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
     "filter": "name5",
-
     "title": "What should be the ideal maintenance periods of your machines?",
     "slug": "what-the-ideal-maintenance-periods-should-be-your-machines",
     "description": "Maintenance planning is the planning of the processes that need to be done in order for the machines and devices in an industry to continue production.",
@@ -889,7 +879,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetim-Yazilimi-1917x2048.webp",
     "subTitle": "MAINTENANCE MANAGEMENT APP",
     "filter": "name1",
-
     "title": "What is Maintenance Management Software?",
     "slug": "what-is-maintenance-management-software",
     "description": "Every workplace is established by allocating large budgets, and certain expenses are made in the production and service stages. All these expenses must be kept under control. Otherwise, you can spend too much...",
@@ -919,7 +908,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Kestirici-Bakim-1917x2048.webp",
     "subTitle": "PREDICTIVE MAINTENANCE MANAGEMENT",
     "filter": "name5",
-
     "title": "What is Predictive Maintenance?",
     "slug": "what-is-predictive-maintenance",
     "description": "Unexpected malfunctions in the machines cause the production to stop, even in the short term, and cause you to lose the ideal operation for a certain period of time. The old performances of the machines...",
@@ -961,7 +949,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Ariza-Yonetimi.webp",
     "subTitle": "FAULT MANAGEMENT",
     "filter": "name4",
-
     "title": "How Does Failure Create Risks on Production?",
     "slug": "how-risks-creates-on-defect-production",
     "description": "Machines in all small and large-scale enterprises need periodic maintenance to be applied at certain intervals. If these periodic maintenances are not performed on time, failure risk factors may occur on the machines...",

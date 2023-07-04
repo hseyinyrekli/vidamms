@@ -2,7 +2,7 @@
   {
     "id": "1",
     "date": "05 EYL",
-    "baseImage": "assets/uploads/blogPhotos/CMMS.png",
+    "baseImage": "assets/uploads/blogPhotos/CMMS.webp",
     "filter": "name1",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "title": "CMMS NEDİR ?",
@@ -73,7 +73,7 @@
   {
     "id": "2",
     "date": "02 EYL",
-    "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.png",
+    "baseImage": "assets/uploads/blogPhotos/Alt-yapi-bakimi.webp",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "filter": "name1",
     "title": "Altyapı Bakım Nedir ? Neden Önemlidir ? ",
@@ -164,7 +164,7 @@
   {
     "id": "3",
     "date": "29 AĞU",
-    "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.png",
+    "baseImage": "assets/uploads/blogPhotos/durum-bazli-bakm.webp",
     "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
     "filter": "name2",
 
@@ -300,7 +300,7 @@
   {
     "id": "4",
     "date": "22 AĞU",
-    "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.png",
+    "baseImage": "assets/uploads/blogPhotos/periyodik-bakim.webp",
     "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
     "filter": "name2",
     "title": "Periyodik Bakım Nedir ?",
@@ -456,10 +456,9 @@
   {
     "id": "5",
     "date": "18 AĞU",
-    "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.png",
+    "baseImage": "assets/uploads/blogPhotos/uretimde-iot-yeni-trendler.webp",
     "subTitle": "BLOG",
     "filter": "name3",
-
     "title": "Üretimde IoT ve Yeni Trendler",
     "slug": "üretimde-yeni-trendler",
     "description": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bi...",
@@ -570,7 +569,6 @@
     "baseImage": "assets/uploads/blogPhotos/Toplam-Verimli-Bakim-1917x2048.webp",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "filter": "name1",
-
     "title": "Toplam Verimli Bakım",
     "slug": "toplam-verimli-bakim",
     "description": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklen...",
@@ -698,7 +696,6 @@
     "baseImage": "assets/uploads/blogPhotos/Hata-Turleri-Ve-Etkileri-Analizi-4-1917x2048.webp",
     "subTitle": "ARIZA YÖNETİMİ",
     "filter": "name4",
-
     "title": "Hata Türleri ve Etkileri Analizi",
     "slug": "hata-türleri-ve-etkileri-analizi",
     "description": "Bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prose...",
@@ -723,7 +720,6 @@
     "baseImage": "assets/uploads/blogPhotos/Guvenirlik-Merkezli-Bakim-Yaklasimi-1917x2048.webp",
     "subTitle": "BLOG",
     "filter": "name3",
-
     "title": "Güvenilirlik Merkezli Bakım Yaklaşımı",
     "slug": "güvenilirlik-merkezli-bakim-yaklasimi",
     "description": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli...",
@@ -745,7 +741,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Teknolojinin-Bakim-Yonetime-Etkisi-1-959x1024.webp",
     "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
     "filter": "name5",
-
     "title": "Teknolojinin Bakım Yönetim Etkisi",
     "slug": "teknolojinin-bakim-yönetim-etkisi",
     "description": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılma...",
@@ -775,7 +770,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Planli-Bakimlarda-Uretim-Verimi-Arttirma-1917x2048.webp",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "filter": "name1",
-
     "title": "Planlı Bakımlarla Üretimde Verimi Arttırmak",
     "slug": "planli-bakimlarla-üretimde-verimi-arttirmak",
     "description": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaş...",
@@ -805,7 +799,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Periyodik-Bakimlarin-Onemi-1917x2048.webp",
     "subTitle": "PERİYODİK BAKIM YÖNETİMİ",
     "filter": "name2",
-
     "title": "Bakım Takip Programı: Periyodik Bakımların Önemi Nedir ?",
     "slug": "bakim-takip-programi",
     "description": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğrataca...",
@@ -836,7 +829,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Makine-Ideal-Bakim-Periyotlari-1917x2048.webp",
     "subTitle": "KESTİRİMCİ BAKIM YÖNETİMİ",
     "filter": "name5",
-
     "title": "Makinelerinizin İdeal Bakım Periyotları Ne Olmalıdır ?",
     "slug": "makinelerinizin-ideal-bakim-periyotlari-ne-olmalidir",
     "description": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmas...",
@@ -886,7 +878,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetim-Yazilimi-1917x2048.webp",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "filter": "name1",
-
     "title": "Bakım Yönetim Yazılımı Nedir ?",
     "slug": "bakim-yönetim-yazilimi-nedir",
     "description": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabil...",
@@ -957,7 +948,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Ariza-Yonetimi.webp",
     "subTitle": "ARIZA YÖNETİMİ",
     "filter": "name4",
-
     "title": "Arıza Üretim Üzerinde Nasıl Riskler Oluşturur ?",
     "slug": "ariza-üretim-üzerinde-nasil-riskler-oluşturur",
     "description": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydan...",
@@ -1023,7 +1013,6 @@
     "baseImage": "assets/uploads/blogPhotos/Vida-Blog-Kapak-Resmi-Bakim-Yonetimi-959x1024.webp",
     "subTitle": "BAKIM YÖNETİM UYGULAMASI",
     "filter": "name1",
-
     "title": "Vida Bakım Yönetim Uygulaması ile Maliyetleri Nasıl Düşürürsünüz?",
     "slug": "vida-bakim-yönetim-uygulamasi-ile-maliyetleri-nasıl-düşürürsüzünüz",
     "description": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir.Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman...",
