@@ -74,3 +74,8 @@ svg {
   background-color: #f9f9f9;
   padding: 6em;
 }
+@media (max-width: 1200px) {
+  #image {
+    margin-top: 7em;
+  }
+}

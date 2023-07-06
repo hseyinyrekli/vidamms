@@ -31,7 +31,16 @@
   font-weight: bold;
   background: linear-gradient(#004fbc, #306ec5);
 }
-
+@media (max-width: 1200px) {
+  #subTitle {
+    height: 14vh !important;
+  }
+}
+@media (max-width: 1200px) {
+  #description {
+    height: 30vh !important;
+  }
+}
 svg {
   justify-content: center;
 }

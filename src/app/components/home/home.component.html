@@ -170,7 +170,7 @@
     </div>
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
-        <img src="../../../assets/uploads/akilli-yonetim-2.webp" alt="" />
+        <img src="assets/uploads/akilli-yonetim-2.webp" alt="" />
         <p class="fw-bold mt-3" style="font-size: 1.3em">
           {{ "HOME.TITLE6" | translate }}
         </p>
@@ -183,7 +183,7 @@
     </div>
     <div class="col-12 col-md-6 col-lg-3">
       <div id="card">
-        <img src="../../../assets/uploads/aylikode-1.webp" alt="" />
+        <img src="assets/uploads/aylikode-1.webp" alt="" />
         <p class="fw-bold mt-3" style="font-size: 1.3em">
           {{ "HOME.TITLE7" | translate }}
         </p>
@@ -406,24 +406,35 @@
             <div [routerLink]="'/blog/' + data.slug" class="col-12">
               <img [src]="data.baseImage" class="w-100" />
             </div>
-            <div id="subTitle" class="col-12 text-center mt-3">
+            <div
+              id="subTitle"
+              class="col-12 text-center mt-3"
+              style="height: 10vh"
+            >
               <p class="fw-normal" style="color: #fff">
                 {{ data.subTitle }}
               </p>
             </div>
 
-            <div class="col-12 text-center mt-3" style="height: 14vh">
+            <div
+              class="col-12 text-center mt-2 mb-4"
+              style="height: 14vh; overflow: hidden"
+            >
               <p class="fw-normal" style="font-size: 1.3em">
                 {{ data.title }}
               </p>
             </div>
             <hr />
-            <div class="col-12 p-2" style="margin: auto; height: 20vh">
+            <div
+              id="description"
+              class="col-12 p-2 mb-2"
+              style="margin: auto; height: 20vh; overflow: hidden"
+            >
               <p>{{ data.description }}</p>
             </div>
             <div class="col-12 text-center mb-3">
               <button class="button" [routerLink]="'/blog/' + data.slug">
-                DEVAMINI OKU
+                {{ "BLOG.MORE" | translate }}
               </button>
             </div>
             <hr />

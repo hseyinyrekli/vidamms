@@ -168,32 +168,51 @@
             </button>
           </div>
         </div>
+
         <div
-          [ngClass]="isShow ? 'show' : 'd-none'"
           class="row col-12 mb-4 text-center"
-          style="margin: auto"
+          style="font-size: 1.2em; margin: auto"
+          [ngClass]="isShow ? 'show' : 'd-none'"
         >
-          <div class="col-6 fw-bolder">{{ "COST.FORM11" | translate }}</div>
-          <div class="col-6 fw-bolder">{{ "COST.FORM12" | translate }}</div>
-          <hr />
-          <div class="col-6 p-2">{{ "COST.FORM13" | translate }}</div>
-          <div class="col-6 p-2">{{ mounthlyCost | number }} TL</div>
-          <div class="col-6 p-2">{{ "COST.FORM14" | translate }}</div>
-          <div class="col-6 p-2">{{ mounthlyCostMoney | number }} TL</div>
-          <div class="col-6 p-2">{{ "COST.FORM15" | translate }}</div>
-          <div class="col-6 p-2">{{ mounthlyLabor | number }} TL</div>
-          <div class="col-6 p-2">{{ "COST.FORM16" | translate }}</div>
-          <div class="col-6 p-2">{{ electrictCostMoney | number }} TL</div>
-          <div class="col-6 p-2">{{ "COST.FORM17" | translate }}</div>
-          <div class="col-6 p-2">{{ total | number }} TL</div>
-          <div class="col-6">
-            <button
-              class="btn btn-outline-primary text-end"
-              (click)="backCalc()"
-            >
-              {{ "COST.BACKCALC" | translate }}
-            </button>
-          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">{{ "COST.FORM11" | translate }}</th>
+                <th scope="col">{{ "COST.FORM12" | translate }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{ "COST.FORM13" | translate }}</td>
+                <td>{{ mounthlyCost | number }} TL</td>
+              </tr>
+              <tr>
+                <td>{{ "COST.FORM14" | translate }}</td>
+                <td>{{ mounthlyCostMoney | number }} TL</td>
+              </tr>
+              <tr>
+                <td>{{ "COST.FORM15" | translate }}</td>
+                <td>{{ mounthlyLabor | number }} TL</td>
+              </tr>
+              <tr>
+                <td>{{ "COST.FORM16" | translate }}</td>
+                <td>{{ electrictCostMoney | number }} TL</td>
+              </tr>
+              <tr>
+                <td>{{ "COST.FORM17" | translate }}</td>
+                <td>{{ total | number }} TL</td>
+              </tr>
+
+              <div class="col-6 p-3">
+                <button
+                  class="btn btn-outline-primary text-center mt-2"
+                  (click)="backCalc()"
+                >
+                  {{ "COST.BACKCALC" | translate }}
+                </button>
+              </div>
+            </tbody>
+          </table>
         </div>
       </form>
     </div>

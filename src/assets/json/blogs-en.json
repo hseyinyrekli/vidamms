@@ -78,7 +78,7 @@
     "subTitle": "MAINTENANCE MANAGEMENT APP",
     "filter": "name1",
 
-    "title": "What is Infrastructure Maintenance? Why is it important?",
+    "title": "What is Infrastructure Maintenance?",
     "slug": "what-is-ınfrastructure-maintenance-why-is-it-important",
     "description": "Infrastructure with the broadest definition; are facilities and systems developed to increase social welfare, quality of life and trade. bus...",
     "descriptions": [
@@ -174,127 +174,127 @@
     "description": "Traditional preventive maintenance strategies used to prevent potential failures in an infrastructure often involve unnecessary asset maintenance.",
     "descriptions": [
       {
-        "text": "Bir altyapıda olası arızaların önüne geçmek için kullanılan geleneksel önleyici bakım stratejileri çoğunlukla gereksiz varlık bakımlarına neden olmakta, bu da öngörülemez ekipman arızalarını tetiklediği gibi maliyetleri de yükseltmektedir. Durum bazlı bakım (CBM) iki temel amaca sahiptir;"
+        "text": "Traditional preventive maintenance strategies used to prevent potential failures in an infrastructure often result in unnecessary asset maintenance, which triggers unpredictable equipment failures and increases costs. Condition-based maintenance (CBM) has two main purposes;"
       },
       {
-        "text": "Ekipmanın çıkarması olası arızanın tespiti",
+        "text": "Detection of possible malfunction of the equipment",
         "style": "font-style:italic"
       },
       {
-        "text": "Bu arızanın büyümesi ve sistemin tümden aksamasını engellemek için müdahale",
+        "text": "Intervention to prevent the growth of this malfunction and the complete disruption of the system",
         "style": "font-style:italic"
       },
       {
-        "text": "Durum bazlı bakım",
+        "text": "Condition based maintenance",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "sayesinde, altyapı açısından kritik sistemlerin performansı gerçek zamanlı olarak izlenebilmekte ve hareketli bileşenlerde oluşabilecek aşınma ve arızalar tespit edilebilmektedir. CBM sayesinde varlıkların bakımı çok daha etkin şekilde planlanabilir. Burada kritik unsur, “varlığım hangi arızaları çıkarma ihtimaline sahip?” sorusudur. Durum bazlı bakım çoğunlukla kestirimci ya da öngörüye bakımla (PdM) karıştırılmaktadır. Aslında PdM, CBM’nin yükseltilmiş bir sürümü gibidir. Sensörlerden gelen verileri tahmine dayalı analiz ve algoritmaları kullanarak izler.",
+        "text": "Thanks to this, the performance of infrastructure-critical systems can be monitored in real time, and wear and malfunctions that may occur in moving components can be detected. Thanks to CBM, the maintenance of assets can be planned much more effectively. The critical element here is “what failures is my presence likely to cause?” is the question. Condition-based maintenance is often confused with predictive or predictive maintenance (PdM). In fact, PdM is like an upgraded version of CBM. It monitors data from sensors using predictive analysis and algorithms.",
         "style": "display:inline"
       },
       {
-        "text": "Durum Bazlı Bakım Nasıl Çalışır?",
+        "text": "How Does Condition Based Care Work?",
         "class": "h3"
       },
       {
-        "text": "Altyapıda CBM uygulamaları için tüm varlıkların izlenebilmesini sağlayacak sensör ve ekipmanlara ihtiyaç vardır. Sensörler sayesinde varlıkların sağlıkları hakkında gerçek zamanlı bilgilere ulaşmak mümkün olacaktır. Bu aynı zamanda bir varlığa ne zaman bakım hizmeti verilmesi gerektiği konusunda da daha güçlü ve veriye dayalı bilgilere ulaşılmasını sağlayacaktır. Örneğin; işleyiş açısından kritik bir kompresör, fan, HVAC sistemi vb. üzerine bir titreşim sensörü yerleştirmiş olalım. Aşırı sıcak, soğuk, hızlı, yavaş gibi durumlara ilişkin titreşimler arttıkça bakım ekibine bilgi ulaşır ve müdahale için gerekli durum “oluşmuş” olur."
+        "text": "For CBM applications in infrastructure, sensors and equipment are needed to monitor all assets. Thanks to the sensors, it will be possible to reach real-time information about the health of the assets. This will also lead to more robust and data-driven information on when an asset should be serviced. For example; an operationally critical compressor, fan, HVAC system, etc. Let's put a vibration sensor on it. As the vibrations related to extreme hot, cold, fast and slow conditions increase, information reaches the maintenance team and the necessary situation for intervention becomes “formed”."
       },
       {
-        "text": "Durum Bazlı Bakımın Avantajları",
+        "text": "Advantages of Condition Based Care",
         "class": "h3"
       },
       {
-        "text": "Durum bazlı bakımın avantajları şöyle sıralanmaktadır;"
+        "text": "The advantages of condition-based maintenance are listed as follows;"
       },
       {
-        "text": "Verimliliği artırır ve kullanım ömrünü uzatır.",
+        "text": "Increases efficiency and extends service life.",
         "style": "font-style:italic"
       },
       {
-        "text": "Plansız aksamaları minimize eder.",
+        "text": "It minimizes unplanned disruptions.",
         "style": "font-style:italic"
       },
       {
-        "text": "Gereksiz bakımları azaltır.",
+        "text": "It reduces unnecessary maintenance.",
         "style": "font-style:italic"
       },
       {
-        "text": "Gereksiz yedek ve stok parça maliyetlerine son verir.",
+        "text": "It puts an end to unnecessary spare and stock parts costs.",
         "style": "font-style:italic"
       },
       {
-        "text": "Uzaktan izlemeye imkan tanır.",
+        "text": "It allows remote monitoring.",
         "style": "font-style:italic"
       },
       {
-        "text": "Durum Bazlı Bakımın Dezavantajları",
+        "text": "Disadvantages of Condition Based Care",
         "class": "h3"
       },
       {
-        "text": "Peki bu bakım stratejisinin dezavantajları nedir? Dilerseniz, onu da gözden geçirelim."
+        "text": "So what are the disadvantages of this maintenance strategy? Let's review it if you wish."
       },
       {
-        "text": "Uygulamanın etkinliği için ekiplere eğitim verilmesi gereklidir.",
+        "text": "For the effectiveness of the application, it is necessary to train the teams.",
         "style": "font-style:italic"
       },
       {
-        "text": "Sensör altyapısı gerektirir.",
+        "text": "Requires sensor infrastructure.",
         "style": "font-style:italic"
       },
       {
-        "text": "İlk yatırım maliyeti doğurur.",
+        "text": "Incurs initial investment cost.",
         "style": "font-style:italic"
       },
       {
-        "text": "Uzaktan izlemeye imkan tanır.",
+        "text": "It allows remote monitoring.",
         "style": "font-style:italic"
       },
       {
-        "text": "Birden fazla kaynaktan veri erişimi olduğu için entegrasyon sorunları yaşanabilir.",
+        "text": "Integration issues may occur as there is data access from multiple sources.",
         "style": "font-style:italic"
       },
       {
-        "text": "Durum Bazlı Bakım Stratejisinin Adımları",
+        "text": "Steps of Condition Based Maintenance Strategy",
         "class": "h3"
       },
       {
-        "text": "Bir altyapıda etkin durum bazlı bakım stratejisinin hayata geçirilmesi için çeşitli aşamalar söz konusudur. Bunlara birlikte göz atalım.."
+        "text": "There are several stages involved in implementing an effective condition-based maintenance strategy in an infrastructure. Let's take a look at them together..."
       },
       {
-        "text": "Kritik Varlıklara Odaklanın",
+        "text": "Focus on Critical Assets",
         "style": "fw-bolder"
       },
       {
-        "text": "Arıza çıkartması en olası varlıklara odaklanılmalıdır. Sensör sistemlerine yönelik ilk yatırım maliyeti de düşünüldüğünde, operasyonların aksamasının en yüksek maliyetlere neden olacağı doğru varlıklar seçilmelidir."
+        "text": "Focus should be on the assets most likely to cause a malfunction. Considering the initial investment cost for sensor systems, the right assets should be selected where disruption of operations will result in the highest costs."
       },
       {
-        "text": "Doğru Teknolojiyi Tercih Edin",
+        "text": "Choose the Right Technology",
         "class": "fw-bolder"
       },
       {
-        "text": "Varlıkların sağlıklarına doğru izleyebilmek için en ufak titreşimin dahi göz ardı edilmemesi gerekir. Bu nedenle ilk sensör yatırımında doğru teknoloji tercih edilmelidir."
+        "text": "Even the slightest vibration should not be ignored in order to monitor the beings towards their health. For this reason, the right technology should be preferred in the first sensor investment."
       },
       {
-        "text": "Verinin Gücünden Faydalanın",
+        "text": "Leverage the Power of Data",
         "class": "fw-bolder"
       },
       {
-        "text": "Sensörlerden gelen titreşimlerin her biri, doğru bir bakım stratejisi kurgulamak için verilere dönüşür. Bu veriler hem gerçek zamanlı izlemeye imkan tanır hem de gelecekte doğabilecek sorunlar hakkında güçlü öngörüler oluşturulabilmesini sağlar."
+        "text": "Each of the vibrations from the sensors is transformed into data to build an accurate maintenance strategy. This data not only allows real-time monitoring, but also provides powerful insights into future problems."
       },
       {
-        "text": "Dijital Bir Çözüme Başvurun",
+        "text": "Apply for a Digital Solution",
         "class": "fw-bolder"
       },
       {
-        "text": "Sensörlerden gelen tüm verilerin tek bir platformda toplanması ve olası entegrasyon sorunlarının önüne geçilmesi için dijital bir çözüme başvurulmalıdır. Yetkin bir CMMS uygulaması, altyapısı için en uygun stratejinin durum bazlı bakım olduğunu düşünen karar vericiler için de oldukça önemli bir yardımcıdır. CMMS sayesinde bu veriler, anlamlı raporlar ve gösterge tablolarına dönüştürülebilecektir."
+        "text": "A digital solution should be resorted to in order to collect all the data from the sensors on a single platform and to avoid possible integration problems. A competent CMMS application is also an important aid for decision makers who consider condition-based maintenance to be the most appropriate strategy for their infrastructure. Thanks to the CMMS, this data will be able to be transformed into meaningful reports and dashboards."
       },
       {
-        "text": "Temel Performans Göstergelerini Devreye Alın",
+        "text": "Engage Key Performance Indicators",
         "class": "fw-bolder"
       },
       {
-        "text": "Temel performans göstergeleri yani KPI’lar bir operasyonun başarısı için kritik faktörleri değerlendirmeye yarayan metriklerdir. Durum bazlı bakım stratejisinde KPI’lar kritik öneme sahiptir.  Bakım uzmanlarının gereken KPI’ları oluşturmasında CMMS yazılımı çok önemli bir yardımcıdır. KPI’lar doğrultusunda verileri karşılaştırmak ve takip etmek; operasyonların iş hedeflerinin neresinde olduğunu belirlemeye de anahtar niteliğinde katkı sunacaktır."
+        "text": "Key performance indicators, or KPIs, are metrics that evaluate critical factors for the success of an operation. KPIs are critical in a condition-based maintenance strategy. CMMS software is a very important aid for maintenance professionals to create the required KPIs. Comparing and tracking data in line with KPIs; It will also provide a key contribution to determining where the operations are within the business objectives."
       }
     ]
   },
@@ -309,24 +309,24 @@
     "description": "Unexpected failures in assets are one of the most troublesome issues for infrastructures. A certain warranty and insurance cover..",
     "descriptions": [
       {
-        "text": "Altyapıların en çok başını ağrıtan konuların başında varlıklardaki beklenmedik arızalar gelmektedir. Belirli bir garanti ve sigorta kapsamında olsalar bile, ekipman arızaları onarım maliyetlerini aşan “paha biçilemez” kayıplar doğurur. Tesisin bir bölümünün ya da tamamının devre dışı kalması, temrinlerin yetişmemesi ve elbette daha kötü bir senaryo olarak müşteri ve pazar kayıpları bu sonuçlardan bazılarıdır.",
+        "text": "Unexpected failures in assets are one of the most troublesome issues for infrastructures. Even if they are covered by a specific warranty and insurance, equipment failures result in “invaluable” losses that exceed repair costs. Some or all of these results include the shutdown of a part or all of the facility, failure to keep up with the deadlines, and of course, in a worse scenario, customer and market losses.",
         "style": "display:inline"
       },
       {
-        "text": "Periyodik bakım",
+        "text": "Periodic maintenance",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "bir altyapı tesisinde bir arıza yaşanmadan önce, belirli aralıklarla varlıkların bakımının gerçekleştirilmesine dayanan bir bakım stratejisidir. Bu yönüyle periyodik bakımlar; yangın, gaz sızıntısı, su baskını gibi olaylara yönelik geliştirilen acil bakımları ajandadan kaldırmaya yönelik bir önlemdir.",
+        "text": "It is a maintenance strategy based on performing the maintenance of assets at regular intervals before an infrastructure facility fails. In this respect, periodic maintenance; It is a precautionary measure to remove the emergency maintenance developed for events such as fire, gas leak, flood from the agenda.",
         "style": "display:inline"
       },
       {
-        "text": "Periyodik bakım türleri",
+        "text": "Periodic maintenance types",
         "class": "h3"
       },
       {
-        "text": "Periyodik bakım türleri, üç başlık altında ele alınmaktadır. Her bir şirket, birbirine benzemeyen ihtiyaçları doğrultusunda kendisi için en uygun yöntemi seçebilir."
+        "text": "Periodic maintenance types are discussed under three headings. Each company can choose the method that is most suitable for them, based on their dissimilar needs."
       },
       {
         "text": "Takvim odaklı bakım: ",
@@ -334,123 +334,123 @@
         "class": "fw-bolder"
       },
       {
-        "text": " Yaygın olarak kullanılan periyodik bakım türü olup; çeyrek, ay, yıl gibi periyodlarda devreye sokulur.",
+        "text": "It is the type of periodic maintenance that is widely used; It is activated in periods such as quarter, month, year.",
         "style": "display:inline"
       },
       {
-        "text": "Kullanım odaklı bakım: ",
+        "text": "Usage-oriented maintenance:  ",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Varlıkların belirli bir çalışma sınırı (saat, mesafe, çevrim vb.) olduğundan hareketle geliştirilmiş bakım türüdür.",
+        "text": "It is a maintenance type developed based on the fact that the assets have a certain operating limit (hour, distance, cycle, etc.).",
         "style": "display:inline"
       },
       {
-        "text": "Tahmin odakklı bakım: ",
+        "text": "Predictive maintenance:  ",
         "style": "display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Arızaların ortaya çıktığı ortalama süre (MTBF) başta olmak üzere geçmiş verilerden hareketle arızaları öngören periyodik bakım türüdür.",
+        "text": "It is a type of periodic maintenance that predicts malfunctions based on historical data, especially the mean time at which malfunctions occur (MTBF).",
         "style": "display:inline"
       },
       {
-        "text": "Periyodik bakım örnekleri",
+        "text": "Periodic maintenance examples",
         "class": "h3"
       },
       {
-        "text": "Her sektör ve tesis için değişmekle birlikte, bazı periyodik bakım örnekleri birçok altyapı için aynıdır. Filtrelerin, yağlayıcıların, kayışların değişimi ve ısıtma-soğutma sistemlerinin temizlenmesi ilk akla gelen örneklerdir."
+        "text": "While it varies for each industry and facility, some periodic maintenance patterns are the same for many infrastructures. Changing filters, lubricants, belts and cleaning heating-cooling systems are the first examples that come to mind."
       },
       {
-        "text": "Periyodik bakımın avantajları",
+        "text": "Advantages of periodic maintenance",
         "class": "h3"
       },
       {
-        "text": "Altyapı tesislerinde periyodik bakım birçok avantaj sunar. Bunlara kısaca göz atalım:"
+        "text": "Periodic maintenance in infrastructure facilities offers many advantages. Let's take a brief look at these:"
       },
       {
-        "text": "İş göremezlik süresini azaltır",
+        "text": "Reduces downtime",
         "class": "fw-bolder"
       },
       {
-        "text": "Varlıkların devre dışı kalma ve iş göremezlik süresini %70’e varan oranlarda azaltarak, varlıkların dinamik kalmasını sağlar, üretkenliği artırır."
+        "text": "It reduces the downtime and downtime of assets by up to 70%, keeping assets dynamic and increasing productivity."
       },
       {
-        "text": "Genel maliyetleri düşürür",
+        "text": "Lowers overall costs",
         "class": "fw-bolder"
       },
       {
-        "text": "Makine, araç ve sistemlerde olası ve maliyetleri çok yıkıcı olabilecek bir “büyük arıza” yaşanmadan, veriye dayalı ve önleyici dokunuşlarla maliyetleri düşürür. Maliyetleri düşürdüğü ikinci boyut ise bakım ekiplerinin doğru yönlendirilmesinden kaynaklı avantajlardır."
+        "text": "It reduces costs with data-driven and preventive touches, without a possible and potentially devastating “major breakdown” in machinery, vehicles and systems. The second dimension, which reduces the costs, is the advantages arising from the correct guidance of the maintenance teams."
       },
       {
-        "text": "Kullanım ömrünü uzatır",
+        "text": "Extends service life",
         "class": "fw-bolder"
       },
       {
-        "text": "Özelde periyodik bakımı yapılan varlıkların, genelde ise altyapının kontrol altında bulundurulması ve gerçek-zamanlı müdahalelerle geliştirilmesi bütün sistemin kullanım ömrünü uzatacaktır. Bu da, ister kamu ister özel olsun nihai faydalanıcılar açısından pozitif sonuçlar doğuracaktır."
+        "text": "Controlling the assets, in particular, the infrastructure in general, and developing them with real-time interventions will extend the life of the entire system. This will have positive consequences for the final beneficiaries, whether public or private."
       },
       {
-        "text": "Bakım ekiplerini olumsuz senaryolara hazırlar",
+        "text": "Prepares maintenance teams for adverse scenarios",
         "class": "fw-bolder"
       },
       {
-        "text": "Her şeye rağmen, altyapılarda “acil durumlar” gelişebilir. Ancak periyodik bakım konusunda deneyimli ekipler, artık sorunu en kısa sürede gidermek için doğru bilgilere ve deneyime sahiptir."
+        "text": "Despite everything, “emergencies” can develop in infrastructures. However, teams experienced in periodic maintenance now have the right information and experience to fix the problem as soon as possible."
       },
       {
-        "text": "Periyodik bakımın dezavantajları",
+        "text": "Disadvantages of periodic maintenance",
         "class": "h3"
       },
       {
-        "text": "Periyodik bakımın kullanımı sınırlı ve “hedef odaklı” olmalıdır. Şayet böyle yaklaşılmazsa;"
+        "text": "The use of periodic maintenance should be limited and “goal-oriented”. If this is not approached;"
       },
       {
-        "text": "Beklenmedik arızalar ortaya çıkabilir.",
+        "text": "Unexpected malfunctions may occur.",
         "class": "fw-bolder"
       },
       {
-        "text": "Periyodik bakımı araçsallaştırmak, varlıkların bozulma riskini artırarak daha fazla bakım yapmaya neden olabilir."
+        "text": "Instrumentalizing periodic maintenance may increase the risk of asset deterioration, resulting in more maintenance."
       },
       {
-        "text": "Kaynakların boşa harcanmasına neden olur.",
+        "text": "It wastes resources.",
         "class": "fw-bolder"
       },
       {
-        "text": "Sıklıkla tekrarlanan bakımlar, başta bakım ekipleri olmak üzere enerji, zaman ve mali kaynakların boşa harcanmasına neden olur. Periyodik bakımların bir CMMS yazılımı ile yönetilmesi tüm bu dezavantajları ortadan kaldıracaktır."
+        "text": "Frequent repetitive maintenance wastes energy, time and financial resources, especially maintenance teams. Managing periodic maintenance with a CMMS software will eliminate all these disadvantages."
       },
       {
-        "text": "Periyodik bakımda CMMS kullanımı",
+        "text": "Use of CMMS in periodic maintenance",
         "class": "h3"
       },
       {
-        "text": "Periyodik bakımın altyapı tesislerinde, yetkin bir CMMS uygulaması ile hayata geçirilen periyodik bakım stratejileri şu evrelerden oluşur:"
+        "text": "Periodic maintenance strategies implemented with a competent CMMS application in the infrastructure facilities of periodic maintenance consist of the following phases:"
       },
       {
-        "text": "Periyodik bakım için emir seti organize edilir yetkin bir CMMS uygulaması ile desteklenmesi birçok avantaj sunar",
+        "text": "The order set is organized for periodic maintenance, and its support with a competent CMMS application offers many advantages.",
         "style": "font-style:italic"
       },
       {
-        "text": "İş belirli bir takvim hedef alınarak sisteme girilir ve öncelik kazandırılır",
+        "text": "The job is entered into the system by targeting a specific calendar and given priority.",
         "style": "font-style:italic"
       },
       {
-        "text": "Bakım ekibi, sistem üzerinden “görevine dair” bildirim alır ve yerine getirir",
+        "text": "The maintenance team receives and fulfills its “duty” notification through the system",
         "style": "font-style:italic"
       },
       {
-        "text": "İş emri yerine getirilir, raporlanır ve veri tabanına kaydedilir",
+        "text": "The work order is fulfilled, reported and recorded in the database.",
         "style": "font-style:italic"
       },
       {
-        "text": "Tamamlanan her görev analiz edilir ve sistem optimizasyonunda kullanılır",
+        "text": "Every completed task is analyzed and used in system optimization",
         "style": "font-style:italic"
       },
       {
-        "text": "Maliyet dostu çözüm: CMMS",
+        "text": "Cost-friendly solution: CMMS",
         "class": "h3"
       },
       {
-        "text": "Periyodik bakım için CMMS yazılımından faydalanmak şirketler için maliyet açısından ürkütücü olsa da, aslında bu gerçeği yansıtan bir argüman değildir. CMMS, doğru izleme ve kontrol iş verenin yanı sıra, erken uyarı sistemi olarak da kısa sürede yüksek yatırım getirisini garanti altına alır. Bir diğer deyişle, yatırımınız hızla size geri döner. Kısacası altyapınızı ayakta tutan varlıklarınızdan herhangi birinin ya da birden fazlasının birkaç saatliğine bile olsa durması planlarınızın aksaması anlamına gelecektir. Bu şirketler açısından alınması oldukça güç olup, yetkin bir CMMS yazılımı ile bu riskler minimize edilebilecektir. Bu yazımızda Periyodik Bakım Nedir? sorusuna cevap verdik. Daha farklı yazıları incelemek için blog sayfamızı ziyaret edin."
+        "text": "Although making use of CMMS software for periodic maintenance is frightening for companies in terms of cost, it is not an argument that reflects this reality. CMMS guarantees high return on investment in a short time as an early warning system as well as accurate monitoring and control for the employer. In other words, your investment returns quickly to you. In short, if any or more of your assets that keep your infrastructure afloat, even for a few hours, will disrupt your plans. It is very difficult for these companies to take, and these risks can be minimized with a competent CMMS software. In this article, What is Periodic Maintenance? We answered the question. Visit our blog page to review more different articles."
       }
     ]
   },
@@ -465,102 +465,102 @@
     "description": "All over the world, production processes are going through a rapid transformation. IoT is one of the main tools of this transformation. IoT in manufacturing, a...",
     "descriptions": [
       {
-        "text": "Tüm dünyada üretim süreçleri hızlı bir dönüşümün içerisinden geçiyor.  IoT, bu dönüşümün başlıca araçlarından biridir. Üretimde IoT, bir tesis içerisinde tüm varlıkların sensörler ve internet bağlantısı aracılığıyla birbiriyle bağlanması olup, “akıllı ve konuşan üretim tesisleri” paradigmasına geçişin anahtarıdır. Küresel imalat sanayinde 200 milyar dolar civarında olan IoT uygulamaları pazarının 2030 yılına gelindiğinde 1.5 trilyon dolara yükselmesi öngörülüyor. Bu, birçok sektörle karşılaştırıldığında devasa bir büyümeye işaret ediyor. Üstelik bu dönüşüm sadece imalat sanayiyle sınırlı kalmarak, bütünsel bir verimlilik stratejisini hayata geçiren çarpan etkisiyle küresel ekonomiye katma değer olarak dönecek gibi gözüküyor."
+        "text": "All over the world, production processes are going through a rapid transformation. IoT is one of the main tools of this transformation. In manufacturing, IoT is the interconnection of all assets within a facility via sensors and internet connectivity, and is the key to the transition to the “smart and talking manufacturing facilities” paradigm. The IoT applications market, which is around 200 billion dollars in the global manufacturing industry, is expected to increase to 1.5 trillion dollars by 2030. This marks massive growth compared to many industries. Moreover, this transformation is not only limited to the manufacturing industry, but it seems that it will return as added value to the global economy with the multiplier effect that implements a holistic efficiency strategy."
       },
       {
-        "text": "Üretimde Iot’nin Sağladığı Avantajlar",
+        "text": "Advantages of Iot in Production",
         "class": "h3"
       },
       {
-        "text": "Üretimde IoT kullanımının sağladığı birçok avantaj söz konusu. Kısaca sıralamak gerekirse;"
+        "text": "There are many advantages of using IoT in production. To summarize briefly;"
       },
       {
-        "text": "İyileştirilmiş ve güvenlikli tesisler",
+        "text": "Improved and secure facilities",
         "style": "font-style:italic"
       },
       {
-        "text": "Etkin kalite kontrol mekanizmaları ile güvenilir ürünler",
+        "text": "Reliable products with effective quality control mechanisms",
         "style": "font-style:italic"
       },
       {
-        "text": "Üretim akışını anlık izleme",
+        "text": "Instant monitoring of production flow",
         "style": "font-style:italic"
       },
       {
-        "text": "Enerji tasarrufu ve azalan atıklar",
+        "text": "Energy saving and reduced waste",
         "style": "font-style:italic"
       },
       {
-        "text": "Akıllı paketleme",
+        "text": "Smart packaging",
         "style": "font-style:italic"
       },
       {
-        "text": "Etkin tedarik zinciri",
+        "text": "Effective supply chain",
         "style": "font-style:italic"
       },
       {
-        "text": "Pazarın taleplerine esnek cevaplar",
+        "text": "Flexible responses to market demands",
         "style": "font-style:italic"
       },
       {
-        "text": "Verimlilik ve düşen maliyetler",
+        "text": "Efficiency and reduced costs",
         "style": "font-style:italic"
       },
       {
-        "text": "Yeni müşteri segmentleri",
+        "text": "New customer segments",
         "style": "font-style:italic"
       },
       {
-        "text": "Envanter yönetimi",
+        "text": "Inventory management",
         "style": "font-style:italic"
       },
       {
-        "text": "Dijital ikizler oluşturma yeteneği",
+        "text": "Ability to create digital twins",
 
         "style": "font-style:italic"
       },
       {
-        "text": "Etkin altyapı bakımı",
+        "text": "Effective infrastructure maintenance",
         "style": "font-style:italic"
       },
       {
-        "text": "IoT’nin sahip olduğu potansiyeli kavrayan ve verinin gücünden faydalanan üreticiler sadece üretimlerini daha verimli ve maliyet dostu haline getirmekle kalmamakta; dikey iş modelleri ve yeni gelir akışlarına da ulaşabilmekte. Tesislerin artık distribütörler ya da bayilere teslimle biten iş modelleri yerine son kullanıcı ile ömür boyu ilişki kurmasına yönelik stratejiler için IoT gerçek bir dosttur."
+        "text": "Manufacturers who realize the potential of IoT and benefit from the power of data not only make their production more efficient and cost-friendly; It can also reach vertical business models and new revenue streams. IoT is a true friend for strategies for facilities to establish a lifelong relationship with the end user, instead of the business models that no longer end with distributors or dealerships."
       },
       {
-        "text": "Üretimde IoT Trendleri Nelerdir?",
+        "text": "What are the IoT Trends in Manufacturing?",
         "class": "h3"
       },
       {
-        "text": "Peki üretimde IoT süreçlerini şekillendiren trendler neler olacak?"
+        "text": "So what will be the trends that shape IoT processes in production?"
       },
       {
-        "text": "5G Teknolojisi",
+        "text": "5G Technology",
         "class": "h3"
       },
       {
-        "text": "Teknolojik devrimin en çok konuşulan başlıklarından birini 5G teknolojisi oluşturuyor. 2025 yılına kadar yapılacak operatör yatırımlarının yüzde 85’inin 5G yatırımı olması öngörülürken, 2035 yılına kadar bu teknolojinin 3,8 trilyon dolar katma değer üreteceği tahmin ediliyor. 5G sayesinde sağlanacak veri dinamizminin ve esnekliğinin üretim tesislerine yansıması, varlıklar arası veri geçişinin çok daha hızlı ve güvenli hale gelmesi bekleniyor."
+        "text": "One of the most talked about topics of the technological revolution is 5G technology. While it is predicted that 85% of operator investments to be made until 2025 will be 5G investments, it is estimated that this technology will generate an added value of $3.8 trillion by 2035. It is expected that the data dynamism and flexibility to be provided by 5G will be reflected in the production facilities, and data transfer between assets will become much faster and safer."
       },
 
       {
-        "text": "Uzaktan İzleme",
+        "text": "Remote Monitoring",
         "class": "h3"
       },
       {
-        "text": "Pandeminin dünyaya kazandırdığı esnekliklerin başında, üretimin uzaktan da olsa sürdürülebilmesi geliyor. Tesislere istenilen zamanda ve şekilde bağlanabilmek büyük önem arz ediyor. Bakım ekiplerinin sensörler aracılığıyla arızaları uzaktan kestirebilmesi ve müdahale için çok daha az zaman ve enerji harcaması, üretim sahasındaki maliyetlerin etkin yönetimi anlamına geliyor."
+        "text": "One of the flexibility that the pandemic has brought to the world is the ability to maintain production even from a distance. It is of great importance to be able to connect to the facilities at the desired time and manner. The fact that maintenance teams can predict malfunctions remotely through sensors and spend much less time and energy for intervention means effective management of costs in the production area."
       },
       {
-        "text": "Kestirimci Bakım",
+        "text": "Predictive Maintenance",
         "class": "h3"
       },
       {
-        "text": "Üreticiler, büyük bir rekabetle karşı karşıyadır. Teslim süreleri bu rekabette önemli bir başlığa dönmüş olup, makine hatlarındaki plansız duruşlar rekabetçiliği zayıflatan bir unsur haline geliyor. IoT esaslı kestirimci yani tahmine dayalı bakım stratejileri bu sorunların çözümünde kritik öneme sahiptir. Süreç şöyle işlemekte; bağlı varlıklardan gelen veriler, yapay zeka tabanlı bir yazılıma aktarılıyor. Bu sayede varlık ağında oluşabilecek herhangi bir arıza, henüz ortaya çıkmadan veri-temelli olarak tahmin edilebiliyor. Bu da verimliliğin yükselmesi, maliyetlerin ise düşmesi anlamına geliyor. Araştırmalara göre kestirimci bakım ile dünya çapındaki üretim tesislerinde elde edilebilecek tasarruf 250-700 milyar dolara ulaşma potansiyeline sahiptir. Firmalar son yıllarda kestirimci bakım stratejisinin sağladığı faydalarla ilgili önemli bir farkındalık düzeyine ulaşmış durumdadır. Nitekim, Precedence Research analizine göre küresel endüstriyel Iot pazarında kestirimci bakım segmentinin toplam cironun yüzde 27’sini oluşturması, bunu kanıtlar niteliktedir."
+        "text": "Manufacturers face great competition. Delivery times have become an important topic in this competition, and unplanned stoppages in machine lines are becoming a factor that weakens competitiveness. IoT-based predictive maintenance strategies are critical in solving these problems. The process works as follows; Data from connected entities is transferred to an artificial intelligence-based software. In this way, any malfunction that may occur in the asset network can be predicted on a data-based basis before it occurs. This means higher efficiency and lower costs. According to research, the savings that can be achieved in production facilities around the world with predictive maintenance have the potential to reach 250-700 billion dollars. In recent years, companies have reached a significant level of awareness about the benefits of the predictive maintenance strategy. As a matter of fact, the predictive maintenance segment in the global industrial Iot market, accounting for 27 percent of the total turnover, is proof of this, according to the Precedence Research analysis."
       },
       {
-        "text": "Kestirimci Bakımda yapay zeka kullanımı",
+        "text": "Using artificial intelligence in Predictive Maintenance",
         "class": "h3"
       },
       {
-        "text": "Kestirimci bakım yaklaşımının bu başarısının arkasında kuşkusu yapay zekadan yararlanması geliyor. Makine öğrenmesi ile veriler çok daha etkin ve hassas şekilde analiz edilebildiği gibi, üreticiler birçok fırsata ulaşma imkanı elde ediyor. Özetle; verimlilik ve rekabetçiliğe ulaşmak isteyen üreticilerin gelecekte, tesislerinde Iot esaslı kestirimci bakım uygulamalarına daha fazla yer vereceği açıktır."
+        "text": "Behind this success of the predictive maintenance approach is the doubtful use of artificial intelligence. With machine learning, data can be analyzed much more effectively and precisely, and manufacturers have the opportunity to reach many opportunities. In summary; It is clear that manufacturers who want to achieve efficiency and competitiveness will include more IoT-based predictive maintenance applications in their facilities in the future."
       }
     ]
   },
@@ -575,119 +575,119 @@
     "description": "Today, modern production and management techniques applied in businesses are based on customer demands. Expectations of customers on products and services...",
     "descriptions": [
       {
-        "text": "Günümüzde işletmelerde uygulanan modern üretim ve yönetim teknikleri müşteri taleplerini baz almaktadır. Müşterilerin, ürün ve hizmet üzerindeki beklentisi sürekli artmakta olduğundan bu durum işletmelerin üretim sistemlerinin giderek karmaşık ve komplike bir hal almasını sağlamaktadır. Üretim sistemlerinin giderek karmaşıklaşması, belirli bir verimlilik standardının korunmasını zorlaştırmakta ve üretim süreçlerinde hatalara sebebiyet vermektedir."
+        "text": "Today, modern production and management techniques applied in businesses are based on customer demands. Since the expectations of the customers on the product and service are constantly increasing, this situation causes the production systems of the enterprises to become increasingly complex and complicated. The increasing complexity of production systems makes it difficult to maintain a certain efficiency standard and causes errors in production processes."
       },
       {
-        "text": "Bir üretim hattında, planlanan üretimin yapılması beklenirken ortaya arıza gibi çeşitli sorunlar çıkabilmekte ve bu sorunlar yarattıkları kesintiler ile üretim planlarını altüst edebilmektedir. Bu durum bir işletme için kabus niteliği taşır ve de bu yüzden, işletmelerdeki bakım faaliyetleri kritik öneme sahiptir. Bakım faaliyetlerinin belirli amaçlara yönelik olarak bilinçli ve planlı bir şekilde yürütülmesi ve yönetilmesi gerekmektedir. Bakım, işletmedeki ekipman ve sistemlerin fonksiyonlarını en yüksek performansta sürdürmeleri için gerçekleştirilen faaliyetler bütünüdür. İşletmelerin ana sorumluluklarını yerine getirebilmeleri için ekipman ve sistemlerinin sürekliliğini kılmaları, seri üretimlerini aksatmamaları ve ürün kalitesini yüksek tutmaları gerekmektedir. İşletme sistemlerinin sürekliliğini sağlamak için arıza oluşmadan önce önlem almak ve arıza oluşum sıklığını azaltma arayışları bakım konusunda yeni yaklaşımlar getirmiş ve Toplam Verimli Bakım (TVB) kavramı ortaya çıkmıştır."
+        "text": "While waiting for the planned production to be made in a production line, various problems such as malfunctions may occur and these problems can upset the production plans with the interruptions they create. This situation is a nightmare for a business and therefore maintenance activities in businesses are of critical importance. Maintenance activities must be carried out and managed in a conscious and planned manner for certain purposes. Maintenance is the whole of the activities carried out to maintain the functions of the equipment and systems in the enterprise at the highest performance. In order for businesses to fulfill their main responsibilities, they need to ensure the continuity of their equipment and systems, not to hinder their mass production, and to keep the product quality high. In order to ensure the continuity of the operating systems, the search for taking precautions before the failure occurs and reducing the frequency of failure has brought new approaches to maintenance and the concept of Total Productive Maintenance (TVB) has emerged."
       },
       {
-        "text": "Toplam verimli bakım içerisinde ekipman takibi, arıza takibi, parça ömrü ve yedek parça analizleri ile sistemlerin arıza noktalarını önceden tespit ederek, bakım planlarına uygun olarak gerekli işlemlerin belirlenerek uygulanması yer almaktadır. Amaç bakım faaliyetlerine ağırlık vererek oluşabilecek arızaların önüne geçmek ve arıza sebepli iş akışlarının durmalarını minimize etmektir."
+        "text": "Total efficient maintenance includes equipment tracking, failure tracking, part life and spare part analysis, and predetermining the failure points of the systems, determining and implementing the necessary actions in accordance with the maintenance plans. The aim is to prevent malfunctions that may occur by focusing on maintenance activities and to minimize the interruptions of work flows due to malfunctions."
       },
       {
-        "text": "Toplam Verimli Bakım, makine ve ekipmanlardaki arızaların sorun yaratacak hale gelmeden önce, tespiti, analiz ve düzeltilmesi amacıyla seçilen parametreleri, ölçülmesi ve önceden belirlenen sınır değerlerle grafik trendler kullanarak mukayese edilmesidir. Kullanılan yaklaşım, makine ve ekipmanları güncel ve geçmişteki durumlarının izlenmesiyle gelecekteki durumlarının kestirilmesidir."
+        "text": "Total Productive Maintenance is the measurement and comparison of selected parameters with predetermined limit values using graphical trends in order to detect, analyze and correct malfunctions in machinery and equipment before they become problematic. The approach used is to predict the future status of machinery and equipment by monitoring their current and past conditions."
       },
       {
-        "text": "Yapılan araştırmalar TVB uygulayan şirket seviyesinde ortalama bakım giderlerinin %50’lere varan oranlarda azaltılabileceğini göstermektedir."
+        "text": "Research shows that average maintenance costs can be reduced by up to 50% at the company level that implements TVB."
       },
       {
-        "text": "Şu bir gerçektir ki, bugünün rekabet koşulları eskiye nazaran çok değişmiştir. İşletmelerin karlılıklarını koruyabilmesi hatta arttırabilmesi, çok iyi bir stratejik planlama ve iş süreçleri analizini beraberinde getirmektedir. İşte bu koşullar altında, üretimi ve hizmeti aksatmadan bakım maliyetlerini düşürmek bir işletme için kaçırılmayacak bir fırsattır. Toplam Verimli Bakımı önemli yapan esas husus da budur."
+        "text": "It is a fact that today's competitive conditions have changed a lot compared to the past. The ability of businesses to maintain or even increase their profitability brings with it a very good strategic planning and analysis of business processes. Under these conditions, reducing maintenance costs without disrupting production and service is an unmissable opportunity for a business. This is the main point that makes Total Productive Maintenance important."
       },
       {
-        "text": "Toplam Verimli Bakımın Özellikleri",
+        "text": "Features of Total Productive Care",
         "class": "h3"
       },
       {
-        "text": "TVB’nin sekiz sütunu çoğunlukla ekipman güvenilirliğini artırmak için tedbirli ve önleyici tekniklere odaklanır.",
+        "text": "The eight pillars of TVB mostly focus on precautionary and preventive techniques to improve equipment reliability.",
         "style": "font-style:italic"
       },
       {
-        "text": "Otonom bakım",
+        "text": "Autonomous maintenance",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Kayıpların nedenlerini belirlemeye yardımcı olmak için tüm duyularını kullanan operatörler.",
+        "text": "Operators using all their senses to help identify causes of losses.",
         "style": "display:inline"
       },
       {
-        "text": "Odaklanmış İyileştirme:",
+        "text": "Focused Improvement:",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Fabrikadaki kayıpları ortadan kaldırmak için problem çözmeye bilimsel yaklaşım. ",
+        "text": "Scientific approach to problem solving to eliminate losses in the factory.",
         "style": "display:inline"
       },
       {
-        "text": "Planlı Bakım:",
+        "text": "Planned Maintenance:",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": " Eğitimli mekanik ve mühendisler tarafından gerçekleştirilen profesyonel bakım faaliyetleri.",
+        "text": "Professional maintenance activities performed by trained mechanics and engineers.",
         "style": "display:inline"
       },
       {
-        "text": "Kalite Yönetimi",
+        "text": "Quality management",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Kusurları belirlemek ve nedenlerini ortadan kaldırmak için bilimsel ve istatistiksel yaklaşım.",
+        "text": "Scientific and statistical approach to identify defects and eliminate their causes.",
         "style": "display:inline"
       },
       {
-        "text": "Erken Ekipman Yönetimi:",
+        "text": "Early Equipment Management:",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Kayıpları ortadan kaldıran ve hatasız üretimi verimli hale getirmeyi kolaylaştıran ekipman ve tasarım konseptlerinin bilimsel tanıtımı.",
+        "text": "Scientific presentation of equipment and design concepts that eliminate losses and facilitate efficient production without defect.",
         "style": "display:inline"
       },
       {
-        "text": "Eğitim ve Öğretim",
+        "text": "Education and Training",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Tüm çalışanların ve yönetimin bilgilerinin sürekli iyileştirilmesine destek",
+        "text": "Support for the continuous improvement of the knowledge of all employees and management",
         "style": "display:inline"
       },
       {
-        "text": "İdari Ofis TVB: ",
+        "text": "Administrative Office TVB:",
         "style": "font-style:italic; display:inline",
         "class": "fw-bolder"
       },
       {
-        "text": "Üretim planlaması, malzeme yönetimi ve bilgi akışı dahil olmak üzere bir üretim tesisinin tüm destek yönlerini iyileştirmek için TVB araçlarını kullanmanın yanı sıra bireylerin moralini yükseltmek ve hak eden çalışanlara morallerini yükselttikleri için ödüller vermek.",
+        "text": "Using TVB tools to improve all support aspects of a manufacturing facility, including production planning, materials management, and information flow, as well as boosting the morale of individuals and rewarding deserving employees for boosting their morale.",
         "style": "display:inline"
       },
       {
-        "text": "Güvenli Çevre Koşulları",
+        "text": "Safe Environmental Conditions",
         "class": "h3"
       },
       {
-        "text": "VİDA Bakım Yönetim Uygulaması, bu 8 unsuru doğrudan ve dolaylı yollarla destekleyerek işletme verimliliğinin artmasına yardımcı olur."
+        "text": "VİDA Maintenance Management Application helps to increase operational efficiency by supporting these 8 elements directly and indirectly."
       },
       {
-        "text": "Oluşturulan arıza iş emirleri ile operatörlerin kendi alanları içerisinde sorumluluk almalarına ve dikkatli davranmalarına olanak sağlar."
+        "text": "With the created breakdown work orders, it allows the operators to take responsibility in their own fields and act carefully."
       },
       {
-        "text": "Oluşan arızalar için dijital arşiv kaydı ve veri analizi sağlayarak tedbir alınmasını sağlar. Böylece geçmişteki problemlerin gelecekte yaşanmasını engeller."
+        "text": "It ensures that measures are taken by providing digital archive recording and data analysis for malfunctions. Thus, it prevents the problems of the past from happening in the future."
       },
 
       {
-        "text": "Bakım ekibinin aylık, yıllık ve özel periyotlarla planlı bakımları çok kısa bir zaman içerisinde tanımlamasına yardımcı olur. Bu sayede ekip uzun süre masa başında geçirilen saatleri işletmenin kontrolü ve tertibi için harcayabilir."
+        "text": "It helps the maintenance team to define planned maintenance in a very short time with monthly, annual and special periods. In this way, the team can spend long hours at the desk for the control and organization of the business."
       },
       {
-        "text": "Planlı bakımlar ve anlık arıza bildirimi ile üretimdeki duruşların ve verim kaybının önüne geçerek daha kaliteli üretim yapılmasına destek sağlar."
+        "text": "It provides support for higher quality production by preventing production stops and loss of efficiency with planned maintenance and instant failure notification."
       },
       {
-        "text": "İşletme içindeki personelde bakım bilinci oluşturarak, süreçlerin iyileştirilmesine yardımcı olur."
+        "text": "It helps to improve processes by creating maintenance awareness in the personnel in the enterprise."
       },
       {
-        "text": "Siz de Vida Bakım Yönetimi Uygulaması ile bakım süreçlerinizi optimize ederek hem üretim hem de işletme içi verimliliğinizi arttırarak ve gelişen iş süreçlerine ayak uydurarak rakiplerinizin önüne geçebilirsiniz."
+        "text": "With the Vida Maintenance Management Application, you can get ahead of your competitors by optimizing your maintenance processes, increasing both your production and in-house efficiency and keeping up with the developing business processes."
       }
     ]
   },
@@ -702,16 +702,16 @@
     "description": "A product development and operations management process that classifies faults by probability and similarity to analyze potential failure modes of a system.",
     "descriptions": [
       {
-        "text": "Hata türleri ve etkileri analizi; bir sistemin potansiyel hata türlerini analiz etmek için hataları olasılıklarına ve benzerliklerine göre sınıflandıran bir ürün geliştirme ve operasyon yönetim prosedürüdür. Başarılı bir hata türü analizi işi, benzer ürünlerin veya proseslerin geçmiş deneyimlerine dayanarak hata türlerinin tanımlanmasına yardımcı olur. Bu hataların sistemden minimum kaynak kullanımı ve çabayla atılmasını sağlar ve bununla beraber geliştirme zamanını ve maliyetini düşürür. Genellikle üretim sektöründe ürünlerin çeşitli aşamalarında kullanılmakla beraber hizmet sektöründe de kullanım alanı artmıştır."
+        "text": "Failure modes and effects analysis; It is a product development and operations management procedure that categorizes faults according to their probability and similarity in order to analyze potential failure modes of a system. A successful defect type analysis job helps identify defect types based on past experience of similar products or processes. It ensures that these errors are eliminated from the system with minimum resource usage and effort, while reducing development time and cost. Although it is generally used in various stages of products in the production sector, its usage area has also increased in the service sector."
       },
       {
-        "text": "FMEA’nin temel fikri hatayı sonradan bulmak ve düzeltmek (hata yönetimi) yerine hataları erkenden tanıyarak tedbirli bir şekilde önlemek ve tasarım aşamasından itibaren hataların olası nedenlerinin değerlendirilmesidir. Böylece aksi halde üretim aşamasında çıkan kontrol ve hata maliyetlerden ve hatta müşteri maliyetlerinden (müşteri) kaçınılabilir ve toplam maliyetleri azaltılabilir. Sistematik bir yaklaşımla ve bu yaklaşımdan gelen bilgilerle ayrıca tasarım hatalarının yeni ürün ve süreçlerde tekrarlanması önlenir."
+        "text": "The basic idea of FMEA is to prevent faults by recognizing them early and to evaluate the possible causes of faults from the design stage, instead of detecting and correcting the fault later (error management). In this way, control and error costs and even customer costs (customer) that otherwise occur during the production phase can be avoided and the total costs can be reduced. With a systematic approach and the information coming from this approach, the repetition of design errors in new products and processes is prevented."
       },
       {
-        "text": "Bir sürecin, üretime hazır hale gelmesinin ardından veya üretime geçmiş bir proseste, önemli olan sürecin veya ürünün güvenilirliğini sağlamaktır. Güvenilirlik ürünlerin veya proseslerin önemli bir özelliğidir. Aynı zamanda müşteri tatminini sağlamakta etkisi çok fazla olan bir faktördür. Müşteriler kullandıkları ürünün hizmet süresinin uzun ve aynı zamanda sorunsuz bir proses olmasını istemektedirler. Bu nedenle ürünün veya sürecin güvenilirliğini sağlamak için atılacak adım; ortaya çıkabilecek olan hataların türlerini ve bunların ürün ya da sürece etkilerini belirleyebilecek bir risk analizinin yapılması ve kurulacak veya kurulmuş olan bir sürecin güvenilirliğinin kontrol altına alınmasıdır."
+        "text": "After a process is ready for production or in a production process, the important thing is to ensure the reliability of the process or product. Reliability is an important feature of products or processes. At the same time, it is a factor that has a great impact on providing customer satisfaction. Customers want the product they use to have a long service life and at the same time to be a trouble-free process. Therefore, the step to be taken to ensure the reliability of the product or process; It is to carry out a risk analysis that can determine the types of errors that may arise and their effects on the product or process, and to control the reliability of a process to be established or established."
       },
       {
-        "text": "VİDA Bakım Yönetimi Uygulaması, arıza iş emirleri ile birlikte oluşan her bir arızanın arıza türü, arıza süresi ve işlem süresini detaylı bir şekilde kayıt altına alarak, arızalar içerisinde bir veri madeni oluşturur. Dinamik dashboardlar sayesinde hangi makinenin hangi sıklıkta ve hangi tür arızadan dolayı sorun çıkardığını göstererek olası arızalar için bir öngörü sağlar."
+        "text": "VİDA Maintenance Management Application creates a data mine among the malfunctions by recording the malfunction type, downtime and processing time of each malfunction that occurs together with the malfunction work orders in detail. Thanks to the dynamic dashboards, it provides a prediction for possible failures by showing which machine causes problems with what frequency and due to which type of failure."
       }
     ]
   },
@@ -726,13 +726,13 @@
     "description": "As a result of the studies on the reliability of complex machines and devices in the USA in the 1960s, the 'Reliability Centered...",
     "descriptions": [
       {
-        "text": "1960’lı yıllarda ABD’de karmaşık makine ve aygıtların güvenilirliği ile ilgili yapılan çalışmaların sonucu olarak, havacılık endüstrisinde “Güvenilirlik Merkezli Bakım” (RCM: Reliability Centered Maintenance) stratejisinin temelleri atılmıştır. Başlangıçta salt havacılık endüstrisinde kullanılan RCM, zamanla güvenliğin ön planda olduğu nükleer santraller, petrokimya tesisleri, boru hatları gibi endüstriyel alanlarda da kullanılmaya başlanmıştır. Günümüzde RCM’nin kullanım alanı hızla genişlemektedir. RCM, makina durumuna bağlı bakım (Kestirimci Bakım), çalışma zamanına bağlı periyodik bakım ve arıza sonrasında uygulanan bakım stratejilerinin en uygun birleşimini araştırır ve uygular."
+        "text": "As a result of the studies on the reliability of complex machines and devices in the USA in the 1960s, the foundations of the 'Reliability Centered Maintenance' strategy were laid in the aviation industry. RCM, which was used only in the aviation industry at the beginning, has started to be used in industrial areas such as nuclear power plants, petrochemical facilities, pipelines, where safety is at the forefront. Today, the usage area of RCM is expanding rapidly. RCM searches for and implements the most appropriate combination of machine condition-based maintenance (Predictive Maintenance), uptime-based periodic maintenance, and post-failure maintenance strategies."
       },
       {
         "text": "RCM’nin tanımını, bakım kavramı tanımıyla birlikte ele almak gerekir. Bakım, fiziksel varlıkların yapmaları gereken işleri sürdürmeyi sağlamak ve güvence altına almak üzere yapılan çalışmalar bütünüdür. Bu tanım doğrultusunda RCM, herhangi bir fiziksel varlığın kendi çalışma sistemi içerisinde bakım gereksinimlerinin belirlenmesini sağlayan süreçtir. RCM, ekipmanın işlevselliği, arıza modları ve etkileri analizi ve arıza sonuçlarının değerlendirilmesi ile gerekli bakım işlemlerinin ve bu işlemlerin yapılması gereken zaman aralıklarının belirlendiği yöntem bilimdir."
       },
       {
-        "text": "Özellikle son on yılda Güvenilirlik Merkezli Bakım hakkında yapılan çalışma sayısının artmış olduğu görülmektedir. İmalat sektörü başta olmak üzere, farklı alanlarda da değişik ölçekte uygulamaları olan RCM anlayışı ile işletme içerisinde ekipman yaşam döngüsünü arttırmak mümkündür. VİDA Bakım Yönetimi Uygulaması da RCM yöntemi ışığında “Kestirimci Bakım” ve “Periyodik Bakım” modları ile makine ve ekipman bakımlarını takip ederek işletmelere hizmet sağlamaktadır."
+        "text": "It is seen that the number of studies on Reliability Centered Maintenance has increased especially in the last ten years. It is possible to increase the equipment life cycle within the enterprise with the understanding of RCM, which has applications at different scales in different fields, especially in the manufacturing sector. VİDA Maintenance Management Application also provides services to businesses by following machine and equipment maintenance with “Predictive Maintenance” and “Periodic Maintenance” modes in the light of RCM method."
       }
     ]
   },
@@ -747,21 +747,21 @@
     "description": "Periodic maintenance of the machine is very important in terms of keeping the performance of the machines stable. In addition to maintenance, it is also possible to follow up on issues such as part tracking and replacement...",
     "descriptions": [
       {
-        "text": "Makine bakımının periyodik olarak yapılması makinelerin performansının stabil kalması açısından oldukça önemlidir. Bakımın yanı sıra parça takibi ve değişimi gibi konuların da takibinin yapılması gerekir. Firmanın diğer ihtiyaçları ve işleri ile uğraşırken bu bakım ve takibe vakit bulunmaması olası bir durumdur. Planlı bakım, geçmişe dönük yapılan bakım süreçlerinin takibinin yapılması konusunda size yardımcı olur. Böylelikle makinelerin her bakıma ihtiyaç duyduğu anda önceki geçtiği bakımın zaman kontrolünü yapabilir, gelecek tarihte bu bakımın hangi aralığa denk geldiğini öğrenebilirsiniz. Pozitif bakım, makinelerde oluşacak olası arızaların yaratacağı riskleri de minimum düzeye indirmenizi sağlar. Günümüzde teknoloji kullanımının olmadığı alana rastlamak oldukça düşük bir ihtimaldir. Teknoloji, insan gücü ile bir araya geldiğinde ulaşılmak istenen pek çok sonuca hızlı bir şekilde erişmenize yardımcı olur. Bakım yönetimi yazılımı, firma içerisinde yer alan bir ya da birden fazla makinenizin bakım takvimini oluşturarak bu takibi sizin için otomatik olarak hazırlar. Bu yazılım sayesinde makine bakımı takibi için ayıracağınız vakitten tasarruf edebilirsiniz"
+        "text": "Periodic maintenance of the machine is very important in terms of keeping the performance of the machines stable. In addition to maintenance, it is necessary to follow up on issues such as part tracking and replacement. It is possible that the company does not have time for this maintenance and follow-up while dealing with other needs and works. Planned maintenance helps you to keep track of past maintenance processes. In this way, whenever the machines need maintenance, you can check the time of the previous maintenance and find out what interval this maintenance corresponds to in the future. Positive maintenance also allows you to minimize the risks of possible malfunctions in the machines. Today, it is very unlikely to come across an area where technology is not used. When technology comes together with human power, it helps you to reach many desired results quickly. Maintenance management software automatically prepares this follow-up for you by creating a maintenance schedule for one or more of your machines in the company. With this software, you can save your time for machine maintenance follow-up."
       },
       {
-        "text": "Bakım Yönetimi İle Zamandan Tasarruf ",
+        "text": "Time Saving with Maintenance Management",
         "class": "h3"
       },
       {
-        "text": "Üretim yapan firmalar içerisinde yer alan makineler düzenli aralıklarda parça değişimi, temel ya da lokal bakıma ihtiyaç duyar. Büyük oranda iş gücünü makinelerin üstlendiği firmalar için kurtarıcı görevi üstlenen bakım otomasyonu, makinelerin yanı sıra çalışanlara da birçok avantaj sunar. Otomatik bakım takvimi oluşturan yazılımlar sayesinde makinelerinizin bakım takibini yapmak üzere fazladan elemana ihtiyaç duymaksızın iş gücünden tasarruf sağlayabilirsiniz. Ayrıca zaman ve maliyetten kazanç da elde edebilirsiniz. Maliyetten kazanç elde etmenizin ana nedeni, düzenli olarak bakımı yapılan makinelerde arıza riskinin oldukça düşük bir orana indirgenmesidir. Beklenmeyen arızalar, makineler tarafından yapılan üretimin gerçekleştirilmemesine sebep olur. Üretim gerçekleşmediği takdirde firmanız kısa bir vadede de olsa büyük oranlarda tahribatlar ile karşı karşıya gelebilir. Tamir süreci, firmanızın üretim ve uygulama prosedüründe zaman kaybetmenize de yol açabilir. Teknolojiyi verimli ve doğru bir şekilde kullanan her firmanın sürekliliğe ulaşan bir başarı bir sürece imza atması oldukça yüksek bir ihtimaldir. Üretim, lojistik ve iletişim alanında doğru teknolojilere yer verdiğiniz takdirde zaman ve bütçe gibi birçok açıdan tasarruf edebilirsiniz. "
+        "text": "The machines in the manufacturing companies need part replacement, basic or local maintenance at regular intervals. Maintenance automation, which acts as a savior for companies whose workforce is largely undertaken by machines, offers many advantages to employees as well as machines. Thanks to the software that creates an automatic maintenance schedule, you can save labor without the need for extra personnel to follow up the maintenance of your machines. You can also save time and cost. The main reason for your cost savings is that the risk of failure is reduced to a very low rate for machines that are regularly maintained. Unexpected failures cause the production made by the machines not to be realized. If the production does not take place, your company may face large amounts of destruction, even in a short time. The repair process may also cause you to lose time in your company's production and application procedure. It is highly probable that every company that uses technology efficiently and correctly will achieve a successful process that reaches continuity. If you include the right technologies in the field of production, logistics and communication, you can save in many aspects such as time and budget."
       },
       {
-        "text": "Anlık Müdahale, Pratik Arıza Tespiti",
+        "text": "Instant Intervention, Practical Fault Detection",
         "class": "h3"
       },
       {
-        "text": "Üretim ve ürün işleme konusunda günün büyük bir zaman diliminde performans gösteren makinelerde bireysel anlık takip yapma zaman ve iş gücü açısından firma bünyesindeki kişileri zarara uğratabilir. Mobil takip, Android ya da IOS işletim sistemini destekleyen akıllı telefon, tablet ya da bilgisayarlar üzerinde firmanız bünyesindeki tüm makinelerin işleyiş ve bakım takibini yapmanıza yardımcı olur. Makineler için düzenli bir bakım takvimi oluşturarak üretimin durması ya da üretim aksamasına karşı önleminizi alabilirsiniz. Makinelerin yanı sıra makine parkurları da üretim ve tedarik zincirinde önemli bir rol üstlenir. Makine parkuru takibi, firma bünyesinde yer alan makine parkurlarının rota, işleyiş ve daha birçok süreçte takibini sürekli olarak izlemenize yardımcı olur. Böylelikle firma içerisinde lojistik alanında da pratik bir kullanım elde edebilir, iş gücünden büyük oranda tasarruf sağlayabilirsiniz. Siz de Vida ile üretim ve lojistik sürecine katkıda bulunacak birçok fonksiyonel yazılıma firmanızda yer verebilirsiniz. Alanında profesyonel ekipler tarafından gerçekleştirilen onarım uygulaması ile makinelerinizi her an güvence altına alabilirsiniz. Olası makine arızalarında anlık müdahale özelliği ile pratik bir şekilde arızalara giderebilir, makinelerin üstlendiği üretim prosedürünü her açıdan detaylı bir şekilde anlık olarak takip edebilirsiniz. "
+        "text": "Individual instant tracking on machines that perform in production and product processing in a large part of the day can harm the people within the company in terms of time and workforce. Mobile tracking helps you to monitor the operation and maintenance of all machines in your company on smart phones, tablets or computers that support Android or IOS operating system. By creating a regular maintenance schedule for the machines, you can take precautions against production stoppages or production disruptions. In addition to machines, machine parks also play an important role in the production and supply chain. Machine track tracking helps you to continuously monitor the route, operation and many other processes of the machine tracks within the company. In this way, you can get a practical use in the field of logistics within the company, and you can save a lot of labor. With Vida, you can include many functional software that will contribute to the production and logistics process in your company. With the repair application carried out by professional teams in the field, you can secure your machines at any time. In case of possible machine malfunctions, you can eliminate malfunctions in a practical way with the instant intervention feature, and you can instantly follow the production procedure undertaken by the machines in detail from every aspect."
       }
     ]
   },
@@ -776,21 +776,21 @@
     "description": "Production process efficiency shows how well and in how long a business will achieve its goals. Compare current production rates with expected production rates.",
     "descriptions": [
       {
-        "text": "Üretim proses verimliliği, bir işletmenin hedeflerini ne kadar sürede ve ne kadar iyi şekilde gerçekleştireceğini gösterir. Mevcut üretim oranlarını beklenen üretim oranlarıyla karşılaştıran ölçümler ürün kalitesini yükseltirken üç önemli sonuç almanızı sağlar. Bunlardan birincisi verimli üretim sistemlerinin kaynak kullanımını azaltmasıdır. Bu sayede az kaynakla aynı sayıda mal üretir. İkinci olarak verimliliğin artması daha yüksek finansal marj elde etmek anlamına gelir. Üçüncü ve son sonuç ise ürün ve hizmetlerin müşterilere düzenli teslim edilmesine olanak tanır. Üretim verimliliğini artırmak amacıyla bakım yönetim sistemleri kullanılabilir. Çünkü ekipmanların bakımı verimlilik için şarttır. Makine ve cihazlar düzenli olarak kontrol edilirse üretimi kesintiye uğratabilecek büyük arızalar önlenir. Periyodik bakım sürecini sizin için düzenleyen bakım yönetim yazılımları, ekipmanların bakım için planlı şekilde durdurulmasını ve olabilecek en kısa sürede tekrar çalışmasını sağlar. Bakım etkili olursa memnuniyet sağlanır, çünkü üretim daha kaliteli olur. Aynı zamanda makinelerin kullanım ömrü uzar ve yeni ekipman alma ihtiyacı doğmaz. Doğal olarak tasarruf edilmiş olur. Bunları gerçekleştirebilmek için periyodik bakımlar aksatılmadan vaktinde yapılmalıdır. "
+        "text": "Production process efficiency shows how well and in how long a business will achieve its goals. Measurements that compare current production rates with expected production rates provide three key results while improving product quality. The first of these is that efficient production systems reduce the use of resources. In this way, it produces the same number of goods with less resources. Second, increased productivity means higher financial margins. The third and final result allows for regular delivery of products and services to customers. Maintenance management systems can be used to increase production efficiency. Because the maintenance of equipment is essential for efficiency. If machines and devices are checked regularly, major malfunctions that may interrupt production are prevented. Maintenance management software, which organizes the periodic maintenance process for you, ensures that the equipment is stopped for maintenance in a planned manner and restarted as soon as possible. If the maintenance is effective, satisfaction is achieved because the production will be of higher quality. At the same time, the service life of the machines is extended and there is no need to buy new equipment. Naturally, it saves. In order to achieve these, periodic maintenance should be done on time without interruption."
       },
       {
-        "text": "Sürekli Üretim İçin Periyodik Bakım",
+        "text": "Periodic Maintenance for Continuous Production",
         "class": "h3"
       },
       {
-        "text": "Bazı makine ve cihazların çalışma esnasında da bakımı yapılabilir. Bunu dikkate alarak ekipmanları durdurmadan bakımlara devam edilebilir. Bu sayede üretkenlikten ödün vermeden bakımlara devam edilebilir ve ekipmanlardan daha çok verim alınabilir. Verimi artırmak birçok işletme sahibi için oldukça önemlidir. Çünkü verimin artması ile uzun vadede daha yüksek kar elde edersiniz. Bunların yanı sıra çoğu endüstride bakım maliyetleri toplam maliyetin %10’u ila 25’i kadardır. Performansı riske atmadan üretim devamlılığı sağlamak için bakımların zamanında yapılması gerekir. Uzun süreler boyunca hiçbir bakım yapılmadan çalışmaya devam eden makine ve cihazlar bir yerden sonra eski performansını gösteremez. Üretilen ürünler aynı kalitede olmayabilir ve dolayısıyla her açıdan zarar edilebilir. Fire ve hurda oranlarının azaltılması da planlı bakımlarla mümkündür. Her zaman aynı kalitede ürünler elde etmek için ekipmanların bakımı periyodik olarak yapılmalı, sorunlar büyümeden çözülmelidir. Fabrikanızda kullandığınız ekipmanların bakımını zahmetsizce kontrol edebileceğiniz ya da ayarlayabileceğiniz bakım yönetim yazılımları sizin yerinize işlerinizi halleder. Üretimin beklenmedik anda durmasını engelleyen bakımlar ile siz de rahatça çalışmaya devam edebilirsiniz. Vida uygulaması aracılığıyla aktif olarak çalışan ekipmanların bakımlarını takip edebilir, makinelerin yıpranan parçalarının takibini ya da değişim sürelerini inceleyebilirsiniz. Bu sayede doğru zamanda bakım parça değişimi gibi tamiratlarla üretimin aksamasını ve zaman kaybını engelleyerek verimi artırabilirsiniz."
+        "text": "Some machines and devices can also be maintained during operation. Taking this into account, maintenance can be continued without stopping the equipment. In this way, maintenance can be continued without sacrificing productivity and more efficiency can be obtained from the equipment. Increasing productivity is very important to many business owners. Because with the increase in efficiency, you will get higher profits in the long run. In addition, maintenance costs in most industries are 10% to 25% of the total cost. Timely maintenance is required to ensure production continuity without compromising performance. Machines and devices that continue to operate for long periods of time without any maintenance cannot show their previous performance after a certain point. The products produced may not be of the same quality and therefore may be damaged in every respect. Reducing wastage and scrap rates is also possible with planned maintenance. In order to always obtain products of the same quality, equipment should be maintained periodically and problems should be resolved before they grow. Maintenance management software, which you can effortlessly control or adjust the maintenance of the equipment you use in your factory, takes care of your work for you. You can continue to work comfortably with the maintenance that prevents the production from stopping unexpectedly. Via Vida application, you can follow the maintenance of the actively working equipment, follow the worn parts of the machines or examine the replacement periods. In this way, you can increase efficiency by preventing production disruption and loss of time with repairs such as maintenance and replacement at the right time."
       },
       {
-        "text": "Periyodik Bakımın Üretim Açısından Önemi",
+        "text": "The Importance of Periodic Maintenance for Production",
         "class": "h3"
       },
       {
-        "text": "Makinelerin ve cihazların bakımı genellikle masraf ya da üretimi aksatan gereksiz bir durum gibi düşünülür. Ancak tam tersine planlı şekilde yapılan bakımlar fabrika verimliliğini artırır ve olası tehlikeleri önler. Bakımlar için mutlaka gereken zaman ayrılmalıdır. Hemen çözülecek bir sorunu ertelediğinizde her geçen gün bu sorun büyür. Daha fazla arıza riskiyle karşı karşıya kalmamak için periyodik bakımlar aksatılmamalıdır. Ekipmanlar hiç bakıma girmeden sürekli çalıştığında bir süre sonra önceki performanslarını göremezsiniz. Üretim yavaşlar, parçalarda sorun ya da arıza çıkabilir, bunların sonucunda bakım masrafından yüklü bir masrafla karşı karşıya kalabilirsiniz. Bakım maliyetlerini düşürmek planlı bakım ile mümkündür. Bakımı bir maliyetten ziyade işin devamlılığını sağlayan bir araç olarak görmelisiniz. Bu sayede daha çok kar elde edebilirsiniz. Ekipmanlarınız için en uygun bakım takvimlerini Vida ile düzenleyebilir, işletme verimliliğini artırabilirsiniz. Periyodik bakım takvimlerinizi kolaylıkla oluşturabilir ve Vida üzerinden takip edebilirsiniz."
+        "text": "The maintenance of machines and devices is often thought of as an expense or unnecessary condition that disrupts production. On the contrary, planned maintenance increases the efficiency of the factory and prevents possible hazards. Time must be allotted for maintenance. When you delay a problem that will be solved immediately, it gets bigger with each passing day. Periodic maintenance should not be interrupted in order not to face the risk of more malfunctions. When the equipment works continuously without any maintenance, after a while you cannot see its previous performance. Production slows down, problems or malfunctions may occur in parts, as a result of which you may face a significant cost in maintenance costs. Reducing maintenance costs is possible with planned maintenance. You should see maintenance as a tool to ensure business continuity rather than a cost. In this way, you can earn more profit. You can arrange the most suitable maintenance schedules for your equipment with Vida and increase operational efficiency. You can easily create your periodic maintenance calendars and follow them on Vida."
       }
     ]
   },
@@ -805,22 +805,22 @@
     "description": "Some company managers say that the maintenance or renewal of the machines that are currently in production will damage the company in terms of time and money.",
     "descriptions": [
       {
-        "text": "Bazı firma yöneticileri, hali hazırda çalışır durumda üretimde bulunan makinelerin bakım ya da yenileme işlemlerinin firmayı zaman ve maddiyat açısından zarara uğratacağını düşünür. Oysaki düzenli bakımı yapılmayan makinelerinin donanımlarının gözle görülmeyen hasarlar oluşmaya başlamış olabilir. Her ne kadar makineler düzenli olarak üretimi sürdürmeye devam etseler de, makine içerisindeki ekipman ömrünün dolması uzun vadede üretime olumsuz bir yönde etki eder. Ekipman ömrü, üretimin belirli aşamalarında elde ettiğiniz ürünlerde defo görmenize sebep olabilir. Bu durum, üretim kaybına ve hammadde tedariğinde zarara uğramanıza yol açar. Hatta bu parçaların değişim ihtiyacı duyulmasına rağmen makine içerisinde yer alması, makinenin diğer donanımlarına hasar vermesine de sebep olabilir. Fabrika bakımı, büyük miktarda üretim gerçekleştirilen bir alan olan fabrikaların mutlaka üzerinde durması gereken bir konudur. Bakım takip programı, makinenin her bir ekipmanını kapsayabileceği gibi, yalnızca belirli parçaların kontrolünü yapma işlemi ile de gerçekleştirilebilir."
+        "text": "Some company managers think that the maintenance or renewal processes of the machines that are currently in production will harm the company in terms of time and money. However, the equipment of the machines, which are not regularly maintained, may have started to experience invisible damage. Although the machines continue to produce regularly, the equipment life inside the machine will have a negative effect on production in the long run. Equipment life may cause you to see defects in the products you obtain at certain stages of production. This leads to loss of production and loss of raw material supply. Even if these parts are in the machine despite the need for replacement, it may cause damage to the other equipment of the machine. Factory maintenance is an issue that must be emphasized by factories, which are an area where large amounts of production are carried out. The maintenance follow-up program can cover each equipment of the machine, or it can be carried out by checking only certain parts."
       },
       {
-        "text": "Bakım Takip Programı ile Doğru Planlama Yapın",
+        "text": "Make Accurate Planning with the Maintenance Tracking Program",
         "class": "h3"
       },
       {
-        "text": "Her firmanın oluşturacağı bakım takip programı, üretim işleyişine, ekipmanlara ve makine türlerine uygun olarak birbirlerinden farklı kriterler içerebilir. Planlı bakımların yanı sıra plansız bakımların da düzenli olarak bakım takvimine işaretlenmesi mühim bir konudur. Bakımlar planlı ya da plansız bir şekilde gerçekleştirilebilir. Elektrik enerjisi kesilmesi gibi dış etkenlerden kaynaklı durumlarda plansız bakım süreçleri ortaya çıkar. Plansız bakımlar, bakım takibinde takvimde yer alan bir sonraki bakımın gerektirdiği işlemlerin süreçlerini farklı yönde ilerletebilir Düzenli makine bakımı, beraberinde kalite ve verim artışını getirir. Firma bünyesinde yer alan makinelerin kendilerine özel donanımlarını, ekipmanlarını ve belirli bir ömre sahip olan parçalarını belirleyerek bu makinelerin her biri için bir bakım takvimi oluşturabilirsiniz. İş gücü, zaman ve maddi konularda tasarruf sağlayan periyodik bakım programı, pratik bir denetim süreci elde etmenize de yardımcı olur. İlgili tarihte yapılmayan periyodik makine ve ekipman bakımında tüm takvimi yeniden gözden geçirmeniz hatta tekrardan yeni bir düzenleme yapmanız gerekebilir. Böyle durumlarda uygulama ötelemeleri ve tarih ayarlamalarını otomatik olarak gerçekleştirdiğinden sizin uğraşmanıza gerek kalmaz ve vaktinizi daha değerli işlerinize ayırabilirsiniz."
+        "text": "Make Accurate Planning with the Maintenance Tracking Program"
       },
 
       {
-        "text": "Planlı Bakım Programının Avantajları",
+        "text": "Advantages of Planned Maintenance Program",
         "class": "h3"
       },
       {
-        "text": "Periyodik bakım, üretimde durağanlık yaşamamak ve diğer birçok risk ile karşılaşmamak adına mutlaka her makineniz için yaptırmanız gereken bir uygulamadır. Firmayı maddi ve manevi açıdan zarara uğratabilecek risklerden kaçınmak için uygulayabileceğiniz en etkili yöntemlerden biri periyodik makine ya da ekipman bakımıdır. Arıza önleme, yalnızca düzenli makine bakımı ile gerçekleştirebileceğiniz bir durumdur. Düzenli bakım ile dış etkenler haricinde üretimin tüm süreçlerinde veriminizi artırabilir, zamandan tasarruf edebilirsiniz. Planlı makine bakımı, makinelerinin arızalanması sonucunda oluşabilecek birçok riskin büyük oranda azalması konusunda firmanıza ve firma bünyesinde bulunan kişilere birçok avantaj sunar."
+        "text": "Periodic maintenance is an application that you must have for each of your machines in order not to experience stagnation in production and to avoid many other risks. Periodic machine or equipment maintenance is one of the most effective methods you can apply to avoid risks that may harm the company financially and morally. Failure prevention is something you can only achieve with regular machine maintenance. With regular maintenance, you can increase your efficiency and save time in all processes of production, except for external factors. Planned machine maintenance offers many advantages to your company and people within the company in terms of reducing many risks that may occur as a result of machine failure."
       }
     ]
   },
@@ -835,41 +835,41 @@
     "description": "Maintenance planning is the planning of the processes that need to be done in order for the machines and devices in an industry to continue production.",
     "descriptions": [
       {
-        "text": "Bakım planlaması, bir sanayide bulunan makine ve cihazların üretime devam edebilmesi amacıyla yapılması gereken işlemlerin planlanmasıdır. Bu yapılan bakımların başarılı olabilmesi ve sistemin doğru şekilde çalışabilmesi için bazı noktalara dikkat edilmelidir. Öncelikle gerekli bakımın yapılabilmesi için her işletme kendi ekipman ve diğer şartlarına uygun bir planlama yapmalıdır. Bakım esnasında kullanılacak malzemeler mutlaka işletmede hazır olmalıdır. Bakım yönetim yazılımları işletmenizdeki ekipmanların bakımı için göz önünde bulundurulması gereken her detayı sizin için takip eder. İdeal bakım takvimi ve bakım için gerekli tüm planlamalar bu sistemlerle kolayca incelenebilir. Makine ve cihazların faaliyetlerine arızasız şekilde devam edebilmeleri için bakım planlaması yaparken her bir ekipman için ideal bakım periyotları belirlenmelidir. Bu sayede ekipmanlara gereken bakımlar vaktinde yapılacağı için beklenmedik arızalarla zaman kaybı yaşanmaz. Ek olarak ekipmanlardan alabilecek en yüksek verim alınarak ürün kaybının da önüne geçilmiş olunur. Verimi artıran ve maliyetleri azaltan makine ve cihaz bakımları atlanmadan zamanında yapılmalıdır."
+        "text": "Maintenance planning is the planning of the operations that must be done in order to continue the production of machines and devices in an industry. In order for these maintenances to be successful and for the system to work correctly, some points should be considered. First of all, in order to carry out the necessary maintenance, each business should make a planning in accordance with its own equipment and other conditions. The materials to be used during maintenance must be ready at the facility. Maintenance management software keeps track of every detail that needs to be considered for the maintenance of the equipment in your business. The ideal maintenance schedule and all the necessary planning for maintenance can be easily examined with these systems. In order for machines and devices to continue their activities without any malfunctions, ideal maintenance periods should be determined for each equipment while planning maintenance. In this way, the necessary maintenance of the equipment will be done on time, so there is no loss of time due to unexpected breakdowns. In addition, product loss is prevented by obtaining the highest efficiency that can be obtained from the equipment. Machine and device maintenance, which increases efficiency and reduces costs, should be carried out in a timely manner."
       },
       {
-        "text": "İdeal Bakım Yönetimi Nasıl Olmalı?",
+        "text": "How Should Optimal Care Management Be?",
         "class": "h3"
       },
       {
-        "text": "Makinalar belirli periyotlarla kontrol edilmeli ve periyodik bakımlar aksatılmamalı",
+        "text": "Machines should be checked periodically and periodic maintenance should not be interrupted.",
         "style": "font-style:italic"
       },
       {
-        "text": "Kritik parçalar ve aksamlar kontrol edilmeli, gerekli durumlarda orijinal yedekleri ile değiştirilmeli",
+        "text": "Critical parts and components should be checked and replaced with original spares when necessary.",
         "style": "font-style:italic"
       },
       {
-        "text": "Makine parkuru ve çalışma alanlarının temizliğine önem verilmeli",
+        "text": "The cleanliness of the machine park and working areas should be given importance.",
         "style": "font-style:italic"
       },
       {
-        "text": "Oluşan arızalara anında müdahale edilmeli",
+        "text": "Faults must be dealt with immediately.",
         "style": "font-style:italic"
       },
       {
-        "text": "Bakım personelinin teknik ve mesleki alanlarda yeterli tecrübeye sahip olması",
+        "text": "Maintenance personnel have sufficient experience in technical and professional fields",
         "style": "font-style:italic"
       },
       {
-        "text": "Vida Bakım Yönetimi uygulaması ile tüm bunları tek bir uygulama ile takip edebilirsiniz. Vida, ekipmanların ihtiyaç duyduğu zamanlara göre ilerleyen süreçler için bakım planlaması yapar. Geçmiş bakımların kayıtlı olması sebebiyle makine ve cihazlara gereken ideal bakım periyotları belirlenmiş olur. Böylelikle arızalar büyümeden durdurularak enerji kaybının da önüne geçilir."
+        "text": "With the Screw Maintenance Management application, you can follow all these with a single application. Vida makes maintenance plans for the progressing processes according to the times when the equipment needs it. Since the past maintenances are recorded, the ideal maintenance periods required for the machines and devices are determined. In this way, faults are stopped before they grow and energy loss is prevented."
       },
       {
-        "text": "İdeal Bakım Periyotları Belirlemenin Avantajları",
+        "text": "Advantages of Determining Ideal Maintenance Periods",
         "class": "h3"
       },
       {
-        "text": "Plansız risklerin önüne geçmek mümkün olmasa da olası sorunların önüne geçebilmek için mutlaka yedek planınız olmalıdır. Fabrikanızda sürekli olarak çalışan makine ve cihazlar için ideal bakım periyotları belirlemek oluşma ihtimali olan arızaların önüne geçerek üretim devamlılığına olanak tanır. Üretimin aksamadan ve sorunsuz olarak devam etmesi de verimliliği sağlar. Bunların yanı sıra planlı yapılan bakımlar arızaları engellediğinden dolayı yalnızca bakım maliyetleri düşmekle kalmaz aynı zamanda personel maliyeti de düşer. Çünkü planlı bakımlar bakım onarım için daha az personel gerektirir, dolayısıyla maliyetler de azalmış olur. Zamanında yaptırdığınız tüm bakımlar uzun vadede size tasarruf ettirir. Vida uygulaması ile siz de planlı ve plansız bakımları takip edebilir, fabrikanızdaki tüm ekipmanlar için ideal bakım periyotları oluşturabilirsiniz. Makine ve cihazların durumunu, arıza ve bakım bilgilerini kolayca kaydedebilir, gelecek bakımların planlamasını yapabilirsiniz. Yapılan işlemler doğrultusunda dinamik raporlamalar elde ederek hem web hem mobil uygulamada bunları anlık olarak görüntüleyebilirsiniz."
+        "text": "Although it is not possible to prevent unplanned risks, you must have a backup plan in order to prevent potential problems. Determining the ideal maintenance periods for the machines and devices that are constantly working in your factory allows production continuity by preventing possible malfunctions. Continuing production without interruption and trouble-free also ensures efficiency. In addition, as planned maintenance prevents malfunctions, not only maintenance costs are reduced, but also personnel costs. Because planned maintenance requires less personnel for maintenance and repair, so costs are also reduced. All the maintenance you have done on time will save you money in the long run. With the screw application, you can follow planned and unplanned maintenance and create ideal maintenance periods for all equipment in your factory. You can easily record the status of machines and devices, malfunction and maintenance information, and plan future maintenance. By obtaining dynamic reports in line with the transactions made, you can view them instantly in both the web and mobile applications."
       }
     ]
   },
@@ -884,21 +884,21 @@
     "description": "Every workplace is established by allocating large budgets, and certain expenses are made in the production and service stages. All these expenses must be kept under control. Otherwise, you can spend too much...",
     "descriptions": [
       {
-        "text": "Her iş yeri büyük bütçeler ayrılarak kurulur, üretim ve hizmet aşamalarında da belirli masraflar yapılır. Bütün bu giderlerin kontrol altında tutulması gerekir. Aksi takdirde çok fazla harcama yapılabilir ve bu da zarara yol açabilir. Bakım yönetim yazılımının ilk amacı giderlerin kontrol altına alınarak oluşabilecek masrafların önlenmesidir. Bu yazılım firmanızda devamlı olarak çalışan makinelerin bakımını, yıpranan parçaların değişimini zamanında yapmanız için makinelerinizi takip eder. Bakım ekibi takibiile arızalar daha hızlı takip edilir ve müdahale süresi ve üretim maliyetleri azalırken ürün kalitesi artar. Fabrikanın ve ekipmanların ömrü uzar, üretim sekteye uğramaz. Bunların yanı sıra yazılım envanter, sayaç, zimmet ve diğer fabrika kayıtlarınızı da tutar. Başka bir deyişle bu yazılımlar fabrikanız ile ilgili tüm detayları sizin yerinize inceleyerek sizin için işlerinizi kolaylaştırır. Mobil bakım yönetim sistemi ile bütün bakım, ekipman ve diğer kayıtlarınızı görüntüleyebilir, ileriye dönük planlanmış bakımları inceleyebilir, arıza durumlarında iş emirleri oluşturarak atama yapabilirsiniz. Fabrikalarda daha iyi organizasyonu hedefleyen bu sistem, üretimde sürekliliği sağlayarak verimliliği de artırır. "
+        "text": "Every workplace is established by allocating large budgets, and certain expenses are made in the production and service stages. All these expenses must be kept under control. Otherwise, too much expense may be incurred, resulting in loss. The first purpose of the maintenance management software is to control the expenses and prevent the costs that may occur. This software monitors your machines in order to make the maintenance of the machines that work continuously in your company and to replace the worn parts in a timely manner. With maintenance team monitoring, faults are tracked faster and product quality increases while intervention time and production costs are reduced. The life of the factory and equipment is extended, production is not interrupted. In addition to these, the software also keeps your inventory, counter, embezzlement and other factory records. In other words, these software make your work easier for you by examining all the details about your factory for you. With the mobile maintenance management system, you can view all your maintenance, equipment and other records, review the planned maintenance, and make assignments by creating work orders in case of malfunctions. Aiming at better organization in factories, this system also increases productivity by ensuring continuity in production."
       },
       {
-        "text": "Bakım Yönetim Yazılımları Neden Gereklidir?",
+        "text": "Why is Maintenance Management Software Necessary?",
         "class": "h4"
       },
       {
-        "text": "Endüstriyel açıdan maliyeti oldukça yüksek olan fabrikalar, kurulum, üretim ve hizmet aşamalarında pek çok gider gerektirir. Fabrikalarda üretim için kullanılan makineler ve cihazların bakımları zamanında yapılmazsa arızalanabilir ve bunun sonucunda daha fazla gidere neden olabilir. Doğru zamanda yapılan bakım ve parça değişimi aynı zamanda üretimin aksamasının da önüne geçer. Bu sayede zaman kaybı engellenir ve verim artmış olur. Maintenance management software, fabrikalar için oldukça fonksiyonel bir yazılımdır. Oluşan arızalar MMS aracılığıyla kolaylıkla kaydedilir. Ek olarak onarım esnasında yapılan işlemleri ve kullanım süresince yapılan tüm bakımları da yine bu sistem kaydeder. Bu kayıtlar kurumsal varlık yönetimi açısından da önemli kayıtlardır. Arıza ve bakım takip yazılımı kayıtları sayesinde cihazların ve makinelerin faal olarak kaç yıl kullanılabildiğini, bakım ve onarımların gerekli olabileceği zamanlarını size gösterir. Bunların sonucunda da makinelerin kalan ömrü hesaplanabilir. Üretim devamlılığı fabrikalarda mühimdir ve üretimde kullanılan bir makine arıza verirse üretimde aksaklık yaşanır. Bu aksaklık işletmeyi zarara sokabileceği için işletmelerde bakım ve onarım yönetimi dikkatli şekilde yapılmalıdır. "
+        "text": "Factories, which have a high industrial cost, require many expenses in the installation, production and service stages. If the machines and devices used for production in factories are not maintained on time, they may malfunction and cause more expenses as a result. Maintenance and part replacement at the right time also prevents production disruption. In this way, time loss is prevented and efficiency is increased. Maintenance management software is a highly functional software for factories. Occurring faults are easily recorded via MMS. In addition, this system also records the operations performed during the repair and all maintenance performed during use. These records are also important records in terms of corporate asset management. Thanks to the records of the failure and maintenance tracking software, it shows you how many years the devices and machines can be used actively and when maintenance and repairs may be required. As a result, the remaining life of the machines can be calculated. Continuity of production is important in factories, and if a machine used in production fails, there is a disruption in production. Maintenance and repair management should be done carefully in enterprises, as this disruption may cause damage to the enterprise."
       },
       {
-        "text": "Bakım Yönetim Yazılımının Sağladığı Avantajlar Nelerdir?",
+        "text": "What are the Advantages of Maintenance Management Software?",
         "class": "h4"
       },
       {
-        "text": "Kullandığınız makinelerin bütün bakımlarını vaktinde yapmanızı, gerekliyse makine değişikliğine gitmenizi ve dolayısıyla üretiminin devamlılığını sağlar. Koruyucu ya da periyodik bakım olarak bilinen bu sistem ile ek olarak önceki bakım tarihlerine göre ilerleyen zamanlarda yapılması gereken bakım tarihleri de belirlenebilir ve böylece zamandan tasarruf edilir. Bakıma girmesi gereken cihazlar, yedek parça ihtiyaçları gibi konularda erken tespit yaparak sizi ekstra masraflardan korur. Diğer bir bakım sistemi ise kestirimci bakım yönetimidir. Bu yönetim sistemi periyodik bakım olmaksızın yalnızca makinelerin performanslarını gözden geçirerek arızalı makinelerdeki sorunların erken tespiti ve onarımı için yapılır. Olası arızaları, bakım zamanlarını ve kısa sürede bakım yapılmasını sağlayan bu modül, bakım için gerekli olabilecek aletler, yedek parçalar ve iş gücünü de tespit ederek makineleri ve cihazları kullanıma hazır hale getirir. Periyodik ve kestirimci bakım modülü yalnızca zamandan değil ekonomik açıdan da tasarrufu sağlar. Sistem üretimde kullanılan tüm ekipmanların uzun ömürlü olmasına katkı sağlar. Bakım ve yedek parça stok masraflarında tasarruf fırsatı, arıza sayısı ve arıza müdahalesi süresinde azalma, geçmiş ve gelecek bakımlar hakkında anında detaylı bilgi alabilme imkanı gibi birçok avantaja sahip bu sistem ile siz de fabrikanızın daha kolay işlemesine yardımcı olabilirsiniz."
+        "text": "It allows you to do all the maintenance of the machines you use on time, to change the machine if necessary, and thus to ensure the continuity of its production. With this system, known as preventive or periodic maintenance, the maintenance dates that need to be done in the future can also be determined according to the previous maintenance dates, thus saving time. It protects you from extra costs by early detection of devices that need maintenance and spare parts needs. Another maintenance system is predictive maintenance management. This management system is made for early detection and repair of malfunctioning machines by simply reviewing the performance of the machines without periodic maintenance. This module, which enables possible malfunctions, maintenance times and maintenance in a short time, also detects the tools, spare parts and labor that may be required for maintenance, and makes the machines and devices ready for use. The periodic and predictive maintenance module not only saves time but also economically. The system contributes to the longevity of all equipment used in production. With this system, which has many advantages such as the opportunity to save on maintenance and spare parts stock costs, the number of malfunctions and the time of malfunction intervention, the opportunity to get instant detailed information about past and future maintenance, you can help your factory operate more easily."
       }
     ]
   },
@@ -913,33 +913,33 @@
     "description": "Unexpected malfunctions in the machines cause the production to stop, even in the short term, and cause you to lose the ideal operation for a certain period of time. The old performances of the machines...",
     "descriptions": [
       {
-        "text": "Makinelerde beklenmedik arızalanmalar görülmesi, kısa vadede de olsa üretimin durmasına ve ideal işleyişi belirli bir süre boyunca kaybetmenize sebep olur. Makinelerin eski performanslarına döndürülebilmeleri adına bir süre tamir görmeleri gerekebilir. Bu tamir süreci, üretim ve lojistik sürecinde zaman kaybetmenize de yol açar. Geleneksel bireysel makine takipleri işgücü ve zaman konusunda çalışanlara büyük bir sorumluluk yükler."
+        "text": "Unexpected malfunctions in the machines cause the production to stop, even in the short term, and cause you to lose the ideal operation for a certain period of time. Machines may need to be repaired for a while to return them to their former performance. This repair process also causes you to lose time in the production and logistics process. Traditional individual machine tracking imposes a great responsibility on the workforce and time."
       },
       {
-        "text": "Kestirimci bakım sayesinde gün içerisinde işletmeyi kontrol ederken makinalarınızın çalışma durumunu da kontrol edebilirsiniz. Belirlediğiniz makine kontrol kalemlerini kalibrasyon cihazları ile ölçerek uygulamaya kaydedebilirsiniz. Bu ölçüm değerlerinin kritiklik seviyesini görüntüleyebilir, frekans değerlerini görüntüleyebilirsiniz. Geçmiş kayıtlarınızı görüntüleyerek makinanızın durumu hakkında bilgi edinebilirsiniz. Böylelikle oluşabilecek arızaları önceden tahmin ederek önlem alabilirsiniz."
+        "text": "Thanks to predictive maintenance, you can check the working status of your machines while controlling the operation during the day. You can measure the machine control items you have determined with the calibration devices and save them in the application. You can view the criticality level of these measurement values and display the frequency values. You can get information about the status of your machine by viewing your historical records. In this way, you can take precautions by predicting the malfunctions that may occur."
       },
       {
-        "text": "Bakım Stratejilerinin Önemli Yardımcısı Kestirimci Bakım",
+        "text": "Predictive Maintenance, Important Assistant of Maintenance Strategies",
         "class": "h4"
       },
       {
-        "text": "Kestirimci, bir diğer adı ile önleyici bakım, olası arızaların oluşma riskini azaltarak makine içerisinde yer alan donanımların maksimum oranda performans göstermesine yardımcı olur."
+        "text": "Predictive, also known as preventive maintenance, helps the equipment in the machine to perform at the maximum rate by reducing the risk of possible malfunctions."
       },
       {
-        "text": "Olası hasarları önceden belirli veriler yoluyla tespit ederek operasyonel maliyetin azalması konusunda firmaya bütçe ve zaman konusunda avantajlar sunar."
+        "text": "It provides advantages in terms of budget and time to the company in terms of reducing operational costs by detecting possible damages through certain data in advance."
       },
       {
-        "text": "Kestirimci bakımla korozyon, yağ seviyesi, basınç, sıcaklık, titreşim ve gürültü gibi farklı parametreleri ölçebilirsiniz."
+        "text": "With predictive maintenance, you can measure different parameters such as corrosion, oil level, pressure, temperature, vibration and noise."
       },
       {
-        "text": "Kestirimci Bakım Teknikleri Nelerdir ?",
+        "text": "What are Predictive Maintenance Techniques?",
         "class": "h4"
       },
       {
-        "text": "Kestirimci bakım teknolojisi, Endüstri 4.0 bir diğer bilinen adı ile 4. Endüstri Devrimi ile birlikte ortaya çıkmıştır. Makine içerisinde yer alan donanım ve ekipmanlardan veri toplamak kadar, bu verileri analiz etmek de oldukça mühim bir konudur."
+        "text": "Predictive maintenance technology emerged with Industry 4.0, also known as the 4th Industrial Revolution. Analyzing this data is as important as collecting data from the hardware and equipment in the machine."
       },
       {
-        "text": "Siz de Vida uygulaması içerisinde yer alan önleyici bakım yazılımı ile makinelerinizin çalışma performanslarını her daim en üst düzeyde tutabilir, üretim prosedürlerini kusursuz bir şekilde gerçekleştirebilirsiniz."
+        "text": "With the preventive maintenance software included in the Vida application, you can always keep the working performance of your machines at the highest level and perform the production procedures flawlessly."
       }
     ]
   },
@@ -954,57 +954,57 @@
     "description": "Machines in all small and large-scale enterprises need periodic maintenance to be applied at certain intervals. If these periodic maintenances are not performed on time, failure risk factors may occur on the machines...",
     "descriptions": [
       {
-        "text": "Küçük ve büyük ölçekli tüm işletmelerde bulunan makinalar belirli aralıklarda uygulanacak bir periyodik bakıma ihtiyaç duyar. Eğer bu periyodik bakımlar zamanında gerçekleşmezse makinalar üzerinde arıza risk faktörleri meydana gelebilir. Oluşacak arızanın büyüklüğü ve makine üzerindeki etkisi bilinemeyeceğinden hem üretim üzerinde hem de iş güvenliği açısından tehlike oluşturabilir. Oluşabilecek her arızanın maliyet, üretim ve iş güvenliği konularında işletmeyi etkilemesi olasıdır."
+        "text": "Machines in all small and large-scale enterprises need periodic maintenance to be applied at certain intervals. If these periodic maintenances are not performed on time, malfunction risk factors may occur on the machines. Since the size of the malfunction and its effect on the machine cannot be known, it may pose a danger both on production and in terms of occupational safety. It is possible that any malfunction that may occur will affect the business in terms of cost, production and occupational safety."
       },
       {
-        "text": "Temel Arıza Nedenleri",
+        "text": "Basic Causes of Failure",
         "class": "fw-bolder"
       },
       {
-        "text": "Aşınan veya kırılan parçalar",
+        "text": "Worn or broken parts",
         "style": "font-style:italic"
       },
       {
-        "text": "Hatalı ve kusurlu üretim prosesleri",
+        "text": "Faulty and defective production processes",
         "style": "font-style:italic"
       },
       {
-        "text": "Operatörün teknik bilgi ve yetkinlik bakımından yetersiz olması",
+        "text": "Insufficient operator's technical knowledge and competence",
         "style": "font-style:italic"
       },
       {
-        "text": "Küçük arıza ve duruşların önemsenmemesi",
+        "text": "Ignoring minor faults and stops",
         "style": "font-style:italic"
       },
       {
-        "text": "Makinaların periyodik bakımlarının zamanında yapılmayarak ihmal edilmesi",
+        "text": "Neglecting the periodic maintenance of the machines by not performing them on time",
         "style": "font-style:italic"
       },
       {
-        "text": "Makinaların limitlerinin üzerinde uzun süre çalıştırılması",
+        "text": "Operating the machines for a long time beyond their limits",
         "style": "font-style:italic"
       },
       {
-        "text": "Ucuza mal edilen kalitesiz yedek parçaların kullanılması",
+        "text": "Use of low-quality spare parts that are cheap",
         "style": "font-style:italic"
       },
       {
-        "text": "Kirli ve düzensiz çalışma ortamı",
+        "text": "Dirty and irregular working environment",
         "style": "font-style:italic"
       },
       {
-        "text": "Riski Minimuma İndirmek İçin Düzenli Bakım",
+        "text": "Regular Maintenance to Minimize Risk",
         "class": "fw-bolder"
       },
       {
-        "text": "Birçok kişi, makine bakımının gereksiz ya da zaman kaybı olduğunu ve hali hazırda çalışıyor iken makinelerin bakıma ihtiyaç duymadıklarını düşünebilir. Olası makine arızalarında üretimin tamamen durma olasılığı oldukça yüksektir. Özellikle insan gücü bulunmayan ve üretimin yalnızca makineler üzerinden gerçekleştirildiği firmalarda bu makinelerin bakımına karşı hassas bir yaklaşımda bulunulmalıdır. Makine arızası görüldüğü takdirde iş yükünden enerji kaybına birçok durum karşılaşabileceğiniz riskler içerisinde yer alır. Makinelerin arıza sebebiyle durması üretimden enerji tüketimine kadar birçok konuda yüksek maliyetlere sebep olabilir.  Bu nedenden dolayı işletmedeki makinaların bakımlarının düzenli olarak gerçekleştirerek enerji ve maliyet kayıplarının önüne geçerek daha yüksek kalitede ürünler elde edebilirsiniz."
+        "text": "Many people may think that machine maintenance is unnecessary or a waste of time and that machines do not need maintenance while they are already running. In case of possible machine failures, the probability of production stopping completely is quite high. Especially in companies that do not have manpower and production is carried out only by machines, a sensitive approach should be taken towards the maintenance of these machines. In case of machine failure, many situations from workload to energy loss are among the risks you may encounter. Stopping the machines due to malfunctions can cause high costs in many areas from production to energy consumption. For this reason, you can obtain higher quality products by preventing energy and cost losses by performing regular maintenance of the machines in the enterprise."
       },
       {
-        "text": "Olası Arızalara Karşı Önleminizi Şimdiden Alın",
+        "text": "Take Your Precautions Against Possible Malfunctions Now",
         "class": "fw-bolder"
       },
       {
-        "text": "Firmalar içerisinde üretime yönelik düzenli çalışan makinelerde olası bir arıza durumu zaman, enerji ve maliyet kaybına sebep olur. Tasarruf etmek amacıyla makinelerinizin düzenli olarak bakımı yaptırmanız işletmenizin üretiminde sürekliliğini sağlaması adına da büyük bir önem arz eder. Vida Bakım Yönetimi uygulaması ile oluşan arızaları saniyeler içerisinde iş emri oluşturarak ilgili birimlere bildirebilirsiniz. Arıza müdahaleleri esnasında kullanılan sarf malzemeleri kaydedebilir, hareket detayından yapılan işlemleri takip edilebilirsiniz. Vida kolay ara yüz tasarımı sayesinde kullanıcı dostu bir uygulamadır. Mavi ve beyaz yaka tüm personellerin rahat şekilde kullanılması maksadıyla tasarlanmıştır."
+        "text": "A possible malfunction in the machines that work regularly for production within the companies causes time, energy and cost loss. Having your machines regularly maintained in order to save money is also of great importance in terms of ensuring the continuity of your business in production. With the Screw Maintenance Management application, you can create a work order within seconds and report the malfunctions to the relevant units. You can save the consumables used during fault interventions and follow the transactions made from the movement details. Vida is a user-friendly application thanks to its easy interface design. It is designed for the comfortable use of all blue and white collar personnel."
       }
     ]
   },
@@ -1019,68 +1019,68 @@
     "description": "Maintenance management software is an auxiliary system for maintenance monitoring for every small or large-scale factory. Maintenance plans can be easily controlled, failures can be...",
     "descriptions": [
       {
-        "text": "Bakım yönetim yazılımları, küçük ya da büyük ölçekli her fabrika için bakım takibinde yardımcı bir sistemdir. Bakım planlarının kolaylıkla kontrol edilebildiği, arızaların zaman kaybı yaşanmadan müdahale edildiği bir sistem sayesinde bakım planlarının oluşturulması ve takip edilmesi şüphesiz çok kolay olacaktır."
+        "text": "Maintenance management software is an auxiliary system for maintenance monitoring for every small or large-scale factory. It will undoubtedly be very easy to create and follow maintenance plans thanks to a system where maintenance plans can be easily controlled and faults can be intervened without loss of time."
       },
       {
-        "text": "Vida Bakım Yönetim Uygulaması sayesinde:",
+        "text": "Thanks to the Vida Maintenance Management Application:",
         "class": "fw-bolder"
       },
       {
-        "text": "Arızalara anlık müdahale ederek makine duruş süresini azaltır ve üretim kayıplarının önüne geçersiniz."
+        "text": "By intervening instantly to faults, you reduce machine downtime and prevent production losses."
       },
       {
-        "text": "Takvim özelliği sayesinde periyodik bakımları takip ederek zamanında gerçekleştirebilir ve böylece olası arıza risklerini ortadan kaldırırsınız."
+        "text": "Thanks to the calendar feature, you can follow the periodic maintenance and perform it on time, thus eliminating the risk of possible malfunctions."
       },
       {
-        "text": "Düzenli bakım takibi ile gereksiz malzeme sarfı ve arıza müdahaleleri esnasında harcadığınız teknik servis ve işçilik maliyetlerini en aza indirgemiş olursunuz."
+        "text": "With regular maintenance monitoring, you will minimize the technical service and labor costs you spend during unnecessary material consumption and malfunction interventions."
       },
       {
-        "text": "Kestirimci bakım sayesinde gün içerisinde makinalarınızı kontrol ederek önlem alabilirsiniz."
+        "text": "Thanks to predictive maintenance, you can take precautions by checking your machines during the day."
       },
       {
-        "text": "Sayaçlar ile enerji akışını kontrol ederek fazla tüketimlerin önüne geçebilirsiniz."
+        "text": "By controlling the energy flow with meters, you can prevent excessive consumption."
       },
       {
-        "text": "Bakım Yönetim Yazılımlarının Faydaları",
+        "text": "Benefits of Maintenance Management Software",
         "class": "fw-bolder"
       },
       {
-        "text": "Ekipman yönetimi konusunda size pek çok avantaj sağlayan bu yazılımlar sayesinde birden fazla tesisi zahmetsizce yönetebilirsiniz."
+        "text": "Thanks to these software, which provides you with many advantages in equipment management, you can manage multiple facilities effortlessly."
       },
       {
-        "text": "Takvim özelliği sayesinde periyodik bakımlarınızı belirlediğiniz periyoda göre görüntüleyebilirsiniz. Hafta sonu çalışması ve bakım planlarının değişmesi durumunda tarih ötelemeleri otomatik olarak uygulama üzerinden yapılabilmektedir."
+        "text": "Thanks to the calendar feature, you can view your periodic maintenance according to the period you set. In case of weekend work and maintenance plans change, date shifts can be made automatically through the application."
       },
       {
-        "text": "Bakım programlarınızı anlık olarak izlemenizi sağlar."
+        "text": "It allows you to monitor your maintenance programs instantly."
       },
       {
-        "text": "Bakım işlem süreleri ve arıza sürelerini kayıt altına alarak MTBF ve MTTR gibi raporları anlık ve makine bazl görüntülemenizi sağlar. Bunun yanı sıra en çok görülen arıza türü ve en sık arızalanan makine sayısı gibi dinamik raporlamaları da anlık olarak takip edebilirsiniz."
+        "text": "It allows you to view reports such as MTBF and MTTR instantly and on a machine basis by recording maintenance process times and downtimes. In addition, you can instantly follow dynamic reports such as the most common type of failure and the number of machines that break down most frequently."
       },
       {
-        "text": "İşletme bazlı makinalarınızı ve çalışma durumlarını, arıza sayılarını ve periyodik bakımlarını takip edebilirsiniz."
+        "text": "You can follow your business-based machines and their working conditions, the number of failures and their periodic maintenance."
       },
       {
-        "text": "Zimmetlenen malzemeyi ve personel bilgisini takip edebilirsiniz."
+        "text": "You can track embezzled material and personnel information."
       },
       {
-        "text": "Malzeme takibini gerçekleştirebilirsiniz."
+        "text": "You can track material."
       },
       {
-        "text": "Ömürlü parçalarınızı takip ederek tedarik süreçlerini yönetebilirsiniz."
+        "text": "You can manage the supply processes by tracking your life parts."
       },
       {
-        "text": "Bakım Yönetim Yazılımı ile Maliyeti Düşürmek",
+        "text": "Reducing Cost with Maintenance Management Software",
         "class": "fw-bolder"
       },
       {
-        "text": "Genellikle birçok kişi “Bozuk olmayan bir cihaz neden onarılsın?” diye düşünür. Ancak cihazlar bozulmadan da gerekli bakımlar yapılmalıdır. Çünkü bu sayede gelişebilecek hasarlar önceden tespit edilerek önüne geçilir. Aksi takdirde ortaya çıkabilecek sorunlar sizin için daha yüklü masraflara dönüşebilir. Yazılım minimum maliyetle yüksek verim almanızı hedefler. Ekipmanların arızalanarak durması beklenmedik ve yüksek harcamalar yapmanıza sebep olabilir. Önleyici bakımlar arızaların önlenmesi, duruş maliyetlerinin azaltılması gibi konularda size yardımcı olur. Böylelikle olası bir arızada bile mümkün olan en kısa sürede ekipmanların çalışmaya devam etmesi sağlanır, bakım maliyeti düşer. Zamandan ve paradan tasarruf etmenize imkan veren yazılımlar ile uygun değer düzeyde çalışma elde edilir. Bakım yönetim yazılımları yalnızca bakımlarınızı planlamakla kalmaz aynı zamanda satın almada, bakımda ve onarımda ortaya çıkan maliyetleri de sizin için raporlar."
+        "text": "Often many people ask, “Why fix a device that is not broken?” he thinks. However, necessary maintenance should be done before the devices break down. Because in this way, possible damages can be detected in advance and prevented. Otherwise, the problems that may arise may turn into more expensive expenses for you. The software aims to get high efficiency with minimum cost. Failure of equipment may cause unexpected and high expenses. Preventive maintenance helps you to prevent breakdowns and reduce downtime costs. Thus, it is ensured that the equipment continues to operate as soon as possible, even in case of a possible failure, and the maintenance cost is reduced. Affordable value work is achieved with software that allows you to save time and money. Maintenance management software not only plans your maintenance but also reports the costs incurred in purchasing, maintenance and repair for you."
       },
       {
-        "text": "Bakım Yönetimin Sağladığı Avantajlar",
+        "text": "Advantages of Maintenance Management",
         "class": "fw-bolder"
       },
       {
-        "text": "Bakım yönetim sisteminin size tek getirisi bakım maliyeti düşürmek değildir. Yaptığı takipler ve kontroller aracılığıyla pek çok konuda daha hızlı ilerlemenizi sağlar. Çalışan performansını düzenli olarak ölçmek zordur. Kayıtlar ve performans takibi zaman zaman doğru şekilde izlenemeyebilir, bu sebeple eğer performansı ya da verimliliği düşüren bir durum varsa doğru zamanda teşhis edilemeyebilir. Bunun sonucunda uzun vadede istenmeyen sonuçlar yaşanır. Personelinizi yakından takip etmenize de olanak tanıyan sistem, performans ölçümleri ile sorunları büyümeden çözmenizi sağlar. İsterseniz ölçümler ile iyi çalışan personelleri görerek onları ödüllendirebilir ve motivasyonlarını artırabilirsiniz."
+        "text": "The only benefit of the maintenance management system is not to reduce the maintenance cost. It allows you to progress faster in many subjects through its follow-ups and controls. It is difficult to measure employee performance on a regular basis. Records and performance tracking may not be tracked correctly from time to time, so if there is a situation that reduces performance or efficiency, it may not be diagnosed at the right time. As a result, undesirable results are experienced in the long run. The system, which also allows you to closely monitor your personnel, enables you to solve problems before they grow with performance measurements. If you want, you can see the employees who work well with the measurements and reward them and increase their motivation."
       }
     ]
   }

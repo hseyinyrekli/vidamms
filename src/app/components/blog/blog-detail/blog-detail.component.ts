@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
   selector: "app-blog-detail",
@@ -9,7 +9,16 @@ import { ActivatedRoute } from "@angular/router";
 })
 export class BlogDetailComponent implements OnInit {
   blog!: any;
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  url!: any;
+  constructor(
+    private route: ActivatedRoute,
+    private http: HttpClient,
+    private router: Router
+  ) {
+    if (this.router.getCurrentNavigation()?.extras.queryParams != undefined) {
+      this.url = this.router.getCurrentNavigation()?.extras.queryParams;
+    }
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe((data) => {
@@ -19,13 +28,7 @@ export class BlogDetailComponent implements OnInit {
   }
 
   getBlogBySlug(slug: any) {
-    let url = "";
-    if (slug == "tr") {
-      url = "assets/json/blogs.json";
-    } else {
-      url = "assets/json/blogs-en.json";
-    }
-    this.http.get<any>(url).subscribe((data) => {
+    this.http.get<any>(this.url.url).subscribe((data) => {
       this.blog = data.filter((x: any) => x.slug == slug)[0];
     });
   }

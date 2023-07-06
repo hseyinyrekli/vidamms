@@ -158,13 +158,13 @@
       <div id="card" class="card" style="height: 100%">
         <div class="card-body">
           <div class="row">
-            <div [routerLink]="'/blog/' + data.slug" class="col-12">
+            <div (click)="goToDetailPage(data.slug)" class="col-12">
               <img [src]="data.baseImage" class="w-100" />
             </div>
             <div
               id="subTitle"
               class="col-12 text-center mt-3"
-              style="height: 5vh"
+              style="height: 10vh"
             >
               <p class="fw-normal" style="color: #fff">
                 {{ data.subTitle }}
@@ -172,7 +172,7 @@
             </div>
 
             <div
-              class="col-12 text-center mt-3"
+              class="col-12 text-center mt-2 mb-4"
               style="height: 14vh; overflow: hidden"
             >
               <p class="fw-normal" style="font-size: 1.3em">
@@ -181,6 +181,7 @@
             </div>
             <hr />
             <div
+              id="description"
               class="col-12 p-2 mb-2"
               style="margin: auto; height: 20vh; overflow: hidden"
             >

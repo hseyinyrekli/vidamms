@@ -72,10 +72,10 @@ const routes: Routes = [
         path: "features",
         component: FeaturesComponent,
       },
-      {
-        path: "services",
-        component: ServiceComponent,
-      },
+      // {
+      //   path: "services",
+      //   component: ServiceComponent,
+      // },
     ],
   },
 ];

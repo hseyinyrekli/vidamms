@@ -151,7 +151,7 @@
             >{{ "MENU.BLOG" | translate }}</a
           >
         </li>
-        <li
+        <!-- <li
           (click)="closeMenu()"
           class="nav-item"
           [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
@@ -164,7 +164,7 @@
           >
             {{ "MENU.SERVICESANDDETAIL" | translate }}
           </a>
-        </li>
+        </li> -->
         <li
           (click)="closeMenu()"
           class="nav-item"
@@ -178,14 +178,23 @@
             >{{ "MENU.CONTACT" | translate }}</a
           >
         </li>
-        <!-- <li class="translate" style="margin: auto">
-          <button *ngIf="!isActive" (click)="changeLanguage('tr')">EN</button>
-          <button *ngIf="isActive" (click)="changeLanguage('en')">TR</button>
-        </li> -->
       </ul>
-      <div class="trans" style="margin-bottom: 0.8em; margin-right: 1em">
-        <button (click)="changeLanguage('tr')">TR</button>
-        <button (click)="changeLanguage('en')">EN</button>
+      <div
+        class="trans"
+        style="margin-bottom: 0.8em; margin-right: 1em; margin-top: 0.3em"
+      >
+        <button
+          [ngClass]="isShow == 'tr' ? 'active' : ''"
+          (click)="changeLanguage('tr')"
+        >
+          TR
+        </button>
+        <button
+          [ngClass]="isShow == 'en' ? 'active' : ''"
+          (click)="changeLanguage('en')"
+        >
+          EN
+        </button>
       </div>
     </div>
   </div>

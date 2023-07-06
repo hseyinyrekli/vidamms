@@ -30,6 +30,10 @@
   li button {
     color: #212529 !important;
   }
+
+  .trans button {
+    color: #212529 !important;
+  }
   .active {
     color: #1a49b3 !important;
   }
@@ -40,7 +44,9 @@
   li button {
     color: #212529 !important;
   }
-
+  .trans button {
+    color: #212529 !important;
+  }
   opacity: 1;
   border-bottom: 2px solid #e3e3e380 !important;
 }
@@ -96,7 +102,10 @@ ul li:hover {
   }
 }
 
-.translate button {
-  background-color: transparent;
+.trans button {
+  background-color: transparent !important;
   color: white;
+}
+.trans button:hover {
+  font-weight: bold;
 }

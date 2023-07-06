@@ -115,7 +115,7 @@ video {
 
 #vidaCard {
   clear: both;
-  height: 50vh;
+  height: 100%;
   transition: 0.3s;
   #title {
     padding: 1em;
@@ -307,4 +307,15 @@ label {
 .show {
   display: flex;
   transition: 0.9s;
+}
+
+@media (max-width: 1200px) {
+  #subTitle {
+    height: 14vh !important;
+  }
+}
+@media (max-width: 1200px) {
+  #description {
+    height: 30vh !important;
+  }
 }

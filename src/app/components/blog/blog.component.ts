@@ -14,6 +14,7 @@ export class BlogComponent implements OnInit {
   isActive: boolean = true;
   activeMenu!: any;
   lang!: any;
+  url!: any;
   constructor(
     private router: Router,
     private http: HttpClient,
@@ -31,20 +32,20 @@ export class BlogComponent implements OnInit {
 
   getBlogs() {
     this.activeMenu = "all";
-    let url = "";
+    this.url = "";
     if (this.lang == "tr") {
-      url = "assets/json/blogs.json";
+      this.url = "assets/json/blogs.json";
     } else {
-      url = "assets/json/blogs-en.json";
+      this.url = "assets/json/blogs-en.json";
     }
-    this.http.get<any>(url).subscribe((data) => {
+    this.http.get<any>(this.url).subscribe((data) => {
       this.blogs = data;
       this.baseBlogs = data;
     });
   }
 
   goToDetailPage(name: any) {
-    this.router.navigate(["blog/" + name]);
+    this.router.navigate([`blog/${name}`], { queryParams: { url: this.url } });
   }
 
   changeForFilter(name: any) {
