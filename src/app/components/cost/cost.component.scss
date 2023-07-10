@@ -14,7 +14,10 @@ label {
   margin-top: 5em !important;
   img {
     @media (max-width: 980px) {
-      margin-top: 8em;
+      height: 65%;
+      margin-left: 3em !important;
+      margin-top: 8em !important;
+      margin-bottom: 4em !important;
     }
   }
 }

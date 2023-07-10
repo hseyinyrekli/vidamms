@@ -25,13 +25,15 @@ const routes: Routes = [
         component: HomeComponent,
       },
       {
-        path: "home",
+        path: "anasayfa",
         component: HomeComponent,
       },
+
       {
-        path: "about",
+        path: "hakkimizda",
         component: AboutComponent,
       },
+
       {
         path: "blog",
         component: BlogComponent,
@@ -41,19 +43,19 @@ const routes: Routes = [
         component: BlogDetailComponent,
       },
       {
-        path: "contact",
+        path: "iletisim",
         component: ContactComponent,
       },
       {
-        path: "support",
+        path: "destek",
         component: FaqComponent,
       },
       {
-        path: "cost",
+        path: "maliyet",
         component: CostComponent,
       },
       {
-        path: "reference",
+        path: "referanslar",
         component: ReferenceComponent,
       },
       {
@@ -61,15 +63,15 @@ const routes: Routes = [
         component: DemoComponent,
       },
       {
-        path: "policy",
+        path: "politika",
         component: PolicyComponent,
       },
       {
-        path: "privacy",
+        path: "güvenlik",
         component: PrivacyComponent,
       },
       {
-        path: "features",
+        path: "özellikler",
         component: FeaturesComponent,
       },
       // {

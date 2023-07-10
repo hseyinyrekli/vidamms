@@ -1,10 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  HostListener,
-  OnInit,
-  Renderer2,
-} from "@angular/core";
+import { Component, HostListener, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { TranslateService } from "@ngx-translate/core";
 
@@ -20,12 +14,7 @@ export class NavbarComponent implements OnInit {
   isActive: boolean = false;
   isScrolled: boolean = false;
 
-  constructor(
-    private renderer: Renderer2,
-    private router: Router,
-    private el: ElementRef,
-    public translate: TranslateService
-  ) {}
+  constructor(private router: Router, public translate: TranslateService) {}
 
   ngOnInit(): void {
     this.currentPage = this.router.url.replace("/", "");

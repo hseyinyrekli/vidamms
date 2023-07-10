@@ -12,18 +12,18 @@
           ? 'assets/uploads/vida-logo2.webp'
           : 'assets/uploads/vida-for-service.webp'
       "
-      alt="vida-logo"
+      alt="VidaMMS Logo"
     />
     <img
       *ngIf="currentPage !== ''"
       class="p-3 d-none d-lg-block"
       [src]="'assets/uploads/vida-logo2.webp'"
-      alt="vida-logo"
+      alt="VidaMMS Logo"
     />
     <img
       class="p-3 d-block d-lg-none"
       [src]="'assets/uploads/vida-logo2.webp'"
-      alt="vida-logo"
+      alt="VidaMMS Logo"
     />
 
     <button
@@ -78,7 +78,7 @@
         >
           <a
             class="nav-link"
-            routerLink="about"
+            routerLink="hakkimizda"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.ABOUTUS" | translate }}</a
@@ -91,7 +91,7 @@
         >
           <a
             class="nav-link"
-            routerLink="features"
+            routerLink="özellikler"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.FEATURES" | translate }}</a
@@ -105,7 +105,7 @@
         >
           <a
             class="nav-link"
-            routerLink="cost"
+            routerLink="maliyet"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.COSTCALC" | translate }}</a
@@ -118,7 +118,7 @@
         >
           <a
             class="nav-link"
-            routerLink="support"
+            routerLink="destek"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.SUPPORT" | translate }}</a
@@ -131,7 +131,7 @@
         >
           <a
             class="nav-link"
-            routerLink="reference"
+            routerLink="referanslar"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.REFERENCES" | translate }}</a
@@ -172,7 +172,7 @@
         >
           <a
             class="nav-link"
-            routerLink="contact"
+            routerLink="iletisim"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.CONTACT" | translate }}</a
