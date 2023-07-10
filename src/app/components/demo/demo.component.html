@@ -88,7 +88,9 @@
           </div>
           <div>
             {{ "DEMO.DESCRIBE2" | translate }}
-            <a routerLink="/policy"> {{ "DEMO.LINK" | translate }}</a>
+            <a [routerLink]="lang == 'tr' ? 'politika' : 'en/policy'">
+              {{ "DEMO.LINK" | translate }}</a
+            >
             {{ "DEMO.DESCRIBE3" | translate }}
           </div>
         </form>

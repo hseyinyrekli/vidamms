@@ -72,7 +72,7 @@ const routesTR: Routes = [
       {
         path: "ozellikler",
         component: FeaturesComponent,
-      }
+      },
     ],
   },
 ];
@@ -134,17 +134,17 @@ const routesEN: Routes = [
       {
         path: "en/features",
         component: FeaturesComponent,
-      }
+      },
     ],
   },
 ];
 
 let routes: Routes = [];
 
-if(localStorage.getItem("lang") == "tr"){
+if (localStorage.getItem("lang") == "tr") {
   routes = routesTR;
 } else {
-  routes = routesEN
+  routes = routesEN;
 }
 
 @NgModule({

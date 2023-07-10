@@ -19,12 +19,12 @@ export class HomeComponent implements OnInit {
   electrictCostMoney: any;
   total: any;
   lang!: any;
-
+  url!: any;
   blogs!: any;
   constructor(
     private http: HttpClient,
     private formBuilder: FormBuilder,
-
+    private router: Router,
     public translate: TranslateService
   ) {}
 
@@ -63,6 +63,11 @@ export class HomeComponent implements OnInit {
       this.blogs = data.slice(0, 4);
     });
   }
+
+  goToDetailPage(name: any) {
+    this.router.navigate([`blog/${name}`], { queryParams: { url: this.url } });
+  }
+
   get f() {
     return this.calcForm.controls;
   }

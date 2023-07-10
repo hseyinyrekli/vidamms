@@ -7,6 +7,7 @@ import { Component } from "@angular/core";
 })
 export class DemoComponent {
   activeCategories = "demo1";
+  lang: any;
 
   changeActive(name: any) {
     this.activeCategories = name;

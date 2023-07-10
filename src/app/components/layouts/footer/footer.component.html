@@ -11,7 +11,7 @@
       <p>{{ "FOOTER.HEADER1" | translate }}</p>
       <div class="row">
         <div>
-          <a routerLink="about">
+          <a [routerLink]="lang == 'tr' ? 'hakkimizda' : 'en/about'">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -32,7 +32,7 @@
         </div>
 
         <div>
-          <a routerLink="policy">
+          <a [routerLink]="lang == 'tr' ? 'politika' : 'en/policy'">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -52,7 +52,7 @@
           </a>
         </div>
         <div>
-          <a routerLink="privacy">
+          <a [routerLink]="lang == 'tr' ? 'guvenlik' : 'en/privacy'">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
