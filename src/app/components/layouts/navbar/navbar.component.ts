@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
-import { TranslateService } from "@ngx-translate/core";
+import {LangChangeEvent, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: "app-navbar",
@@ -10,7 +10,7 @@ import { TranslateService } from "@ngx-translate/core";
 export class NavbarComponent implements OnInit {
   activeMenu = "home";
   currentPage!: string;
-  isShow = "tr";
+  isShow = localStorage.getItem("lang")
   isActive: boolean = false;
   isScrolled: boolean = false;
 
@@ -24,6 +24,7 @@ export class NavbarComponent implements OnInit {
         this.currentPage = event.url.replace("/", "");
       }
     });
+    this.getCurrentLang();
   }
 
   @HostListener("window:scroll", [])
@@ -34,7 +35,11 @@ export class NavbarComponent implements OnInit {
   changeLanguage(lang: any) {
     this.isShow = lang;
     this.isActive = !this.isActive;
-    this.translate.use(lang);
+    localStorage.setItem("lang", lang);
+    this.router.navigate(['/']);
+    setTimeout(() => {
+        window.location.reload();
+    }, 1)
   }
 
   setClass() {
@@ -59,5 +64,13 @@ export class NavbarComponent implements OnInit {
     if (element) {
       element.classList.remove("show");
     }
+  }
+
+  lang!:any;
+  getCurrentLang(){
+    this.lang = this.translate.currentLang;
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.lang = event.lang;
+    });
   }
 }

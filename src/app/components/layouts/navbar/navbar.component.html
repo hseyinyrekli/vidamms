@@ -78,7 +78,7 @@
         >
           <a
             class="nav-link"
-            routerLink="hakkimizda"
+            [routerLink]="lang=='tr'?'hakkimizda':'en/about'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.ABOUTUS" | translate }}</a
@@ -91,7 +91,7 @@
         >
           <a
             class="nav-link"
-            routerLink="özellikler"
+            [routerLink]="lang=='tr'?'ozellikler':'en/features'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.FEATURES" | translate }}</a
@@ -105,7 +105,7 @@
         >
           <a
             class="nav-link"
-            routerLink="maliyet"
+            [routerLink]="lang=='tr'?'maaliyet':'en/cost'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.COSTCALC" | translate }}</a
@@ -118,7 +118,7 @@
         >
           <a
             class="nav-link"
-            routerLink="destek"
+            [routerLink]="lang=='tr'?'destek':'en/support'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.SUPPORT" | translate }}</a
@@ -131,7 +131,7 @@
         >
           <a
             class="nav-link"
-            routerLink="referanslar"
+            [routerLink]="lang=='tr'?'referanslar':'en/reference'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.REFERENCES" | translate }}</a
@@ -145,26 +145,12 @@
         >
           <a
             class="nav-link"
-            routerLink="blog"
+            [routerLink]="lang=='tr'?'blog':'en/blog'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.BLOG" | translate }}</a
           >
         </li>
-        <!-- <li
-          (click)="closeMenu()"
-          class="nav-item"
-          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-        >
-          <a
-            class="nav-link"
-            routerLink="services"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-          >
-            {{ "MENU.SERVICESANDDETAIL" | translate }}
-          </a>
-        </li> -->
         <li
           (click)="closeMenu()"
           class="nav-item"
@@ -172,7 +158,7 @@
         >
           <a
             class="nav-link"
-            routerLink="iletisim"
+            [routerLink]="lang=='tr'?'iletisim':'en/contact'"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             >{{ "MENU.CONTACT" | translate }}</a

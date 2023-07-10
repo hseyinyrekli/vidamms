@@ -15,7 +15,7 @@ import { PrivacyComponent } from "./components/privacy/privacy.component";
 import { FeaturesComponent } from "./components/features/features.component";
 import { ServiceComponent } from "./components/service/service.component";
 
-const routes: Routes = [
+const routesTR: Routes = [
   {
     path: "",
     component: LayoutsComponent,
@@ -33,7 +33,6 @@ const routes: Routes = [
         path: "hakkimizda",
         component: AboutComponent,
       },
-
       {
         path: "blog",
         component: BlogComponent,
@@ -51,7 +50,7 @@ const routes: Routes = [
         component: FaqComponent,
       },
       {
-        path: "maliyet",
+        path: "maaliyet",
         component: CostComponent,
       },
       {
@@ -67,20 +66,86 @@ const routes: Routes = [
         component: PolicyComponent,
       },
       {
-        path: "güvenlik",
+        path: "guvenlik",
         component: PrivacyComponent,
       },
       {
-        path: "özellikler",
+        path: "ozellikler",
         component: FeaturesComponent,
-      },
-      // {
-      //   path: "services",
-      //   component: ServiceComponent,
-      // },
+      }
     ],
   },
 ];
+
+const routesEN: Routes = [
+  {
+    path: "",
+    component: LayoutsComponent,
+    children: [
+      {
+        path: "",
+        component: HomeComponent,
+      },
+      {
+        path: "en/home",
+        component: HomeComponent,
+      },
+
+      {
+        path: "en/about",
+        component: AboutComponent,
+      },
+      {
+        path: "en/blog",
+        component: BlogComponent,
+      },
+      {
+        path: "blog/:slug",
+        component: BlogDetailComponent,
+      },
+      {
+        path: "en/contact",
+        component: ContactComponent,
+      },
+      {
+        path: "en/support",
+        component: FaqComponent,
+      },
+      {
+        path: "en/cost",
+        component: CostComponent,
+      },
+      {
+        path: "en/reference",
+        component: ReferenceComponent,
+      },
+      {
+        path: "en/demo",
+        component: DemoComponent,
+      },
+      {
+        path: "en/policy",
+        component: PolicyComponent,
+      },
+      {
+        path: "en/privacy",
+        component: PrivacyComponent,
+      },
+      {
+        path: "en/features",
+        component: FeaturesComponent,
+      }
+    ],
+  },
+];
+
+let routes: Routes = [];
+
+if(localStorage.getItem("lang") == "tr"){
+  routes = routesTR;
+} else {
+  routes = routesEN
+}
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: "top" })],
