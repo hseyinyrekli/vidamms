@@ -45,7 +45,7 @@ export class BlogComponent implements OnInit {
   }
 
   goToDetailPage(name: any) {
-    this.router.navigate([`blog/${name}`], { queryParams: { url: this.url } });
+    this.router.navigate([`blog/${name}`]);
   }
 
   changeForFilter(name: any) {
