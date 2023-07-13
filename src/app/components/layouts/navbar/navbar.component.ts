@@ -73,6 +73,10 @@ export class NavbarComponent implements OnInit {
     const linkElement = document.createElement("link");
     linkElement.setAttribute("rel", "alternate");
     linkElement.setAttribute("hreflang", hreflang);
+    linkElement.setAttribute(
+      "href",
+      `http://demo.vidamms.com/#${this.router.url}`
+    );
 
     document.head.appendChild(linkElement);
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -88,6 +92,10 @@ export class NavbarComponent implements OnInit {
     const linkElement = document.querySelector('link[rel="alternate"]');
     if (linkElement) {
       linkElement.setAttribute("hreflang", hreflang);
+      linkElement.setAttribute(
+        "href",
+        ` "http://demo.vidamms.com/#"${this.router.url}`
+      );
     }
 
     if (lang == "tr") {
