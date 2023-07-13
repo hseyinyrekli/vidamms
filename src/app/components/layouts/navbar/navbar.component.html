@@ -1,190 +1,196 @@
 <nav
-        id="header"
-        class="navbar navbar-expand-lg bg-body-tertiary"
-        [ngClass]="setClass()"
+  id="header"
+  class="navbar navbar-expand-lg bg-body-tertiary"
+  [ngClass]="setClass()"
 >
-    <div id="sub" class="container-fluid mr-3">
-        <img
-                *ngIf="currentPage == ''"
-                [routerLink]="'/'"
-                class="p-3 d-none d-lg-block"
-                [src]="
+  <div id="sub" class="container-fluid mr-3">
+    <img
+      width="100%"
+      height="100%"
+      *ngIf="currentPage == ''"
+      [routerLink]="lang == 'tr' ? '/' : '/en'"
+      class="p-3 d-none d-lg-block"
+      [src]="
         isScrolled
           ? 'assets/uploads/vida-logo2.webp'
           : 'assets/uploads/vida-for-service.webp'
       "
-                alt="VidaMMS Logo"
-        />
-        <img
-                *ngIf="currentPage !== ''"
-                [routerLink]="'/'"
-                class="p-3 d-none d-lg-block"
-                [src]="'assets/uploads/vida-logo2.webp'"
-                alt="VidaMMS Logo"
-        />
-        <img
-                [routerLink]="'/'"
-                class="p-3 d-block d-lg-none"
-                [src]="'assets/uploads/vida-logo2.webp'"
-                alt="VidaMMS Logo"
-        />
+      alt="VidaMMS Logo"
+    />
+    <img
+      width="100%"
+      height="100%"
+      *ngIf="currentPage !== ''"
+      [routerLink]="lang == 'tr' ? '/' : '/en'"
+      class="p-3 d-none d-lg-block"
+      [src]="'assets/uploads/vida-logo2.webp'"
+      alt="VidaMMS Logo"
+    />
+    <img
+      width="100%"
+      height="100%"
+      [routerLink]="lang == 'tr' ? '/' : '/en'"
+      class="p-3 d-block d-lg-none"
+      [src]="'assets/uploads/vida-logo2.webp'"
+      alt="VidaMMS Logo"
+    />
 
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <svg
+        [ngClass]="'notSvg'"
+        class="navbarSVG"
+        xmlns="http://www.w3.org/2000/svg"
+        width="35"
+        height="35"
+        fill="currentColor"
+        class="bi bi-menu-button-wide"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13z"
+        />
+        <path
+          d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+        />
+      </svg>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end text-center menuList"
+      id="navbarSupportedContent"
+    >
+      <ul id="list" class="navbar-nav mb-2">
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? '/' : 'en'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.HOMEPAGE" | translate }}</a
+          >
+        </li>
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'hakkimizda' : 'en/about'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.ABOUTUS" | translate }}</a
+          >
+        </li>
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'ozellikler' : 'en/features'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.FEATURES" | translate }}</a
+          >
+        </li>
+
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'maaliyet' : 'en/cost'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.COSTCALC" | translate }}</a
+          >
+        </li>
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'destek' : 'en/support'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.SUPPORT" | translate }}</a
+          >
+        </li>
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'referanslar' : 'en/reference'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.REFERENCES" | translate }}</a
+          >
+        </li>
+
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'blog' : 'en/blog'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.BLOG" | translate }}</a
+          >
+        </li>
+        <li
+          (click)="closeMenu()"
+          class="nav-item"
+          [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
+        >
+          <a
+            class="nav-link"
+            [routerLink]="lang == 'tr' ? 'iletisim' : 'en/contact'"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ "MENU.CONTACT" | translate }}</a
+          >
+        </li>
+      </ul>
+      <div
+        class="trans"
+        style="margin-bottom: 0.8em; margin-right: 1em; margin-top: 0.3em"
+      >
         <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+          [ngClass]="isShow == 'tr' ? 'active' : ''"
+          (click)="changeLanguage('tr')"
         >
-            <svg
-                    [ngClass]="'notSvg'"
-                    class="navbarSVG"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
-                    fill="currentColor"
-                    class="bi bi-menu-button-wide"
-                    viewBox="0 0 16 16"
-            >
-                <path
-                        d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13z"
-                />
-                <path
-                        d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
-                />
-            </svg>
+          TR
         </button>
-        <div
-                class="collapse navbar-collapse justify-content-end text-center menuList"
-                id="navbarSupportedContent"
+        <button
+          [ngClass]="isShow == 'en' ? 'active' : ''"
+          (click)="changeLanguage('en')"
         >
-            <ul id="list" class="navbar-nav mb-2">
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            routerLink="/"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.HOMEPAGE" | translate }}</a
-                    >
-                </li>
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'hakkimizda' : 'en/about'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.ABOUTUS" | translate }}</a
-                    >
-                </li>
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'ozellikler' : 'en/features'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.FEATURES" | translate }}</a
-                    >
-                </li>
-
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'maaliyet' : 'en/cost'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.COSTCALC" | translate }}</a
-                    >
-                </li>
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'destek' : 'en/support'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.SUPPORT" | translate }}</a
-                    >
-                </li>
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'referanslar' : 'en/reference'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.REFERENCES" | translate }}</a
-                    >
-                </li>
-
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'blog' : 'en/blog'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.BLOG" | translate }}</a
-                    >
-                </li>
-                <li
-                        (click)="closeMenu()"
-                        class="nav-item"
-                        [ngClass]="isScrolled ? 'isScrolled-nav-item' : ''"
-                >
-                    <a
-                            class="nav-link"
-                            [routerLink]="lang == 'tr' ? 'iletisim' : 'en/contact'"
-                            routerLinkActive="active"
-                            [routerLinkActiveOptions]="{ exact: true }"
-                    >{{ "MENU.CONTACT" | translate }}</a
-                    >
-                </li>
-            </ul>
-            <div
-                    class="trans"
-                    style="margin-bottom: 0.8em; margin-right: 1em; margin-top: 0.3em"
-            >
-                <button
-                        [ngClass]="isShow == 'tr' ? 'active' : ''"
-                        (click)="changeLanguage('tr')"
-                >
-                    TR
-                </button>
-                <button
-                        [ngClass]="isShow == 'en' ? 'active' : ''"
-                        (click)="changeLanguage('en')"
-                >
-                    EN
-                </button>
-            </div>
-        </div>
+          EN
+        </button>
+      </div>
     </div>
+  </div>
 </nav>

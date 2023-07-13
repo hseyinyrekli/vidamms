@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from "@angular/core";
+
 import { Router, NavigationEnd } from "@angular/router";
 import { LangChangeEvent, TranslateService } from "@ngx-translate/core";
 
@@ -13,17 +14,28 @@ export class NavbarComponent implements OnInit {
   isShow = localStorage.getItem("lang");
   isActive: boolean = false;
   isScrolled: boolean = false;
-
+  lang!: any;
   constructor(private router: Router, public translate: TranslateService) {}
 
   ngOnInit(): void {
-    this.currentPage = this.router.url.replace("/", "");
+    let currentPage = this.router.url.replace("/", "");
+
+    if (currentPage == "en") {
+      this.currentPage = "";
+    } else {
+      this.currentPage = currentPage;
+    }
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.currentPage = event.url;
-        this.currentPage = event.url.replace("/", "");
+        if (event.url == "/en" || event.url == "/") {
+          this.currentPage = "";
+        }
+        console.log(event.url, "event.yurl");
       }
     });
+    console.log(this.currentPage);
+
     this.getCurrentLang();
   }
 
@@ -31,17 +43,6 @@ export class NavbarComponent implements OnInit {
   onWindowScroll() {
     this.isScrolled = window.pageYOffset > 0;
   }
-
-  changeLanguage(lang: any) {
-    this.isShow = lang;
-    this.isActive = !this.isActive;
-    localStorage.setItem("lang", lang);
-    this.router.navigate(["/"]);
-    setTimeout(() => {
-      window.location.reload();
-    }, 1);
-  }
-
   setClass() {
     if (this.currentPage == "") {
       if (this.isScrolled) {
@@ -65,12 +66,38 @@ export class NavbarComponent implements OnInit {
       element.classList.remove("show");
     }
   }
-
-  lang!: any;
   getCurrentLang() {
     this.lang = this.translate.currentLang;
+    const hreflang = this.lang === "en" ? "en" : "tr";
+
+    const linkElement = document.createElement("link");
+    linkElement.setAttribute("rel", "alternate");
+    linkElement.setAttribute("hreflang", hreflang);
+
+    document.head.appendChild(linkElement);
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.lang = event.lang;
     });
+  }
+  changeLanguage(lang: any) {
+    this.isShow = lang;
+    this.isActive = !this.isActive;
+    localStorage.setItem("lang", lang);
+    const hreflang = lang === "en" ? "en" : "tr";
+
+    const linkElement = document.querySelector('link[rel="alternate"]');
+    if (linkElement) {
+      linkElement.setAttribute("hreflang", hreflang);
+    }
+
+    if (lang == "tr") {
+      this.router.navigate(["/"]);
+    } else {
+      this.router.navigate(["/en"]);
+    }
+
+    setTimeout(() => {
+      window.location.reload();
+    }, 1);
   }
 }

@@ -18,14 +18,15 @@ import { ServiceComponent } from "./components/service/service.component";
 const routesTR: Routes = [
   {
     path: "",
+    redirectTo: "/",
+    pathMatch: "full",
+  },
+  {
+    path: "",
     component: LayoutsComponent,
     children: [
       {
         path: "",
-        component: HomeComponent,
-      },
-      {
-        path: "anasayfa",
         component: HomeComponent,
       },
 
@@ -73,6 +74,7 @@ const routesTR: Routes = [
         path: "ozellikler",
         component: FeaturesComponent,
       },
+      { path: "**", redirectTo: "/" },
     ],
   },
 ];
@@ -80,10 +82,15 @@ const routesTR: Routes = [
 const routesEN: Routes = [
   {
     path: "",
+    redirectTo: "/en",
+    pathMatch: "full",
+  },
+  {
+    path: "",
     component: LayoutsComponent,
     children: [
       {
-        path: "",
+        path: "en",
         component: HomeComponent,
       },
       {
@@ -135,6 +142,7 @@ const routesEN: Routes = [
         path: "en/features",
         component: FeaturesComponent,
       },
+      { path: "**", redirectTo: "/en" },
     ],
   },
 ];
