@@ -177,5 +177,15 @@
     "TITLE1": "Hakkımızda",
     "TITLE2": "Kişisel Veri Politikamız",
     "TITLE3": "Bilgi Güvenliği Politikamız"
+  },
+  "ROUTER": {
+    "destek": "support",
+    "maaliyet": "cost",
+    "ozellikler": "features",
+    "": "/en",
+    "hakkimizda": "about",
+    "referanslar": "references",
+    "blog": "blog",
+    "iletisim": "contact"
   }
 }

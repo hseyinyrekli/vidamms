@@ -175,5 +175,15 @@
     "TITLE1": "About Us",
     "TITLE2": "Our Personal Data Policy",
     "TITLE3": "Our Information Security Policy"
+  },
+  "ROUTER": {
+    "ensupport": "/destek",
+    "encost": "/maliyet",
+    "enfeatures": "/ozellikler",
+    "enabout": "/hakkimizda",
+    "enreference": "/referanslar",
+    "enblog": "/blog",
+    "encontact": "/iletisim",
+    "en": "/"
   }
 }

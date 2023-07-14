@@ -2,6 +2,7 @@ import { Component, HostListener, OnInit } from "@angular/core";
 
 import { Router, NavigationEnd } from "@angular/router";
 import { LangChangeEvent, TranslateService } from "@ngx-translate/core";
+import { LinkService } from "src/app/core/services/link.service";
 
 @Component({
   selector: "app-navbar",
@@ -15,11 +16,14 @@ export class NavbarComponent implements OnInit {
   isActive: boolean = false;
   isScrolled: boolean = false;
   lang!: any;
-  constructor(private router: Router, public translate: TranslateService) {}
+  constructor(
+    private router: Router,
+    public translate: TranslateService,
+    private linkService: LinkService
+  ) {}
 
   ngOnInit(): void {
     let currentPage = this.router.url.replace("/", "");
-
     if (currentPage == "en") {
       this.currentPage = "";
     } else {
@@ -31,11 +35,10 @@ export class NavbarComponent implements OnInit {
         if (event.url == "/en" || event.url == "/") {
           this.currentPage = "";
         }
-        console.log(event.url, "event.yurl");
+        this.setLinkAlternate(event.url);
       }
     });
-    console.log(this.currentPage);
-
+    this.setLinkAlternate(this.router.url);
     this.getCurrentLang();
   }
 
@@ -68,17 +71,6 @@ export class NavbarComponent implements OnInit {
   }
   getCurrentLang() {
     this.lang = this.translate.currentLang;
-    const hreflang = this.lang === "en" ? "en" : "tr";
-
-    const linkElement = document.createElement("link");
-    linkElement.setAttribute("rel", "alternate");
-    linkElement.setAttribute("hreflang", hreflang);
-    linkElement.setAttribute(
-      "href",
-      `http://demo.vidamms.com/#${this.router.url}`
-    );
-
-    document.head.appendChild(linkElement);
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.lang = event.lang;
     });
@@ -87,25 +79,32 @@ export class NavbarComponent implements OnInit {
     this.isShow = lang;
     this.isActive = !this.isActive;
     localStorage.setItem("lang", lang);
-    const hreflang = lang === "en" ? "en" : "tr";
-
-    const linkElement = document.querySelector('link[rel="alternate"]');
-    if (linkElement) {
-      linkElement.setAttribute("hreflang", hreflang);
-      linkElement.setAttribute(
-        "href",
-        ` "http://demo.vidamms.com/#"${this.router.url}`
-      );
-    }
-
     if (lang == "tr") {
       this.router.navigate(["/"]);
     } else {
       this.router.navigate(["/en"]);
     }
-
     setTimeout(() => {
       window.location.reload();
     }, 1);
+  }
+
+  setLinkAlternate(route?: any) {
+    setTimeout(() => {
+      let lang = localStorage.getItem("lang");
+      let tr, en;
+      if (lang == "en") {
+        en = route;
+        tr = this.translate.instant("ROUTER." + route.replace(/\//g, ""));
+      }
+      if (lang == "tr") {
+        tr = route;
+        en = this.translate.instant("ROUTER." + route.replace(/\//g, ""));
+        if (en !== "/en") {
+          en = "/en/" + en;
+        }
+      }
+      this.linkService.setLinks(`${tr}`, `${en}`);
+    }, 100);
   }
 }
