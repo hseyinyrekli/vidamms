@@ -187,5 +187,25 @@
     "referanslar": "references",
     "blog": "blog",
     "iletisim": "contact"
+  },
+  "META": {
+    "destek": "gelecek",
+    "maaliyet": "gelecek",
+    "ozellikler": "gelecek",
+    "hakkimizda": "gelecek",
+    "referanslar": "gelecek",
+    "blog": "gelecek",
+    "iletisim": "gelecek",
+    "": "Vida, Bakım Yönetimi uygulamasıdır. Endüstriyel işletme yönetimine yardımcı olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve fabrika yönetimine"
+  },
+  "TITLE": {
+    "destek": "Vidamms - Her Vida Kontrol Altında",
+    "maaliyet": "Vidamms - Her Vida Kontrol Altında",
+    "ozellikler": "Vidamms - Her Vida Kontrol Altında",
+    "hakkimizda": "Vidamms - Her Vida Kontrol Altında",
+    "referanslar": "Vidamms - Her Vida Kontrol Altında",
+    "blog": "Vidamms - Her Vida Kontrol Altında",
+    "iletisim": "Vidamms - Her Vida Kontrol Altında",
+    "": "Vidamms - Her Vida Kontrol Altında"
   }
 }

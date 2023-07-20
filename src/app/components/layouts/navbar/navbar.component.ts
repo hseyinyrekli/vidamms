@@ -3,7 +3,8 @@ import { Component, HostListener, OnInit } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { LangChangeEvent, TranslateService } from "@ngx-translate/core";
 import { LinkService } from "src/app/core/services/link.service";
-
+import { MetaService } from "src/app/core/services/meta.service";
+import { Title } from "@angular/platform-browser";
 @Component({
   selector: "app-navbar",
   templateUrl: "./navbar.component.html",
@@ -19,9 +20,10 @@ export class NavbarComponent implements OnInit {
   constructor(
     private router: Router,
     public translate: TranslateService,
-    private linkService: LinkService
+    private linkService: LinkService,
+    private metaService: MetaService,
+    private titleService: Title
   ) {}
-
   ngOnInit(): void {
     let currentPage = this.router.url.replace("/", "");
     if (currentPage == "en") {
@@ -35,11 +37,15 @@ export class NavbarComponent implements OnInit {
         if (event.url == "/en" || event.url == "/") {
           this.currentPage = "";
         }
+        this.setMetaTag(event.url);
         this.setLinkAlternate(event.url);
+        this.setTitle(event.url);
       }
     });
+    this.setMetaTag(this.router.url);
     this.setLinkAlternate(this.router.url);
     this.getCurrentLang();
+    this.setTitle(this.router.url);
   }
 
   @HostListener("window:scroll", [])
@@ -105,6 +111,45 @@ export class NavbarComponent implements OnInit {
         }
       }
       this.linkService.setLinks(`${tr}`, `${en}`);
+    }, 100);
+  }
+  setMetaTag(route?: any) {
+    setTimeout(() => {
+      let lang = localStorage.getItem("lang");
+      let tr, en;
+      let value;
+      if (lang == "en") {
+        en = route;
+        value = this.translate.instant("META." + route.replace(/\//g, ""));
+      }
+      if (lang == "tr") {
+        tr = route;
+        if (en !== "/en") {
+          en = "/en" + en;
+        }
+        value = this.translate.instant("META." + route.replace(/\//g, ""));
+      }
+      this.metaService.setMetas(value);
+    }, 100);
+  }
+  setTitle(route?: any) {
+    setTimeout(() => {
+      let lang = localStorage.getItem("lang");
+      let tr, en;
+      let title;
+      if (lang == "en") {
+        en = route;
+        title = this.translate.instant("TITLE." + route.replace(/\//g, ""));
+      }
+      if (lang == "tr") {
+        tr = route;
+        if (en !== "/en") {
+          en = "/en" + en;
+        }
+        title = this.translate.instant("TITLE." + route.replace(/\//g, ""));
+      }
+
+      this.titleService.setTitle(title);
     }, 100);
   }
 }

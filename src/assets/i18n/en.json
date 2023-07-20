@@ -185,5 +185,26 @@
     "enblog": "/blog",
     "encontact": "/iletisim",
     "en": "/"
+  },
+  "META": {
+    "ensupport": "will come",
+    "encost": "will come",
+    "enfeatures": "will come",
+    "enabout": "will come",
+    "enreference": "will come",
+    "enblog": "will come",
+    "encontact": "will come",
+    "en": "Vida is a computerized maintenance management application that helps industrial business management. It allows you to keep and track factory-related records"
+  },
+
+  "TITLE": {
+    "ensupport": "Vidamms  - Each Part is Under Control",
+    "encost": "Vidamms  - Each Part is Under Control",
+    "enfeatures": "Vidamms  - Each Part is Under Control",
+    "enabout": "Vidamms  - Each Part is Under Control",
+    "enreference": "Vidamms  - Each Part is Under Control",
+    "enblog": "Vidamms  - Each Part is Under Control",
+    "encontact": "Vidamms  - Each Part is Under Control",
+    "en": "Vidamms  - Each Part is Under Control"
   }
 }
