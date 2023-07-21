@@ -40,7 +40,6 @@ export class LinkService {
         removedEN = linkElement;
       }
       if (linkElement.getAttribute("hreflang") === "tr") {
-        console.log("tr");
         removedTR = linkElement;
       }
     }
