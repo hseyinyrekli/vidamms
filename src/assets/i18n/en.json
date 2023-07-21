@@ -184,9 +184,11 @@
     "enreference": "/referanslar",
     "enblog": "/blog",
     "encontact": "/iletisim",
-    "en": "/"
+    "en": "/",
+    "endemo": "/demo"
   },
   "META": {
+    "endemo": "will come",
     "ensupport": "will come",
     "encost": "will come",
     "enfeatures": "will come",
@@ -198,6 +200,7 @@
   },
 
   "TITLE": {
+    "endemo": "Vidamms  - Each Part is Under Control",
     "ensupport": "Vidamms  - Each Part is Under Control",
     "encost": "Vidamms  - Each Part is Under Control",
     "enfeatures": "Vidamms  - Each Part is Under Control",

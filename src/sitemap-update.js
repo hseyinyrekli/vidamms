@@ -70,7 +70,7 @@ const untrackedUrlsList = [
 const options = { compact: true, ignoreComment: true, spaces: 4 };
 
 const filterUniqueURLs = () => {
-  fs.readFile("src/sitemap.xml", (err, data) => {
+  fs.readFile("src/public_html/sitemap.xml", (err, data) => {
     if (data) {
       const existingSitemapList = JSON.parse(convert.xml2json(data, options));
       if (!existingSitemapList.urlset.url) {

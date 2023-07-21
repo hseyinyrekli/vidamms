@@ -182,6 +182,7 @@
     "destek": "support",
     "maaliyet": "cost",
     "ozellikler": "features",
+    "demo": "demo",
     "": "/en",
     "hakkimizda": "about",
     "referanslar": "references",
@@ -189,6 +190,7 @@
     "iletisim": "contact"
   },
   "META": {
+    "demo": "gelecek",
     "destek": "gelecek",
     "maaliyet": "gelecek",
     "ozellikler": "gelecek",
@@ -199,6 +201,7 @@
     "": "Vida, Bakım Yönetimi uygulamasıdır. Endüstriyel işletme yönetimine yardımcı olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve fabrika yönetimine"
   },
   "TITLE": {
+    "demo": "Vidamms - Her Vida Kontrol Altında",
     "destek": "Vidamms - Her Vida Kontrol Altında",
     "maaliyet": "Vidamms - Her Vida Kontrol Altında",
     "ozellikler": "Vidamms - Her Vida Kontrol Altında",
