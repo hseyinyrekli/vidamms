@@ -15,7 +15,7 @@ import { RouterModule } from "@angular/router";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { FaqComponent } from "./components/faq/faq.component";
 import { BlogDetailComponent } from "./components/blog/blog-detail/blog-detail.component";
-import { HttpClientModule } from "@angular/common/http";
+import { HTTP_INTERCEPTORS, HttpClientModule } from "@angular/common/http";
 import { ReferenceComponent } from "./components/reference/reference.component";
 import { CostComponent } from "./components/cost/cost.component";
 import { FaqsPipe } from "./components/faq/faqs.pipe";
@@ -27,11 +27,8 @@ import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { HttpClient } from "@angular/common/http";
 import { ServiceComponent } from "./components/service/service.component";
-import {
-  HashLocationStrategy,
-  LocationStrategy,
-  PathLocationStrategy,
-} from "@angular/common";
+
+import { CacheInterceptor } from "./interceptors/cache.interceptors";
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
 }
@@ -72,7 +69,13 @@ export function createTranslateLoader(http: HttpClient) {
       },
     }),
   ],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: CacheInterceptor,
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
