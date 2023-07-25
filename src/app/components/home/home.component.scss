@@ -24,6 +24,7 @@ video {
   padding-top: 150px;
   color: #fff;
   width: 50%;
+  height: auto;
 }
 .home-content h1 {
   font-family: "Poppins", sans-serif;
@@ -138,7 +139,7 @@ video {
 .images {
   img {
     width: 30%;
-    margin-top: 1em;
+    height: auto;
     margin: auto;
     @media (min-width: 600px) {
       margin-left: 0;
@@ -147,33 +148,20 @@ video {
   text-align: center;
 }
 #phones img {
-  margin-left: 6em;
-  width: 70%;
+  width: 100%;
+  height: auto;
 }
 
-@media (min-width: 600px) {
-  #phones img {
-    margin-top: 2em;
-    margin-left: 4.4em !important;
-  }
-}
 @media (max-width: 600px) {
   #phones img {
     width: 70% !important;
-    margin-top: 2em;
-    margin-left: 3.7em !important;
-  }
-}
-@media (max-width: 1200px) {
-  #phones img {
-    margin-left: 6em;
+    height: auto;
   }
 }
 
 .part-3 {
   text-align: center;
   width: 100%;
-  margin-top: 12em;
   background: linear-gradient(#1a49b0, #2c375c);
   p {
     margin: auto;
@@ -185,11 +173,13 @@ video {
     padding-top: 6em;
     padding-bottom: 2em;
     width: 70%;
+    height: auto;
   }
 }
 @media (max-width: 980px) {
   .macbook img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -213,6 +203,7 @@ video {
 
     margin: auto;
     width: 30%;
+    height: auto;
   }
 
   #card {
@@ -239,6 +230,7 @@ video {
   place-items: center;
   overflow: hidden;
   img {
+    height: auto;
     width: 100%;
   }
 }

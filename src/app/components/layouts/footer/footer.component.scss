@@ -51,6 +51,7 @@ div a:hover {
 @media (max-width: 600px) {
   img {
     width: 90% !important;
+    height: auto;
     margin-right: 10%;
     margin-bottom: 3em;
   }
@@ -62,6 +63,7 @@ div a:hover {
 @media (min-width: 400px) {
   img {
     width: 80% !important;
+    height: auto;
     margin-right: 10%;
     margin-bottom: 3em;
   }

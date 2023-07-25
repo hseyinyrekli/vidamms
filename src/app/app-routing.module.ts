@@ -13,7 +13,6 @@ import { DemoComponent } from "./components/demo/demo.component";
 import { PolicyComponent } from "./components/policy/policy.component";
 import { PrivacyComponent } from "./components/privacy/privacy.component";
 import { FeaturesComponent } from "./components/features/features.component";
-import { ServiceComponent } from "./components/service/service.component";
 
 const routesTR: Routes = [
   {

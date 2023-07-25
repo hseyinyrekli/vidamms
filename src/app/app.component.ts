@@ -22,6 +22,7 @@ export class AppComponent {
       translate.setDefaultLang("tr");
       translate.use("tr");
       localStorage.setItem("lang", "tr");
+      console.log("tr")
     }
   }
 }

@@ -5,11 +5,11 @@
 >
   <div id="sub" class="container-fluid mr-3">
     <img
-      width="575"
-      height="162"
+      width="250px"
+      style="width: 100%;height: auto"
       *ngIf="currentPage == ''"
       [routerLink]="lang == 'tr' ? '/' : '/en'"
-      class="p-3 d-none d-lg-block"
+      class="m-3 d-none d-lg-block"
       [src]="
         isScrolled
           ? 'assets/uploads/vida-logo2.webp'
@@ -18,19 +18,17 @@
       alt="VidaMMS Logo"
     />
     <img
-      width="575"
-      height="162"
+      width="250px"
       *ngIf="currentPage !== ''"
       [routerLink]="lang == 'tr' ? '/' : '/en'"
-      class="p-3 d-none d-lg-block"
+      class="m-3 d-none d-lg-block"
       [src]="'assets/uploads/vida-logo2.webp'"
       alt="VidaMMS Logo"
     />
     <img
-      width="575"
-      height="162"
+      width="250px"
       [routerLink]="lang == 'tr' ? '/' : '/en'"
-      class="p-3 d-block d-lg-none"
+      class="m-3 d-block d-lg-none"
       [src]="'assets/uploads/vida-logo2.webp'"
       alt="VidaMMS Logo"
     />
