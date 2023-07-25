@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "server": "node src/server.js",
     "sitemap": "NODE_OPTIONS='--experimental-specifier-resolution=node' node src/sitemap-update.js"
   },
   "private": true,
