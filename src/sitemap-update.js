@@ -2,7 +2,7 @@ const { log } = require("console");
 const fs = require("fs");
 const convert = require("xml-js");
 const moment = require("moment");
-const baseUrl = "http://demo.vidamms.com/#/";
+const baseUrl = "http://demo.vidamms.com/";
 const untrackedUrlsList = [
   baseUrl + "",
   baseUrl + "anasayfa",

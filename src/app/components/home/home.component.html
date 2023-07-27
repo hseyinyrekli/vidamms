@@ -13,9 +13,14 @@
       </p>
 
       <button>
-        <a [routerLink]="lang == 'tr' ? 'demo' : '/en/demo'">{{
-          "HOME.BUTTON" | translate
-        }}</a>
+        <a
+          [routerLink]="
+            lang == 'tr'
+              ? 'vida-bakim-yonetim-uygulamasi'
+              : '/en/screw-maintenance-management-application'
+          "
+          >{{ "HOME.BUTTON" | translate }}</a
+        >
       </button>
     </div>
   </div>
@@ -251,7 +256,10 @@
         />
       </div>
     </div>
-    <div id="phones" class="col-12 col-md-12 col-lg-6 align-self-center text-center">
+    <div
+      id="phones"
+      class="col-12 col-md-12 col-lg-6 align-self-center text-center"
+    >
       <img
         width="1080"
         height="1080"
@@ -550,7 +558,7 @@
       <img
         width="1080"
         height="1080"
-        style="margin-left: 3em; margin-top: 5em; width: 100%; height: auto "
+        style="margin-left: 3em; margin-top: 5em; width: 100%; height: auto"
         src="assets/uploads/ads196177z-tasar196177m.webp"
         alt="phone"
       />

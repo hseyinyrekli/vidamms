@@ -166,7 +166,18 @@
     "SUBTITLE": "With VİDA MMS, you can plan maintenance in advance and provide uninterrupted work flow.",
     "BOTTITLE": "This way, you can prevent sudden and unusual malfunctions.",
     "SUBTITLE2": "Have questions about how we can help your company?",
-    "BOTTITLE2": "Send us an email and we will contact you shortly."
+    "BOTTITLE2": "Send us an email and we will contact you shortly.",
+    "MES1": "Name field cannot be left blank.",
+    "MES2": "Please enter a valid name.",
+    "MES3": "Last Name field cannot be left blank.",
+    "MES4": "Please enter a valid last name.",
+    "MES5": "E-Mail field cannot be left blank.",
+    "MES6": "Please enter a valid e-mail.",
+    "MES7": "Phone field cannot be left blank.",
+    "MES8": "Please enter a valid number.",
+    "MES9": "Company field cannot be left blank.",
+    "MES10": "Company division must be selected.",
+    "SUCCESS_MESSAGE": "Your request has been successfully fulfilled."
   },
   "FOOTER": {
     "HEADER1": "Who Are We ?",
@@ -177,7 +188,7 @@
     "TITLE3": "Our Information Security Policy"
   },
   "ROUTER": {
-    "ensupport": "/destek",
+    "ensupport": "/vida-bakim-yonetim-uygulamasi/",
     "encost": "/maliyet",
     "enfeatures": "/ozellikler",
     "enabout": "/hakkimizda",
@@ -185,10 +196,10 @@
     "enblog": "/blog",
     "encontact": "/iletisim",
     "en": "/",
-    "endemo": "/demo"
+    "enscrew-maintenance-management-application": "/screw-maintenance-management-application"
   },
   "META": {
-    "endemo": "will come",
+    "enscrew-maintenance-management-application": "will come",
     "ensupport": "will come",
     "encost": "will come",
     "enfeatures": "will come",
@@ -200,14 +211,14 @@
   },
 
   "TITLE": {
-    "endemo": "Vidamms  - Each Part is Under Control",
-    "ensupport": "Vidamms  - Each Part is Under Control",
-    "encost": "Vidamms  - Each Part is Under Control",
-    "enfeatures": "Vidamms  - Each Part is Under Control",
-    "enabout": "Vidamms  - Each Part is Under Control",
-    "enreference": "Vidamms  - Each Part is Under Control",
-    "enblog": "Vidamms  - Each Part is Under Control",
-    "encontact": "Vidamms  - Each Part is Under Control",
-    "en": "Vidamms  - Each Part is Under Control"
+    "enscrew-maintenance-management-application": "Vidamms - Each Part is Under Control",
+    "ensupport": "Vidamms - Each Part is Under Control",
+    "encost": "Vidamms - Each Part is Under Control",
+    "enfeatures": "Vidamms - Each Part is Under Control",
+    "enabout": "Vidamms - Each Part is Under Control",
+    "enreference": "Vidamms - Each Part is Under Control",
+    "enblog": "Vidamms - Each Part is Under Control",
+    "encontact": "Vidamms - Each Part is Under Control",
+    "en": "Vidamms - Each Part is Under Control"
   }
 }

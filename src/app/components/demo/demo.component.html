@@ -17,12 +17,29 @@
           </p>
           <hr />
         </div>
-        <form id="form">
+        <form [formGroup]="demoForm" (ngSubmit)="validateForm()">
           <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
               <label class="form-label"> {{ "DEMO.NAME" | translate }}</label>
               <div class="form-outline" style="width: 100%">
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="name"
+                />
+              </div>
+              <div
+                *ngIf="
+                  demoForm.get('name').invalid && demoForm.get('name').touched
+                "
+                class="text-danger"
+              >
+                <ng-container *ngIf="demoForm.get('name').errors?.required">
+                  {{ "DEMO.MES1" | translate }}
+                </ng-container>
+                <ng-container *ngIf="demoForm.get('name').errors?.pattern">
+                  {{ "DEMO.MES2" | translate }}
+                </ng-container>
               </div>
             </div>
 
@@ -31,20 +48,72 @@
                 {{ "DEMO.SURNAME" | translate }}</label
               >
               <div class="form-outline" style="width: 100%">
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="surname"
+                />
+              </div>
+              <div
+                *ngIf="
+                  demoForm.get('surname').invalid &&
+                  demoForm.get('surname').touched
+                "
+                class="text-danger"
+              >
+                <ng-container *ngIf="demoForm.get('surname').errors?.required">
+                  {{ "DEMO.MES3" | translate }}
+                </ng-container>
+                <ng-container *ngIf="demoForm.get('surname').errors?.pattern">
+                  {{ "DEMO.MES4" | translate }}
+                </ng-container>
               </div>
             </div>
 
             <div class="col-12 col-md-12 col-lg-12">
               <label class="form-label"> {{ "DEMO.EMAIL" | translate }}</label>
               <div class="form-outline" style="width: 100%">
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="email"
+                />
+              </div>
+              <div
+                *ngIf="
+                  demoForm.get('email').invalid && demoForm.get('email').touched
+                "
+                class="text-danger"
+              >
+                <ng-container *ngIf="demoForm.get('email').errors?.required">
+                  {{ "DEMO.MES5" | translate }}
+                </ng-container>
+                <ng-container *ngIf="demoForm.get('email').errors?.pattern">
+                  {{ "DEMO.MES6" | translate }}
+                </ng-container>
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
               <label class="form-label"> {{ "DEMO.PHONE" | translate }}</label>
               <div class="form-outline" style="width: 100%">
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="phone"
+                />
+              </div>
+              <div
+                *ngIf="
+                  demoForm.get('phone').invalid && demoForm.get('phone').touched
+                "
+                class="text-danger"
+              >
+                <ng-container *ngIf="demoForm.get('phone').errors?.required">
+                  {{ "DEMO.MES7" | translate }}
+                </ng-container>
+                <ng-container *ngIf="demoForm.get('phone').errors?.pattern">
+                  {{ "DEMO.MES8" | translate }}
+                </ng-container>
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
@@ -52,38 +121,59 @@
                 {{ "DEMO.COMPANY" | translate }}</label
               >
               <div class="form-outline" style="width: 100%">
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="company"
+                />
+              </div>
+              <div
+                *ngIf="
+                  demoForm.get('company').invalid &&
+                  demoForm.get('company').touched
+                "
+                class="text-danger"
+              >
+                {{ "DEMO.MES9" | translate }}
               </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12">
               <select
                 class="form-select mt-4"
                 aria-label="Default select example"
+                formControlName="companyArea"
               >
-                <option selected>{{ "DEMO.COMPANYAREA" | translate }}</option>
+                <option value="" disabled selected>
+                  {{ "DEMO.COMPANYAREA" | translate }}
+                </option>
                 <option value="1">{{ "DEMO.DEP1" | translate }}</option>
                 <option value="2">{{ "DEMO.DEP2" | translate }}</option>
                 <option value="3">{{ "DEMO.DEP3" | translate }}</option>
                 <option value="4">{{ "DEMO.DEP4" | translate }}</option>
-
                 <option value="5">{{ "DEMO.DEP5" | translate }}</option>
-
-                <option value="6">
-                  {{ "DEMO.DEP6" | translate }}
-                </option>
-
+                <option value="6">{{ "DEMO.DEP6" | translate }}</option>
                 <option value="7">{{ "DEMO.DEP7" | translate }}</option>
-
                 <option value="8">{{ "DEMO.DEP8" | translate }}</option>
-
                 <option value="9">{{ "DEMO.DEP9" | translate }}</option>
                 <option value="10">{{ "DEMO.DEP10" | translate }}</option>
               </select>
+              <div
+                *ngIf="
+                  demoForm.get('companyArea').invalid &&
+                  demoForm.get('companyArea').touched
+                "
+                class="text-danger"
+              >
+                {{ "DEMO.MES10" | translate }}
+              </div>
             </div>
             <div class="form-outline mt-4 mb-2" style="width: 50%">
-              <button type="button" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary">
                 {{ "DEMO.SEND" | translate }}
               </button>
+            </div>
+            <div *ngIf="showMessage" class="alert alert-success mt-2">
+              {{ showMessageKey | translate }}
             </div>
           </div>
           <div>
@@ -219,24 +309,24 @@
     <div id="image" class="col-lg-6 col-md-12 col-12">
       <img
         *ngIf="activeCategories == 'demo1'"
-        width="100%"
-        height="75%"
+        width="4000"
+        height="2800"
         class="demo1"
         src="../../../assets/uploads/demo3.webp"
         alt="Demo Fotoğrafı"
       />
       <img
         *ngIf="activeCategories == 'demo2'"
-        width="100%"
-        height="75%"
+        width="4000"
+        height="2800"
         class="demo2"
         src="../../../assets/uploads/demo1.webp"
         alt="Demo Fotoğrafı"
       />
       <img
         *ngIf="activeCategories == 'demo3'"
-        width="100%"
-        height="75%"
+        width="4000"
+        height="2800"
         class="demo3"
         src="../../../assets/uploads/demo2.webp"
         alt="Demo Fotoğrafı"
@@ -247,8 +337,8 @@
 <div class="text-center" style="padding: 4em">
   <div>
     <img
-      width="60%"
-      height="60%"
+      width="2104"
+      height="1418"
       src="../../../assets/uploads/demolaptop.webp"
       alt="Demo Laptop"
     />

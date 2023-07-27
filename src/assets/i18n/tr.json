@@ -168,7 +168,18 @@
     "SUBTITLE": "VİDA MMS İle bakımları önceden planlayabilir ve kesintisiz iş akışı sağlayabilirsiniz.",
     "BOTTITLE": "Böylece ani gelişen olağandışı arızaların da önüne geçmiş olursunuz.",
     "SUBTITLE2": "Şirketinize nasıl yardımcı olabileceğimiz hakkında sorularınız mı var?",
-    "BOTTITLE2": "Bize bir e-posta gönderin, kısa süre içinde sizinle iletişime geçeceğiz."
+    "BOTTITLE2": "Bize bir e-posta gönderin, kısa süre içinde sizinle iletişime geçeceğiz.",
+    "MES1": "İsim alanı boş bırakılamaz.",
+    "MES2": "Lütfen geçerli bir isim giriniz.",
+    "MES3": "Soy İsim alanı boş bırakılamaz.",
+    "MES4": "Lütfen geçerli bir soy isim giriniz.",
+    "MES5": "E-Posta alanı boş bırakılamaz.",
+    "MES6": "Lütfen geçerli bir e-posta giriniz.",
+    "MES7": "Telefon alanı boş bırakılamaz.",
+    "MES8": "Lütfen geçerli bir numara giriniz.",
+    "MES9": "Şirket alanı boş bırakılamaz.",
+    "MES10": "Şirket bölümü seçilmelidir.",
+    "SUCCESS_MESSAGE": "İsteğiniz başarılı bir şekilde gerçekleşti."
   },
   "FOOTER": {
     "HEADER1": "Biz Kimiz ?",
@@ -182,7 +193,7 @@
     "destek": "support",
     "maaliyet": "cost",
     "ozellikler": "features",
-    "demo": "demo",
+    "vida-bakim-yonetim-uygulamasi": "demo",
     "": "/en",
     "hakkimizda": "about",
     "referanslar": "references",
@@ -190,7 +201,7 @@
     "iletisim": "contact"
   },
   "META": {
-    "demo": "gelecek",
+    "vida-bakim-yonetim-uygulamasi": "gelecek",
     "destek": "gelecek",
     "maaliyet": "gelecek",
     "ozellikler": "gelecek",
@@ -201,7 +212,7 @@
     "": "Vida, Bakım Yönetimi uygulamasıdır. Endüstriyel işletme yönetimine yardımcı olur. Arıza ve bakım kayıtları, envanter, sayaç, zimmet ve fabrika yönetimine"
   },
   "TITLE": {
-    "demo": "Vidamms - Her Vida Kontrol Altında",
+    "vida-bakim-yonetim-uygulamasi": "Vidamms - Her Vida Kontrol Altında",
     "destek": "Vidamms - Her Vida Kontrol Altında",
     "maaliyet": "Vidamms - Her Vida Kontrol Altında",
     "ozellikler": "Vidamms - Her Vida Kontrol Altında",

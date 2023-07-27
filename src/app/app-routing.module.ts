@@ -58,7 +58,7 @@ const routesTR: Routes = [
         component: ReferenceComponent,
       },
       {
-        path: "demo",
+        path: "vida-bakim-yonetim-uygulamasi",
         component: DemoComponent,
       },
       {
@@ -126,7 +126,7 @@ const routesEN: Routes = [
         component: ReferenceComponent,
       },
       {
-        path: "en/demo",
+        path: "en/screw-maintenance-management-application",
         component: DemoComponent,
       },
       {
@@ -141,7 +141,7 @@ const routesEN: Routes = [
         path: "en/features",
         component: FeaturesComponent,
       },
-      { path: "**", redirectTo: "/en" },
+      { path: "**", redirectTo: "/en", pathMatch: "full" },
     ],
   },
 ];
