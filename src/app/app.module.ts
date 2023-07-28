@@ -29,6 +29,7 @@ import { HttpClient } from "@angular/common/http";
 import { ServiceComponent } from "./components/service/service.component";
 
 import { CacheInterceptor } from "./interceptors/cache.interceptors";
+import { JwtInterceptor } from "./core/helpers/jwt.interceptor";
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
 }
@@ -75,6 +76,7 @@ export function createTranslateLoader(http: HttpClient) {
       useClass: CacheInterceptor,
       multi: true,
     },
+    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
   ],
   bootstrap: [AppComponent],
 })

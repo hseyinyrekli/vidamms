@@ -1,4 +1,4 @@
-<div style="padding-right: 0.8em">
+<div class="mt-5" style="padding-right: 0.8em">
   <div class="row" style="background-color: #f9f9f9">
     <div
       data-aos="zoom-in"
@@ -19,7 +19,7 @@
         </div>
         <form [formGroup]="demoForm" (ngSubmit)="validateForm()">
           <div class="row">
-            <div class="col-6 col-md-6 col-lg-6">
+            <div class="col-12 col-md-12 col-lg-12">
               <label class="form-label"> {{ "DEMO.NAME" | translate }}</label>
               <div class="form-outline" style="width: 100%">
                 <input
@@ -42,7 +42,7 @@
                 </ng-container>
               </div>
             </div>
-
+            <!-- 
             <div class="col-6 col-md-6 col-lg-6">
               <label class="form-label">
                 {{ "DEMO.SURNAME" | translate }}</label
@@ -68,7 +68,7 @@
                   {{ "DEMO.MES4" | translate }}
                 </ng-container>
               </div>
-            </div>
+            </div> -->
 
             <div class="col-12 col-md-12 col-lg-12">
               <label class="form-label"> {{ "DEMO.EMAIL" | translate }}</label>
@@ -76,19 +76,24 @@
                 <input
                   type="text"
                   class="form-control"
-                  formControlName="email"
+                  formControlName="emailAddress"
                 />
               </div>
               <div
                 *ngIf="
-                  demoForm.get('email').invalid && demoForm.get('email').touched
+                  demoForm.get('emailAddress').invalid &&
+                  demoForm.get('emailAddress').touched
                 "
                 class="text-danger"
               >
-                <ng-container *ngIf="demoForm.get('email').errors?.required">
+                <ng-container
+                  *ngIf="demoForm.get('emailAddress').errors?.required"
+                >
                   {{ "DEMO.MES5" | translate }}
                 </ng-container>
-                <ng-container *ngIf="demoForm.get('email').errors?.pattern">
+                <ng-container
+                  *ngIf="demoForm.get('emailAddress').errors?.pattern"
+                >
                   {{ "DEMO.MES6" | translate }}
                 </ng-container>
               </div>
@@ -99,19 +104,24 @@
                 <input
                   type="text"
                   class="form-control"
-                  formControlName="phone"
+                  formControlName="phoneNumber"
                 />
               </div>
               <div
                 *ngIf="
-                  demoForm.get('phone').invalid && demoForm.get('phone').touched
+                  demoForm.get('phoneNumber').invalid &&
+                  demoForm.get('phoneNumber').touched
                 "
                 class="text-danger"
               >
-                <ng-container *ngIf="demoForm.get('phone').errors?.required">
+                <ng-container
+                  *ngIf="demoForm.get('phoneNumber').errors?.required"
+                >
                   {{ "DEMO.MES7" | translate }}
                 </ng-container>
-                <ng-container *ngIf="demoForm.get('phone').errors?.pattern">
+                <ng-container
+                  *ngIf="demoForm.get('phoneNumber').errors?.pattern"
+                >
                   {{ "DEMO.MES8" | translate }}
                 </ng-container>
               </div>
@@ -141,26 +151,26 @@
               <select
                 class="form-select mt-4"
                 aria-label="Default select example"
-                formControlName="companyArea"
+                formControlName="companySector"
               >
                 <option value="" disabled selected>
                   {{ "DEMO.COMPANYAREA" | translate }}
                 </option>
-                <option value="1">{{ "DEMO.DEP1" | translate }}</option>
-                <option value="2">{{ "DEMO.DEP2" | translate }}</option>
-                <option value="3">{{ "DEMO.DEP3" | translate }}</option>
-                <option value="4">{{ "DEMO.DEP4" | translate }}</option>
-                <option value="5">{{ "DEMO.DEP5" | translate }}</option>
-                <option value="6">{{ "DEMO.DEP6" | translate }}</option>
-                <option value="7">{{ "DEMO.DEP7" | translate }}</option>
-                <option value="8">{{ "DEMO.DEP8" | translate }}</option>
-                <option value="9">{{ "DEMO.DEP9" | translate }}</option>
-                <option value="10">{{ "DEMO.DEP10" | translate }}</option>
+                <option>{{ "DEMO.DEP1" | translate }}</option>
+                <option>{{ "DEMO.DEP2" | translate }}</option>
+                <option>{{ "DEMO.DEP3" | translate }}</option>
+                <option>{{ "DEMO.DEP4" | translate }}</option>
+                <option>{{ "DEMO.DEP5" | translate }}</option>
+                <option>{{ "DEMO.DEP6" | translate }}</option>
+                <option>{{ "DEMO.DEP7" | translate }}</option>
+                <option>{{ "DEMO.DEP8" | translate }}</option>
+                <option>{{ "DEMO.DEP9" | translate }}</option>
+                <option>{{ "DEMO.DEP10" | translate }}</option>
               </select>
               <div
                 *ngIf="
-                  demoForm.get('companyArea').invalid &&
-                  demoForm.get('companyArea').touched
+                  demoForm.get('companySector').invalid &&
+                  demoForm.get('companySector').touched
                 "
                 class="text-danger"
               >
@@ -168,7 +178,11 @@
               </div>
             </div>
             <div class="form-outline mt-4 mb-2" style="width: 50%">
-              <button type="submit" class="btn btn-primary">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                (click)="sendDemoRequest()"
+              >
                 {{ "DEMO.SEND" | translate }}
               </button>
             </div>
@@ -197,6 +211,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
+      <button class="btn btn-primary" (click)="sendDemo()">send</button>
     </div>
   </div>
 </div>

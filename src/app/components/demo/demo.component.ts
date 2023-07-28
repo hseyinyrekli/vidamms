@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-
+import { RequestService } from "src/app/core/services/request.service";
+import { v4 as uuidv4 } from "uuid";
 @Component({
   selector: "app-demo",
   templateUrl: "./demo.component.html",
@@ -13,27 +14,29 @@ export class DemoComponent implements OnInit {
   showMessageKey: string = "";
   showMessage: boolean = false;
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private requestService: RequestService
+  ) {}
   ngOnInit(): void {
     this.demoForm = this.formBuilder.group({
       name: [
         "",
         [Validators.required, Validators.pattern(/^[A-Za-zÇçĞğİıÖöŞşÜü\s]+$/)],
       ],
-      surname: [
-        "",
-        [Validators.required, Validators.pattern(/^[A-Za-zÇçĞğİıÖöŞşÜü\s]+$/)],
-      ],
-      email: [
+
+      assignedUserId: ["64c2deb0d636b1fc8"],
+
+      emailAddress: [
         "",
         [
           Validators.required,
           Validators.pattern(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/),
         ],
       ],
-      phone: ["", [Validators.required, Validators.pattern(/^\d{10}$/)]],
+      phoneNumber: ["", [Validators.required, Validators.pattern(/^\d{10}$/)]],
       company: ["", Validators.required],
-      companyArea: ["", Validators.required],
+      companySector: ["", Validators.required],
     });
   }
 
@@ -63,5 +66,35 @@ export class DemoComponent implements OnInit {
         this.markAllFieldsAsTouched(control);
       }
     });
+  }
+
+  sendDemo() {
+    let body = {
+      name: "oğuzhannnn",
+      assignedUserId: "64c2deb0d636b1fc8",
+    };
+    this.requestService.sendDemoRequest(body).subscribe((data) => {
+      console.log(data, "data");
+    });
+  }
+
+  sendDemoRequest() {
+    if (this.demoForm.valid) {
+      console.log(this.demoForm.value, "demoFormValue");
+
+      this.requestService
+        .sendDemoRequest(this.demoForm.value)
+        .subscribe((data: any) => {
+          console.log(data, "data");
+        });
+      this.demoForm.reset();
+      this.showMessageKey = "DEMO.SUCCESS_MESSAGE";
+      this.showMessage = true;
+      setTimeout(() => {
+        this.showMessage = false;
+      }, 3000);
+    } else {
+      this.demoForm.markAllAsTouched();
+    }
   }
 }
