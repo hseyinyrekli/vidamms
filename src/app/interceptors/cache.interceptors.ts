@@ -11,8 +11,8 @@ export class CacheInterceptor implements HttpInterceptor {
   intercept(req: HttpRequest<any>, next: HttpHandler) {
     const httpRequest = req.clone({
       headers: new HttpHeaders({
-        "Cache-Control": "max-age=31536000",
-        Pragma: "max-age=31536000",
+        // "Cache-Control": "max-age=31536000",
+        // Pragma: "max-age=31536000",
       }),
     });
 

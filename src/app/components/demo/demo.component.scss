@@ -13,7 +13,7 @@ span {
 }
 
 .contact {
-  padding: 4em;
+  padding: 1em;
   margin: auto;
 
   @media (max-width: 980px) {
@@ -31,7 +31,7 @@ span {
   padding: 4em;
 }
 #middle {
-  padding: 7em;
+  padding: 3em;
 }
 .card {
   cursor: pointer;
@@ -53,8 +53,9 @@ svg {
 }
 #image img {
   width: 100%;
+  height: auto;
   margin-left: 1em;
-  margin-top: 5em;
+  margin-top: 1em !important;
 }
 @media (max-width: 980px) {
   #image img {

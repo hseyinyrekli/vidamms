@@ -5,7 +5,7 @@ import { Inject, Injectable } from "@angular/core";
   providedIn: "root",
 })
 export class LinkService {
-  baseUrl = "https://demo.vidamms.com/#";
+  baseUrl = "https://vidamms.com";
   constructor(@Inject(DOCUMENT) private doc: Document) {}
 
   setLinks(tr: any, en: any) {

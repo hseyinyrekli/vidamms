@@ -87,6 +87,9 @@ video {
     margin-left: 4.1em !important;
     width: 50%;
   }
+  #cost img {
+    margin-left: 2em !important;
+  }
 }
 @media (max-width: 1200px) {
   h1 {
@@ -154,6 +157,7 @@ video {
 
 @media (max-width: 600px) {
   #phones img {
+    margin-left: 4em !important;
     width: 70% !important;
     height: auto;
   }

@@ -2,7 +2,7 @@ const { log } = require("console");
 const fs = require("fs");
 const convert = require("xml-js");
 const moment = require("moment");
-const baseUrl = "http://demo.vidamms.com/";
+const baseUrl = "https://vidamms.com/";
 const untrackedUrlsList = [
   baseUrl + "",
   baseUrl + "anasayfa",
@@ -70,7 +70,7 @@ const untrackedUrlsList = [
 const options = { compact: true, ignoreComment: true, spaces: 4 };
 
 const filterUniqueURLs = () => {
-  fs.readFile("src/public_html/sitemap.xml", (err, data) => {
+  fs.readFile("src/sitemap.xml", (err, data) => {
     if (data) {
       const existingSitemapList = JSON.parse(convert.xml2json(data, options));
       if (!existingSitemapList.urlset.url) {
