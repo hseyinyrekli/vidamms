@@ -1,28 +1,31 @@
-import { Component } from "@angular/core";
-import { TranslateService } from "@ngx-translate/core";
-import { Router } from "@angular/router";
+import {Component, OnInit} from "@angular/core";
+import {TranslateService} from "@ngx-translate/core";
+import {Router} from "@angular/router";
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"],
+    selector: "app-root",
+    templateUrl: "./app.component.html",
+    styleUrls: ["./app.component.scss"],
 })
-export class AppComponent {
-  title = "vidamms-angular";
-  lang!: any;
+export class AppComponent implements OnInit {
+    title = "vidamms-angular";
+    lang!: any;
 
-  constructor(private translate: TranslateService, private router: Router) {
-    if (localStorage.getItem("lang")) {
-      let lang = localStorage.getItem("lang");
-      // @ts-ignore
-      translate.setDefaultLang(lang);
-      // @ts-ignore
-      translate.use(lang);
-    } else {
-      translate.setDefaultLang("tr");
-      translate.use("tr");
-      localStorage.setItem("lang", "tr");
-      console.log("tr")
+    constructor(private translate: TranslateService, private router: Router) {
     }
-  }
+
+    ngOnInit() {
+        let lang = localStorage.getItem("lang") || "tr";
+        if (lang == "tr") {
+            this.translate.setDefaultLang("tr");
+            this.translate.use("tr");
+            localStorage.setItem("lang", "tr");
+        } else {
+            // @ts-ignore
+            this.translate.setDefaultLang("en");
+            this.translate.use("en");
+            localStorage.setItem("lang", "en");
+        }
+    }
+
 }
