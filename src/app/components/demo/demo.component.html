@@ -42,33 +42,6 @@
                 </ng-container>
               </div>
             </div>
-            <!-- 
-            <div class="col-6 col-md-6 col-lg-6">
-              <label class="form-label">
-                {{ "DEMO.SURNAME" | translate }}</label
-              >
-              <div class="form-outline" style="width: 100%">
-                <input
-                  type="text"
-                  class="form-control"
-                  formControlName="surname"
-                />
-              </div>
-              <div
-                *ngIf="
-                  demoForm.get('surname').invalid &&
-                  demoForm.get('surname').touched
-                "
-                class="text-danger"
-              >
-                <ng-container *ngIf="demoForm.get('surname').errors?.required">
-                  {{ "DEMO.MES3" | translate }}
-                </ng-container>
-                <ng-container *ngIf="demoForm.get('surname').errors?.pattern">
-                  {{ "DEMO.MES4" | translate }}
-                </ng-container>
-              </div>
-            </div> -->
 
             <div class="col-12 col-md-12 col-lg-12">
               <label class="form-label"> {{ "DEMO.EMAIL" | translate }}</label>
@@ -211,7 +184,6 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-      <button class="btn btn-primary" (click)="sendDemo()">send</button>
     </div>
   </div>
 </div>

@@ -25,6 +25,9 @@ export class NavbarComponent implements OnInit {
     private titleService: Title
   ) {}
   ngOnInit(): void {
+    if (!this.isShow || this.isShow === "en") {
+      this.changeLanguage("tr");
+    }
     let currentPage = this.router.url.replace("/", "");
     if (currentPage == "en") {
       this.currentPage = "";
@@ -34,12 +37,13 @@ export class NavbarComponent implements OnInit {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.currentPage = event.url;
-        if (event.url == "/en" || event.url == "/") {
+        if (event.url == "/" || event.url == "/en") {
           this.currentPage = "";
         }
         this.setMetaTag(event.url);
         this.setLinkAlternate(event.url);
         this.setTitle(event.url);
+        this.getCurrentLang();
       }
     });
     this.setMetaTag(this.router.url);
@@ -92,7 +96,7 @@ export class NavbarComponent implements OnInit {
     }
     setTimeout(() => {
       window.location.reload();
-    }, 1);
+    }, 100);
   }
 
   setLinkAlternate(route?: any) {

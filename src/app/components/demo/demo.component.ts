@@ -1,7 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { RequestService } from "src/app/core/services/request.service";
-import { v4 as uuidv4 } from "uuid";
 @Component({
   selector: "app-demo",
   templateUrl: "./demo.component.html",
@@ -47,12 +46,10 @@ export class DemoComponent implements OnInit {
     if (this.demoForm.valid) {
       this.showMessageKey = "DEMO.SUCCESS_MESSAGE";
       this.showMessage = true;
-
+      this.demoForm.reset();
       setTimeout(() => {
         this.showMessage = false;
-      }, 3000);
-
-      this.demoForm.reset();
+      }, 2000);
     } else {
       this.demoForm.markAllAsTouched();
     }
@@ -68,31 +65,23 @@ export class DemoComponent implements OnInit {
     });
   }
 
-  sendDemo() {
-    let body = {
-      name: "oğuzhannnn",
-      assignedUserId: "64c2deb0d636b1fc8",
-    };
-    this.requestService.sendDemoRequest(body).subscribe((data) => {
-      console.log(data, "data");
-    });
-  }
-
   sendDemoRequest() {
     if (this.demoForm.valid) {
-      console.log(this.demoForm.value, "demoFormValue");
+      this.demoForm.markAsUntouched();
+      this.demoForm.markAsPristine();
 
       this.requestService
         .sendDemoRequest(this.demoForm.value)
         .subscribe((data: any) => {
-          console.log(data, "data");
+          this.demoForm.reset();
+
+          this.showMessageKey = "DEMO.SUCCESS_MESSAGE";
+          this.showMessage = true;
+
+          setTimeout(() => {
+            this.showMessage = false;
+          }, 10000);
         });
-      this.demoForm.reset();
-      this.showMessageKey = "DEMO.SUCCESS_MESSAGE";
-      this.showMessage = true;
-      setTimeout(() => {
-        this.showMessage = false;
-      }, 3000);
     } else {
       this.demoForm.markAllAsTouched();
     }
