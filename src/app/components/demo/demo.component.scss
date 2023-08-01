@@ -31,8 +31,9 @@ span {
   padding: 4em;
 }
 #middle {
-  padding: 3em;
+  padding: 2em;
 }
+
 .card {
   cursor: pointer;
   background-color: #f9f9f9;
@@ -46,7 +47,7 @@ span {
 }
 
 svg {
-  margin-left: 1em;
+
   margin-right: 2em !important;
   margin-top: 1.2em;
   color: #0551bc;
@@ -55,11 +56,11 @@ svg {
   width: 100%;
   height: auto;
   margin-left: 1em;
-  margin-top: 1em !important;
+  margin-top: 7em !important;
 }
 @media (max-width: 980px) {
   #image img {
-    margin-top: 1em;
+    margin-top: 1em !important;
     width: 100%;
     margin-left: 0;
   }
@@ -78,9 +79,4 @@ svg {
 .footer-text {
   background-color: #f9f9f9;
   padding: 6em;
-}
-@media (max-width: 1200px) {
-  #image {
-    margin-top: 7em;
-  }
 }

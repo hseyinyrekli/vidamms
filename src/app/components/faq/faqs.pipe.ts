@@ -5,8 +5,12 @@ import { Pipe, PipeTransform } from "@angular/core";
 })
 export class FaqsPipe implements PipeTransform {
   transform(value: any[], search: any) {
-    return value.filter((p) =>
-      p.text.toLowerCase().includes(search.toLowerCase())
-    );
+    if (!search) {
+      return value; 
+    }
+
+    const searchRegex = new RegExp(search, 'i');
+
+    return value.filter((p) => searchRegex.test(p.button));
   }
 }

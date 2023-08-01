@@ -148,7 +148,6 @@ const routesEN: Routes = [
 
 let routes: Routes = [];
 
-
 let lang = localStorage.getItem("lang") || "tr";
 if (lang == "tr") {
   routes = routesTR;

@@ -6,22 +6,29 @@
         type="video/webm"
       />
     </video>
+    <img
+    width="2848"
+    height="1694"
+    src="assets/uploads/vida-video-cover.png"
+    alt="Cover Image"
+    id="cover-image"
+  />
     <div class="home-content">
       <h1>{{ "HOME.HEADER" | translate }}</h1>
       <p>
         {{ "HOME.DESCRIBE" | translate }}
       </p>
 
-      <button>
+     
         <a
           [routerLink]="
             lang == 'tr'
               ? 'vida-bakim-yonetim-uygulamasi'
               : '/en/screw-maintenance-management-application'
           "
-          >{{ "HOME.BUTTON" | translate }}</a
+          ><button>{{ "HOME.BUTTON" | translate }}</button></a
         >
-      </button>
+ 
     </div>
   </div>
 </div>
@@ -38,7 +45,7 @@
         <img
           width="479"
           height="193"
-          src="../../../assets/uploads/sliders/atlaslogo.webp"
+          src="assets/uploads/sliders/atlaslogo.webp"
           alt="Atlas Logo"
         />
       </div>
@@ -242,18 +249,22 @@
         </p>
       </div>
       <div class="images p-2">
+       <a href="https://play.google.com/store/apps/details?id=com.bakimariza&hl=en&gl=US">
         <img
-          width="208"
-          height="70"
-          src="assets/uploads/googleplay.webp"
-          alt="Google Play"
-        />
-        <img
+        width="208"
+        height="70"
+        src="assets/uploads/googleplay.webp"
+        alt="Google Play"
+      />
+       </a>
+        <a href="https://apps.apple.com/tr/app/vida-for-service/id6443585356">
+          <img
           width="208"
           height="70"
           src="assets/uploads/appstore.webp"
           alt="AppStore Logo"
         />
+        </a>
       </div>
     </div>
     <div id="phones" class="col-12 col-md-12 col-lg-6">
